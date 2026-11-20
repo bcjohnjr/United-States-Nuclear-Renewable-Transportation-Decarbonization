@@ -1,0 +1,5 @@
+V6 RAS: 1.00 Mt seafood; 84.00 kt N and 18.00 kt P in feed
+Recovered delivered: 27.47 kt N, 7.57 kt P
+No external inputs: 267.1 kt Asparagopsis, 27.9 Mt CO2e potential methane reduction
+Full target requires 5.89 kt N + 0.00 kt P supplemental nutrients
+PASS: V6 elemental balance, CSV, uncertainty and figures written

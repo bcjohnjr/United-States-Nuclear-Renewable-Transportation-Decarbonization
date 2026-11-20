@@ -1,0 +1,6 @@
+V5 civilian-fuel sensitivity: target hubs 729
+not_authorized 2050 0 2100 0 full year None
+surplus_only_upper 2050 6 2100 6 full year None
+regulated_civilian_limited 2050 0 2100 62 full year None
+conditional_closed_cycle 2050 2 2100 398 full year None
+illustrative_technology_upper 2050 43 2100 729 full year 2084

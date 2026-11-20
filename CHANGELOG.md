@@ -1,3 +1,11 @@
+# v8.3 — 20 November 2026 (referee report on v8.2)
+
+- New `us8_petroleum_breakeven.py` (added to `run_all.sh`): break-even multiple of late-2025 pre-tax petroleum prices for each case and each Monte Carlo draw, and the share of draws cheaper than petroleum at multiples 0.50–2.00 (`petroleum_breakeven_v8.json`, `petroleum_breakeven_v8.csv`). Least cost breaks even at 0.77× (draw median 0.79, 0.59–0.99); cheaper in 23% of draws at 0.7× prices. Its checks reproduce the archived Monte Carlo shares exactly. No change to the transport model or other outputs.
+- Manuscript: post-gas increase now stated as 7.2% on the matched no-blend boundary (8.9% against the headline) everywhere; Monte Carlo shares described as conditional on the late-2025 price, with break-even multiples in the text, Table 1 and new table S8; pyrolysis solid carbon no longer presented as an additional reduction; sustainable-fission scenario more clearly labelled as a stress test.
+- Main text expanded to about 2,870 words (Introduction to Methods) with cost composition, petroleum break-even and comparison with earlier assessments; abstract updated; one-sentence summary shortened to under 150 characters.
+- References reduced to 50 and renumbered in order of first citation. Dropped: IEA World Energy Outlook 2025, FAO SOFIA 2026, DOE Hydrogen Program Plan, SAF implementation framework, both AgSTAR items. Added: Kebreab et al. 2025 bromoform meta-analysis (bioRxiv preprint). Potential Gas Committee reference now cites the year-end 2024 assessment (released 23 September 2025, 3,870 Tcf).
+- Corresponding-author ORCID added; AI-use statement now describes how Artificial Inventor/Synthetic Scientist V63 assisted; cover letter reproducibility wording matches the README.
+
 # v8.2 — 20 November 2026 (submission package)
 
 - Authors and contact: Jonathan Karl Bily (corresponding; jonathan@cloudwashlaundry.com), Cloud Wash Laundry Corporation, Teruel, Spain; Dr. Christoph Pahl, Technical University of Munich, Munich, Germany; Patricia Valdes Bacallao, University of Málaga, Málaga, Spain.

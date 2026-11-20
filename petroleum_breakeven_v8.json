@@ -1,0 +1,131 @@
+{
+ "basis": {
+  "petroleum_pretax_late_2025_bn": 588.770476,
+  "pipeline_gas_bn": 3.99981936,
+  "nov_2026_multiple_of_late_2025": 1.4862763742655838,
+  "late_2025_pretax_usd_per_gal": {
+   "gasoline": 2.48,
+   "diesel": 3.1999999999999997,
+   "jet": 2.096,
+   "resid": 1.9
+  },
+  "note": "uniform multiple of late-2025 pre-tax petroleum fuel and pipeline-gas prices"
+ },
+ "deterministic": {
+  "least_cost": {
+   "cost_bn": 455.18432822691005,
+   "breakeven_multiple": 0.7678932830979132,
+   "breakeven_gasoline_pretax_usd_gal": 1.9043753420828247,
+   "breakeven_diesel_pretax_usd_gal": 2.457258505913322,
+   "breakeven_jet_pretax_usd_gal": 1.609504321373226
+  },
+  "design_sweet_spot": {
+   "cost_bn": 506.06620519377174,
+   "breakeven_multiple": 0.8537307101166881,
+   "breakeven_gasoline_pretax_usd_gal": 2.1172521610893864,
+   "breakeven_diesel_pretax_usd_gal": 2.7319382723734016,
+   "breakeven_jet_pretax_usd_gal": 1.7894195684045784
+  },
+  "design": {
+   "cost_bn": 590.2972720621932,
+   "breakeven_multiple": 0.9958280242495875,
+   "breakeven_gasoline_pretax_usd_gal": 2.469653500138977,
+   "breakeven_diesel_pretax_usd_gal": 3.18664967759868,
+   "breakeven_jet_pretax_usd_gal": 2.0872555388271357
+  },
+  "least_cost_vhtr": {
+   "cost_bn": 451.4370046846584,
+   "breakeven_multiple": 0.7615715703339903,
+   "breakeven_gasoline_pretax_usd_gal": 1.8886974944282957,
+   "breakeven_diesel_pretax_usd_gal": 2.4370290250687687,
+   "breakeven_jet_pretax_usd_gal": 1.5962540114200436
+  },
+  "post_gas_least_cost": {
+   "cost_bn": 495.6489556798851,
+   "breakeven_multiple": 0.8361568714890962,
+   "breakeven_gasoline_pretax_usd_gal": 2.0736690412929586,
+   "breakeven_diesel_pretax_usd_gal": 2.6757019887651077,
+   "breakeven_jet_pretax_usd_gal": 1.7525848026411457
+  },
+  "post_gas_sweet_spot": {
+   "cost_bn": 547.1528543334944,
+   "breakeven_multiple": 0.9230436454330065,
+   "breakeven_gasoline_pretax_usd_gal": 2.2891482406738564,
+   "breakeven_diesel_pretax_usd_gal": 2.9537396653856205,
+   "breakeven_jet_pretax_usd_gal": 1.9346994808275817
+  },
+  "post_gas_reactor_high": {
+   "cost_bn": 513.5488460309391,
+   "breakeven_multiple": 0.8663538811759313,
+   "breakeven_gasoline_pretax_usd_gal": 2.1485576253163097,
+   "breakeven_diesel_pretax_usd_gal": 2.77233241976298,
+   "breakeven_jet_pretax_usd_gal": 1.815877734944752
+  },
+  "post_gas_design": {
+   "cost_bn": 614.8222784737283,
+   "breakeven_multiple": 1.0372015657436675,
+   "breakeven_gasoline_pretax_usd_gal": 2.5722598830442953,
+   "breakeven_diesel_pretax_usd_gal": 3.3190450103797358,
+   "breakeven_jet_pretax_usd_gal": 2.173974481798727
+  },
+  "sustainable_fission": {
+   "cost_bn": 498.8616267570816,
+   "breakeven_multiple": 0.8415766286907377,
+   "breakeven_gasoline_pretax_usd_gal": 2.0871100391530293,
+   "breakeven_diesel_pretax_usd_gal": 2.6930452118103605,
+   "breakeven_jet_pretax_usd_gal": 1.7639446137357861
+  },
+  "sustainable_fission_nuclear_only": {
+   "cost_bn": 498.9196453617157,
+   "breakeven_multiple": 0.8416745057353336,
+   "breakeven_gasoline_pretax_usd_gal": 2.0873527742236275,
+   "breakeven_diesel_pretax_usd_gal": 2.693358418353067,
+   "breakeven_jet_pretax_usd_gal": 1.7641497640212593
+  },
+  "sustainable_fission_nuclear_only_premium": {
+   "cost_bn": 529.2525134189377,
+   "breakeven_multiple": 0.892845875648194,
+   "breakeven_gasoline_pretax_usd_gal": 2.214257771607521,
+   "breakeven_diesel_pretax_usd_gal": 2.8571068020742203,
+   "breakeven_jet_pretax_usd_gal": 1.8714049553586145
+  }
+ },
+ "monte_carlo": {
+  "least_cost": {
+   "n": 1000,
+   "breakeven_multiple_p5": 0.5885243301224433,
+   "breakeven_multiple_p50": 0.7869792575907821,
+   "breakeven_multiple_p95": 0.985103457373546,
+   "share_cheaper_than_petroleum": {
+    "low_0.7x": 0.234,
+    "late_2025_1.0x": 0.962,
+    "high_1.5x": 1.0
+   },
+   "share_cheaper_nov_2026_prices": 1.0
+  },
+  "sweet_spot_220gw": {
+   "n": 1000,
+   "breakeven_multiple_p5": 0.7182348582482266,
+   "breakeven_multiple_p50": 0.8920485324872429,
+   "breakeven_multiple_p95": 1.0826953064190141,
+   "share_cheaper_than_petroleum": {
+    "low_0.7x": 0.03,
+    "late_2025_1.0x": 0.835,
+    "high_1.5x": 1.0
+   },
+   "share_cheaper_nov_2026_prices": 1.0
+  },
+  "design_515gw": {
+   "n": 1000,
+   "breakeven_multiple_p5": 0.8795583358130409,
+   "breakeven_multiple_p50": 1.0440235863904692,
+   "breakeven_multiple_p95": 1.2290278568344133,
+   "share_cheaper_than_petroleum": {
+    "low_0.7x": 0.0,
+    "late_2025_1.0x": 0.333,
+    "high_1.5x": 1.0
+   },
+   "share_cheaper_nov_2026_prices": 1.0
+  }
+ }
+}

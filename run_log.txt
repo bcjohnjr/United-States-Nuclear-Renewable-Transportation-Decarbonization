@@ -1,0 +1,362 @@
+{
+"design": {
+"cost": 590.3,
+"hubs": 92.8,
+"capex": 2119,
+"osw": 515,
+"sw": 41.2,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_learning": {
+"cost": 591.9,
+"hubs": 92.8,
+"capex": 2119,
+"osw": 515,
+"sw": 62.3,
+"bam": 55.0,
+"hemp": 4.0,
+"red": 93.9
+},
+"design_demonstrated": {
+"cost": 588.2,
+"hubs": 92.8,
+"capex": 2119,
+"osw": 515,
+"sw": 18.2,
+"bam": 25.0,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_half_offshore": {
+"cost": 505.6,
+"hubs": 204.4,
+"capex": 1879,
+"osw": 258,
+"sw": 20.6,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_reactor_low": {
+"cost": 586.0,
+"hubs": 92.8,
+"capex": 760,
+"osw": 515,
+"sw": 41.2,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_reactor_high": {
+"cost": 606.3,
+"hubs": 16.2,
+"capex": 5595,
+"osw": 515,
+"sw": 41.2,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_no_vehicle_carbon": {
+"cost": 597.8,
+"hubs": 96.2,
+"capex": 2107,
+"osw": 515,
+"sw": 41.2,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_sweet_spot": {
+"cost": 506.1,
+"hubs": 204.3,
+"capex": 1879,
+"osw": 220,
+"sw": 19.9,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_sweet_spot_no_fertiliser": {
+"cost": 506.9,
+"hubs": 204.3,
+"capex": 1879,
+"osw": 220,
+"sw": 19.9,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"least_cost": {
+"cost": 455.2,
+"hubs": 202.5,
+"capex": 1882,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"least_cost_no_blend": {
+"cost": 462.4,
+"hubs": 202.5,
+"capex": 1882,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_sweet_spot_no_blend": {
+"cost": 513.6,
+"hubs": 204.3,
+"capex": 1887,
+"osw": 220,
+"sw": 19.9,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_no_blend": {
+"cost": 590.9,
+"hubs": 91.0,
+"capex": 2125,
+"osw": 515,
+"sw": 41.2,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.7
+},
+"least_cost_flex_heat": {
+"cost": 457.4,
+"hubs": 175.8,
+"capex": 1923,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_sweet_spot_flex_heat": {
+"cost": 508.3,
+"hubs": 175.8,
+"capex": 1923,
+"osw": 220,
+"sw": 19.9,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_flex_heat": {
+"cost": 588.9,
+"hubs": 101.9,
+"capex": 2088,
+"osw": 515,
+"sw": 41.2,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"post_gas_least_cost": {
+"cost": 495.6,
+"hubs": 251.4,
+"capex": 1821,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"post_gas_least_cost_si": {
+"cost": 495.6,
+"hubs": 251.4,
+"capex": 1821,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"post_gas_sweet_spot": {
+"cost": 547.2,
+"hubs": 204.3,
+"capex": 1879,
+"osw": 220,
+"sw": 19.9,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"post_gas_design": {
+"cost": 614.8,
+"hubs": 93.4,
+"capex": 2116,
+"osw": 515,
+"sw": 41.2,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"least_cost_no_blend_no_lightweight": {
+"cost": 469.9,
+"hubs": 202.5,
+"capex": 1882,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"least_cost_no_blend_no_lightweight_pipe_elec": {
+"cost": 472.6,
+"hubs": 202.5,
+"capex": 1882,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 94.8
+},
+"least_cost_vhtr": {
+"cost": 451.4,
+"hubs": 202.5,
+"capex": 1882,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.8
+},
+"design_sweet_spot_vhtr": {
+"cost": 504.1,
+"hubs": 195.0,
+"capex": 1892,
+"osw": 220,
+"sw": 19.9,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 93.7
+},
+"post_gas_htse_42kwh": {
+"cost": 498.6,
+"hubs": 251.4,
+"capex": 1821,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"post_gas_htse_48kwh": {
+"cost": 502.0,
+"hubs": 251.4,
+"capex": 1821,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"post_gas_htse_cost150": {
+"cost": 501.0,
+"hubs": 251.4,
+"capex": 1821,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"post_gas_htse_48kwh_cost150": {
+"cost": 505.1,
+"hubs": 202.5,
+"capex": 1895,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"post_gas_reactor_low": {
+"cost": 445.5,
+"hubs": 785.0,
+"capex": 461,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.8
+},
+"post_gas_reactor_high": {
+"cost": 513.5,
+"hubs": -0.0,
+"capex": 7620,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"post_gas_breeder": {
+"cost": 508.4,
+"hubs": 93.4,
+"capex": 2645,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"post_gas_breeder_high": {
+"cost": 513.5,
+"hubs": -0.0,
+"capex": 7811,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"sustainable_fission": {
+"cost": 498.9,
+"hubs": 728.0,
+"capex": 1549,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"sustainable_fission_nuclear_only": {
+"cost": 498.9,
+"hubs": 729.0,
+"capex": 1549,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.5
+},
+"sustainable_fission_nuclear_only_premium": {
+"cost": 529.3,
+"hubs": 728.0,
+"capex": 1936,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.4
+},
+"sustainable_fission_nuclear_only_si_cheap": {
+"cost": 498.5,
+"hubs": 726.0,
+"capex": 1550,
+"osw": 0,
+"sw": 0.0,
+"bam": 37.5,
+"hemp": 4.0,
+"red": 95.5
+}
+}
