@@ -1,0 +1,6 @@
+scenario,adoption_multiplier,efficacy_multiplier,bioactive_retention_multiplier,external_nutrients,seaweed_coverage,seaweed_demand_mt_dry,conditional_methane_avoided_mtco2e
+full_target_central_conditional,1.0,1.0,1.0,True,1,0.43075474999999996,45.01626
+no_new_seaweed_nutrients_central_conditional,1.0,1.0,1.0,False,0.6201100123291345,0.43075474999999996,27.91503354361153
+lower_adoption_and_product_potency_no_supplement,0.6,0.75,0.65,False,1,0.25845284999999996,13.16725605
+low_active_compound_no_supplement,1.0,1.0,0.5,False,0.6201100123291345,0.43075474999999996,13.957516771805764
+full_target_reduced_potency,1.0,0.8,0.7,True,1,0.43075474999999996,25.209105600000004

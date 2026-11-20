@@ -1,0 +1,66 @@
+{
+  "version": "5.0",
+  "scope": "integer hub count 0..2000 only; same input technology assumptions within cases",
+  "scenarios": {
+    "sustainable_fission": {
+      "total_cost_bn": 498.8616267570816,
+      "transport_cost_bn": 498.8616267570816,
+      "hubs": 728.0,
+      "fleet_gwe_equivalent": 232.96000000000004,
+      "learning_search": {
+        "method": "exhaustive_integer_hubs_bounded",
+        "max_hubs": 2000,
+        "feasible_count": 1907,
+        "infeasible_count": 94,
+        "objective": "total_cost_bn",
+        "explicitly_excludes_larger_fleets": true,
+        "assumption": "four reactor modules per hub; continuous Wright average per module"
+      }
+    },
+    "sustainable_fission_nuclear_only": {
+      "total_cost_bn": 498.9196453617157,
+      "transport_cost_bn": 498.9196453617157,
+      "hubs": 729.0,
+      "fleet_gwe_equivalent": 233.27999999999997,
+      "learning_search": {
+        "method": "exhaustive_integer_hubs_bounded",
+        "max_hubs": 2000,
+        "feasible_count": 1300,
+        "infeasible_count": 701,
+        "objective": "total_cost_bn",
+        "explicitly_excludes_larger_fleets": true,
+        "assumption": "four reactor modules per hub; continuous Wright average per module"
+      }
+    },
+    "sustainable_fission_nuclear_only_premium": {
+      "total_cost_bn": 529.2525134189377,
+      "transport_cost_bn": 529.2525134189377,
+      "hubs": 728.0,
+      "fleet_gwe_equivalent": 232.96000000000004,
+      "learning_search": {
+        "method": "exhaustive_integer_hubs_bounded",
+        "max_hubs": 2000,
+        "feasible_count": 1300,
+        "infeasible_count": 701,
+        "objective": "total_cost_bn",
+        "explicitly_excludes_larger_fleets": true,
+        "assumption": "four reactor modules per hub; continuous Wright average per module"
+      }
+    },
+    "sustainable_fission_nuclear_only_si_cheap": {
+      "total_cost_bn": 498.48672634807644,
+      "transport_cost_bn": 498.48672634807644,
+      "hubs": 726.0,
+      "fleet_gwe_equivalent": 232.32,
+      "learning_search": {
+        "method": "exhaustive_integer_hubs_bounded",
+        "max_hubs": 2000,
+        "feasible_count": 1300,
+        "infeasible_count": 701,
+        "objective": "total_cost_bn",
+        "explicitly_excludes_larger_fleets": true,
+        "assumption": "four reactor modules per hub; continuous Wright average per module"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "v7_archived_transport_check": {
+    "monte_carlo_design.csv": true,
+    "monte_carlo_least_cost.csv": true,
+    "monte_carlo_sweet_spot.csv": true,
+    "sweep_merit.csv": true,
+    "sweep_offshore.csv": true,
+    "gas_depletion_central.json": true,
+    "gas_depletion_grid.json": true,
+    "fuel_transition_v5.json": true,
+    "nonfood_scenario_data_unchanged": true
+  },
+  "changed_nonfood_scenarios": [],
+  "full_1000_draw_transport_reproduction_in_v7": "not_run",
+  "three_draw_fresh_extraction_end_to_end_smoke_passed": true,
+  "three_draw_smoke_core_scenario_diffs": {
+    "least_cost": {
+      "cost_diff_bn": 0.0,
+      "hubs_diff": 0.0,
+      "emissions_diff_mt": 0.0
+    },
+    "design_sweet_spot": {
+      "cost_diff_bn": 0.0,
+      "hubs_diff": 0.0,
+      "emissions_diff_mt": 0.0
+    },
+    "design": {
+      "cost_diff_bn": 0.0,
+      "hubs_diff": 0.0,
+      "emissions_diff_mt": 0.0
+    },
+    "post_gas_least_cost": {
+      "cost_diff_bn": 0.0,
+      "hubs_diff": 0.0,
+      "emissions_diff_mt": 0.0
+    },
+    "sustainable_fission": {
+      "cost_diff_bn": 0.0,
+      "hubs_diff": 0.0,
+      "emissions_diff_mt": 0.0
+    },
+    "sustainable_fission_nuclear_only": {
+      "cost_diff_bn": 0.0,
+      "hubs_diff": 0.0,
+      "emissions_diff_mt": 0.0
+    }
+  }
+}

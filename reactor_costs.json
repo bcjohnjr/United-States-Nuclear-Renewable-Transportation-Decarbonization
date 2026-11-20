@@ -1,0 +1,55 @@
+{
+ "low": {
+  "case": "low",
+  "n_units": 371,
+  "foak_kwe": 5200.0,
+  "unit10_kwe": 3030.6660920993495,
+  "unit100_kwe": 1766.3340311155278,
+  "last_kwe": 1298.8961760169466,
+  "fleet_avg_kwe": 1696.7174673493878,
+  "fleet_avg_kwe_with_idc": 1900.3235634313146,
+  "fleet_avg_kwt_with_idc": 760.1294253725259,
+  "learning": 0.15,
+  "fleet_capex_bn": 56.40160336264142
+ },
+ "central": {
+  "case": "central",
+  "n_units": 371,
+  "foak_kwe": 9600.0,
+  "unit10_kwe": 6765.005275318522,
+  "unit100_kwe": 4767.21837240494,
+  "last_kwe": 3905.8759905971897,
+  "fleet_avg_kwe": 4606.002640345823,
+  "fleet_avg_kwe_with_idc": 5296.903036397696,
+  "fleet_avg_kwt_with_idc": 2118.761214559079,
+  "learning": 0.1,
+  "fleet_capex_bn": 157.2120821202836
+ },
+ "high": {
+  "case": "high",
+  "n_units": 371,
+  "foak_kwe": 14700.0,
+  "unit10_kwe": 12397.004341719608,
+  "unit100_kwe": 10454.810656368356,
+  "last_kwe": 9488.163754401856,
+  "fleet_avg_kwe": 10246.403576792063,
+  "fleet_avg_kwe_with_idc": 12295.684292150476,
+  "fleet_avg_kwt_with_idc": 4918.273716860191,
+  "learning": 0.05,
+  "fleet_capex_bn": 364.9359097910261
+ },
+ "anchors": {
+  "Darlington BWRX-300, 4 x 300 MWe, all-in incl. interest": {
+   "total_bn_usd": 15.1,
+   "mwe": 1200
+  },
+  "Darlington BWRX-300 unit 1 (C$6.1 bn, ~C$20 M/MW)": {
+   "total_bn_usd": 4.4,
+   "mwe": 300
+  },
+  "DOE Liftoff advanced nuclear FOAK / NOAK overnight": {
+   "foak_kwe": 9000,
+   "noak_kwe": 3600
+  }
+ }
+}

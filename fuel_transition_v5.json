@@ -1,0 +1,410 @@
+{
+  "metadata": {
+    "version": "5.0",
+    "source_scenario": "sustainable_fission_nuclear_only",
+    "time_resolution": "annual",
+    "years": [
+      2026,
+      2100
+    ],
+    "target_hubs": 729,
+    "target_fleet_gwe_equivalent": 233.27999999999997,
+    "target_gwe_per_hub": 0.31999999999999995,
+    "public_surplus_t": 19.7,
+    "baseline_us_spent_fuel_pu_t": 950.0,
+    "assumed_startup_t_per_gwe": 10.0,
+    "source_links": {
+      "public_surplus": "https://www.energy.gov/ne/articles/department-energy-seeks-transform-surplus-plutonium-nuclear-fuel",
+      "civilian_inventory": "https://www.everycrsreport.com/files/2026-08-05_R42853_0cf1e5fdf24a10a808dbb585722c55b877a988ba.html",
+      "fuel_cycle_overview": "https://infcis.iaea.org/nfcss/modeling",
+      "safeguards": "https://www.iaea.org/topics/safeguards"
+    },
+    "physical_status": "scenario-screening only: hypothetical future plant is not a licensed design",
+    "disclaimer": "Material stock != separated, approved or qualified fuel. Proposed U.S. surplus is not automatically released. Fuel-service flows and licensing dates are illustrative exogenous inputs, not validated capacity forecasts. Normal LWRs are not credited with net breeding. Does not calculate isotope production or material processing. No hour-by-hour electricity dispatch, financing, fuel fabrication or regulatory review is modelled. Horizon ends by 2100, before 60-year retirement of units commissioned from 2045 onward; later operation requires a replacement-fleet model.",
+    "comparison": "Source envelopes are disjoint; neither the 19.7-t public surplus nor the 950-t gross spent-fuel estimate is double-counted."
+  },
+  "assumptions": [
+    {
+      "name": "not_authorized",
+      "description": "No government material released; no recycling or advanced-cycle service commissioned",
+      "government_release_fraction": 0,
+      "government_ready_year": 2060,
+      "government_certified_gwe_per_year": 0,
+      "civilian_spentfuel_access_fraction": 0,
+      "civilian_ready_year": 2070,
+      "civilian_certified_gwe_per_year": 0,
+      "future_closed_cycle_ready_year": 2070,
+      "hypothetical_future_certified_gwe_per_year": 0,
+      "reactor_commissioning_start_year": 2050,
+      "maximum_hubs_commissioned_per_year": 20
+    },
+    {
+      "name": "surplus_only_upper",
+      "description": "All currently discussed public surplus exceptionally authorized; no spent-fuel recovery",
+      "government_release_fraction": 1,
+      "government_ready_year": 2045,
+      "government_certified_gwe_per_year": 0.5,
+      "civilian_spentfuel_access_fraction": 0,
+      "civilian_ready_year": 2060,
+      "civilian_certified_gwe_per_year": 0,
+      "future_closed_cycle_ready_year": 2070,
+      "hypothetical_future_certified_gwe_per_year": 0,
+      "reactor_commissioning_start_year": 2045,
+      "maximum_hubs_commissioned_per_year": 15
+    },
+    {
+      "name": "regulated_civilian_limited",
+      "description": "Half of discussed surplus and 20% of gross spent-fuel inventory eligible",
+      "government_release_fraction": 0.5,
+      "government_ready_year": 2050,
+      "government_certified_gwe_per_year": 0.25,
+      "civilian_spentfuel_access_fraction": 0.2,
+      "civilian_ready_year": 2060,
+      "civilian_certified_gwe_per_year": 2,
+      "future_closed_cycle_ready_year": 2070,
+      "hypothetical_future_certified_gwe_per_year": 0,
+      "reactor_commissioning_start_year": 2050,
+      "maximum_hubs_commissioned_per_year": 15
+    },
+    {
+      "name": "conditional_closed_cycle",
+      "description": "Scenario: government release, licensed civilian recovery and external future fuel services",
+      "government_release_fraction": 1,
+      "government_ready_year": 2050,
+      "government_certified_gwe_per_year": 0.8,
+      "civilian_spentfuel_access_fraction": 0.5,
+      "civilian_ready_year": 2060,
+      "civilian_certified_gwe_per_year": 5,
+      "future_closed_cycle_ready_year": 2075,
+      "hypothetical_future_certified_gwe_per_year": 3,
+      "reactor_commissioning_start_year": 2050,
+      "maximum_hubs_commissioned_per_year": 25
+    },
+    {
+      "name": "illustrative_technology_upper",
+      "description": "Stress test only: entire stocks eligible, high authorization and construction throughput",
+      "government_release_fraction": 1,
+      "government_ready_year": 2045,
+      "government_certified_gwe_per_year": 2,
+      "civilian_spentfuel_access_fraction": 1,
+      "civilian_ready_year": 2050,
+      "civilian_certified_gwe_per_year": 12,
+      "future_closed_cycle_ready_year": 2065,
+      "hypothetical_future_certified_gwe_per_year": 7,
+      "reactor_commissioning_start_year": 2045,
+      "maximum_hubs_commissioned_per_year": 40
+    }
+  ],
+  "scenarios": {
+    "not_authorized": {
+      "name": "not_authorized",
+      "description": "No government material released; no recycling or advanced-cycle service commissioned",
+      "first_year_reaching_full_static_target": null,
+      "target_hubs": 729,
+      "target_gwe_equivalent": 233.27999999999997,
+      "year2050": {
+        "year": 2050,
+        "scenario": "not_authorized",
+        "commissioned_hubs": 0,
+        "fraction_of_static_target": 0.0,
+        "fleet_capacity_gwe_equivalent": 0.0,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0.0,
+        "uncommitted_authorized_capacity_gwe": 0.0,
+        "newly_commissioned_hubs": 0
+      },
+      "year2075": {
+        "year": 2075,
+        "scenario": "not_authorized",
+        "commissioned_hubs": 0,
+        "fraction_of_static_target": 0.0,
+        "fleet_capacity_gwe_equivalent": 0.0,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0,
+        "uncommitted_authorized_capacity_gwe": 0.0,
+        "newly_commissioned_hubs": 0
+      },
+      "year2100": {
+        "year": 2100,
+        "scenario": "not_authorized",
+        "commissioned_hubs": 0,
+        "fraction_of_static_target": 0.0,
+        "fleet_capacity_gwe_equivalent": 0.0,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0,
+        "uncommitted_authorized_capacity_gwe": 0.0,
+        "newly_commissioned_hubs": 0
+      },
+      "end_year": {
+        "year": 2100,
+        "scenario": "not_authorized",
+        "commissioned_hubs": 0,
+        "fraction_of_static_target": 0.0,
+        "fleet_capacity_gwe_equivalent": 0.0,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0,
+        "uncommitted_authorized_capacity_gwe": 0.0,
+        "newly_commissioned_hubs": 0
+      },
+      "cumulative_certified_capacity_gwe_by_source": {
+        "government_public_surplus": 0.0,
+        "licensed_civilian_spent_fuel": 0.0,
+        "hypothetical_future_fuel_services": 0.0
+      },
+      "public_surplus_fraction_of_target_if_all_approved": 0.008444787379972566,
+      "baseline_spent_fuel_fraction_of_target_if_all_approved": 0.4072359396433471
+    },
+    "surplus_only_upper": {
+      "name": "surplus_only_upper",
+      "description": "All currently discussed public surplus exceptionally authorized; no spent-fuel recovery",
+      "first_year_reaching_full_static_target": null,
+      "target_hubs": 729,
+      "target_gwe_equivalent": 233.27999999999997,
+      "year2050": {
+        "year": 2050,
+        "scenario": "surplus_only_upper",
+        "commissioned_hubs": 6,
+        "fraction_of_static_target": 0.00823045267489712,
+        "fleet_capacity_gwe_equivalent": 1.9199999999999997,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0.0,
+        "uncommitted_authorized_capacity_gwe": 0.050000000000000266,
+        "newly_commissioned_hubs": 0
+      },
+      "year2075": {
+        "year": 2075,
+        "scenario": "surplus_only_upper",
+        "commissioned_hubs": 6,
+        "fraction_of_static_target": 0.00823045267489712,
+        "fleet_capacity_gwe_equivalent": 1.9199999999999997,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0,
+        "uncommitted_authorized_capacity_gwe": 0.050000000000000266,
+        "newly_commissioned_hubs": 0
+      },
+      "year2100": {
+        "year": 2100,
+        "scenario": "surplus_only_upper",
+        "commissioned_hubs": 6,
+        "fraction_of_static_target": 0.00823045267489712,
+        "fleet_capacity_gwe_equivalent": 1.9199999999999997,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0,
+        "uncommitted_authorized_capacity_gwe": 0.050000000000000266,
+        "newly_commissioned_hubs": 0
+      },
+      "end_year": {
+        "year": 2100,
+        "scenario": "surplus_only_upper",
+        "commissioned_hubs": 6,
+        "fraction_of_static_target": 0.00823045267489712,
+        "fleet_capacity_gwe_equivalent": 1.9199999999999997,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0,
+        "uncommitted_authorized_capacity_gwe": 0.050000000000000266,
+        "newly_commissioned_hubs": 0
+      },
+      "cumulative_certified_capacity_gwe_by_source": {
+        "government_public_surplus": 1.97,
+        "licensed_civilian_spent_fuel": 0.0,
+        "hypothetical_future_fuel_services": 0.0
+      },
+      "public_surplus_fraction_of_target_if_all_approved": 0.008444787379972566,
+      "baseline_spent_fuel_fraction_of_target_if_all_approved": 0.4072359396433471
+    },
+    "regulated_civilian_limited": {
+      "name": "regulated_civilian_limited",
+      "description": "Half of discussed surplus and 20% of gross spent-fuel inventory eligible",
+      "first_year_reaching_full_static_target": null,
+      "target_hubs": 729,
+      "target_gwe_equivalent": 233.27999999999997,
+      "year2050": {
+        "year": 2050,
+        "scenario": "regulated_civilian_limited",
+        "commissioned_hubs": 0,
+        "fraction_of_static_target": 0.0,
+        "fleet_capacity_gwe_equivalent": 0.0,
+        "gov_certified_addition_gwe": 0.25,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0.0,
+        "uncommitted_authorized_capacity_gwe": 0.25,
+        "newly_commissioned_hubs": 0
+      },
+      "year2075": {
+        "year": 2075,
+        "scenario": "regulated_civilian_limited",
+        "commissioned_hubs": 62,
+        "fraction_of_static_target": 0.0850480109739369,
+        "fleet_capacity_gwe_equivalent": 19.839999999999996,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0,
+        "uncommitted_authorized_capacity_gwe": 0.14500000000000213,
+        "newly_commissioned_hubs": 0
+      },
+      "year2100": {
+        "year": 2100,
+        "scenario": "regulated_civilian_limited",
+        "commissioned_hubs": 62,
+        "fraction_of_static_target": 0.0850480109739369,
+        "fleet_capacity_gwe_equivalent": 19.839999999999996,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0,
+        "uncommitted_authorized_capacity_gwe": 0.14500000000000213,
+        "newly_commissioned_hubs": 0
+      },
+      "end_year": {
+        "year": 2100,
+        "scenario": "regulated_civilian_limited",
+        "commissioned_hubs": 62,
+        "fraction_of_static_target": 0.0850480109739369,
+        "fleet_capacity_gwe_equivalent": 19.839999999999996,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0,
+        "uncommitted_authorized_capacity_gwe": 0.14500000000000213,
+        "newly_commissioned_hubs": 0
+      },
+      "cumulative_certified_capacity_gwe_by_source": {
+        "government_public_surplus": 0.985,
+        "licensed_civilian_spent_fuel": 19.0,
+        "hypothetical_future_fuel_services": 0.0
+      },
+      "public_surplus_fraction_of_target_if_all_approved": 0.008444787379972566,
+      "baseline_spent_fuel_fraction_of_target_if_all_approved": 0.4072359396433471
+    },
+    "conditional_closed_cycle": {
+      "name": "conditional_closed_cycle",
+      "description": "Scenario: government release, licensed civilian recovery and external future fuel services",
+      "first_year_reaching_full_static_target": null,
+      "target_hubs": 729,
+      "target_gwe_equivalent": 233.27999999999997,
+      "year2050": {
+        "year": 2050,
+        "scenario": "conditional_closed_cycle",
+        "commissioned_hubs": 2,
+        "fraction_of_static_target": 0.0027434842249657062,
+        "fleet_capacity_gwe_equivalent": 0.6399999999999999,
+        "gov_certified_addition_gwe": 0.8,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 0.0,
+        "uncommitted_authorized_capacity_gwe": 0.16000000000000014,
+        "newly_commissioned_hubs": 2
+      },
+      "year2075": {
+        "year": 2075,
+        "scenario": "conditional_closed_cycle",
+        "commissioned_hubs": 163,
+        "fraction_of_static_target": 0.22359396433470508,
+        "fleet_capacity_gwe_equivalent": 52.15999999999999,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 3,
+        "uncommitted_authorized_capacity_gwe": 0.3100000000000098,
+        "newly_commissioned_hubs": 9
+      },
+      "year2100": {
+        "year": 2100,
+        "scenario": "conditional_closed_cycle",
+        "commissioned_hubs": 398,
+        "fraction_of_static_target": 0.5459533607681756,
+        "fleet_capacity_gwe_equivalent": 127.35999999999999,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 3,
+        "uncommitted_authorized_capacity_gwe": 0.11000000000002519,
+        "newly_commissioned_hubs": 10
+      },
+      "end_year": {
+        "year": 2100,
+        "scenario": "conditional_closed_cycle",
+        "commissioned_hubs": 398,
+        "fraction_of_static_target": 0.5459533607681756,
+        "fleet_capacity_gwe_equivalent": 127.35999999999999,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 3,
+        "uncommitted_authorized_capacity_gwe": 0.11000000000002519,
+        "newly_commissioned_hubs": 10
+      },
+      "cumulative_certified_capacity_gwe_by_source": {
+        "government_public_surplus": 1.97,
+        "licensed_civilian_spent_fuel": 47.5,
+        "hypothetical_future_fuel_services": 78.0
+      },
+      "public_surplus_fraction_of_target_if_all_approved": 0.008444787379972566,
+      "baseline_spent_fuel_fraction_of_target_if_all_approved": 0.4072359396433471
+    },
+    "illustrative_technology_upper": {
+      "name": "illustrative_technology_upper",
+      "description": "Stress test only: entire stocks eligible, high authorization and construction throughput",
+      "first_year_reaching_full_static_target": 2084,
+      "target_hubs": 729,
+      "target_gwe_equivalent": 233.27999999999997,
+      "year2050": {
+        "year": 2050,
+        "scenario": "illustrative_technology_upper",
+        "commissioned_hubs": 43,
+        "fraction_of_static_target": 0.05898491083676269,
+        "fleet_capacity_gwe_equivalent": 13.759999999999998,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 12,
+        "hypothetical_future_certified_addition_gwe": 0.0,
+        "uncommitted_authorized_capacity_gwe": 0.21000000000000263,
+        "newly_commissioned_hubs": 37
+      },
+      "year2075": {
+        "year": 2075,
+        "scenario": "illustrative_technology_upper",
+        "commissioned_hubs": 543,
+        "fraction_of_static_target": 0.7448559670781894,
+        "fleet_capacity_gwe_equivalent": 173.75999999999996,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 7,
+        "uncommitted_authorized_capacity_gwe": 0.21000000000002572,
+        "newly_commissioned_hubs": 22
+      },
+      "year2100": {
+        "year": 2100,
+        "scenario": "illustrative_technology_upper",
+        "commissioned_hubs": 729,
+        "fraction_of_static_target": 1.0,
+        "fleet_capacity_gwe_equivalent": 233.27999999999997,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 7,
+        "uncommitted_authorized_capacity_gwe": 115.69000000000003,
+        "newly_commissioned_hubs": 0
+      },
+      "end_year": {
+        "year": 2100,
+        "scenario": "illustrative_technology_upper",
+        "commissioned_hubs": 729,
+        "fraction_of_static_target": 1.0,
+        "fleet_capacity_gwe_equivalent": 233.27999999999997,
+        "gov_certified_addition_gwe": 0.0,
+        "civilian_certified_addition_gwe": 0.0,
+        "hypothetical_future_certified_addition_gwe": 7,
+        "uncommitted_authorized_capacity_gwe": 115.69000000000003,
+        "newly_commissioned_hubs": 0
+      },
+      "cumulative_certified_capacity_gwe_by_source": {
+        "government_public_surplus": 1.97,
+        "licensed_civilian_spent_fuel": 95.0,
+        "hypothetical_future_fuel_services": 252.0
+      },
+      "public_surplus_fraction_of_target_if_all_approved": 0.008444787379972566,
+      "baseline_spent_fuel_fraction_of_target_if_all_approved": 0.4072359396433471
+    }
+  }
+}
