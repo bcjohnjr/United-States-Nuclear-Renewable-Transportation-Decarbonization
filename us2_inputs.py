@@ -37,7 +37,7 @@ ENDUSE = dict(
     marine=dict(liquid=0.85, elec=0.05, h2=0.10),
     pipeline=dict(elec=0.60, gas=0.40),
     re_fuel_share=0.25,               # [A] 25% of range-extended vehicles' energy from the biofuel generator
-    r_ldv_bev=0.33 / 1.41, r_ldv_fcev=0.55 / 1.41, r_hdv_elec=2.40 / 21.1, r_hdv_fcev=4.44 / 21.1,
+    r_ldv_bev=0.33 / 1.41, r_ldv_fcev=0.55 / 1.41, r_hdv_elec=(2.40 * 3.6) / 21.1, r_hdv_fcev=(4.44 * 3.6) / 21.1,
     r_offroad_elec=0.36,              # [A] electric drive vs diesel in tractors/excavators (energy at meter)
     r_rail_elec=0.33, r_pipe_elec=0.35, r_fork_elec=0.30,
     service_growth_2050=1.00,
@@ -119,6 +119,27 @@ ROUTES = dict(
     ethanol=dict(mwh_per_bgal=22.37, corn_cost_per_bgal=1.9e9, corn_cap_bgal=20.0,
                  cellulosic_gal_per_t=85.0, cellulosic_conv_per_gal=1.25),   # [A] cellulosic ethanol from bamboo/residues
 )
+
+# v8.5 exploratory crop-residue -> HTL with field soil-repair constraints.
+# 183 million US SHORT TONS from BT23 ~=166.0 Mt metric; availability is a nationwide
+# sustainable supply SCREEN, not permission to harvest every field at that rate.
+# N/P/K are ELEMENTAL kg/t dry material, not oxide-fertilizer equivalents.
+# All parameters below are planning assumptions subject to field and HTL validation.
+CROP_RESIDUE = dict(
+    enabled=False, cap_mt=166.0, collect_min_mt=0.0,
+    delivered_usd_t=55.0, wastewater_treatment_usd_t=15.0,
+    hydrochar_testing_transport_usd_t=10.0,
+    elemental_kg_t=dict(n=7.0, p=1.2, k=9.0),
+    recovered_fraction=dict(n=0.50, p=0.75, k=0.80),
+    wastewater_recovered_share=dict(n=0.85, p=0.25, k=0.95),
+    nutrient_replacement_usd_per_kg=dict(n=1.25, p=2.60, k=0.90),
+    stable_soc_c_t_per_dry_t=0.060,  # REQUIRED replacement of residue-derived protected soil C; [A]
+    hydrochar_c_fraction=0.65, hydrochar_stable_fraction=0.55,  # [A] durability/soc equivalence not established
+    methane_carbon_stable_fraction=0.85,  # [A] soil function NOT demonstrated by persistence alone
+    cover_crop_stable_carbon_cost_usd_t_c=250.0,  # [A] cost per tonne additional stable soil C
+    pyro_carbon_soil_application_usd_t=60.0,  # [A] net cost, no carbon revenue double-credit
+)
+
 # ------------------------------------------------------------------------------------------------ 6. seaweed by region
 # (key, wind field type, region, species, usable share, yields dem/design/learning t dry/ha/yr, DM, N%, land-N share,
 #  GW in the large build, port distance km, map box lon0,lat0,w,h, colour key)

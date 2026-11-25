@@ -202,7 +202,7 @@ def map_biomass():
 
 # ---------------------------------------------------------------------------------------------- Fig: liquid fuels & energy
 def fig_liquids():
-    fig, (a, b) = plt.subplots(1, 2, figsize=(11, 4.2), gridspec_kw=dict(width_ratios=[1.1, 1]))
+    fig, (a, b) = plt.subplots(1, 2, figsize=(13, 4.8), gridspec_kw=dict(width_ratios=[1.0, 1.22], wspace=0.42))
     L = D["liquids_twh"]; eu = D["enduse"]
     items = [("Crop & forest residues,\nperennial grasses", L["residues_and_grasses"], "#b58a65"), ("Corn ethanol -> jet", L["corn_ethanol_atj"], C["orange"]),
              ("Seaweed (dried, FT + H2)", L["seaweed"], C["blue"]), ("Bamboo", L["bamboo"], C["green"]), ("Hemp oil + stalks", L["hemp"], C["yellow"]),
@@ -222,15 +222,15 @@ def fig_liquids():
     b.bar(x + 0.2, [e_seg[k] for _, k in segs], 0.38, color=C["blue"], label="2050 electricity")
     b.bar(x + 0.2, [eu["h2_twh"].get(k, 0) for _, k in segs], 0.38, bottom=[e_seg[k] for _, k in segs], color=C["aqua"], label="2050 hydrogen")
     b.bar(x + 0.2, [eu["liq"].get(k, 0) for _, k in segs], 0.38, bottom=[e_seg[k] + eu["h2_twh"].get(k, 0) for _, k in segs], color=C["orange"], label="2050 liquid fuel")
-    b.set_xticks(x); b.set_xticklabels([s for s, _ in segs], fontsize=6.6); b.set_yscale("log"); b.set_ylim(10, 8000)
-    b.set_ylabel("TWh/yr (log scale)"); b.legend(fontsize=6.6, ncol=2); b.grid(axis="y", color=GRID, lw=0.5); b.set_axisbelow(True)
+    b.set_xticks(x); b.set_xticklabels(["Aviation", "Heavy-duty\ntrucks", "Marine", "Farm\nmachinery", "Construction\n& mining", "Rail", "Light-duty"], fontsize=7.0); b.set_yscale("log"); b.set_ylim(10, 8000)
+    b.set_ylabel("TWh/yr (log scale)"); b.legend(fontsize=7.0, ncol=4, loc="upper center", bbox_to_anchor=(0.5, -0.14)); b.grid(axis="y", color=GRID, lw=0.5); b.set_axisbelow(True)
     b.set_title("(b) Energy by segment, 2024 vs 2050")
     save(fig, "Fig01_liquid_fuels_and_segments")
 
 
 # ---------------------------------------------------------------------------------------------- Fig: sweet spot
 def fig_sweetspot():
-    fig, (a, b) = plt.subplots(1, 2, figsize=(12, 4.3), gridspec_kw=dict(width_ratios=[1.2, 1], wspace=0.55))
+    fig, (a, b) = plt.subplots(1, 2, figsize=(13.2, 5.6), gridspec_kw=dict(width_ratios=[1.0, 1.35], wspace=0.80))
     for yl, col, lab in (("1", C["blue"], "design yields"), ("2", C["green"], "learning yields")):
         rows = [r for r in SM if str(int(float(r["yield_level"]))) == yl]
         gw = [float(r["osw_gw"]) for r in rows]; cost = [float(r["cost_bn"]) for r in rows]
@@ -241,8 +241,8 @@ def fig_sweetspot():
     rows = [r for r in SM if str(int(float(r["yield_level"]))) == "1"]
     ex = [float(r["export_twh"]) for r in rows]; gw = [float(r["osw_gw"]) for r in rows]
     first_exp = next((g for g, e in zip(gw, ex) if e > 1), max(gw))
-    a.axvspan(175, 225, color=C["yellow"], alpha=0.18); a.text(258, 575, "220 GW diversification case:\nPacific kelp coast (WA-central CA),\nGulf of Maine, Mississippi plume", ha="center", fontsize=6.4)
-    a.axvline(first_exp, color=C["red"], lw=1, ls="--"); a.text(first_exp + 5, 470, "beyond here, surplus\npower is sold at a loss", fontsize=6.4, color=C["red"])
+    a.axvspan(175, 225, color=C["yellow"], alpha=0.18); a.text(310, 555, "220 GW diversification: Pacific coast,\nGulf of Maine, Mississippi plume", ha="center", fontsize=6.4)
+    a.axvline(first_exp, color=C["red"], lw=1, ls="--"); a.text(first_exp + 5, 615, "surplus-power export\nconstraint applies", fontsize=6.5, color=C["red"])
     pet = D["petroleum"]["prices"]["late_2025"]["pretax_bn"] + D["petroleum"]["pipeline_gas_bn"]
     a.axhline(pet, color=INK, lw=0.8); a.text(250, pet + 3, f"petroleum at late-2025 prices (pre-tax): ${pet:.0f} bn", fontsize=6.6)
     a.set_xlabel("Offshore wind built (GW), zones added cheapest-seaweed-first"); a.set_ylabel("Transport system cost, $ bn/yr"); a.legend(fontsize=6.8, loc="lower right")
@@ -255,7 +255,7 @@ def fig_sweetspot():
     b.scatter([ml[r["zone"]]["best_usd_mwh"] for r in m], y, color=C["green"], zorder=5, s=18, label="learning yields")
     jet_marg = (D["liquid_shadow_usd_mwh"] or 0) + (D["jet_shadow_usd_mwh"] or 0)
     b.axvline(jet_marg, color=C["red"], lw=1, ls="--"); b.text(jet_marg + 4, len(m) - 0.6, f"marginal jet fuel\nfrom land: ${jet_marg:.0f}/MWh", fontsize=6.4, color=C["red"])
-    b.set_yticks(y); b.set_yticklabels([r["region"].split("(")[0].strip() for r in m], fontsize=6.4)
+    b.set_yticks(y); b.set_yticklabels([r["region"].split("(")[0].strip() for r in m], fontsize=7.0)
     b.set_xlabel("Seaweed fuel cost, $/MWh (biomass + haul + refining − fertiliser)"); b.legend(fontsize=6.6, loc="upper center", bbox_to_anchor=(0.5, -0.13), ncol=2)
     b.grid(axis="x", color=GRID, lw=0.5); b.set_axisbelow(True); b.set_title("(b) Merit order of seaweed zones")
     save(fig, "Fig02_offshore_sweet_spot")
@@ -285,7 +285,7 @@ def fig_reactors():
 
 # ---------------------------------------------------------------------------------------------- Fig: costs
 def fig_costs():
-    fig, (a, b) = plt.subplots(1, 2, figsize=(11, 4.6), gridspec_kw=dict(width_ratios=[1.35, 1]))
+    fig, (a, b) = plt.subplots(1, 2, figsize=(13, 5.4), gridspec_kw=dict(width_ratios=[1.35, 1], wspace=0.22))
     groups = [("Electricity generation", ["electricity_generation", "process_heat_equipment"], C["blue"]),
               ("Grid, chargers, eHighways, rail", ["transmission_distribution", "charging", "electric_highways", "rail_electrification"], C["violet"]),
               ("Reactor hubs, pyrolysis, gas, H2 delivery", ["htgr_hubs", "pyrolysis_plants", "natural_gas", "electrolysis", "h2_delivery"], C["red"]),
@@ -299,7 +299,7 @@ def fig_costs():
             v = sum(r["costs_bn"][k] for k in keys) * ((1 - sb) if g.startswith("Reactor") else 1)
             a.bar(i, v, bottom=btm, color=col, edgecolor="white", lw=0.8, width=0.6, label=g if i == 0 else None); btm += v
         cr = sum(r["credits_bn"].values())
-        a.bar(i, cr, color=C["green"], width=0.6, label="Credits: surplus power, carbon, fertiliser, heat" if i == 0 else None)
+        a.bar(i, cr, color=C["green"], width=0.6, label="Credits: modelled non-transport revenues" if i == 0 else None)
         a.text(i, btm + 15, f"${r['transport_cost_bn']:.0f} bn", ha="center", fontsize=8, weight="bold")
     pet = D["petroleum"]["prices"]; pg = D["petroleum"]["pipeline_gas_bn"]
     for j, key in enumerate(("late_2025", "nov_2026")):
@@ -307,15 +307,15 @@ def fig_costs():
     q = MCS["design"]["transport_cost_bn"]; a.errorbar(0.36, q["p50"], yerr=[[q["p50"] - q["p5"]], [q["p95"] - q["p50"]]], fmt="o", color=INK, ms=3.5, capsize=3)
     q = MCS["least_cost"]["transport_cost_bn"]; a.errorbar(2.36, q["p50"], yerr=[[q["p50"] - q["p5"]], [q["p95"] - q["p50"]]], fmt="o", color=INK, ms=3.5, capsize=3)
     a.set_xticks(range(5)); a.set_xticklabels([c[0] for c in cases] + ["Petroleum,\nlate-2025\n(pre-tax)", "Petroleum,\nNov-2026\n(pre-tax)"], fontsize=6.4)
-    a.set_ylabel("$ bn/yr (2026 dollars)"); a.set_ylim(-80, 1050); a.legend(fontsize=6.0, loc="upper left")
-    a.grid(axis="y", color=GRID, lw=0.5); a.set_axisbelow(True); a.set_title("(a) 2050 cost vs today's fuel bill (incl. farm & construction diesel)")
+    a.set_ylabel("$ bn/yr (2026 dollars)"); a.set_ylim(-80, 1050); a.legend(fontsize=6.8, loc="upper left", bbox_to_anchor=(0, 1.30), ncol=3, frameon=False)
+    a.grid(axis="y", color=GRID, lw=0.5); a.set_axisbelow(True); a.set_title("(a) 2050 transport cost by configuration", pad=12)
     mc = list(csv.DictReader(open(OUT / "monte_carlo_design.csv"))); ml = list(csv.DictReader(open(OUT / "monte_carlo_least_cost.csv")))
     bins = np.linspace(0.4, 1.5, 45)
     for rows, col, lab in ((mc, C["blue"], "design"), (ml, C["green"], "least-cost")):
         r25 = np.array([float(r["transport_cost_bn"]) / float(r["petro_2025"]) for r in rows])
         b.hist(r25, bins=bins, color=col, alpha=0.65, density=True, label=f"{lab}: cheaper than late-2025 fuel in {100 * np.mean(r25 < 1):.0f}% of draws")
     b.axvline(1, color=INK, lw=1); b.set_xlabel("System cost ÷ petroleum at late-2025 prices"); b.set_yticks([])
-    b.legend(fontsize=6.6, loc="upper left"); b.set_ylim(0, b.get_ylim()[1] * 1.3); b.set_title("(b) Monte Carlo (1,000 + 500 draws)")
+    b.legend(fontsize=7.1, loc="upper center", bbox_to_anchor=(0.5, 1.14), frameon=False); b.set_ylim(0, b.get_ylim()[1] * 1.3); b.set_title("(b) Monte Carlo (1,000 draws per case)")
     save(fig, "Fig04_costs")
 
 

@@ -133,11 +133,11 @@ def run(render_figure=True):
         for c in CASES:
             rr=[r for r in all_rows if r["scenario"]==c.name]
             ax.plot([r["year"] for r in rr],[r["fraction_of_static_target"]*100 for r in rr],lw=2.1,label=c.name.replace("_"," "))
-        ax.axhline(100,ls="--",lw=1,label="V4.1 steady-state hub target (100%)")
+        ax.axhline(100,ls="--",lw=1,label="Corrected V8.5 theoretical steady-state target (100%)")
         ax.axvline(2050,ls=":",lw=1)
         ax.text(2051,4,"2050 steady-state comparison",fontsize=9)
         ax.set(xlim=(2035,2100),ylim=(0,105),xlabel="Calendar year",ylabel="Illustrative fraction of static reactor fleet commissioned (%)",
-               title="V5.0: conditional authorised civilian fuel-service and deployment scenarios")
+               title="V8.5: conditional authorised civilian fuel-service and deployment scenarios")
         ax.grid(alpha=.20)
         ax.legend(loc="upper left",fontsize=8,ncol=2)
         f.text(0.1,.02,"Not a forecast: inputs are assumed approval/qualification rates; no plutonium production or fuel-processing model.",fontsize=8)

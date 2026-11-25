@@ -209,7 +209,7 @@ def make_figures(r):
     for i,v in enumerate(vals):ax2.text(v+.3,i,f'{v:.1f} GWh',va='center',fontsize=10)
     ax2.set_xlim(0,max(vals)*1.32);ax2.invert_yaxis()
     fig.suptitle('S16 | RAS-to-seaweed nutrient treatment: physical-process and energy screen',fontweight='bold',fontsize=14)
-    for ext in ('png','pdf'):fig.savefig(ROOT/f'ScienceFigS16_RAS_process.{ext}',dpi=220,bbox_inches='tight')
+    for ext in ('png','pdf'):fig.savefig(ROOT/f'ScienceFigS16_RAS_process.{ext}',dpi=300,bbox_inches='tight')
     plt.close(fig)
     fig,(a,b)=plt.subplots(1,2,figsize=(11,4.1),layout='constrained')
     labels=['Vegetables\n(raw)','Seafood\n(raw)','Hemp meal\n(potential only)']
@@ -231,7 +231,7 @@ def make_figures(r):
     for i,v in enumerate(x):b.text(v+.4,i,f'{v:.1f}',va='center',fontsize=9)
     b.set_xlim(0,max(x)*1.22)
     fig.suptitle('S17 | Food-energy accounting and livestock response sensitivities',fontsize=12,fontweight='bold')
-    for ext in ('png','pdf'):fig.savefig(ROOT/f'ScienceFigS17_food_methane.{ext}',dpi=220,bbox_inches='tight')
+    for ext in ('png','pdf'):fig.savefig(ROOT/f'ScienceFigS17_food_methane.{ext}',dpi=300,bbox_inches='tight')
     plt.close(fig)
 
 if __name__=='__main__':main()

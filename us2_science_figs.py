@@ -50,7 +50,7 @@ def fig1():
 
 
 def fig4():
-    fig, (a, b) = plt.subplots(1, 2, figsize=(11, 4.6), gridspec_kw=dict(width_ratios=[1.35, 1], wspace=0.25))
+    fig, (a, b) = plt.subplots(1, 2, figsize=(13, 5.1), gridspec_kw=dict(width_ratios=[1.3, 1], wspace=0.38))
     groups = [("Electricity generation", ["electricity_generation", "process_heat_equipment"], C["blue"]),
               ("Grid, chargers, electric highways, rail", ["transmission_distribution", "charging", "electric_highways", "rail_electrification"], C["violet"]),
               ("Reactor hubs, pyrolysis, gas, H2 delivery", ["htgr_hubs", "pyrolysis_plants", "natural_gas", "electrolysis", "h2_delivery"], C["red"]),
@@ -63,7 +63,7 @@ def fig4():
         for g, keys, col in groups:
             v = sum(r["costs_bn"][k] for k in keys) * ((1 - sb) if g.startswith("Reactor") else 1)
             a.bar(i, v, bottom=btm, color=col, edgecolor="white", lw=0.8, width=0.6, label=g if i == 0 else None); btm += v
-        a.bar(i, sum(r["credits_bn"].values()), color=C["green"], width=0.6, label="Credits: carbon, fertiliser, heat, surplus power" if i == 0 else None)
+        a.bar(i, sum(r["credits_bn"].values()), color=C["green"], width=0.6, label="Credits: modelled system credits" if i == 0 else None)
         a.text(i, btm + 14, f"${r['transport_cost_bn']:.0f} bn", ha="center", fontsize=8, weight="bold", color=INK)
         q = MCS[mk]["transport_cost_bn"]
         a.errorbar(i + 0.38, q["p50"], yerr=[[q["p50"] - q["p5"]], [q["p95"] - q["p50"]]], fmt="o", color=INK, ms=3.5, capsize=3)
@@ -71,7 +71,7 @@ def fig4():
     for j, key in enumerate(("late_2025", "nov_2026")):
         v = pet[key]["pretax_bn"] + pg; a.bar(3 + j, v, color="#bdbab2", width=0.6); a.text(3 + j, v + 14, f"${v:.0f} bn", ha="center", fontsize=8, color=INK)
     a.set_xticks(range(5)); a.set_xticklabels([c[0] for c in cases] + ["Petroleum,\nlate-2025", "Petroleum,\nNov-2026"], fontsize=6.6)
-    a.set_ylabel("US$ bn/yr (2026), pre-tax"); a.set_ylim(-60, 1000); a.legend(fontsize=6.0, loc="upper left")
+    a.set_ylabel("US$ bn/yr (2026), pre-tax"); a.set_ylim(-60, 1000); a.legend(fontsize=6.6, loc="upper left", bbox_to_anchor=(0, 1.28), ncol=3, frameon=False)
     a.grid(axis="y", color=GRID, lw=0.5); a.set_axisbelow(True)
     a.set_title("A  Annual cost in 2050; whiskers: Monte Carlo median and 5-95%", fontsize=8)
     bins = np.linspace(0.4, 1.5, 45)
@@ -83,7 +83,7 @@ def fig4():
     top = b.get_ylim()[1]; b.set_ylim(0, top * 1.45)
     b.plot([1, 1], [0, top * 1.08], color=INK, lw=1); b.text(1.015, top * 1.06, "petroleum at\nlate-2025 prices", fontsize=6.5, color=INK2, va="top")
     b.set_xlabel("System cost / petroleum cost at late-2025 prices"); b.set_yticks([]); b.set_ylabel("Density")
-    b.legend(fontsize=6.6, loc="upper left")
+    b.legend(fontsize=7.2, loc="upper left", bbox_to_anchor=(0, 1.22), frameon=False)
     b.set_title("B  Monte Carlo, n = 1,000 draws per case", fontsize=8)
     save(fig, "ScienceFig4_cost_vs_petroleum")
 
@@ -93,7 +93,7 @@ def fig_s1_grid_harvester():
     import grid_harvester as G
     fig = plt.figure(figsize=(11, 6.4))
     gs = fig.add_gridspec(2, 2, height_ratios=[1.0, 0.8], hspace=0.12, wspace=0.18)
-    for k, (f, t) in enumerate((("grid_harvester_side.jpg", "A  Side view"), ("grid_harvester_top.jpg", "B  Plan view and path of the harvesting head"))):
+    for k, (f, t) in enumerate((("grid_harvester_side.tif", "A  Side view"), ("grid_harvester_top.tif", "B  Plan view and path of the harvesting head"))):
         ax = fig.add_subplot(gs[0, k]); ax.imshow(mpimg.imread(F.HERE / f)); ax.axis("off"); ax.set_title(t, fontsize=8)
     e = G.energy(); rows = e["rows"]
     bars = [("Conventional\nharvester", e["conventional_mj"], "#bdbab2"), ("Grid Harvester,\nbare hose,\n10% solids", e["bare_hose_10pct_mj"], C["blue"])]
@@ -152,7 +152,7 @@ def fig_s10_heat_and_boundaries():
         b.bar(xx + (j - 1) * w, v, width=w, color=col, edgecolor="white", lw=0.8, label=nm)
         for xi, vi in zip(xx, v): b.text(xi + (j - 1) * w, vi + 8, f"{vi:.0f}", ha="center", fontsize=6, color=INK2)
     pv = D["petroleum"]["prices"]["late_2025"]["pretax_bn"] + D["petroleum"]["pipeline_gas_bn"]
-    b.axhline(pv, color=INK, lw=1); b.text(0.5, pv - 12, f"petroleum, late-2025: {pv:.0f}", ha="center", va="top", fontsize=6.5, color=INK)
+    b.axhline(pv, color=INK, lw=1); b.text(.98, .97, f"Petroleum late-2025: ${pv:.0f} bn", ha="right", va="top", fontsize=6.5, color=INK, transform=b.transAxes, bbox=dict(facecolor="white",edgecolor="none",alpha=.90,pad=1.1))
     b.set_xticks(xx); b.set_xticklabels([c[0] for c in cases]); b.set_ylabel("US$ bn/yr (2026), pre-tax"); b.set_ylim(0, 760)
     b.grid(axis="y", color=GRID, lw=0.5); b.set_axisbelow(True); b.legend(fontsize=6.5, loc="upper left")
     b.set_title("B  Cost under three system boundaries; ranking unchanged", fontsize=8)
