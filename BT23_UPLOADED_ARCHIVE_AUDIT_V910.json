@@ -1,0 +1,20 @@
+{
+  "archive_path": "/mnt/data/BT23_EXPORTS.zip",
+  "regional_data_present": false,
+  "usable_as_national_reference": false,
+  "access_status": "NOT_YET_VERIFIED",
+  "files": [
+    {
+      "path": "BT23_EXPORTS.zip",
+      "bytes": 180,
+      "csv_members": 0,
+      "file_members": [],
+      "sha256": "b8c1673ea90403e9e1f4ec76d75c6dae48e721aec1145b4ead1ac580b16f2246"
+    }
+  ],
+  "csv_members": 0,
+  "status": "EMPTY_DIRECTORY_OR_ZIP",
+  "action": "The archive has zero CSV data. Use ORNL authenticated download; saving an empty folder as ZIP is not an export.",
+  "checked_utc": "2026-11-24T22:13:23.300236+00:00",
+  "official_portal": "https://bioenergykdf.ornl.gov/bt23-agricultural-download"
+}

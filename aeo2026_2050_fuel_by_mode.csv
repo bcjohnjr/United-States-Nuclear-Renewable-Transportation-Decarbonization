@@ -1,0 +1,67 @@
+﻿mode,fuel,value_2025_trillion_btu,value_2050_trillion_btu,table,row,source_url,boundary_note
+Light-duty vehicles,Motor Gasoline excluding E85 1/,14568.025390625,6490.740234375,36,13,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Light-duty vehicles,E85 1/,35.93166732788086,6.478389739990234,36,14,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Light-duty vehicles,Distillate Fuel Oil (diesel),87.7275619506836,95.49380493164062,36,15,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Light-duty vehicles,Compressed/Liquefied Natural Gas,1.009788990020752,0.1068771332502365,36,16,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Light-duty vehicles,Propane,0.9040709137916565,0.1594132632017136,36,17,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Light-duty vehicles,Electricity,89.8736572265625,2348.92626953125,36,18,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Light-duty vehicles,Hydrogen,0.3828980326652527,0.02747089974582195,36,19,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Commercial light trucks,Motor Gasoline excluding E85 1/,543.7737426757812,558.0895385742188,36,22,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Commercial light trucks,E85 1/,3.251672267913818,0.4378216862678528,36,23,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Commercial light trucks,Distillate Fuel Oil (diesel),298.5856628417969,71.28361511230469,36,24,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Commercial light trucks,Propane,0.001343602081760764,0.00915492046624422,36,25,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Commercial light trucks,Compressed/Liquefied Natural Gas,1.189286470413208,12.40530586242676,36,26,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Commercial light trucks,Electricity,4.738416194915771,99.67158508300781,36,27,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Commercial light trucks,Hydrogen,0.0,0.0,36,28,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Freight trucks,Motor Gasoline,617.6986694335938,761.5299682617188,36,31,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Freight trucks,Distillate Fuel Oil (diesel),5085.75732421875,3289.746826171875,36,32,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Freight trucks,Compressed/Liquefied Natural Gas,54.61607360839844,236.1330261230469,36,33,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Freight trucks,Propane,1.101831316947937,0.09528689086437225,36,34,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Freight trucks,E85 1/,1.237792015075684,0.09453491866588593,36,35,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Freight trucks,Electricity,3.760432004928589,334.8457641601562,36,36,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Freight trucks,Hydrogen,0.0,719.0582275390625,36,37,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Freight rail,Distillate Fuel Oil (diesel),469.1799926757812,417.8262634277344,36,41,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Domestic shipping,Distillate Fuel Oil (diesel),96.62906646728516,78.12785339355469,36,45,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Domestic shipping,Residual Oil,1.445309519767761,0.3475383520126343,36,46,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Domestic shipping,Compressed Natural Gas,0.0,0.0,36,47,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Domestic shipping,Liquefied Natural Gas,0.7744796872138977,2.547972440719604,36,48,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+International shipping,Distillate Fuel Oil (diesel),223.7084045410156,317.6790466308594,36,51,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+International shipping,Residual Oil,551.8134765625,724.3187866210938,36,52,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+International shipping,Compressed Natural Gas,0.0,0.0,36,53,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+International shipping,Liquefied Natural Gas,6.252391815185547,11.90812110900879,36,54,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Air transportation,Jet Fuel,3230.09423828125,4013.63134765625,36,57,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Air transportation,Aviation Gasoline,22.3940315246582,22.35831451416016,36,58,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Transit bus,Motor Gasoline,9.162940979003906,4.799308776855469,36,67,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Transit bus,E85 1/,0.0,0.0,36,68,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Transit bus,Distillate Fuel Oil (diesel),44.44850158691406,24.99560546875,36,69,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Transit bus,Compressed/Liquefied Natural Gas,23.79762268066406,14.7958459854126,36,70,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Transit bus,Propane,0.9066449999809265,0.7567241191864014,36,71,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Transit bus,Electricity,3.052277565002441,23.37948036193848,36,72,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Transit bus,Hydrogen,0.03336112201213837,0.02129606157541275,36,73,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Intercity bus,Motor Gasoline,0.0,0.0,36,75,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Intercity bus,E85 1/,0.0,0.0,36,76,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Intercity bus,Distillate Fuel Oil (diesel),26.05284309387207,31.53952407836914,36,77,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Intercity bus,Compressed/Liquefied Natural Gas,0.0,0.0,36,78,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Intercity bus,Propane,0.0,0.0,36,79,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Intercity bus,Electricity,0.0,0.0,36,80,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Intercity bus,Hydrogen,0.0,0.0,36,81,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+School bus,Motor Gasoline,9.579129219055176,3.251931667327881,36,83,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+School bus,E85 1/,0.0,0.0,36,84,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+School bus,Distillate Fuel Oil (diesel),84.6138687133789,28.72479629516602,36,85,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+School bus,Compressed/Liquefied Natural Gas,1.051943421363831,1.139029979705811,36,86,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+School bus,Propane,7.920133113861084,2.688734292984009,36,87,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+School bus,Electricity,0.7004991769790649,24.6959228515625,36,88,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+School bus,Hydrogen,0.0,0.0,36,89,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Intercity passenger rail,Electricity,1.502035140991211,1.730465888977051,36,92,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Intercity passenger rail,Diesel,8.793390274047852,10.13069534301758,36,93,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Transit passenger rail,Electricity,15.34090328216553,20.99934768676758,36,95,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Commuter passenger rail,Electricity,7.730716705322266,8.303444862365723,36,97,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Commuter passenger rail,Diesel,14.44180202484131,15.78359127044678,36,98,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Recreational boats,Gasoline,164.6659240722656,144.2196044921875,36,101,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Recreational boats,Distillate Fuel Oil (diesel),43.51688385009766,45.40407180786133,36,102,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Military,Jet Fuel and Aviation Gasoline,329.5680847167969,337.044921875,36,61,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Military,Residual Fuel Oil,0.02609257586300373,0.0265521127730608,36,62,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Military,Distillates and Diesel,114.4610824584961,117.0578079223633,36,63,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Other non-propulsion,Lubricants,89.2373275756836,93.17422485351562,36,104,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Other non-propulsion,Pipeline Fuel Natural Gas,734.8402099609375,1005.809875488281,36,105,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,See table 36 scope notes
+Other non-propulsion,Natural Gas Liquefaction for Export 5/,590.7101440429688,1221.740112304688,36,106,https://www.eia.gov/outlooks/aeo/supplement/excel/suptab_36.xlsx,Export LNG liquefaction is outside vehicle travel

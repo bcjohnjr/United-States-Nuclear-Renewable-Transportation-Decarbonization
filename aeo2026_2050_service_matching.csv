@@ -1,0 +1,6 @@
+﻿service,source_table,source_excel_row,baseline_2025,aeo_2050,required_factor_2050_vs_2025,model_assumption,source_url
+light duty vehicle miles,7,15,2843.056640625,3180.412353515625,1.1186595117628269,single service_growth_2050=1.0 (uniform; not mode matched),https://www.eia.gov/outlooks/aeo/excel/aeotab7.xlsx
+freight truck vehicle miles,7,17,341.1739501953125,412.3597717285156,1.2086496389670174,single service_growth_2050=1.0 (uniform; not mode matched),https://www.eia.gov/outlooks/aeo/excel/aeotab7.xlsx
+airline seat-miles available,7,22,1422.048828125,2174.072021484375,1.528830781676416,single service_growth_2050=1.0 (uniform; not mode matched),https://www.eia.gov/outlooks/aeo/excel/aeotab7.xlsx
+freight rail ton-miles,7,24,1584.425659179688,1448.70751953125,0.9143423745619571,single service_growth_2050=1.0 (uniform; not mode matched),https://www.eia.gov/outlooks/aeo/excel/aeotab7.xlsx
+domestic shipping ton-miles,7,25,482.0527038574219,435.3733520507812,0.9031654600563196,single service_growth_2050=1.0 (uniform; not mode matched),https://www.eia.gov/outlooks/aeo/excel/aeotab7.xlsx

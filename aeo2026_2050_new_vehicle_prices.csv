@@ -1,0 +1,161 @@
+﻿case,table,excel_row,technology,vehicle_class,new_price_thousand_2025_usd_2050,new_price_thousand_2025_usd_2025,source_url
+CounterfactualBaseline,52,13,Gasoline,Mini-compact Cars,118.7601013183594,101.370491027832,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,14,Gasoline,Subcompact Cars,41.74504470825195,54.67000579833984,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,15,Gasoline,Compact Cars,36.53772735595703,31.02045059204102,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,16,Gasoline,Midsize Cars,30.65470695495605,30.04641723632812,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,17,Gasoline,Large Cars,34.32943725585938,37.39579772949219,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,18,Gasoline,Two Seater Cars,113.8709945678711,98.66720581054688,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,19,Gasoline,Small Crossover Cars,30.29487991333008,29.41766738891602,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,20,Gasoline,Large Crossover Cars,38.15238571166992,42.20187377929688,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,21,Gasoline,Small Pickup,40.89419174194336,39.14792633056641,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,22,Gasoline,Large Pickup,52.20341110229492,56.74246597290039,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,23,Gasoline,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,24,Gasoline,Large Van,45.36926651000977,44.45215606689453,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,25,Gasoline,Small Utility,46.04875946044922,50.60483551025391,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,26,Gasoline,Large Utility,75.90111541748047,80.94567108154297,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,27,Gasoline,Small Crossover Trucks,35.41199493408203,34.84700012207031,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,28,Gasoline,Large Crossover Trucks,47.43214797973633,51.93840789794922,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,31,Turbo Direct Injection Diesel,Mini-compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,32,Turbo Direct Injection Diesel,Subcompact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,33,Turbo Direct Injection Diesel,Compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,34,Turbo Direct Injection Diesel,Midsize Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,35,Turbo Direct Injection Diesel,Large Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,36,Turbo Direct Injection Diesel,Two Seater Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,37,Turbo Direct Injection Diesel,Small Crossover Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,38,Turbo Direct Injection Diesel,Large Crossover Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,39,Turbo Direct Injection Diesel,Small Pickup,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,40,Turbo Direct Injection Diesel,Large Pickup,64.6231460571289,65.00910186767578,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,41,Turbo Direct Injection Diesel,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,42,Turbo Direct Injection Diesel,Large Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,43,Turbo Direct Injection Diesel,Small Utility,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,44,Turbo Direct Injection Diesel,Large Utility,78.14736938476562,79.85316467285156,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,45,Turbo Direct Injection Diesel,Small Crossover Trucks,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,46,Turbo Direct Injection Diesel,Large Crossover Trucks,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,49,Plug-in 20 Gasoline Hybrid 1/,Mini-compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,50,Plug-in 20 Gasoline Hybrid 1/,Subcompact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,51,Plug-in 20 Gasoline Hybrid 1/,Compact Cars,43.98380661010742,47.92474746704102,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,52,Plug-in 20 Gasoline Hybrid 1/,Midsize Cars,61.63689041137695,65.4998779296875,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,53,Plug-in 20 Gasoline Hybrid 1/,Large Cars,105.5119171142578,110.1593475341797,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,54,Plug-in 20 Gasoline Hybrid 1/,Two Seater Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,55,Plug-in 20 Gasoline Hybrid 1/,Small Crossover Cars,47.47153854370117,51.5247688293457,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,56,Plug-in 20 Gasoline Hybrid 1/,Large Crossover Cars,38.85815811157227,43.64278793334961,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,57,Plug-in 20 Gasoline Hybrid 1/,Small Pickup,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,58,Plug-in 20 Gasoline Hybrid 1/,Large Pickup,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,59,Plug-in 20 Gasoline Hybrid 1/,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,60,Plug-in 20 Gasoline Hybrid 1/,Large Van,50.92812728881836,55.14812088012695,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,61,Plug-in 20 Gasoline Hybrid 1/,Small Utility,56.83413314819336,61.25159454345703,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,62,Plug-in 20 Gasoline Hybrid 1/,Large Utility,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,63,Plug-in 20 Gasoline Hybrid 1/,Small Crossover Trucks,36.00646209716797,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,64,Plug-in 20 Gasoline Hybrid 1/,Large Crossover Trucks,62.83660507202148,63.55928039550781,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,66,Plug-in 50 Gasoline Hybrid 2/,Mini-compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,67,Plug-in 50 Gasoline Hybrid 2/,Subcompact Cars,42.20342254638672,46.42998123168945,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,68,Plug-in 50 Gasoline Hybrid 2/,Compact Cars,52.33147048950195,57.26245880126953,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,69,Plug-in 50 Gasoline Hybrid 2/,Midsize Cars,33.07080078125,37.86638641357422,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,70,Plug-in 50 Gasoline Hybrid 2/,Large Cars,117.1733169555664,122.7518615722656,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,71,Plug-in 50 Gasoline Hybrid 2/,Two Seater Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,72,Plug-in 50 Gasoline Hybrid 2/,Small Crossover Cars,38.87152099609375,42.99339294433594,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,73,Plug-in 50 Gasoline Hybrid 2/,Large Crossover Cars,68.5214614868164,73.52177429199219,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,74,Plug-in 50 Gasoline Hybrid 2/,Small Pickup,63.73642730712891,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,75,Plug-in 50 Gasoline Hybrid 2/,Large Pickup,74.01394653320312,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,76,Plug-in 50 Gasoline Hybrid 2/,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,77,Plug-in 50 Gasoline Hybrid 2/,Large Van,52.66894149780273,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,78,Plug-in 50 Gasoline Hybrid 2/,Small Utility,56.89237976074219,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,79,Plug-in 50 Gasoline Hybrid 2/,Large Utility,104.8152236938477,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,80,Plug-in 50 Gasoline Hybrid 2/,Small Crossover Trucks,42.85864639282227,47.59476852416992,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,81,Plug-in 50 Gasoline Hybrid 2/,Large Crossover Trucks,64.55867004394531,69.20535278320312,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,84,Ethanol Flex,Mini-compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,85,Ethanol Flex,Subcompact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,86,Ethanol Flex,Compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,87,Ethanol Flex,Midsize Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,88,Ethanol Flex,Large Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,89,Ethanol Flex,Two Seater Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,90,Ethanol Flex,Small Crossover Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,91,Ethanol Flex,Large Crossover Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,92,Ethanol Flex,Small Pickup,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,93,Ethanol Flex,Large Pickup,58.6746826171875,58.66129684448242,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,94,Ethanol Flex,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,95,Ethanol Flex,Large Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,96,Ethanol Flex,Small Utility,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,97,Ethanol Flex,Large Utility,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,98,Ethanol Flex,Small Crossover Trucks,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,99,Ethanol Flex,Large Crossover Trucks,41.54441070556641,41.54441070556641,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,101,100-Mile Electric Vehicle 3/,Mini-compact Cars,30.58243751525879,34.14035797119141,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,102,100-Mile Electric Vehicle 3/,Subcompact Cars,33.70113754272461,36.95013046264648,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,103,100-Mile Electric Vehicle 3/,Compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,104,100-Mile Electric Vehicle 3/,Midsize Cars,25.61833381652832,29.17778205871582,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,105,100-Mile Electric Vehicle 3/,Large Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,106,100-Mile Electric Vehicle 3/,Two Seater Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,107,100-Mile Electric Vehicle 3/,Small Crossover Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,108,100-Mile Electric Vehicle 3/,Large Crossover Cars,62.32841491699219,69.01206970214844,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,109,100-Mile Electric Vehicle 3/,Small Pickup,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,110,100-Mile Electric Vehicle 3/,Large Pickup,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,111,100-Mile Electric Vehicle 3/,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,112,100-Mile Electric Vehicle 3/,Large Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,113,100-Mile Electric Vehicle 3/,Small Utility,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,114,100-Mile Electric Vehicle 3/,Large Utility,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,115,100-Mile Electric Vehicle 3/,Small Crossover Trucks,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,116,100-Mile Electric Vehicle 3/,Large Crossover Trucks,68.85584259033203,74.8755874633789,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,119,200-Mile Electric Vehicle 4/,Mini-compact Cars,44.90273284912109,48.83560562133789,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,120,200-Mile Electric Vehicle 4/,Subcompact Cars,62.09684753417969,71.18904876708984,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,121,200-Mile Electric Vehicle 4/,Compact Cars,31.4410343170166,102.948844909668,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,122,200-Mile Electric Vehicle 4/,Midsize Cars,38.61157989501953,73.20354461669922,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,123,200-Mile Electric Vehicle 4/,Large Cars,32.68892288208008,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,124,200-Mile Electric Vehicle 4/,Two Seater Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,125,200-Mile Electric Vehicle 4/,Small Crossover Cars,33.10132598876953,47.36664199829102,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,126,200-Mile Electric Vehicle 4/,Large Crossover Cars,41.07064056396484,53.90916442871094,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,127,200-Mile Electric Vehicle 4/,Small Pickup,39.55117034912109,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,128,200-Mile Electric Vehicle 4/,Large Pickup,61.43142700195312,63.04061889648438,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,129,200-Mile Electric Vehicle 4/,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,130,200-Mile Electric Vehicle 4/,Large Van,47.94123840332031,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,131,200-Mile Electric Vehicle 4/,Small Utility,45.92380905151367,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,132,200-Mile Electric Vehicle 4/,Large Utility,90.40020751953125,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,133,200-Mile Electric Vehicle 4/,Small Crossover Trucks,34.79542541503906,35.77967834472656,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,134,200-Mile Electric Vehicle 4/,Large Crossover Trucks,46.22268676757812,58.39248275756836,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,137,300-Mile Electric Vehicle 5/,Mini-compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,138,300-Mile Electric Vehicle 5/,Subcompact Cars,50.92126846313477,60.09903717041016,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,139,300-Mile Electric Vehicle 5/,Compact Cars,36.57947158813477,73.58683776855469,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,140,300-Mile Electric Vehicle 5/,Midsize Cars,37.69621658325195,46.34345626831055,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,141,300-Mile Electric Vehicle 5/,Large Cars,65.67943572998047,96.43843078613281,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,142,300-Mile Electric Vehicle 5/,Two Seater Cars,91.68183135986328,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,143,300-Mile Electric Vehicle 5/,Small Crossover Cars,35.59662628173828,48.87420654296875,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,144,300-Mile Electric Vehicle 5/,Large Crossover Cars,43.20632934570312,50.22555160522461,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,145,300-Mile Electric Vehicle 5/,Small Pickup,42.28947067260742,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,146,300-Mile Electric Vehicle 5/,Large Pickup,70.23509979248047,85.40377807617188,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,147,300-Mile Electric Vehicle 5/,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,148,300-Mile Electric Vehicle 5/,Large Van,49.81266021728516,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,149,300-Mile Electric Vehicle 5/,Small Utility,47.79605865478516,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,150,300-Mile Electric Vehicle 5/,Large Utility,95.78640747070312,110.6445083618164,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,151,300-Mile Electric Vehicle 5/,Small Crossover Trucks,36.31872940063477,39.82285690307617,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,152,300-Mile Electric Vehicle 5/,Large Crossover Trucks,55.93738174438477,66.58587646484375,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,155,Gasoline-Electric Hybrid,Mini-compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,156,Gasoline-Electric Hybrid,Subcompact Cars,51.06772994995117,47.78910827636719,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,157,Gasoline-Electric Hybrid,Compact Cars,27.25338935852051,29.72471237182617,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,158,Gasoline-Electric Hybrid,Midsize Cars,36.35811614990234,37.99539566040039,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,159,Gasoline-Electric Hybrid,Large Cars,34.35284805297852,35.26549911499023,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,160,Gasoline-Electric Hybrid,Two Seater Cars,121.5133590698242,121.9912033081055,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,161,Gasoline-Electric Hybrid,Small Crossover Cars,34.20753479003906,36.05187225341797,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,162,Gasoline-Electric Hybrid,Large Crossover Cars,31.12591934204102,28.08409309387207,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,163,Gasoline-Electric Hybrid,Small Pickup,34.42555999755859,33.80302810668945,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,164,Gasoline-Electric Hybrid,Large Pickup,64.0378189086914,67.76896667480469,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,165,Gasoline-Electric Hybrid,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,166,Gasoline-Electric Hybrid,Large Van,46.64069366455078,47.6094970703125,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,167,Gasoline-Electric Hybrid,Small Utility,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,168,Gasoline-Electric Hybrid,Large Utility,75.37200164794922,77.48694610595703,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,169,Gasoline-Electric Hybrid,Small Crossover Trucks,37.82453918457031,38.33716583251953,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,170,Gasoline-Electric Hybrid,Large Crossover Trucks,51.2985954284668,48.74460601806641,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,173,Fuel Cell Hydrogen,Mini-compact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,174,Fuel Cell Hydrogen,Subcompact Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,175,Fuel Cell Hydrogen,Compact Cars,56.14137268066406,58.87688446044922,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,176,Fuel Cell Hydrogen,Midsize Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,177,Fuel Cell Hydrogen,Large Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,178,Fuel Cell Hydrogen,Two Seater Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,179,Fuel Cell Hydrogen,Small Crossover Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,180,Fuel Cell Hydrogen,Large Crossover Cars,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,181,Fuel Cell Hydrogen,Small Pickup,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,182,Fuel Cell Hydrogen,Large Pickup,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,183,Fuel Cell Hydrogen,Small Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,184,Fuel Cell Hydrogen,Large Van,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,185,Fuel Cell Hydrogen,Small Utility,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,186,Fuel Cell Hydrogen,Large Utility,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,187,Fuel Cell Hydrogen,Small Crossover Trucks,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx
+CounterfactualBaseline,52,188,Fuel Cell Hydrogen,Large Crossover Trucks,0.0,0.0,https://www.eia.gov/outlooks/aeo/excel/aeotab52.xlsx

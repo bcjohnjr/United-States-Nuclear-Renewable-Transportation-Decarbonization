@@ -88,7 +88,7 @@
     "supplemental_elemental_p_usd_t": 5000.0,
     "fertiliser_credit_usd_t": 0.0
   },
-  "transport_cost_bn_unchanged": 455.18432822691005,
+  "transport_cost_bn_unchanged": 526.8657331030288,
   "transport_objective_includes_community_costs": false,
   "sensitivity_process_costs": {
     "low_process_cost": {
