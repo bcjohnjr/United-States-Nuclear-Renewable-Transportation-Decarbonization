@@ -75,7 +75,7 @@ def joint():
     ax.set_title('Joint yield × delivery-cost sensitivity — matched paired optimisations',loc='left',fontweight='bold',pad=12)
     for i in range(len(ys)):
         for j in range(len(ds)):
-            v=z[i,j];ax.text(j,i,f'${v:.2f}bn',ha='center',va='center',color='white' if v>7 else '#15372e',fontsize=8.4)
+            v=z[i,j]; label=f'${v*1000:.2f}m' if 0 < abs(v) < .01 else f'${v:.2f}bn';ax.text(j,i,label,ha='center',va='center',color='white' if v>7 else '#15372e',fontsize=8.4)
     cb=fig.colorbar(im,ax=ax,fraction=.045,pad=.025);cb.set_label('Annual saving (US$ bn)')
     fig.text(.51,.045,'All 16 cells use the same 166-Mt analyst ceiling; values are not county-supply estimates.',ha='center',fontsize=7.0)
     save(fig,'ScienceFigS50_V914_Joint_HTL_Yield_Delivery.tif')

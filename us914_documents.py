@@ -115,4 +115,6 @@ def editorial():
 
 if __name__=='__main__':
  main();supplement();cover();title();editorial()
- print('Built V9.14: 4 documents, 35 figures, 1 editor-only sub-archive')
+ from us9141_finalize import apply as apply_referee_patch
+ apply_referee_patch()
+ print('Built V9.14.1 editorial revision: 4 documents, 35 figures, 1 editor-only sub-archive')

@@ -114,11 +114,11 @@ def editorial():
 def quick(verify_manifest=True):
  if verify_manifest:manifest()
  lifecycle();data();docs();editorial()
- print('V9.14 RELEASE PASS — scientific screening only; NOT author/rights/DOI-cleared',flush=True)
+ print('V9.14.1 EDITORIAL REVISION PASS — scientific screening only; NOT figure-rights/DOI-cleared',flush=True)
 
 def full():
  quick()
- # Copy instead of rebuilding the signed release in-place: protects the hashes.
+ # Copy instead of rebuilding the checksum-verified release in-place: protects the hashes.
  with tempfile.TemporaryDirectory(prefix='us914_flat_repro_') as tmp:
   root=Path(tmp)
   for src in R.iterdir():
@@ -134,6 +134,17 @@ def full():
   # Numerical CSV must be bitwise deterministic on identical machine/solver.
   for name in ('us914_paired_uncertainty.csv','US914_Paired_Uncertainty_Summary.json'):
    assert (root/name).read_bytes()==(R/name).read_bytes(),name
+  # DOCX container ZIP metadata can carry creation timestamps. Compare every
+  # OOXML part byte-for-byte instead of falsely failing on ZIP headers.
+  for name in DOCS:
+   with zipfile.ZipFile(root/name) as rebuilt, zipfile.ZipFile(R/name) as released:
+    assert rebuilt.namelist()==released.namelist(),name
+    assert all(rebuilt.read(p)==released.read(p) for p in rebuilt.namelist()),name
+  # The current regenerated TIFFs are pixel/byte deterministic under the
+  # pinned environment (old historical figures are checked separately).
+  for name in ('ScienceFig1_V914_Conditional_Cost_and_LCA.tif','ScienceFig5_V914_Uncertainty_and_Reactor.tif','ScienceFigS50_V914_Joint_HTL_Yield_Delivery.tif'):
+   assert (root/name).read_bytes()==(R/name).read_bytes(),name
+  print('PASS: exact MC outputs, all regenerated OOXML parts, three TIFFs',flush=True)
  print('PASS: fresh isolated flat-directory full reproduction; original SHA-256 files unchanged',flush=True)
  manifest()
 
