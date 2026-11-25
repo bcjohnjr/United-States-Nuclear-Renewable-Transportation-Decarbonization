@@ -87,7 +87,7 @@
       "vegetables_mt": 8.000000000000002,
       "grain_dried_mt": 60.0,
       "hemp_seed_mt": 3.6,
-      "legacy_combined_calorie_equivalent_m": 14.470734744707348,
+      "legacy_combined_calorie_equivalent_m": 14.470734744707347,
       "gross_primary_food_calorie_equivalent_m": 3.486924034869241,
       "edible_primary_food_calorie_equivalent_m": 2.590286425902865,
       "nutrient_limit_changes_food_production": false
@@ -172,7 +172,7 @@
       "vegetables_mt": 8.000000000000002,
       "grain_dried_mt": 60.0,
       "hemp_seed_mt": 3.6,
-      "legacy_combined_calorie_equivalent_m": 14.470734744707348,
+      "legacy_combined_calorie_equivalent_m": 14.470734744707347,
       "gross_primary_food_calorie_equivalent_m": 3.486924034869241,
       "edible_primary_food_calorie_equivalent_m": 2.590286425902865,
       "nutrient_limit_changes_food_production": false
@@ -254,12 +254,12 @@
         "asparagopsis_n_fraction": 0.036,
         "asparagopsis_p_fraction": 0.0027
       },
-      "vegetables_mt": 7.501343574686603,
+      "vegetables_mt": 8.000000000000002,
       "grain_dried_mt": 60.0,
       "hemp_seed_mt": 3.6,
-      "legacy_combined_calorie_equivalent_m": 14.346536382238257,
-      "gross_primary_food_calorie_equivalent_m": 3.36272567240015,
-      "edible_primary_food_calorie_equivalent_m": 2.4847178178041376,
+      "legacy_combined_calorie_equivalent_m": 14.470734744707347,
+      "gross_primary_food_calorie_equivalent_m": 3.486924034869241,
+      "edible_primary_food_calorie_equivalent_m": 2.590286425902865,
       "nutrient_limit_changes_food_production": false
     },
     "post_gas_least_cost": {
@@ -342,7 +342,7 @@
       "vegetables_mt": 8.000000000000002,
       "grain_dried_mt": 60.0,
       "hemp_seed_mt": 3.6,
-      "legacy_combined_calorie_equivalent_m": 14.470734744707348,
+      "legacy_combined_calorie_equivalent_m": 14.470734744707347,
       "gross_primary_food_calorie_equivalent_m": 3.486924034869241,
       "edible_primary_food_calorie_equivalent_m": 2.590286425902865,
       "nutrient_limit_changes_food_production": false
@@ -427,7 +427,7 @@
       "vegetables_mt": 8.000000000000002,
       "grain_dried_mt": 60.0,
       "hemp_seed_mt": 3.6,
-      "legacy_combined_calorie_equivalent_m": 14.470734744707348,
+      "legacy_combined_calorie_equivalent_m": 14.470734744707347,
       "gross_primary_food_calorie_equivalent_m": 3.486924034869241,
       "edible_primary_food_calorie_equivalent_m": 2.590286425902865,
       "nutrient_limit_changes_food_production": false

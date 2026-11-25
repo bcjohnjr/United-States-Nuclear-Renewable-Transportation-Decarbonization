@@ -1,0 +1,178 @@
+{
+  "version": "9.8",
+  "input_status": "UNVERIFIED REGION: all field/processing stream caps remain analyst assumptions",
+  "cases": [
+    {
+      "case": "V9.7 166Mt analyst reference",
+      "annual_cost_bn": 651.1758204284707,
+      "emissions_legacy_mt": 224.95212363505274,
+      "hubs": 166.3585033713872,
+      "reactor_modules": 665.4340134855488,
+      "crop_mt": 166.0,
+      "n_import_kt": 568.2,
+      "p_import_kt": 53.57500000000002,
+      "k_import_kt": 315.0,
+      "cover_crop_c_mt": 0.0,
+      "residual_bn": 0.0
+    },
+    {
+      "case": "Joint conservative: half NPK, no char/pyro soil C",
+      "annual_cost_bn": 654.3626196931767,
+      "emissions_legacy_mt": 224.95212363505274,
+      "hubs": 166.3585033713872,
+      "reactor_modules": 665.4340134855488,
+      "crop_mt": 166.0,
+      "n_import_kt": 852.3000000000001,
+      "p_import_kt": 133.9375,
+      "k_import_kt": 945.0,
+      "cover_crop_c_mt": 8.584999999999999,
+      "residual_bn": 1.1368683772161603e-13
+    },
+    {
+      "case": "Joint + primary BT23-type only, half availability",
+      "annual_cost_bn": 658.6378935340771,
+      "emissions_legacy_mt": 246.22135771339822,
+      "hubs": 134.91895596952492,
+      "reactor_modules": 539.6758238780997,
+      "crop_mt": 83.0,
+      "n_import_kt": 395.25,
+      "p_import_kt": 59.375,
+      "k_import_kt": 540.3,
+      "cover_crop_c_mt": 5.5775,
+      "residual_bn": 1.1368683772161603e-13
+    },
+    {
+      "case": "Joint + primary BT23-type only, quarter availability",
+      "annual_cost_bn": 659.9260132062317,
+      "emissions_legacy_mt": 256.94257749290665,
+      "hubs": 136.39368572452642,
+      "reactor_modules": 545.5747428981057,
+      "crop_mt": 41.5,
+      "n_import_kt": 197.625,
+      "p_import_kt": 29.6875,
+      "k_import_kt": 270.15,
+      "cover_crop_c_mt": 2.78875,
+      "residual_bn": 1.1368683772161603e-13
+    }
+  ],
+  "fixed_hub_cases": [
+    {
+      "case": "0 hubs fixed",
+      "annual_cost_bn": 719.1009229065852,
+      "emissions_legacy_mt": 192.76927204450948,
+      "hubs": 0.0,
+      "reactor_modules": 0.0,
+      "crop_mt": 166.0,
+      "n_import_kt": 568.2,
+      "p_import_kt": 53.57500000000002,
+      "k_import_kt": 315.0,
+      "cover_crop_c_mt": 2.1983,
+      "residual_bn": -1.1368683772161603e-13
+    },
+    {
+      "case": "30 hubs fixed",
+      "annual_cost_bn": 666.8703005227092,
+      "emissions_legacy_mt": 224.95212363505277,
+      "hubs": 30.0,
+      "reactor_modules": 120.0,
+      "crop_mt": 166.0,
+      "n_import_kt": 568.2,
+      "p_import_kt": 53.57500000000002,
+      "k_import_kt": 315.0,
+      "cover_crop_c_mt": 0.0,
+      "residual_bn": 1.1368683772161603e-13
+    },
+    {
+      "case": "60 hubs fixed",
+      "annual_cost_bn": 662.9615736315862,
+      "emissions_legacy_mt": 224.95212363505277,
+      "hubs": 60.0,
+      "reactor_modules": 240.0,
+      "crop_mt": 166.0,
+      "n_import_kt": 568.2,
+      "p_import_kt": 53.57500000000002,
+      "k_import_kt": 315.0,
+      "cover_crop_c_mt": 0.0,
+      "residual_bn": 1.1368683772161603e-13
+    },
+    {
+      "case": "100 hubs fixed",
+      "annual_cost_bn": 657.3979109249301,
+      "emissions_legacy_mt": 224.95212363505277,
+      "hubs": 100.0,
+      "reactor_modules": 400.0,
+      "crop_mt": 166.0,
+      "n_import_kt": 568.2,
+      "p_import_kt": 53.57500000000002,
+      "k_import_kt": 315.0,
+      "cover_crop_c_mt": 0.0,
+      "residual_bn": 2.2737367544323206e-13
+    },
+    {
+      "case": "150 hubs fixed",
+      "annual_cost_bn": 652.0072471178817,
+      "emissions_legacy_mt": 224.95212363505277,
+      "hubs": 150.0,
+      "reactor_modules": 600.0,
+      "crop_mt": 166.0,
+      "n_import_kt": 568.2,
+      "p_import_kt": 53.57500000000002,
+      "k_import_kt": 315.0,
+      "cover_crop_c_mt": 0.0,
+      "residual_bn": 0.0
+    },
+    {
+      "case": "166 hubs fixed",
+      "annual_cost_bn": 651.1925142145949,
+      "emissions_legacy_mt": 224.95212363505277,
+      "hubs": 166.0,
+      "reactor_modules": 664.0,
+      "crop_mt": 166.0,
+      "n_import_kt": 568.2,
+      "p_import_kt": 53.57500000000002,
+      "k_import_kt": 315.0,
+      "cover_crop_c_mt": 0.0,
+      "residual_bn": 1.1368683772161603e-13
+    },
+    {
+      "case": "250 hubs fixed",
+      "annual_cost_bn": 649.7781090864871,
+      "emissions_legacy_mt": 224.95212363505277,
+      "hubs": 250.0,
+      "reactor_modules": 1000.0,
+      "crop_mt": 166.0,
+      "n_import_kt": 568.2,
+      "p_import_kt": 53.57500000000002,
+      "k_import_kt": 315.0,
+      "cover_crop_c_mt": 0.0,
+      "residual_bn": 0.0
+    },
+    {
+      "case": "945 hubs fixed",
+      "annual_cost_bn": 644.4864755241412,
+      "emissions_legacy_mt": 224.95212363505274,
+      "hubs": 945.0,
+      "reactor_modules": 3780.0,
+      "crop_mt": 166.0,
+      "n_import_kt": 568.2,
+      "p_import_kt": 53.57500000000002,
+      "k_import_kt": 315.0,
+      "cover_crop_c_mt": 0.0,
+      "residual_bn": -1.1368683772161603e-13
+    }
+  ],
+  "primary_types": [
+    "Barley, oat and rye straw",
+    "Corn stalks and leaves (excluding cobs/husks)",
+    "Cotton stalks",
+    "Grain sorghum stalks and leaves",
+    "Rice straw",
+    "Wheat straw and chaff"
+  ],
+  "regional_input": "NOT DOWNLOADED / NOT COUNTRY-LEVEL VALIDATED",
+  "notes": [
+    "Model learning is non-convex: fixed-hub screens are not certified global optimum",
+    "Alternative total emissions omit explicit new crop-cycle LCA; see us98_agri_lca.py",
+    "No directly placed raw wastewater in soil"
+  ]
+}

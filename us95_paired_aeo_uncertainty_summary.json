@@ -1,0 +1,9 @@
+{
+  "draws": 1000,
+  "seed": 9526,
+  "median_alt_minus_reference_bn": 178.91962153371423,
+  "p05_delta_bn": 59.052975304578126,
+  "p95_delta_bn": 315.12488765655104,
+  "fraction_negative_cost_gap_in_assumed_draws": 0.004,
+  "qualification": "Illustrative uncertainty only; incomplete scope and tax/embodied-emissions reconciliation, distributions not calibrated to predictive forecasts. CANNOT infer probability of cost advantage."
+}

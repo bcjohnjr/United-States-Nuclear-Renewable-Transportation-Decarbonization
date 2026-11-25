@@ -1,42 +1,42 @@
 {
  "low": {
   "case": "low",
-  "n_units": 371,
+  "n_units": 483,
   "foak_kwe": 5200.0,
   "unit10_kwe": 3030.6660920993495,
   "unit100_kwe": 1766.3340311155278,
-  "last_kwe": 1298.8961760169466,
-  "fleet_avg_kwe": 1696.7174673493878,
-  "fleet_avg_kwe_with_idc": 1900.3235634313146,
-  "fleet_avg_kwt_with_idc": 760.1294253725259,
+  "last_kwe": 1220.9868844292691,
+  "fleet_avg_kwe": 1594.946395614472,
+  "fleet_avg_kwe_with_idc": 1786.3399630882088,
+  "fleet_avg_kwt_with_idc": 714.5359852352835,
   "learning": 0.15,
-  "fleet_capex_bn": 56.40160336264142
+  "fleet_capex_bn": 69.02417617372839
  },
  "central": {
   "case": "central",
-  "n_units": 371,
+  "n_units": 483,
   "foak_kwe": 9600.0,
   "unit10_kwe": 6765.005275318522,
   "unit100_kwe": 4767.21837240494,
-  "last_kwe": 3905.8759905971897,
-  "fleet_avg_kwe": 4606.002640345823,
-  "fleet_avg_kwe_with_idc": 5296.903036397696,
-  "fleet_avg_kwt_with_idc": 2118.761214559079,
+  "last_kwe": 3752.346769983196,
+  "fleet_avg_kwe": 4424.953370676058,
+  "fleet_avg_kwe_with_idc": 5088.696376277466,
+  "fleet_avg_kwt_with_idc": 2035.4785505109865,
   "learning": 0.1,
-  "fleet_capex_bn": 157.2120821202836
+  "fleet_capex_bn": 196.62722797936127
  },
  "high": {
   "case": "high",
-  "n_units": 371,
+  "n_units": 483,
   "foak_kwe": 14700.0,
   "unit10_kwe": 12397.004341719608,
   "unit100_kwe": 10454.810656368356,
-  "last_kwe": 9488.163754401856,
-  "fleet_avg_kwe": 10246.403576792063,
-  "fleet_avg_kwe_with_idc": 12295.684292150476,
-  "fleet_avg_kwt_with_idc": 4918.273716860191,
+  "last_kwe": 9304.728093150834,
+  "fleet_avg_kwe": 10048.308785828773,
+  "fleet_avg_kwe_with_idc": 12057.970542994526,
+  "fleet_avg_kwt_with_idc": 4823.18821719781,
   "learning": 0.05,
-  "fleet_capex_bn": 364.9359097910261
+  "fleet_capex_bn": 465.91998178130854
  },
  "anchors": {
   "Darlington BWRX-300, 4 x 300 MWe, all-in incl. interest": {

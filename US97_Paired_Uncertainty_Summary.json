@@ -1,0 +1,19 @@
+{
+  "n": 500,
+  "seed": 971,
+  "abt_usd_t_p05": 32.28630021906576,
+  "abt_usd_t_median": 120.63730482356573,
+  "abt_usd_t_p95": 206.59846566320527,
+  "fraction_alt_cheaper_in_assumption_draws": 0.004,
+  "crop_selected_mt_median": 123.55070464005959,
+  "parameter_spearman_against_abatement": {
+    "bev_premium_usd_yr": 0.344,
+    "oil_mult": -0.873,
+    "power_mult": -0.214,
+    "reactor_mult": 0.249,
+    "crop_collection_mult": 0.11,
+    "npk_recovery_scale": 0.065,
+    "reference_h2_kgco2_kg": -0.024
+  },
+  "warning": "Conditional Monte Carlo with assumed ranges, NOT calibrated chances or a full harmonized TCO/LCA. Do not interpret fraction as predictive probability."
+}

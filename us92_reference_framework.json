@@ -1,0 +1,93 @@
+{
+  "EIA_AEO_2026_official_tables": "Tables 7, 12, 35-37, 39-45, 47-49, 51-52; use Counterfactual Baseline, 2050",
+  "status": "Official series source identified; 2050 table values not retrieved in this environment; no fully matched ownership-cost reference is claimed",
+  "AEO_narrative_verified": "2050 EV stock ~40%-46% in most cases with 2027+ policies; reference differs fundamentally from fixed historical-efficiency petroleum use",
+  "EPA_tailpipe_factor_kg_co2_per_gallon": 8.887,
+  "gasoline_tailpipe_2050_screen_mt": 1212.515619,
+  "cost_boundary": "2026 USD, transport only, zero building hydrogen blend",
+  "alternative_cost_bn": 526.8657331030288,
+  "alternative_wtw_emissions_mt": 189.07171311474508,
+  "model_reference_2025_wtw_mt": 2873.0,
+  "fuel_only_sensitivity_not_full_AEO": [
+    {
+      "gasoline_cut_pct": 0.0,
+      "fuel_only_reference_bn": 592.77,
+      "alternative_bn": 526.866,
+      "reference_emissions_mt_adjusted_tailpipe_only": 2873.0,
+      "avoided_mt_fixed_denominator": 2683.928,
+      "abatement_usd_t_fixed_denominator": -24.56,
+      "abatement_usd_t_adjusted_tailpipe": -24.56,
+      "full_2050_fleet_costs_included": false
+    },
+    {
+      "gasoline_cut_pct": 5.0,
+      "fuel_only_reference_bn": 575.852,
+      "alternative_bn": 526.866,
+      "reference_emissions_mt_adjusted_tailpipe_only": 2812.374,
+      "avoided_mt_fixed_denominator": 2683.928,
+      "abatement_usd_t_fixed_denominator": -18.25,
+      "abatement_usd_t_adjusted_tailpipe": -18.67,
+      "full_2050_fleet_costs_included": false
+    },
+    {
+      "gasoline_cut_pct": 10.0,
+      "fuel_only_reference_bn": 558.934,
+      "alternative_bn": 526.866,
+      "reference_emissions_mt_adjusted_tailpipe_only": 2751.748,
+      "avoided_mt_fixed_denominator": 2683.928,
+      "abatement_usd_t_fixed_denominator": -11.95,
+      "abatement_usd_t_adjusted_tailpipe": -12.51,
+      "full_2050_fleet_costs_included": false
+    },
+    {
+      "gasoline_cut_pct": 15.0,
+      "fuel_only_reference_bn": 542.016,
+      "alternative_bn": 526.866,
+      "reference_emissions_mt_adjusted_tailpipe_only": 2691.123,
+      "avoided_mt_fixed_denominator": 2683.928,
+      "abatement_usd_t_fixed_denominator": -5.64,
+      "abatement_usd_t_adjusted_tailpipe": -6.06,
+      "full_2050_fleet_costs_included": false
+    },
+    {
+      "gasoline_cut_pct": 20.0,
+      "fuel_only_reference_bn": 525.098,
+      "alternative_bn": 526.866,
+      "reference_emissions_mt_adjusted_tailpipe_only": 2630.497,
+      "avoided_mt_fixed_denominator": 2683.928,
+      "abatement_usd_t_fixed_denominator": 0.66,
+      "abatement_usd_t_adjusted_tailpipe": 0.72,
+      "full_2050_fleet_costs_included": false
+    },
+    {
+      "gasoline_cut_pct": 25.0,
+      "fuel_only_reference_bn": 508.179,
+      "alternative_bn": 526.866,
+      "reference_emissions_mt_adjusted_tailpipe_only": 2569.871,
+      "avoided_mt_fixed_denominator": 2683.928,
+      "abatement_usd_t_fixed_denominator": 6.96,
+      "abatement_usd_t_adjusted_tailpipe": 7.85,
+      "full_2050_fleet_costs_included": false
+    },
+    {
+      "gasoline_cut_pct": 30.0,
+      "fuel_only_reference_bn": 491.261,
+      "alternative_bn": 526.866,
+      "reference_emissions_mt_adjusted_tailpipe_only": 2509.245,
+      "avoided_mt_fixed_denominator": 2683.928,
+      "abatement_usd_t_fixed_denominator": 13.27,
+      "abatement_usd_t_adjusted_tailpipe": 15.35,
+      "full_2050_fleet_costs_included": false
+    },
+    {
+      "gasoline_cut_pct": 35.0,
+      "fuel_only_reference_bn": 474.343,
+      "alternative_bn": 526.866,
+      "reference_emissions_mt_adjusted_tailpipe_only": 2448.62,
+      "avoided_mt_fixed_denominator": 2683.928,
+      "abatement_usd_t_fixed_denominator": 19.57,
+      "abatement_usd_t_adjusted_tailpipe": 23.24,
+      "full_2050_fleet_costs_included": false
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "case": "AEO2026 Counterfactual Baseline",
+    "source_file_count": 38,
+    "sha256_all_passed": true,
+    "source_archive_sha256": "d1ecb15998c54f7b103d65770b1d10bd10dd9313186acd066ce1e0982f94bcc3"
+  },
+  "aeo_2050": {
+    "ldv_2025_vmt_bn": 2843.056640625,
+    "ldv_2050_vmt_bn": 3180.412353515625,
+    "hdv_2025_vmt_bn": 341.1739501953125,
+    "hdv_2050_vmt_bn": 412.3597717285156,
+    "rail_2025_ton_miles_bn": 1584.425659179688,
+    "rail_2050_ton_miles_bn": 1448.70751953125,
+    "ship_dom_2025_ton_miles_bn": 482.0527038574219,
+    "ship_dom_2050_ton_miles_bn": 435.3733520507812,
+    "air_2025_seat_miles_bn": 1422.048828125,
+    "air_2050_seat_miles_bn": 2174.072021484375,
+    "air_2025_jet_trillion_btu": 3230.09423828125,
+    "air_2050_jet_trillion_btu": 4013.63134765625,
+    "pipeline_2025_fuel_trillion_btu": 734.8402099609375,
+    "pipeline_2050_fuel_trillion_btu": 1005.809875488281,
+    "ldv_2050_stock_m": 334.77020263671875,
+    "ldv_2050_bev_m": 154.43543095886707,
+    "freight_2050_fleet_m": 22.55720138549805,
+    "eia_energy_exp_2050_bn_2025_usd": 411.4641015082598,
+    "eia_transport_direct_co2_2050_mt": 1334.25,
+    "gasoline_price_2050_2025usd_gal": 2.413465976715088,
+    "diesel_price_2050_2025usd_gal": 4.070680618286133
+  },
+  "scaling_factors": {
+    "ldv_vmt": 1.1186595117628269,
+    "hdv_vmt": 1.2086496389670174,
+    "rail_ton_miles": 0.9143423745619571,
+    "domestic_shipping_ton_miles": 0.9031654600563196,
+    "air_jet_energy": 1.242574071087141,
+    "air_seat_miles": 1.528830781676416,
+    "pipeline_fuel": 1.3687463775856084
+  },
+  "absolute_drive_reference": {
+    "ldv_base_kwh_per_mile": 1.6910698682906657,
+    "hdv_base_kwh_per_mile": 5.428524461448302,
+    "bev_ldv_kwh_per_mile": 0.33,
+    "fcev_ldv_kwh_per_mile": 0.55,
+    "bev_hdv_kwh_per_mile": 2.4,
+    "fcev_hdv_kwh_per_mile": 4.44
+  },
+  "cases": [
+    {
+      "scenario": "EIA 2050 mode activity; jet-fuel-energy scaling; domestic shipping; physical drive intensities",
+      "annual_alternative_model_cost_bn_2026usd": 601.767752,
+      "alternative_model_wtw_mtco2e": 216.288932,
+      "reactor_hubs": 184.08080701962078,
+      "ldv_stock_m": 334.77020263671875,
+      "ref_2050_existing_bev_stock_m": 154.43543095886707,
+      "additional_bevs_vs_aeo_m": 163.59626154601574,
+      "existing_aeo_bev_premium_included_in_model_bn": 15.4435,
+      "alt_cost_if_current_bev_premium_is_reference_credited_bn": 586.324208,
+      "transport_electricity_twh": 1981.458252,
+      "transport_liquids_twh": 1821.803046,
+      "jet_activity_factor": 1.242574071087141,
+      "marine_activity_factor": 0.9031654600563196,
+      "relative_drive_ratios_reanchored_to_2025_AEO_VMT": true
+    },
+    {
+      "scenario": "EIA 2050 mode activity; available-seat-mile scaling; domestic shipping; physical drive intensities",
+      "annual_alternative_model_cost_bn_2026usd": 666.788396,
+      "alternative_model_wtw_mtco2e": 274.161587,
+      "reactor_hubs": 137.4824328593352,
+      "ldv_stock_m": 334.77020263671875,
+      "ref_2050_existing_bev_stock_m": 154.43543095886707,
+      "additional_bevs_vs_aeo_m": 163.59626154601574,
+      "existing_aeo_bev_premium_included_in_model_bn": 15.4435,
+      "alt_cost_if_current_bev_premium_is_reference_credited_bn": 651.344853,
+      "transport_electricity_twh": 1981.458252,
+      "transport_liquids_twh": 2108.105726,
+      "jet_activity_factor": 1.528830781676416,
+      "marine_activity_factor": 0.9031654600563196,
+      "relative_drive_ratios_reanchored_to_2025_AEO_VMT": true
+    },
+    {
+      "scenario": "Same activity; original energy ratios (diagnostic)",
+      "annual_alternative_model_cost_bn_2026usd": 620.512898,
+      "alternative_model_wtw_mtco2e": 217.325372,
+      "reactor_hubs": 184.08080701962078,
+      "ldv_stock_m": 334.77020263671875,
+      "ref_2050_existing_bev_stock_m": 154.43543095886707,
+      "additional_bevs_vs_aeo_m": 163.59626154601574,
+      "existing_aeo_bev_premium_included_in_model_bn": 15.4435,
+      "alt_cost_if_current_bev_premium_is_reference_credited_bn": 605.069355,
+      "transport_electricity_twh": 2109.96955,
+      "transport_liquids_twh": 1821.803046,
+      "jet_activity_factor": 1.242574071087141,
+      "marine_activity_factor": 0.9031654600563196,
+      "relative_drive_ratios_reanchored_to_2025_AEO_VMT": false
+    }
+  ],
+  "matched_cost_or_abatement_cost_established": false,
+  "reasons_not_a_matched_cost_comparison": [
+    "EIA 2050 reference expenditure is energy only in 2025 dollars and tax inclusive; the alternative includes modeled infrastructure and annual net vehicle premiums in 2026 dollars.",
+    "The AEO counterfactual baseline already contains about 154 million EVs; the alternative assumes a 95% BEV mix. Existing fleet ownership and turnover costs are not matched.",
+    "The user model also covers farm, construction/mining machinery, industrial trucks and includes different international shipping/aviation boundaries.",
+    "AEO direct CO2 is not equal to modeled well-to-wheel CO2e; no valid comparable cost per tonne is calculated.",
+    "AEO technology-specific VMT and joint stock-by-size-class plus depreciation/maintenance assumptions are not uniquely available from tables alone.",
+    "Results are exploratory screening diagnostics, and aviation service proxies do not prove operational feasibility."
+  ]
+}

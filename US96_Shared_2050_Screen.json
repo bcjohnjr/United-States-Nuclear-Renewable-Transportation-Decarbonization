@@ -1,0 +1,150 @@
+{
+  "version": "9.6",
+  "status": "conditional shared-parameter 2050 screening, NOT fully matched TCO/LCA",
+  "sources": [
+    "AEO2026 Counterfactual Baseline original XLSX Tables 3,36,39,49,52,70, all 38 archived workbooks verified"
+  ],
+  "technology_names": {
+    "ice": "Gasoline",
+    "bev200": "200-Mile Electric Vehicle 4/",
+    "bev300": "300-Mile Electric Vehicle 5/",
+    "hev": "Gasoline-Electric Hybrid",
+    "phev": "Plug-in 50 Gasoline Hybrid 2/"
+  },
+  "class_weights_assumed": {
+    "Compact Cars": 0.25,
+    "Midsize Cars": 0.25,
+    "Small Crossover Cars": 0.3,
+    "Large Pickup": 0.2
+  },
+  "vehicle_prices_2025usd_thousands": {
+    "ice": 36.32725477218628,
+    "bev200": 39.729836750030515,
+    "bev300": 43.29492988586426,
+    "hev": 38.97270059585571,
+    "phev": 47.814813423156735
+  },
+  "tax_screen": {
+    "gasoline_2050_bgal": 65.02445966878292,
+    "diesel_onroad_2050_bgal": 25.265053964027548,
+    "illustrative_tax_bn": 52.72827546890335,
+    "tax_rate_usd_per_gal": {
+      "gasoline": 0.57,
+      "diesel": 0.62
+    },
+    "table36_source_rows": {
+      "gasoline": [
+        13,
+        22,
+        31,
+        67,
+        83
+      ],
+      "diesel_onroad": [
+        15,
+        23,
+        32,
+        69,
+        77,
+        85
+      ]
+    }
+  },
+  "reference_2050_stock": {
+    "ldv": 334.77020263671875,
+    "bev": 154.43543095886707,
+    "phev": 22.75508689880371,
+    "hev": 54.06241989135742,
+    "medheavy": 12.562508583068848
+  },
+  "results": [
+    {
+      "case": "low_cost_200mi_BEVi",
+      "eia_energy_2025usd_bn": 411.4641015082598,
+      "price_factor_assumed": 1.0,
+      "reference_energy_2026usd_bn": 411.4641015082598,
+      "tax_screen_bn": 52.72827546890335,
+      "fraction_tax_removed": 0,
+      "tax_removed_bn": 0.0,
+      "mean_ice_price_2025usd_thousand": 36.32725477218628,
+      "mean_bev_new_price_2025usd_thousand": 39.729836750030515,
+      "bev_cost_net_usd_yr_2026usd": -160.96766789754247,
+      "reference_ldv_net_premium_bn": -11.801500284162621,
+      "reference_truck_net_premium_bn": 10.512136369943619,
+      "reference_charging_bn": 30.887086191773413,
+      "reference_coverage_add_bn": 34,
+      "reference_screen_bn": 475.06182378581417,
+      "alt_screen_bn": 553.8905493470234,
+      "incremental_alt_minus_reference_bn": 78.82872556120918,
+      "reference_partial_wtw_mt": 1436.2367506493308,
+      "alt_model_wtw_mt": 216.28893239465856,
+      "avoided_mt": 1219.9478182546723,
+      "cost_per_tonne_avoided_usd": 64.61647324718045,
+      "hubs_iterative": 184.08080701962078,
+      "alternative_truck_stock_m": 12.185633325576783,
+      "assumption_status": "ILLUSTRATIVE: EIA powertrain price samples + analyst class shares, lifetime, maintenance, tax, scope, LCA; NOT matched full TCO/LCA"
+    },
+    {
+      "case": "central_80pct_300mi",
+      "eia_energy_2025usd_bn": 411.4641015082598,
+      "price_factor_assumed": 1.025,
+      "reference_energy_2026usd_bn": 421.75070404596624,
+      "tax_screen_bn": 52.72827546890335,
+      "fraction_tax_removed": 0.5,
+      "tax_removed_bn": 26.364137734451674,
+      "mean_ice_price_2025usd_thousand": 36.32725477218628,
+      "mean_bev_new_price_2025usd_thousand": 42.58191125869751,
+      "bev_cost_net_usd_yr_2026usd": 171.1515265782674,
+      "reference_ldv_net_premium_bn": 47.17762884173459,
+      "reference_truck_net_premium_bn": 10.512136369943619,
+      "reference_charging_bn": 15.443543095886707,
+      "reference_coverage_add_bn": 16,
+      "reference_screen_bn": 484.5198746190795,
+      "alt_screen_bn": 659.5149788795235,
+      "incremental_alt_minus_reference_bn": 174.995104260444,
+      "reference_partial_wtw_mt": 1563.3914390913237,
+      "alt_model_wtw_mt": 216.28893239465856,
+      "avoided_mt": 1347.1025066966652,
+      "cost_per_tonne_avoided_usd": 129.9048167385295,
+      "hubs_iterative": 184.08080701962078,
+      "alternative_truck_stock_m": 12.185633325576783,
+      "assumption_status": "ILLUSTRATIVE: EIA powertrain price samples + analyst class shares, lifetime, maintenance, tax, scope, LCA; NOT matched full TCO/LCA"
+    },
+    {
+      "case": "high_cost_300mi_BEVi",
+      "eia_energy_2025usd_bn": 411.4641015082598,
+      "price_factor_assumed": 1.05,
+      "reference_energy_2026usd_bn": 432.0373065836728,
+      "tax_screen_bn": 52.72827546890335,
+      "fraction_tax_removed": 1.0,
+      "tax_removed_bn": 52.72827546890335,
+      "mean_ice_price_2025usd_thousand": 36.32725477218628,
+      "mean_bev_new_price_2025usd_thousand": 43.29492988586426,
+      "bev_cost_net_usd_yr_2026usd": 504.6715724468236,
+      "reference_ldv_net_premium_bn": 110.50284325821268,
+      "reference_truck_net_premium_bn": 10.512136369943619,
+      "reference_charging_bn": 0.0,
+      "reference_coverage_add_bn": 0,
+      "reference_screen_bn": 500.32401074292574,
+      "alt_screen_bn": 765.5849235514065,
+      "incremental_alt_minus_reference_bn": 265.2609128084808,
+      "reference_partial_wtw_mt": 1698.9354401308703,
+      "alt_model_wtw_mt": 216.28893239465856,
+      "avoided_mt": 1482.6465077362118,
+      "cost_per_tonne_avoided_usd": 178.91042229175454,
+      "hubs_iterative": 184.08080701962078,
+      "alternative_truck_stock_m": 12.185633325576783,
+      "assumption_status": "ILLUSTRATIVE: EIA powertrain price samples + analyst class shares, lifetime, maintenance, tax, scope, LCA; NOT matched full TCO/LCA"
+    }
+  ],
+  "limitations": [
+    "AEO Table 3 expenditure covers a different mode and tax boundary; offroad scope and charging are assumed.",
+    "Selected four vehicle classes and weights are NOT a national 2050 sales-weighted fleet price; Table52 new prices are not lifetime cash flows.",
+    "Alternative model already includes net powertrain premia; they are rebased using the identical BEV price formula to the AEO reference.",
+    "Reference net hybrid and fuel cell premiums and maintenance are only partial ownership differences.",
+    "AEO direct transport CO2 + assumed upstream and electricity increments is not a full ISO LCA and not harmonized to alternative embodied vehicle/site emissions.",
+    "EIA 2050 aviation service differs between energy and seat-mile growth, and all three cases use the jet-energy proxy.",
+    "The model does not include hourly system feasibility, certified biomass soil safeguards, or a feasible nuclear construction programme.",
+    "The reference cost ranges are ANALYST CONDITIONAL sensitivities, NOT official EIA 2050 full-cost estimates or probabilities."
+  ]
+}

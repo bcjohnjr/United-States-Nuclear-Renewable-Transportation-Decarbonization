@@ -1,0 +1,82 @@
+{
+  "version": "9.12",
+  "results": [
+    {
+      "htl_liquid_mwh_per_dry_metric_t": 1.2,
+      "crop_annual_bn": 668.3604702030519,
+      "no_crop_annual_bn": 668.3604702030519,
+      "crop_saving_bn": 0.0,
+      "crop_selected_mt": 0.0,
+      "crop_liquid_twh": 0.0,
+      "crop_n_external_kt": 0.0,
+      "crop_p_external_kt": 0.0,
+      "crop_k_external_kt": 0.0,
+      "boundary": "system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance"
+    },
+    {
+      "htl_liquid_mwh_per_dry_metric_t": 1.6,
+      "crop_annual_bn": 668.3604702030519,
+      "no_crop_annual_bn": 668.3604702030519,
+      "crop_saving_bn": 0.0,
+      "crop_selected_mt": 0.0,
+      "crop_liquid_twh": 0.0,
+      "crop_n_external_kt": 0.0,
+      "crop_p_external_kt": 0.0,
+      "crop_k_external_kt": 0.0,
+      "boundary": "system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance"
+    },
+    {
+      "htl_liquid_mwh_per_dry_metric_t": 2.0,
+      "crop_annual_bn": 668.3604702030519,
+      "no_crop_annual_bn": 668.3604702030519,
+      "crop_saving_bn": 0.0,
+      "crop_selected_mt": 0.0,
+      "crop_liquid_twh": 0.0,
+      "crop_n_external_kt": 0.0,
+      "crop_p_external_kt": 0.0,
+      "crop_k_external_kt": 0.0,
+      "boundary": "system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance"
+    },
+    {
+      "htl_liquid_mwh_per_dry_metric_t": 2.3,
+      "crop_annual_bn": 664.4913112044777,
+      "no_crop_annual_bn": 666.065472864224,
+      "crop_saving_bn": 1.5741616597463235,
+      "crop_selected_mt": 98.5843649727814,
+      "crop_liquid_twh": 226.7440394373972,
+      "crop_n_external_kt": 596.229877136144,
+      "crop_p_external_kt": 108.90796278503787,
+      "crop_k_external_kt": 590.8910422022132,
+      "boundary": "system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance"
+    },
+    {
+      "htl_liquid_mwh_per_dry_metric_t": 2.6,
+      "crop_annual_bn": 654.7633815744267,
+      "no_crop_annual_bn": 661.5452670833906,
+      "crop_saving_bn": 6.78188550896391,
+      "crop_selected_mt": 166.0,
+      "crop_liquid_twh": 431.6,
+      "crop_n_external_kt": 977.3040000000001,
+      "crop_p_external_kt": 176.73053125,
+      "crop_k_external_kt": 1093.05,
+      "boundary": "system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance"
+    },
+    {
+      "htl_liquid_mwh_per_dry_metric_t": 3.0,
+      "crop_annual_bn": 643.2534862459011,
+      "no_crop_annual_bn": 655.9524993385683,
+      "crop_saving_bn": 12.699013092667201,
+      "crop_selected_mt": 166.0,
+      "crop_liquid_twh": 498.0,
+      "crop_n_external_kt": 977.3040000000001,
+      "crop_p_external_kt": 176.73053125,
+      "crop_k_external_kt": 1093.05,
+      "boundary": "system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance"
+    }
+  ],
+  "limitations": [
+    "The inherited LP assigns a single common terrestrial HTL yield; distinct corn/wheat/rice/food-waste biocrude chemistry is NOT modelled or claimed",
+    "Physical conversion and hydrogen requirements are screening assumptions; energy balance reoptimised for each yield",
+    "The baseline 2.6 MWh per dry metric tonne is not supported by universal crop-specific HTL trials"
+  ]
+}

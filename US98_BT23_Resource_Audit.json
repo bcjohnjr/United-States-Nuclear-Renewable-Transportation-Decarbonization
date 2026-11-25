@@ -1,0 +1,9 @@
+{
+  "source": "DOE BT23 ORNL county-level download tool; https://bioenergykdf.ornl.gov/bt23-agricultural-download",
+  "regional_resource_data_present": false,
+  "status": "NOT GEOGRAPHICALLY VALIDATED",
+  "no_county_inventories_in_release": true,
+  "national_166mt_metric_ceiling": "Converted from ~183 million dry US short tons; includes primary crops only in BT23, not verified separate processing waste",
+  "strict_screen": "Processing/fruit waste, bagasse and independent corn cobs/husks separated until state/processing data crosswalk verified.",
+  "required_download": "Obtain original ORNL BT23 data by FIPS, resource, price, scenario; preserve competing uses, erosivity and price basis."
+}

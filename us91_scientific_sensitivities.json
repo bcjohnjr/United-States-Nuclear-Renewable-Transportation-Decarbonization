@@ -1,0 +1,205 @@
+{
+  "version": "9.1",
+  "transport_only_blend_vol": 0,
+  "petroleum_2025_bn": 592.77029536,
+  "petroleum_gasoline_component_bn": 338.36376,
+  "cases_cost_bn": {
+    "least_cost": 526.8657331030288,
+    "design_sweet_spot": 577.4173071102817,
+    "design": 640.8344436749152,
+    "post_gas_least_cost": 564.6229023763825,
+    "sustainable_fission_nuclear_only": 565.9122309144708,
+    "sustainable_fission_nuclear_only_premium": 604.2821030833117,
+    "least_cost_blend20_sensitivity": 521.3718920023445
+  },
+  "bev_premium_break_even_usd_per_car_year": 343.4148190469849,
+  "petroleum_2050_proxy_25pct_gasoline_saving_bn": 508.17935536,
+  "monte_carlo_conditional": {
+    "least_cost": {
+      "draws": 1000,
+      "cost_bn_p5_p50_p95": [
+        469.4691265505456,
+        590.3892519771302,
+        727.5137326624032
+      ],
+      "saving_pct_p5_p50_p95": [
+        -11.106950358603166,
+        7.947676870791797,
+        25.771479171403662
+      ],
+      "median_cost_bn": 590.3892519771302,
+      "median_paired_comparator_bn": 639.131131878785,
+      "share_cheaper": 0.749,
+      "pearson_cost_premium": 0.7632902747457216,
+      "spearman": {
+        "VEH/ldv_bev_net_usd_yr": 0.7585943665943667,
+        "ENDUSE/service_growth_2050": 0.43121696321696323,
+        "reactor_case": 0.38961187326811697,
+        "ELEC/td_adder": 0.14940475740475742,
+        "ELEC/charge_ldv": 0.13366795366795367,
+        "ELEC/solar": 0.07653670053670054,
+        "ELEC/onshore_wind": 0.06824781224781225,
+        "ROUTES/pbtl/cost_t": 0.06364839964839965,
+        "ROUTES/htl/cost_t": 0.05196415596415597,
+        "carbon_value_scale": -0.05181773181773182,
+        "VEH/ers_capex_m_per_km": 0.0516874956874957,
+        "yield_level": 0.035899045500646175
+      }
+    },
+    "sweet_spot": {
+      "draws": 1000,
+      "cost_bn_p5_p50_p95": [
+        530.163648011031,
+        650.8426795256569,
+        781.3218445282904
+      ],
+      "saving_pct_p5_p50_p95": [
+        -19.964094610733135,
+        -1.3952365161351787,
+        15.761741500283934
+      ],
+      "median_cost_bn": 650.8426795256569,
+      "median_paired_comparator_bn": 640.5187750012242,
+      "share_cheaper": 0.44,
+      "pearson_cost_premium": 0.809007318683769,
+      "spearman": {
+        "VEH/ldv_bev_net_usd_yr": 0.7974469014469014,
+        "ENDUSE/service_growth_2050": 0.4000826440826441,
+        "reactor_case": 0.3142419862038582,
+        "ELEC/osw_floating": 0.22497820497820498,
+        "PYRO/capex_kw_h2": 0.10818452418452419,
+        "ELEC/charge_ldv": 0.10636402636402637,
+        "ELEC/td_adder": 0.10133802533802534,
+        "ROUTES/htl/cost_t": 0.0609005049005049,
+        "ELEC/vre_firming": 0.05982129582129582,
+        "H2_DELIVERY/vehicle": 0.056542580542580545,
+        "carbon_value_scale": -0.055884127884127895,
+        "ELEC/solar": 0.04524167724167724
+      }
+    },
+    "design": {
+      "draws": 1000,
+      "cost_bn_p5_p50_p95": [
+        611.4587774290969,
+        730.8499466367367,
+        858.1227296008416
+      ],
+      "saving_pct_p5_p50_p95": [
+        -32.045319239903854,
+        -13.57022900584739,
+        3.0202735124056668
+      ],
+      "median_cost_bn": 730.8499466367367,
+      "median_paired_comparator_bn": 637.887472196885,
+      "share_cheaper": 0.097,
+      "pearson_cost_premium": 0.8141855552031917,
+      "spearman": {
+        "VEH/ldv_bev_net_usd_yr": 0.8067365787365788,
+        "ENDUSE/service_growth_2050": 0.41106504306504305,
+        "ELEC/osw_fixed": 0.2540218340218341,
+        "ELEC/osw_floating": 0.20633029433029437,
+        "ELEC/td_adder": 0.1260983700983701,
+        "reactor_case": 0.12403057787636448,
+        "ELEC/vre_firming": 0.10628397428397429,
+        "ELEC/charge_ldv": 0.09626760026760027,
+        "ROUTES/htl/cost_t": 0.09116239916239915,
+        "ELEC/onshore_wind": 0.08557407757407758,
+        "yield_level": 0.05298447838986779,
+        "H2_DELIVERY/vehicle": 0.05282186882186883
+      }
+    }
+  },
+  "grid_harvester": {
+    "energy": {
+      "bare_hose_10pct_mj": 55.6,
+      "faired_hose_10pct_mj": 33.9,
+      "conventional_mj": 90.9,
+      "faired_10pct_reduction_pct": 62.70627062706271,
+      "faired_10pct_advantage_ratio": 2.68141592920354,
+      "rows": [
+        {
+          "dry_solids_fraction": 0.1,
+          "relative_flow": 1.0,
+          "relative_hose_diameter": 1.0,
+          "fixed_head_skin_mj": 12.27058823529411,
+          "pump_mj": 17.8,
+          "faired_hose_form_mj": 3.829411764705884,
+          "grid_total_mj": 33.89999999999999,
+          "conventional_total_mj": 90.9,
+          "energy_reduction_pct": 62.70627062706271,
+          "conventional_to_grid_ratio": 2.6814159292035407
+        },
+        {
+          "dry_solids_fraction": 0.2,
+          "relative_flow": 0.5,
+          "relative_hose_diameter": 0.7071067811865476,
+          "fixed_head_skin_mj": 12.27058823529411,
+          "pump_mj": 8.821608737926816,
+          "faired_hose_form_mj": 2.7078030267790743,
+          "grid_total_mj": 23.8,
+          "conventional_total_mj": 90.9,
+          "energy_reduction_pct": 73.81738173817382,
+          "conventional_to_grid_ratio": 3.819327731092437
+        },
+        {
+          "dry_solids_fraction": 0.3,
+          "relative_flow": 0.33333333333333337,
+          "relative_hose_diameter": 0.5773502691896258,
+          "fixed_head_skin_mj": 12.27058823529411,
+          "pump_mj": 5.818499851515028,
+          "faired_hose_form_mj": 2.2109119131908623,
+          "grid_total_mj": 20.3,
+          "conventional_total_mj": 90.9,
+          "energy_reduction_pct": 77.66776677667767,
+          "conventional_to_grid_ratio": 4.477832512315271
+        }
+      ]
+    },
+    "turning": {
+      "conventional_missed_m2": 214.6018366025517,
+      "conventional_missed_pct": 1.4902905319621647,
+      "grid_forward_missed_m2": 355.38064141382563,
+      "grid_forward_missed_pct": 2.467921120929345,
+      "grid_inplace_missed_m2": 88.84516035345641,
+      "grid_inplace_missed_pct": 0.6169802802323362
+    },
+    "figure_rows": [
+      {
+        "configuration": "Conventional reference",
+        "energy_mj_per_1_44ha_cycle": 90.9,
+        "relative_energy_pct": 100.0,
+        "modelled_energy_reduction_pct": 0.0,
+        "conventional_to_case_efficiency_multiplier": 1.0
+      },
+      {
+        "configuration": "Grid Harvester bare hose, 10% solids",
+        "energy_mj_per_1_44ha_cycle": 55.6,
+        "relative_energy_pct": 61.16611661166116,
+        "modelled_energy_reduction_pct": 38.83388338833884,
+        "conventional_to_case_efficiency_multiplier": 1.6348920863309353
+      },
+      {
+        "configuration": "Grid Harvester faired, 10% solids",
+        "energy_mj_per_1_44ha_cycle": 33.89999999999999,
+        "relative_energy_pct": 37.29372937293728,
+        "modelled_energy_reduction_pct": 62.70627062706271,
+        "conventional_to_case_efficiency_multiplier": 2.6814159292035407
+      },
+      {
+        "configuration": "Grid Harvester faired, 20% solids",
+        "energy_mj_per_1_44ha_cycle": 23.8,
+        "relative_energy_pct": 26.182618261826182,
+        "modelled_energy_reduction_pct": 73.81738173817382,
+        "conventional_to_case_efficiency_multiplier": 3.819327731092437
+      },
+      {
+        "configuration": "Grid Harvester faired, 30% solids",
+        "energy_mj_per_1_44ha_cycle": 20.3,
+        "relative_energy_pct": 22.33223322332233,
+        "modelled_energy_reduction_pct": 77.66776677667767,
+        "conventional_to_case_efficiency_multiplier": 4.477832512315271
+      }
+    ]
+  },
+  "qualification": "All fuel comparators use late-2025 price levels. 2050 gasoline efficiency rows are fuel-only sensitivity, not AEO2026 reference reproduction. Grid Harvester outputs are engineering assumptions calibrated to reference design, not measured at sea."
+}

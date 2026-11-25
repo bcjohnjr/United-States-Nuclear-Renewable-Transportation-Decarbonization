@@ -1,0 +1,7 @@
+# Science (AAAS) editorial policy — final author/editor check required
+
+**Policy status:** This pack does not certify the exact policy text in force on submission day. Review *Science*'s official author instructions and editorial policies directly: https://www.science.org/content/page/science-journals-editorial-policies and https://www.science.org/content/page/instructions-preparing-initial-manuscript . The related **Science Partner Journal** publication-ethics page (https://spj.science.org/page/research/publication-ethics) is useful context but is **not proof of Science's own rules**.
+
+Historically, Science-family AI policies require transparent disclosure of AI used for research, drafting and figures; AI systems cannot be authors. AI-generated illustrative images may require explicit editorial permission. Programmable plots made from model output must be distinguished from generative illustrations and their underlying data checked independently. The existing provenance CSV contains 30 inherited figures with human review still pending, two traced Grid Harvester figures, and three newly generated Matplotlib plots. Do not infer that any inherited or AI-assisted image has been cleared by the editor.
+
+A missing complete history of past prompts must be reported accurately, not reconstructed or invented. Authorship approval and interests/IP declarations likewise require human verification. After you publish the V9.14 release, amend data/materials links only with verified GitHub tags and archival DOI values.

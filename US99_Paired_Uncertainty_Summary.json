@@ -1,0 +1,28 @@
+{
+  "version": "9.9",
+  "n_requested": 150,
+  "n_feasible": 150,
+  "n_infeasible": 0,
+  "seed": 991,
+  "p05_usd_t": 35.56874641128933,
+  "median_usd_t": 110.47019827660085,
+  "p95_usd_t": 181.27359378006784,
+  "fraction_alt_cheaper": 0.006666666666666667,
+  "crop_selected_median_mt": 76.32588901678977,
+  "rank_correlations": {
+    "petroleum_price_mult": -0.877,
+    "bev_premium_usd_yr": 0.278,
+    "power_mult": -0.24,
+    "reactor_mult": 0.129,
+    "crop_collection_mult": -0.006,
+    "crop_cap_mt": 0.017,
+    "process_recovery_scale": -0.025,
+    "treatment_retention": -0.041,
+    "plant_availability": 0.043,
+    "cover_land_mha": 0.179,
+    "soil_carbon_tcha_yr": 0.024,
+    "reference_fossil_cost_share": 0.018,
+    "reference_h2_kgco2_kg": 0.025
+  },
+  "warning": "Noncalibrated uniform parameter screens. Crop cap 0-166 Mt unvalidated pending official BT23 county exports. Lifecycle estimates are bounded process-substitution screens, not fully harmonized field-level LCA."
+}

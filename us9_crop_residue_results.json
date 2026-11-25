@@ -1,0 +1,2351 @@
+{
+  "v8.5_truck_corrected_v8.4_resource_pools": {
+    "scenario": "v8.5_truck_corrected_v8.4_resource_pools",
+    "transport_cost_bn": 526.8657331030288,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 11.11806086992706,
+    "crop_htl_mt": 0,
+    "crop_htl_liquids_twh": 0,
+    "crop_hydrochar_return_mt": 0,
+    "methane_carbon_to_soil_mt": 0,
+    "cover_crop_stable_carbon_mt": 0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 0,
+    "p_returned_kt": 0,
+    "k_returned_kt": 0,
+    "n_import_kt": 0,
+    "p_import_kt": 0,
+    "k_import_kt": 0,
+    "saskatchewan_kcl_import_kt": 0.0,
+    "fertilizer_replacement_bn": 0,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {},
+    "biomass_tiers": [
+      [
+        "Crop & forest residues, tier 1",
+        200.0,
+        65.0
+      ],
+      [
+        "Crop & forest residues, tier 2",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses / energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": false,
+      "cap_mt": 166.0,
+      "collect_min_mt": 0.0,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 33.29658948946325,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 10.0,
+        "value_usd_t": 40.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 4.174893508586816,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_without_crop": {
+    "scenario": "paired_without_crop",
+    "transport_cost_bn": 537.3551667504108,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 9.348499586325353,
+    "crop_htl_mt": -0.0,
+    "crop_htl_liquids_twh": -0.0,
+    "crop_hydrochar_return_mt": -0.0,
+    "methane_carbon_to_soil_mt": 0.0,
+    "cover_crop_stable_carbon_mt": 0.0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 0.0,
+    "p_returned_kt": 0.0,
+    "k_returned_kt": 0.0,
+    "n_import_kt": 0.0,
+    "p_import_kt": 0.0,
+    "k_import_kt": 0.0,
+    "saskatchewan_kcl_import_kt": 0.0,
+    "fertilizer_replacement_bn": 0.0,
+    "legume_n_area_mha": 0.0,
+    "hubs": 177.99080301129027,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": -0.0,
+      "max_sustainable_screen_mt": 0,
+      "htl_biocrude_fuel_twh": -0.0,
+      "hydrochar_return_mt": -0.0,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": -0.0,
+          "wastewater_recovered_kt": -0.0,
+          "hydrochar_recovered_kt": 0.0,
+          "imported_kt": 0.0,
+          "returned_kt": 0.0,
+          "closed_residual_kt": -0.0
+        },
+        "p": {
+          "removed_kt": -0.0,
+          "wastewater_recovered_kt": -0.0,
+          "hydrochar_recovered_kt": 0.0,
+          "imported_kt": 0.0,
+          "returned_kt": 0.0,
+          "closed_residual_kt": -0.0
+        },
+        "k": {
+          "removed_kt": -0.0,
+          "wastewater_recovered_kt": -0.0,
+          "hydrochar_recovered_kt": 0.0,
+          "imported_kt": 0.0,
+          "returned_kt": 0.0,
+          "closed_residual_kt": -0.0
+        }
+      },
+      "stable_soil_c_required_mt": -0.0,
+      "hydrochar_stable_c_mt": -0.0,
+      "methane_carbon_return_mt": 0.0,
+      "methane_carbon_stable_mt": 0.0,
+      "cover_crop_extra_stable_c_mt": 0.0,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 0.0,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        0,
+        86.775
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 0,
+      "collect_min_mt": 0,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 6.7749999999999995
+    },
+    "route_mt": {
+      "htl": 237.36950982383652,
+      "pbtl": 40.093640560900454,
+      "cellulosic_ethanol_feed": 138.036849615263,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 122.23430438572771,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 35.598433008833275,
+      "pyrolysis_plants": 7.3397081041682295,
+      "natural_gas": 11.788748724514472,
+      "electrolysis": 0.0,
+      "h2_delivery": 15.749150626250444,
+      "land_biomass": 35.593929257432556,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.77598770433504,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 55.45322271951355,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 0.0,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 26.01932596182606,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_economic_optimum": {
+    "scenario": "paired_crop_economic_optimum",
+    "transport_cost_bn": 532.4372666324406,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 10.17814644219277,
+    "crop_htl_mt": 166.0,
+    "crop_htl_liquids_twh": 431.6,
+    "crop_hydrochar_return_mt": 19.919999999999998,
+    "methane_carbon_to_soil_mt": 3.3395294117647056,
+    "cover_crop_stable_carbon_mt": 0.0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 1162.0,
+    "p_returned_kt": 199.2,
+    "k_returned_kt": 1493.9999999999998,
+    "n_import_kt": 581.0,
+    "p_import_kt": 49.80000000000001,
+    "k_import_kt": 298.79999999999995,
+    "saskatchewan_kcl_import_kt": 569.7186844440807,
+    "fertilizer_replacement_bn": 1.12465,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": 166.0,
+      "max_sustainable_screen_mt": 166,
+      "htl_biocrude_fuel_twh": 431.6,
+      "hydrochar_return_mt": 19.919999999999998,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 1162.0,
+          "wastewater_recovered_kt": 493.84999999999997,
+          "hydrochar_recovered_kt": 87.15000000000003,
+          "imported_kt": 581.0,
+          "returned_kt": 1162.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 199.2,
+          "wastewater_recovered_kt": 37.349999999999994,
+          "hydrochar_recovered_kt": 112.04999999999998,
+          "imported_kt": 49.80000000000001,
+          "returned_kt": 199.2,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 1494.0,
+          "wastewater_recovered_kt": 1135.44,
+          "hydrochar_recovered_kt": 59.75999999999999,
+          "imported_kt": 298.79999999999995,
+          "returned_kt": 1493.9999999999998,
+          "closed_residual_kt": 2.2737367544323206e-13
+        }
+      },
+      "stable_soil_c_required_mt": 9.959999999999999,
+      "hydrochar_stable_c_mt": 7.1213999999999995,
+      "methane_carbon_return_mt": 3.3395294117647056,
+      "methane_carbon_stable_mt": 2.8385999999999996,
+      "cover_crop_extra_stable_c_mt": 0.0,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 1.12465,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        166,
+        86.775
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 166,
+      "collect_min_mt": 0.0,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 6.7749999999999995
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 38.101239489463254,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 3.3395294117647056,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 10.835364096822111,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_half_sustainable_cap_forced": {
+    "scenario": "paired_crop_half_sustainable_cap_forced",
+    "transport_cost_bn": 533.4764998677347,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 10.0028284069557,
+    "crop_htl_mt": 83.0,
+    "crop_htl_liquids_twh": 215.8,
+    "crop_hydrochar_return_mt": 9.959999999999999,
+    "methane_carbon_to_soil_mt": 1.6697647058823528,
+    "cover_crop_stable_carbon_mt": 0.0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 581.0,
+    "p_returned_kt": 99.6,
+    "k_returned_kt": 746.9999999999999,
+    "n_import_kt": 290.5,
+    "p_import_kt": 24.900000000000006,
+    "k_import_kt": 149.39999999999998,
+    "saskatchewan_kcl_import_kt": 284.85934222204037,
+    "fertilizer_replacement_bn": 0.562325,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": 83.0,
+      "max_sustainable_screen_mt": 83,
+      "htl_biocrude_fuel_twh": 215.8,
+      "hydrochar_return_mt": 9.959999999999999,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 581.0,
+          "wastewater_recovered_kt": 246.92499999999998,
+          "hydrochar_recovered_kt": 43.57500000000002,
+          "imported_kt": 290.5,
+          "returned_kt": 581.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 99.6,
+          "wastewater_recovered_kt": 18.674999999999997,
+          "hydrochar_recovered_kt": 56.02499999999999,
+          "imported_kt": 24.900000000000006,
+          "returned_kt": 99.6,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 747.0,
+          "wastewater_recovered_kt": 567.72,
+          "hydrochar_recovered_kt": 29.879999999999995,
+          "imported_kt": 149.39999999999998,
+          "returned_kt": 746.9999999999999,
+          "closed_residual_kt": 1.1368683772161603e-13
+        }
+      },
+      "stable_soil_c_required_mt": 4.9799999999999995,
+      "hydrochar_stable_c_mt": 3.5606999999999998,
+      "methane_carbon_return_mt": 1.6697647058823528,
+      "methane_carbon_stable_mt": 1.4192999999999998,
+      "cover_crop_extra_stable_c_mt": 0.0,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 0.562325,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        83,
+        86.775
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 83,
+      "collect_min_mt": 83,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 6.7749999999999995
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 39.198914489463256,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 1.6697647058823528,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 12.505128802704462,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_full_sustainable_cap_forced": {
+    "scenario": "paired_crop_full_sustainable_cap_forced",
+    "transport_cost_bn": 532.4372666324406,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 10.17814644219277,
+    "crop_htl_mt": 166.0,
+    "crop_htl_liquids_twh": 431.6,
+    "crop_hydrochar_return_mt": 19.919999999999998,
+    "methane_carbon_to_soil_mt": 3.3395294117647056,
+    "cover_crop_stable_carbon_mt": 0.0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 1162.0,
+    "p_returned_kt": 199.2,
+    "k_returned_kt": 1493.9999999999998,
+    "n_import_kt": 581.0,
+    "p_import_kt": 49.80000000000001,
+    "k_import_kt": 298.79999999999995,
+    "saskatchewan_kcl_import_kt": 569.7186844440807,
+    "fertilizer_replacement_bn": 1.12465,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": 166.0,
+      "max_sustainable_screen_mt": 166,
+      "htl_biocrude_fuel_twh": 431.6,
+      "hydrochar_return_mt": 19.919999999999998,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 1162.0,
+          "wastewater_recovered_kt": 493.84999999999997,
+          "hydrochar_recovered_kt": 87.15000000000003,
+          "imported_kt": 581.0,
+          "returned_kt": 1162.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 199.2,
+          "wastewater_recovered_kt": 37.349999999999994,
+          "hydrochar_recovered_kt": 112.04999999999998,
+          "imported_kt": 49.80000000000001,
+          "returned_kt": 199.2,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 1494.0,
+          "wastewater_recovered_kt": 1135.44,
+          "hydrochar_recovered_kt": 59.75999999999999,
+          "imported_kt": 298.79999999999995,
+          "returned_kt": 1493.9999999999998,
+          "closed_residual_kt": 2.2737367544323206e-13
+        }
+      },
+      "stable_soil_c_required_mt": 9.959999999999999,
+      "hydrochar_stable_c_mt": 7.1213999999999995,
+      "methane_carbon_return_mt": 3.3395294117647056,
+      "methane_carbon_stable_mt": 2.8385999999999996,
+      "cover_crop_extra_stable_c_mt": 0.0,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 1.12465,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        166,
+        86.775
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 166,
+      "collect_min_mt": 166,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 6.7749999999999995
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 38.101239489463254,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 3.3395294117647056,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 10.835364096822111,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_full_low_nutrient_recovery": {
+    "scenario": "paired_crop_full_low_nutrient_recovery",
+    "transport_cost_bn": 533.5324516324406,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 9.99338937717572,
+    "crop_htl_mt": 166.0,
+    "crop_htl_liquids_twh": 431.6,
+    "crop_hydrochar_return_mt": 19.919999999999998,
+    "methane_carbon_to_soil_mt": 3.3395294117647056,
+    "cover_crop_stable_carbon_mt": 0.0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 1162.0,
+    "p_returned_kt": 199.2,
+    "k_returned_kt": 1494.0,
+    "n_import_kt": 871.5,
+    "p_import_kt": 124.5,
+    "k_import_kt": 896.4,
+    "saskatchewan_kcl_import_kt": 1709.1560533322424,
+    "fertilizer_replacement_bn": 2.219835,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": 166.0,
+      "max_sustainable_screen_mt": 166,
+      "htl_biocrude_fuel_twh": 431.6,
+      "hydrochar_return_mt": 19.919999999999998,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 1162.0,
+          "wastewater_recovered_kt": 246.92499999999998,
+          "hydrochar_recovered_kt": 43.57500000000002,
+          "imported_kt": 871.5,
+          "returned_kt": 1162.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 199.2,
+          "wastewater_recovered_kt": 18.674999999999997,
+          "hydrochar_recovered_kt": 56.02499999999999,
+          "imported_kt": 124.5,
+          "returned_kt": 199.2,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 1494.0,
+          "wastewater_recovered_kt": 567.72,
+          "hydrochar_recovered_kt": 29.879999999999995,
+          "imported_kt": 896.4,
+          "returned_kt": 1494.0,
+          "closed_residual_kt": 0.0
+        }
+      },
+      "stable_soil_c_required_mt": 9.959999999999999,
+      "hydrochar_stable_c_mt": 7.1213999999999995,
+      "methane_carbon_return_mt": 3.3395294117647056,
+      "methane_carbon_stable_mt": 2.8385999999999996,
+      "cover_crop_extra_stable_c_mt": 0.0,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 2.219835,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        166,
+        93.3725
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 166,
+      "collect_min_mt": 166,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.25,
+        "p": 0.375,
+        "k": 0.4
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 13.372499999999999
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 39.196424489463254,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 3.3395294117647056,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 10.835364096822111,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_full_zero_nutrient_recovery": {
+    "scenario": "paired_crop_full_zero_nutrient_recovery",
+    "transport_cost_bn": 534.6276366324406,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 9.808632312158672,
+    "crop_htl_mt": 166.0,
+    "crop_htl_liquids_twh": 431.6,
+    "crop_hydrochar_return_mt": 19.919999999999998,
+    "methane_carbon_to_soil_mt": 3.3395294117647056,
+    "cover_crop_stable_carbon_mt": 0.0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 1162.0,
+    "p_returned_kt": 199.2,
+    "k_returned_kt": 1494.0,
+    "n_import_kt": 1162.0,
+    "p_import_kt": 199.2,
+    "k_import_kt": 1494.0,
+    "saskatchewan_kcl_import_kt": 2848.593422220404,
+    "fertilizer_replacement_bn": 3.31502,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": 166.0,
+      "max_sustainable_screen_mt": 166,
+      "htl_biocrude_fuel_twh": 431.6,
+      "hydrochar_return_mt": 19.919999999999998,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 1162.0,
+          "wastewater_recovered_kt": 0.0,
+          "hydrochar_recovered_kt": 0.0,
+          "imported_kt": 1162.0,
+          "returned_kt": 1162.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 199.2,
+          "wastewater_recovered_kt": 0.0,
+          "hydrochar_recovered_kt": 0.0,
+          "imported_kt": 199.2,
+          "returned_kt": 199.2,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 1494.0,
+          "wastewater_recovered_kt": 0.0,
+          "hydrochar_recovered_kt": 0.0,
+          "imported_kt": 1494.0,
+          "returned_kt": 1494.0,
+          "closed_residual_kt": 0.0
+        }
+      },
+      "stable_soil_c_required_mt": 9.959999999999999,
+      "hydrochar_stable_c_mt": 7.1213999999999995,
+      "methane_carbon_return_mt": 3.3395294117647056,
+      "methane_carbon_stable_mt": 2.8385999999999996,
+      "cover_crop_extra_stable_c_mt": 0.0,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 3.31502,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        166,
+        99.97
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 166,
+      "collect_min_mt": 166,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.0,
+        "p": 0.0,
+        "k": 0.0
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 19.97
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 40.291609489463255,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 3.3395294117647056,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 10.835364096822111,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_full_cover_crops_only": {
+    "scenario": "paired_crop_full_cover_crops_only",
+    "transport_cost_bn": 533.0300331030288,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 10.078147087429512,
+    "crop_htl_mt": 166.0,
+    "crop_htl_liquids_twh": 431.6,
+    "crop_hydrochar_return_mt": 19.919999999999998,
+    "methane_carbon_to_soil_mt": 0.0,
+    "cover_crop_stable_carbon_mt": 2.8385999999999996,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 1162.0,
+    "p_returned_kt": 199.2,
+    "k_returned_kt": 1493.9999999999998,
+    "n_import_kt": 581.0,
+    "p_import_kt": 49.80000000000001,
+    "k_import_kt": 298.79999999999995,
+    "saskatchewan_kcl_import_kt": 569.7186844440807,
+    "fertilizer_replacement_bn": 1.12465,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": 166.0,
+      "max_sustainable_screen_mt": 166,
+      "htl_biocrude_fuel_twh": 431.6,
+      "hydrochar_return_mt": 19.919999999999998,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 1162.0,
+          "wastewater_recovered_kt": 493.84999999999997,
+          "hydrochar_recovered_kt": 87.15000000000003,
+          "imported_kt": 581.0,
+          "returned_kt": 1162.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 199.2,
+          "wastewater_recovered_kt": 37.349999999999994,
+          "hydrochar_recovered_kt": 112.04999999999998,
+          "imported_kt": 49.80000000000001,
+          "returned_kt": 199.2,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 1494.0,
+          "wastewater_recovered_kt": 1135.44,
+          "hydrochar_recovered_kt": 59.75999999999999,
+          "imported_kt": 298.79999999999995,
+          "returned_kt": 1493.9999999999998,
+          "closed_residual_kt": 2.2737367544323206e-13
+        }
+      },
+      "stable_soil_c_required_mt": 9.959999999999999,
+      "hydrochar_stable_c_mt": 7.1213999999999995,
+      "methane_carbon_return_mt": 0.0,
+      "methane_carbon_stable_mt": 0.0,
+      "cover_crop_extra_stable_c_mt": 2.8385999999999996,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 1.12465,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        166,
+        86.775
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 166,
+      "collect_min_mt": 166,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 6.7749999999999995
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 38.101239489463254,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.7096499999999999,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 0.0,
+        "value_usd_t": -60.0,
+        "cap_mt": 0.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 14.174893508586816,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_full_high_soc_need": {
+    "scenario": "paired_crop_full_high_soc_need",
+    "transport_cost_bn": 532.9150331030288,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 10.097547519755523,
+    "crop_htl_mt": 166.0,
+    "crop_htl_liquids_twh": 431.6,
+    "crop_hydrochar_return_mt": 19.919999999999998,
+    "methane_carbon_to_soil_mt": 10.0,
+    "cover_crop_stable_carbon_mt": 0.9786000000000001,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 1162.0,
+    "p_returned_kt": 199.2,
+    "k_returned_kt": 1493.9999999999998,
+    "n_import_kt": 581.0,
+    "p_import_kt": 49.80000000000001,
+    "k_import_kt": 298.79999999999995,
+    "saskatchewan_kcl_import_kt": 569.7186844440807,
+    "fertilizer_replacement_bn": 1.12465,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": 166.0,
+      "max_sustainable_screen_mt": 166,
+      "htl_biocrude_fuel_twh": 431.6,
+      "hydrochar_return_mt": 19.919999999999998,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 1162.0,
+          "wastewater_recovered_kt": 493.84999999999997,
+          "hydrochar_recovered_kt": 87.15000000000003,
+          "imported_kt": 581.0,
+          "returned_kt": 1162.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 199.2,
+          "wastewater_recovered_kt": 37.349999999999994,
+          "hydrochar_recovered_kt": 112.04999999999998,
+          "imported_kt": 49.80000000000001,
+          "returned_kt": 199.2,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 1494.0,
+          "wastewater_recovered_kt": 1135.44,
+          "hydrochar_recovered_kt": 59.75999999999999,
+          "imported_kt": 298.79999999999995,
+          "returned_kt": 1493.9999999999998,
+          "closed_residual_kt": 2.2737367544323206e-13
+        }
+      },
+      "stable_soil_c_required_mt": 16.6,
+      "hydrochar_stable_c_mt": 7.1213999999999995,
+      "methane_carbon_return_mt": 10.0,
+      "methane_carbon_stable_mt": 8.5,
+      "cover_crop_extra_stable_c_mt": 0.9786000000000001,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 1.12465,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        166,
+        86.775
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 166,
+      "collect_min_mt": 166,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.1,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 6.7749999999999995
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 38.101239489463254,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.24465000000000003,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 10.0,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 4.174893508586816,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_full_high_collection_cost": {
+    "scenario": "paired_crop_full_high_collection_cost",
+    "transport_cost_bn": 538.2472666324405,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 9.198002861200505,
+    "crop_htl_mt": 166.0,
+    "crop_htl_liquids_twh": 431.6,
+    "crop_hydrochar_return_mt": 19.919999999999998,
+    "methane_carbon_to_soil_mt": 3.3395294117647056,
+    "cover_crop_stable_carbon_mt": 0.0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 1162.0,
+    "p_returned_kt": 199.2,
+    "k_returned_kt": 1493.9999999999998,
+    "n_import_kt": 581.0,
+    "p_import_kt": 49.80000000000001,
+    "k_import_kt": 298.79999999999995,
+    "saskatchewan_kcl_import_kt": 569.7186844440807,
+    "fertilizer_replacement_bn": 1.12465,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 0.0,
+    "soil": {
+      "feedstock_mt": 166.0,
+      "max_sustainable_screen_mt": 166,
+      "htl_biocrude_fuel_twh": 431.6,
+      "hydrochar_return_mt": 19.919999999999998,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 1162.0,
+          "wastewater_recovered_kt": 493.84999999999997,
+          "hydrochar_recovered_kt": 87.15000000000003,
+          "imported_kt": 581.0,
+          "returned_kt": 1162.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 199.2,
+          "wastewater_recovered_kt": 37.349999999999994,
+          "hydrochar_recovered_kt": 112.04999999999998,
+          "imported_kt": 49.80000000000001,
+          "returned_kt": 199.2,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 1494.0,
+          "wastewater_recovered_kt": 1135.44,
+          "hydrochar_recovered_kt": 59.75999999999999,
+          "imported_kt": 298.79999999999995,
+          "returned_kt": 1493.9999999999998,
+          "closed_residual_kt": 2.2737367544323206e-13
+        }
+      },
+      "stable_soil_c_required_mt": 9.959999999999999,
+      "hydrochar_stable_c_mt": 7.1213999999999995,
+      "methane_carbon_return_mt": 3.3395294117647056,
+      "methane_carbon_stable_mt": 2.8385999999999996,
+      "cover_crop_extra_stable_c_mt": 0.0,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 1.12465,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        166,
+        121.775
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 166,
+      "collect_min_mt": 166,
+      "delivered_usd_t": 90,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 6.7749999999999995
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 43.911239489463256,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 3.3395294117647056,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 10.835364096822111,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_full_very_high_collection_cost": {
+    "scenario": "paired_crop_full_very_high_collection_cost",
+    "transport_cost_bn": 544.0572666324406,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 8.217859280208216,
+    "crop_htl_mt": 166.0,
+    "crop_htl_liquids_twh": 431.6,
+    "crop_hydrochar_return_mt": 19.919999999999998,
+    "methane_carbon_to_soil_mt": 3.3395294117647056,
+    "cover_crop_stable_carbon_mt": 0.0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 1162.0,
+    "p_returned_kt": 199.2,
+    "k_returned_kt": 1493.9999999999998,
+    "n_import_kt": 581.0,
+    "p_import_kt": 49.80000000000001,
+    "k_import_kt": 298.79999999999995,
+    "saskatchewan_kcl_import_kt": 569.7186844440807,
+    "fertilizer_replacement_bn": 1.12465,
+    "legume_n_area_mha": 0.0,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": 166.0,
+      "max_sustainable_screen_mt": 166,
+      "htl_biocrude_fuel_twh": 431.6,
+      "hydrochar_return_mt": 19.919999999999998,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 1162.0,
+          "wastewater_recovered_kt": 493.84999999999997,
+          "hydrochar_recovered_kt": 87.15000000000003,
+          "imported_kt": 581.0,
+          "returned_kt": 1162.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 199.2,
+          "wastewater_recovered_kt": 37.349999999999994,
+          "hydrochar_recovered_kt": 112.04999999999998,
+          "imported_kt": 49.80000000000001,
+          "returned_kt": 199.2,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 1494.0,
+          "wastewater_recovered_kt": 1135.44,
+          "hydrochar_recovered_kt": 59.75999999999999,
+          "imported_kt": 298.79999999999995,
+          "returned_kt": 1493.9999999999998,
+          "closed_residual_kt": 2.2737367544323206e-13
+        }
+      },
+      "stable_soil_c_required_mt": 9.959999999999999,
+      "hydrochar_stable_c_mt": 7.1213999999999995,
+      "methane_carbon_return_mt": 3.3395294117647056,
+      "methane_carbon_stable_mt": 2.8385999999999996,
+      "cover_crop_extra_stable_c_mt": 0.0,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 1.12465,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        166,
+        156.775
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 166,
+      "collect_min_mt": 166,
+      "delivered_usd_t": 125,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.25,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "incremental_npk_import_usd_t": 6.7749999999999995
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 49.72123948946325,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 3.3395294117647056,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 10.835364096822111,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  },
+  "paired_crop_full_legume_n_source": {
+    "scenario": "paired_crop_full_legume_n_source",
+    "transport_cost_bn": 532.6793499657739,
+    "petroleum_late2025_bn": 592.77029536,
+    "cost_saving_pct": 10.137307126318095,
+    "crop_htl_mt": 166.0,
+    "crop_htl_liquids_twh": 431.6,
+    "crop_hydrochar_return_mt": 19.919999999999998,
+    "methane_carbon_to_soil_mt": 3.3395294117647056,
+    "cover_crop_stable_carbon_mt": 0.0,
+    "soil_c_gap_mt": 0,
+    "n_returned_kt": 1162.0,
+    "p_returned_kt": 199.2,
+    "k_returned_kt": 1493.9999999999998,
+    "n_import_kt": 581.0,
+    "p_import_kt": 49.80000000000001,
+    "k_import_kt": 298.79999999999995,
+    "saskatchewan_kcl_import_kt": 569.7186844440807,
+    "fertilizer_replacement_bn": 1.3667333333333334,
+    "legume_n_area_mha": 9.683333333333334,
+    "hubs": 202.50314788967867,
+    "electricity_enduse_twh": 1836.7235486634781,
+    "h2_enduse_direct_mt": 5.653853142954509,
+    "model_reconciliation_residual_bn": 1.1368683772161603e-13,
+    "soil": {
+      "feedstock_mt": 166.0,
+      "max_sustainable_screen_mt": 166,
+      "htl_biocrude_fuel_twh": 431.6,
+      "hydrochar_return_mt": 19.919999999999998,
+      "treated_aqueous_stream": "nutrient concentrate only; no direct field discharge authorised",
+      "nutrients": {
+        "n": {
+          "removed_kt": 1162.0,
+          "wastewater_recovered_kt": 493.84999999999997,
+          "hydrochar_recovered_kt": 87.15000000000003,
+          "imported_kt": 581.0,
+          "returned_kt": 1162.0,
+          "closed_residual_kt": 0.0
+        },
+        "p": {
+          "removed_kt": 199.2,
+          "wastewater_recovered_kt": 37.349999999999994,
+          "hydrochar_recovered_kt": 112.04999999999998,
+          "imported_kt": 49.80000000000001,
+          "returned_kt": 199.2,
+          "closed_residual_kt": 0.0
+        },
+        "k": {
+          "removed_kt": 1494.0,
+          "wastewater_recovered_kt": 1135.44,
+          "hydrochar_recovered_kt": 59.75999999999999,
+          "imported_kt": 298.79999999999995,
+          "returned_kt": 1493.9999999999998,
+          "closed_residual_kt": 2.2737367544323206e-13
+        }
+      },
+      "stable_soil_c_required_mt": 9.959999999999999,
+      "hydrochar_stable_c_mt": 7.1213999999999995,
+      "methane_carbon_return_mt": 3.3395294117647056,
+      "methane_carbon_stable_mt": 2.8385999999999996,
+      "cover_crop_extra_stable_c_mt": 0.0,
+      "carbon_balance_surplus_mt": 0.0,
+      "fertilizer_cost_bn": 1.3667333333333334,
+      "assumption_warning": "NPK recovery, stable SOC equivalence, and soil application require field-specific validation"
+    },
+    "biomass_tiers": [
+      [
+        "Crop straw, stover and crop-processing husks: field-screened",
+        166,
+        88.23333333333333
+      ],
+      [
+        "Forest and other non-crop residual supply (assumed, independently capped)",
+        150.0,
+        85.0
+      ],
+      [
+        "Perennial grasses and energy cane",
+        200.0,
+        100.0
+      ]
+    ],
+    "crop_parameters": {
+      "enabled": true,
+      "cap_mt": 166,
+      "collect_min_mt": 166,
+      "delivered_usd_t": 55.0,
+      "wastewater_treatment_usd_t": 15.0,
+      "hydrochar_testing_transport_usd_t": 10.0,
+      "elemental_kg_t": {
+        "n": 7.0,
+        "p": 1.2,
+        "k": 9.0
+      },
+      "recovered_fraction": {
+        "n": 0.5,
+        "p": 0.75,
+        "k": 0.8
+      },
+      "wastewater_recovered_share": {
+        "n": 0.85,
+        "p": 0.25,
+        "k": 0.95
+      },
+      "nutrient_replacement_usd_per_kg": {
+        "n": 1.6666666666666667,
+        "p": 2.6,
+        "k": 0.9
+      },
+      "stable_soc_c_t_per_dry_t": 0.06,
+      "hydrochar_c_fraction": 0.65,
+      "hydrochar_stable_fraction": 0.55,
+      "methane_carbon_stable_fraction": 0.85,
+      "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+      "pyro_carbon_soil_application_usd_t": 60.0,
+      "nitrogen_replacement_path": "cover-crop legume fixation, 60 kg available N/ha, $100/ha net annual establishment [A]",
+      "legume_available_n_kg_ha": 60.0,
+      "incremental_npk_import_usd_t": 8.233333333333334
+    },
+    "route_mt": {
+      "htl": 271.6033106104516,
+      "pbtl": 0.0,
+      "cellulosic_ethanol_feed": 190.92329170985533,
+      "seaweed_htl": 0.0,
+      "seaweed_pbtl": 0.0
+    },
+    "costs_bn": {
+      "electricity_generation": 114.52296443562504,
+      "transmission_distribution": 55.10170645990434,
+      "charging": 46.97424619784914,
+      "electric_highways": 14.001279442305444,
+      "rail_electrification": 6.120745732086601,
+      "htgr_hubs": 40.0711313970523,
+      "pyrolysis_plants": 5.228583775739367,
+      "natural_gas": 8.3979443654251,
+      "electrolysis": 0.0,
+      "h2_delivery": 14.959521796034494,
+      "land_biomass": 38.34332282279659,
+      "hemp_net_of_meal": 1.762,
+      "biorefineries": 66.5877625479489,
+      "seaweed_farms_harvest_haul": 0.0,
+      "seaweed_refining": 0.0,
+      "hefa_oils": 14.64,
+      "ethanol": 57.92566388743574,
+      "vehicles_and_machines_net": 58.365,
+      "process_heat_equipment": 0.0,
+      "soil_cover_crop_carbon": 0.0,
+      "residual_pipeline_gas": 1.599927744
+    },
+    "carbon_alloc": [
+      {
+        "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+        "mt": 0.76,
+        "value_usd_t": 4000.0,
+        "cap_mt": 0.76
+      },
+      {
+        "market": "Battery anode graphite (after graphitisation)",
+        "mt": 1.5,
+        "value_usd_t": 3000.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Carbon black: tires & rubber (export incl.)",
+        "mt": 3.0,
+        "value_usd_t": 900.0,
+        "cap_mt": 3.0
+      },
+      {
+        "market": "Specialty carbon (conductive additive, fibre precursors)",
+        "mt": 0.4,
+        "value_usd_t": 1500.0,
+        "cap_mt": 0.4
+      },
+      {
+        "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+        "mt": 1.5,
+        "value_usd_t": 400.0,
+        "cap_mt": 1.5
+      },
+      {
+        "market": "Construction: asphalt & concrete additive",
+        "mt": 8.0,
+        "value_usd_t": 60.0,
+        "cap_mt": 8.0
+      },
+      {
+        "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+        "mt": 3.3395294117647056,
+        "value_usd_t": -60.0,
+        "cap_mt": 10.0
+      },
+      {
+        "market": "Permanent storage (mine voids, monofill)",
+        "mt": 10.835364096822111,
+        "value_usd_t": -25.0,
+        "cap_mt": 10000.0
+      }
+    ],
+    "method": "simultaneous least-cost transport LP with explicit crop-HTL and soil-carbon constraints; fixed NPK deficits paid in tier delivered cost"
+  }
+}

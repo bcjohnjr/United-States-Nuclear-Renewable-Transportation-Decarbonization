@@ -1,0 +1,19 @@
+{
+  "n": 500,
+  "seed": 981,
+  "abt_usd_t_p05": 42.63522143621705,
+  "abt_usd_t_median": 119.77317380514454,
+  "abt_usd_t_p95": 205.78770656202983,
+  "fraction_alt_cheaper_in_assumption_draws": 0.002,
+  "crop_selected_mt_median": 79.47466462685011,
+  "parameter_spearman_against_abatement": {
+    "bev_premium_usd_yr": 0.34,
+    "oil_mult": -0.896,
+    "power_mult": -0.197,
+    "reactor_mult": 0.123,
+    "crop_collection_mult": -0.035,
+    "npk_recovery_scale": -0.065,
+    "reference_h2_kgco2_kg": -0.103
+  },
+  "warning": "Regional supply is uncalibrated. Draws range 0-166 Mt, and soil-carbon credits are separately disabled. Conditional Monte Carlo with assumed ranges, NOT calibrated chances or a full harmonized TCO/LCA. Do not interpret fraction as predictive probability."
+}

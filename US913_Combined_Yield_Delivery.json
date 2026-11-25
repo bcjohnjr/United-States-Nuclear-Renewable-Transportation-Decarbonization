@@ -1,0 +1,150 @@
+{
+  "version": "9.13",
+  "results": [
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.0,
+      "extra_crop_delivery_usd_dry_t": 0,
+      "crop_selected_mt": 0.0,
+      "crop_annual_bn": 668.3604702030519,
+      "no_crop_annual_bn": 668.3604702030519,
+      "crop_saving_bn": 0.0,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.0,
+      "extra_crop_delivery_usd_dry_t": 20,
+      "crop_selected_mt": 0.0,
+      "crop_annual_bn": 668.3604702030519,
+      "no_crop_annual_bn": 668.3604702030519,
+      "crop_saving_bn": 0.0,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.0,
+      "extra_crop_delivery_usd_dry_t": 40,
+      "crop_selected_mt": 0.0,
+      "crop_annual_bn": 668.3604702030519,
+      "no_crop_annual_bn": 668.3604702030519,
+      "crop_saving_bn": 0.0,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.0,
+      "extra_crop_delivery_usd_dry_t": 80,
+      "crop_selected_mt": 0.0,
+      "crop_annual_bn": 668.3604702030519,
+      "no_crop_annual_bn": 668.3604702030519,
+      "crop_saving_bn": 0.0,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.3,
+      "extra_crop_delivery_usd_dry_t": 0,
+      "crop_selected_mt": 98.5843649727814,
+      "crop_annual_bn": 664.4913112044777,
+      "no_crop_annual_bn": 666.065472864224,
+      "crop_saving_bn": 1.5741616597463235,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.3,
+      "extra_crop_delivery_usd_dry_t": 20,
+      "crop_selected_mt": 28.964730653935987,
+      "crop_annual_bn": 665.4683503011806,
+      "no_crop_annual_bn": 666.065472864224,
+      "crop_saving_bn": 0.5971225630433992,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.3,
+      "extra_crop_delivery_usd_dry_t": 40,
+      "crop_selected_mt": 8.0,
+      "crop_annual_bn": 666.0037572509265,
+      "no_crop_annual_bn": 666.065472864224,
+      "crop_saving_bn": 0.06171561329756514,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.3,
+      "extra_crop_delivery_usd_dry_t": 80,
+      "crop_selected_mt": 0.0,
+      "crop_annual_bn": 666.065472864224,
+      "no_crop_annual_bn": 666.065472864224,
+      "crop_saving_bn": 0.0,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.6,
+      "extra_crop_delivery_usd_dry_t": 0,
+      "crop_selected_mt": 166.0,
+      "crop_annual_bn": 654.7633815744267,
+      "no_crop_annual_bn": 661.5452670833906,
+      "crop_saving_bn": 6.78188550896391,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.6,
+      "extra_crop_delivery_usd_dry_t": 20,
+      "crop_selected_mt": 166.0,
+      "crop_annual_bn": 658.0833815744267,
+      "no_crop_annual_bn": 661.5452670833906,
+      "crop_saving_bn": 3.4618855089639737,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.6,
+      "extra_crop_delivery_usd_dry_t": 40,
+      "crop_selected_mt": 54.0,
+      "crop_annual_bn": 660.8512151607031,
+      "no_crop_annual_bn": 661.5452670833906,
+      "crop_saving_bn": 0.6940519226875494,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 2.6,
+      "extra_crop_delivery_usd_dry_t": 80,
+      "crop_selected_mt": 8.0,
+      "crop_annual_bn": 661.5410455045757,
+      "no_crop_annual_bn": 661.5452670833906,
+      "crop_saving_bn": 0.004221578814963323,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 3.0,
+      "extra_crop_delivery_usd_dry_t": 0,
+      "crop_selected_mt": 166.0,
+      "crop_annual_bn": 643.2534862459011,
+      "no_crop_annual_bn": 655.9524993385683,
+      "crop_saving_bn": 12.699013092667201,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 3.0,
+      "extra_crop_delivery_usd_dry_t": 20,
+      "crop_selected_mt": 166.0,
+      "crop_annual_bn": 646.5734862459011,
+      "no_crop_annual_bn": 655.9524993385683,
+      "crop_saving_bn": 9.37901309266715,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 3.0,
+      "extra_crop_delivery_usd_dry_t": 40,
+      "crop_selected_mt": 166.0,
+      "crop_annual_bn": 649.893486245901,
+      "no_crop_annual_bn": 655.9524993385683,
+      "crop_saving_bn": 6.0590130926672146,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    },
+    {
+      "htl_liquid_yield_mwh_dry_t": 3.0,
+      "extra_crop_delivery_usd_dry_t": 80,
+      "crop_selected_mt": 34.0,
+      "crop_annual_bn": 655.6711402728167,
+      "no_crop_annual_bn": 655.9524993385683,
+      "crop_saving_bn": 0.2813590657515306,
+      "status": "Assumed common HTL yield, delivery surcharge and national crop-capacity ceiling"
+    }
+  ],
+  "note": "16 reoptimised two-factor analyst screens; no county resource or feedstock-specific conversion evidence."
+}

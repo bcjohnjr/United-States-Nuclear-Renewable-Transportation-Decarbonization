@@ -1,0 +1,15 @@
+{
+  "draws": 1000,
+  "paired_savings_bn_p5_p50_p95": [
+    0.0,
+    0.0,
+    2.3884117115921755
+  ],
+  "share_crop_cost_reducing": 0.451,
+  "crop_used_mt_p5_p50_p95": [
+    0.0,
+    0.0,
+    74.75859791920774
+  ],
+  "assumption": "Triangular independent parameter draws, NOT predictive probabilities; excludes geographic logistics and soil validation"
+}

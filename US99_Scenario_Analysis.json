@@ -1,0 +1,585 @@
+{
+  "version": "9.9",
+  "regional_data_present": false,
+  "scenarios": [
+    {
+      "case": "V9.9 chemistry- and land-limited analyst crop screen",
+      "annual_cost_bn": 654.7633815744267,
+      "emissions_wtw_mt": 224.95212363505274,
+      "hubs": 166.3585033713872,
+      "onshore_gw": 296.6663276030534,
+      "offshore_gw": 0.0,
+      "crop_htl_mt": 166.0,
+      "crop_htl_liquid_twh": 431.6,
+      "mixed_residue_liquid_twh": 1173.8782542125234,
+      "crop_hydrochar_mt": 19.919999999999998,
+      "stable_soil_c_need_mt": 8.584999999999999,
+      "stable_hydrochar_c_mt": 0.0,
+      "stable_pyrolysis_c_mt": 0.0,
+      "cover_crop_stable_c_mt": 8.584999999999999,
+      "fertilizer_cost_bn": 2.66487438125,
+      "seaweed_htl_mt": 0.0,
+      "seaweed_pbtl_mt": 0.0,
+      "seaweed_hydrochar_screen_mt": 0.0,
+      "objective_residual_bn": 1.1368683772161603e-13,
+      "biomass_case_note": "Local crop feedstock caps and elemental nutrient coefficients are analyst assumptions; not calibrated state-by-state USDA supplies",
+      "n_removed_kt": 1136.4,
+      "n_water_kt": 135.2316,
+      "n_char_kt": 23.86439999999999,
+      "n_imports_kt": 977.3040000000001,
+      "n_seaweed_treated_product_kt": 0.0,
+      "p_removed_kt": 214.3,
+      "p_water_kt": 9.392367187500001,
+      "p_char_kt": 28.177101562500006,
+      "p_imports_kt": 176.73053125,
+      "p_seaweed_treated_product_kt": 0.0,
+      "k_removed_kt": 1575.0,
+      "k_water_kt": 457.8525000000001,
+      "k_char_kt": 24.097500000000025,
+      "k_imports_kt": 1093.05,
+      "k_seaweed_treated_product_kt": 0.0,
+      "selected": [
+        {
+          "name": "Corn stalks and leaves (excluding cobs/husks)",
+          "group": "corn",
+          "selected_mt": 79.0,
+          "max_mt": 80.0,
+          "npk_kg_t": {
+            "n": 7.0,
+            "p": 1.3,
+            "k": 11.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 94.18304375
+        },
+        {
+          "name": "Corn cobs and husks (separate field/process stream)",
+          "group": "corn",
+          "selected_mt": 26.0,
+          "max_mt": 26.0,
+          "npk_kg_t": {
+            "n": 5.2,
+            "p": 1.0,
+            "k": 6.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 82.4817875
+        },
+        {
+          "name": "Wheat straw and chaff",
+          "group": "wheat",
+          "selected_mt": 18.0,
+          "max_mt": 45.0,
+          "npk_kg_t": {
+            "n": 5.4,
+            "p": 1.0,
+            "k": 10.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 94.1951875
+        },
+        {
+          "name": "Rice straw",
+          "group": "rice",
+          "selected_mt": 0.0,
+          "max_mt": 14.0,
+          "npk_kg_t": {
+            "n": 6.2,
+            "p": 1.0,
+            "k": 15.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 105.1781875
+        },
+        {
+          "name": "Rice husks (mill residue)",
+          "group": "rice",
+          "selected_mt": 8.0,
+          "max_mt": 8.0,
+          "npk_kg_t": {
+            "n": 4.0,
+            "p": 0.7,
+            "k": 5.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 78.92393125
+        },
+        {
+          "name": "Barley, oat and rye straw",
+          "group": "small_grain",
+          "selected_mt": 0.0,
+          "max_mt": 16.0,
+          "npk_kg_t": {
+            "n": 6.1,
+            "p": 1.0,
+            "k": 11.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 101.5722875
+        },
+        {
+          "name": "Grain sorghum stalks and leaves",
+          "group": "sorghum",
+          "selected_mt": 0.0,
+          "max_mt": 16.0,
+          "npk_kg_t": {
+            "n": 6.1,
+            "p": 1.0,
+            "k": 10.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 99.9476875
+        },
+        {
+          "name": "Cotton stalks",
+          "group": "cotton",
+          "selected_mt": 0.0,
+          "max_mt": 15.0,
+          "npk_kg_t": {
+            "n": 8.5,
+            "p": 1.5,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 114.84898125
+        },
+        {
+          "name": "Soybean stems, pods and processing hulls",
+          "group": "soybean",
+          "selected_mt": 0.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 9.5,
+            "p": 1.7,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 105.35281875
+        },
+        {
+          "name": "Sugarcane bagasse and field trash",
+          "group": "sugarcane",
+          "selected_mt": 20.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 6.2,
+            "p": 1.0,
+            "k": 7.5
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 90.4936875
+        },
+        {
+          "name": "Orchard and nut-crop pruning residues",
+          "group": "orchard",
+          "selected_mt": 0.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 5.5,
+            "p": 1.0,
+            "k": 6.5
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 120.1165875
+        },
+        {
+          "name": "Vegetable and fruit processing plant solids",
+          "group": "processing",
+          "selected_mt": 15.0,
+          "max_mt": 15.0,
+          "npk_kg_t": {
+            "n": 13.0,
+            "p": 2.8,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 101.47392500000001
+        },
+        {
+          "name": "Other food-crop stalks, peels and harvest residues",
+          "group": "other",
+          "selected_mt": 0.0,
+          "max_mt": 18.0,
+          "npk_kg_t": {
+            "n": 9.0,
+            "p": 1.5,
+            "k": 9.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 121.51268125
+        }
+      ],
+      "marine": {
+        "seaweed_htl_mt": 0.0,
+        "seaweed_pbtl_mt": 0.0,
+        "additive_marine_hydrochar_mt": 0.0,
+        "n_p_k_htl_feedstock_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "recovered_treated_product_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "crop_field_npk_offset_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "marine_salts_and_metals_screen": "Mandatory; no application to cropland without testing/permits",
+        "nutrient_accounting": "Existing offshore HTL fertilizer coproduct credit remains allocated outside the crop NPK balance; no double credit or immediate soil return assumed"
+      }
+    },
+    {
+      "case": "V9.9 matched no-crop alternative",
+      "annual_cost_bn": 661.5452670833906,
+      "emissions_wtw_mt": 267.74459870603755,
+      "hubs": 137.8684154795279,
+      "onshore_gw": 335.1820632163427,
+      "offshore_gw": 0.0,
+      "crop_htl_mt": 0.0,
+      "crop_htl_liquid_twh": 0.0,
+      "mixed_residue_liquid_twh": 1104.8363301453242,
+      "crop_hydrochar_mt": 0.0,
+      "stable_soil_c_need_mt": 0.0,
+      "stable_hydrochar_c_mt": 0.0,
+      "stable_pyrolysis_c_mt": 0.0,
+      "cover_crop_stable_c_mt": 0.0,
+      "fertilizer_cost_bn": 0.0,
+      "seaweed_htl_mt": 0.0,
+      "seaweed_pbtl_mt": 0.0,
+      "seaweed_hydrochar_screen_mt": 0.0,
+      "objective_residual_bn": 0.0,
+      "biomass_case_note": "Local crop feedstock caps and elemental nutrient coefficients are analyst assumptions; not calibrated state-by-state USDA supplies",
+      "n_removed_kt": 0.0,
+      "n_water_kt": 0.0,
+      "n_char_kt": 0.0,
+      "n_imports_kt": 0.0,
+      "n_seaweed_treated_product_kt": 0.0,
+      "p_removed_kt": 0.0,
+      "p_water_kt": 0.0,
+      "p_char_kt": 0.0,
+      "p_imports_kt": 0.0,
+      "p_seaweed_treated_product_kt": 0.0,
+      "k_removed_kt": 0.0,
+      "k_water_kt": 0.0,
+      "k_char_kt": 0.0,
+      "k_imports_kt": 0.0,
+      "k_seaweed_treated_product_kt": 0.0,
+      "selected": [
+        {
+          "name": "Corn stalks and leaves (excluding cobs/husks)",
+          "group": "corn",
+          "selected_mt": 0.0,
+          "max_mt": 80.0,
+          "npk_kg_t": {
+            "n": 7.0,
+            "p": 1.3,
+            "k": 11.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 94.18304375
+        },
+        {
+          "name": "Corn cobs and husks (separate field/process stream)",
+          "group": "corn",
+          "selected_mt": 0.0,
+          "max_mt": 26.0,
+          "npk_kg_t": {
+            "n": 5.2,
+            "p": 1.0,
+            "k": 6.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 82.4817875
+        },
+        {
+          "name": "Wheat straw and chaff",
+          "group": "wheat",
+          "selected_mt": 0.0,
+          "max_mt": 45.0,
+          "npk_kg_t": {
+            "n": 5.4,
+            "p": 1.0,
+            "k": 10.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 94.1951875
+        },
+        {
+          "name": "Rice straw",
+          "group": "rice",
+          "selected_mt": 0.0,
+          "max_mt": 14.0,
+          "npk_kg_t": {
+            "n": 6.2,
+            "p": 1.0,
+            "k": 15.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 105.1781875
+        },
+        {
+          "name": "Rice husks (mill residue)",
+          "group": "rice",
+          "selected_mt": -0.0,
+          "max_mt": 8.0,
+          "npk_kg_t": {
+            "n": 4.0,
+            "p": 0.7,
+            "k": 5.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 78.92393125
+        },
+        {
+          "name": "Barley, oat and rye straw",
+          "group": "small_grain",
+          "selected_mt": 0.0,
+          "max_mt": 16.0,
+          "npk_kg_t": {
+            "n": 6.1,
+            "p": 1.0,
+            "k": 11.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 101.5722875
+        },
+        {
+          "name": "Grain sorghum stalks and leaves",
+          "group": "sorghum",
+          "selected_mt": 0.0,
+          "max_mt": 16.0,
+          "npk_kg_t": {
+            "n": 6.1,
+            "p": 1.0,
+            "k": 10.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 99.9476875
+        },
+        {
+          "name": "Cotton stalks",
+          "group": "cotton",
+          "selected_mt": 0.0,
+          "max_mt": 15.0,
+          "npk_kg_t": {
+            "n": 8.5,
+            "p": 1.5,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 114.84898125
+        },
+        {
+          "name": "Soybean stems, pods and processing hulls",
+          "group": "soybean",
+          "selected_mt": 0.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 9.5,
+            "p": 1.7,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 105.35281875
+        },
+        {
+          "name": "Sugarcane bagasse and field trash",
+          "group": "sugarcane",
+          "selected_mt": 0.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 6.2,
+            "p": 1.0,
+            "k": 7.5
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 90.4936875
+        },
+        {
+          "name": "Orchard and nut-crop pruning residues",
+          "group": "orchard",
+          "selected_mt": 0.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 5.5,
+            "p": 1.0,
+            "k": 6.5
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 120.1165875
+        },
+        {
+          "name": "Vegetable and fruit processing plant solids",
+          "group": "processing",
+          "selected_mt": 0.0,
+          "max_mt": 15.0,
+          "npk_kg_t": {
+            "n": 13.0,
+            "p": 2.8,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 101.47392500000001
+        },
+        {
+          "name": "Other food-crop stalks, peels and harvest residues",
+          "group": "other",
+          "selected_mt": 0.0,
+          "max_mt": 18.0,
+          "npk_kg_t": {
+            "n": 9.0,
+            "p": 1.5,
+            "k": 9.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 121.51268125
+        }
+      ],
+      "marine": {
+        "seaweed_htl_mt": 0.0,
+        "seaweed_pbtl_mt": 0.0,
+        "additive_marine_hydrochar_mt": 0.0,
+        "n_p_k_htl_feedstock_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "recovered_treated_product_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "crop_field_npk_offset_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "marine_salts_and_metals_screen": "Mandatory; no application to cropland without testing/permits",
+        "nutrient_accounting": "Existing offshore HTL fertilizer coproduct credit remains allocated outside the crop NPK balance; no double credit or immediate soil return assumed"
+      }
+    }
+  ],
+  "lca_accounting": [
+    {
+      "case": "V9.9 chemistry- and land-limited analyst crop screen",
+      "legacy_mt": 224.95212363505274,
+      "route_ci_model_g_mj": 10.0,
+      "route_ci_scenario_g_mj": 10.0,
+      "scenario_adjusted_legacy_mt": 224.95212363505274,
+      "crop_liquid_twh": 431.6,
+      "mixed_route_liquid_twh": 1173.8782542125234,
+      "generic_crop_ci_replaced_mt": 15.537600000000001,
+      "process_inventory_mt": 19.9699230625,
+      "field_counterfactual_mt": null,
+      "replaced_route_screen_mt": 229.38444669755273,
+      "maximal_gross_addition_screen_mt": 244.92204669755273,
+      "crop_mt": 166.0,
+      "effective_npk_imports_kt": {
+        "n": 977.3040000000001,
+        "p": 176.73053125,
+        "k": 1093.05
+      },
+      "source": "The 10 g/MJ generic mixed terrestrial route is adjusted consistently then substituted only for crop liquid energy; process H2, electricity and noncrop terms retained.",
+      "qualifier": "Conditional partial agricultural LCA, not an independently calibrated cradle-to-grave national inventory; source-field emissions and chemistry unknown"
+    },
+    {
+      "case": "V9.9 matched no-crop alternative",
+      "legacy_mt": 267.74459870603755,
+      "route_ci_model_g_mj": 10.0,
+      "route_ci_scenario_g_mj": 10.0,
+      "scenario_adjusted_legacy_mt": 267.74459870603755,
+      "crop_liquid_twh": 0.0,
+      "mixed_route_liquid_twh": 1104.8363301453242,
+      "generic_crop_ci_replaced_mt": 0.0,
+      "process_inventory_mt": 0.0,
+      "field_counterfactual_mt": null,
+      "replaced_route_screen_mt": 267.74459870603755,
+      "maximal_gross_addition_screen_mt": 267.74459870603755,
+      "crop_mt": 0.0,
+      "effective_npk_imports_kt": {
+        "n": 0.0,
+        "p": 0.0,
+        "k": 0.0
+      },
+      "source": "The 10 g/MJ generic mixed terrestrial route is adjusted consistently then substituted only for crop liquid energy; process H2, electricity and noncrop terms retained.",
+      "qualifier": "Conditional partial agricultural LCA, not an independently calibrated cradle-to-grave national inventory; source-field emissions and chemistry unknown"
+    }
+  ],
+  "reference_partial_mt": 1629.014882262778,
+  "nutrient_availability_chain": {
+    "n": {
+      "process_recovery": 0.25,
+      "treatment_storage_retention": 0.8,
+      "plant_available_field_fraction": 0.7
+    },
+    "p": {
+      "process_recovery": 0.375,
+      "treatment_storage_retention": 0.85,
+      "plant_available_field_fraction": 0.55
+    },
+    "k": {
+      "process_recovery": 0.4,
+      "treatment_storage_retention": 0.9,
+      "plant_available_field_fraction": 0.85
+    }
+  },
+  "cover_crop_land_constraint": {
+    "available_ha": 20000000.0,
+    "accumulation_tC_ha_yr": 0.5,
+    "max_stable_c_mt": 10.0
+  },
+  "limitations": [
+    "BT23 county supply only when an official authenticated export is supplied; otherwise full 166-Mt analyst ceiling is NOT a calibrated capacity",
+    "Plant-availability and treatment fractions are independent analyst assumptions, not experimental HTL data",
+    "Generic 10 g/MJ agricultural route is SUBSTITUTED with gross explicit process inventory as a range, not added twice",
+    "No explicit hourly energy network feasibility or farm-grade regional siting verified"
+  ],
+  "fixed_hub_cases": [
+    {
+      "hubs": 0,
+      "annual_cost_bn": 722.2294272878352,
+      "crop_mt": 166.0,
+      "cover_c_mt": 8.584999999999999
+    },
+    {
+      "hubs": 30,
+      "annual_cost_bn": 670.457861668665,
+      "crop_mt": 166.0,
+      "cover_c_mt": 8.584999999999999
+    },
+    {
+      "hubs": 60,
+      "annual_cost_bn": 666.549134777542,
+      "crop_mt": 166.0,
+      "cover_c_mt": 8.584999999999999
+    },
+    {
+      "hubs": 100,
+      "annual_cost_bn": 660.985472070886,
+      "crop_mt": 166.0,
+      "cover_c_mt": 8.584999999999999
+    },
+    {
+      "hubs": 150,
+      "annual_cost_bn": 655.5948082638376,
+      "crop_mt": 166.0,
+      "cover_c_mt": 8.584999999999999
+    },
+    {
+      "hubs": 166,
+      "annual_cost_bn": 654.7800753605508,
+      "crop_mt": 166.0,
+      "cover_c_mt": 8.584999999999999
+    },
+    {
+      "hubs": 250,
+      "annual_cost_bn": 653.365670232443,
+      "crop_mt": 166.0,
+      "cover_c_mt": 8.584999999999999
+    }
+  ]
+}

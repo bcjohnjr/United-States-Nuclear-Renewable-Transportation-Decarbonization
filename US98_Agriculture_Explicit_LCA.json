@@ -1,0 +1,209 @@
+{
+  "version": "9.8",
+  "central": {
+    "case": "soil_costed_economic_crop",
+    "gross_candidate_addon_mt": 13.748480500000001,
+    "lines": {
+      "fertilizer_manufacture_mt": 2.6319500000000002,
+      "soil_n2o_sensitivity_mt": 4.8751560000000005,
+      "aqueous_treatment_mt": 5.8100000000000005,
+      "hydrochar_transport_application_mt": 0.3984,
+      "pyrocarbon_delivery_mt": 0.032974500000000004,
+      "cover_crop_establishment_mt": 0.0
+    },
+    "assumptions": {
+      "n2o_n_fraction": 0.01,
+      "treatment_tco2e_per_t_feedstock": 0.035,
+      "fertilizer_prod_scale": 1
+    },
+    "legacy_model_emissions_mt": 224.95212363505274,
+    "upper_screen_emissions_if_all_additional_mt": 238.70060413505274,
+    "unquantified": [
+      "feedstock-specific upstream cultivation/indirect land use",
+      "long-run soil carbon stock changes",
+      "fertilizer production and HTL coefficient overlap",
+      "methane-carbon soil biological performance",
+      "marine salt removal for ocean scenario"
+    ]
+  },
+  "cases": [
+    {
+      "case": "soil_costed_economic_crop",
+      "gross_candidate_addon_mt": 8.0313175,
+      "lines": {
+        "fertilizer_manufacture_mt": 1.842365,
+        "soil_n2o_sensitivity_mt": 2.4375780000000002,
+        "aqueous_treatment_mt": 3.3200000000000003,
+        "hydrochar_transport_application_mt": 0.3984,
+        "pyrocarbon_delivery_mt": 0.032974500000000004,
+        "cover_crop_establishment_mt": 0.0
+      },
+      "assumptions": {
+        "n2o_n_fraction": 0.005,
+        "treatment_tco2e_per_t_feedstock": 0.02,
+        "fertilizer_prod_scale": 0.7
+      },
+      "legacy_model_emissions_mt": 224.95212363505274,
+      "upper_screen_emissions_if_all_additional_mt": 232.98344113505274,
+      "unquantified": [
+        "feedstock-specific upstream cultivation/indirect land use",
+        "long-run soil carbon stock changes",
+        "fertilizer production and HTL coefficient overlap",
+        "methane-carbon soil biological performance",
+        "marine salt removal for ocean scenario"
+      ]
+    },
+    {
+      "case": "soil_costed_economic_crop",
+      "gross_candidate_addon_mt": 13.748480500000001,
+      "lines": {
+        "fertilizer_manufacture_mt": 2.6319500000000002,
+        "soil_n2o_sensitivity_mt": 4.8751560000000005,
+        "aqueous_treatment_mt": 5.8100000000000005,
+        "hydrochar_transport_application_mt": 0.3984,
+        "pyrocarbon_delivery_mt": 0.032974500000000004,
+        "cover_crop_establishment_mt": 0.0
+      },
+      "assumptions": {
+        "n2o_n_fraction": 0.01,
+        "treatment_tco2e_per_t_feedstock": 0.035,
+        "fertilizer_prod_scale": 1.0
+      },
+      "legacy_model_emissions_mt": 224.95212363505274,
+      "upper_screen_emissions_if_all_additional_mt": 238.70060413505274,
+      "unquantified": [
+        "feedstock-specific upstream cultivation/indirect land use",
+        "long-run soil carbon stock changes",
+        "fertilizer production and HTL coefficient overlap",
+        "methane-carbon soil biological performance",
+        "marine salt removal for ocean scenario"
+      ]
+    },
+    {
+      "case": "soil_costed_economic_crop",
+      "gross_candidate_addon_mt": 25.2232215,
+      "lines": {
+        "fertilizer_manufacture_mt": 3.4215350000000004,
+        "soil_n2o_sensitivity_mt": 9.750312000000001,
+        "aqueous_treatment_mt": 11.620000000000001,
+        "hydrochar_transport_application_mt": 0.3984,
+        "pyrocarbon_delivery_mt": 0.032974500000000004,
+        "cover_crop_establishment_mt": 0.0
+      },
+      "assumptions": {
+        "n2o_n_fraction": 0.02,
+        "treatment_tco2e_per_t_feedstock": 0.07,
+        "fertilizer_prod_scale": 1.3
+      },
+      "legacy_model_emissions_mt": 224.95212363505274,
+      "upper_screen_emissions_if_all_additional_mt": 250.17534513505274,
+      "unquantified": [
+        "feedstock-specific upstream cultivation/indirect land use",
+        "long-run soil carbon stock changes",
+        "fertilizer production and HTL coefficient overlap",
+        "methane-carbon soil biological performance",
+        "marine salt removal for ocean scenario"
+      ]
+    },
+    {
+      "case": "crop_no_pyro_soil_credit",
+      "gross_candidate_addon_mt": 13.825421,
+      "lines": {
+        "fertilizer_manufacture_mt": 2.6319500000000002,
+        "soil_n2o_sensitivity_mt": 4.8751560000000005,
+        "aqueous_treatment_mt": 5.8100000000000005,
+        "hydrochar_transport_application_mt": 0.3984,
+        "pyrocarbon_delivery_mt": 0.0,
+        "cover_crop_establishment_mt": 0.10991500000000001
+      },
+      "assumptions": {
+        "n2o_n_fraction": 0.01,
+        "treatment_tco2e_per_t_feedstock": 0.035,
+        "fertilizer_prod_scale": 1
+      },
+      "legacy_model_emissions_mt": 224.95212363505274,
+      "upper_screen_emissions_if_all_additional_mt": 238.77754463505275,
+      "unquantified": [
+        "feedstock-specific upstream cultivation/indirect land use",
+        "long-run soil carbon stock changes",
+        "fertilizer production and HTL coefficient overlap",
+        "methane-carbon soil biological performance",
+        "marine salt removal for ocean scenario"
+      ]
+    },
+    {
+      "case": "crop_low_nutrient_recovery",
+      "gross_candidate_addon_mt": 14.675368,
+      "lines": {
+        "fertilizer_manufacture_mt": 4.042925,
+        "soil_n2o_sensitivity_mt": 4.386096,
+        "aqueous_treatment_mt": 5.8100000000000005,
+        "hydrochar_transport_application_mt": 0.3984,
+        "pyrocarbon_delivery_mt": 0.037947,
+        "cover_crop_establishment_mt": 0.0
+      },
+      "assumptions": {
+        "n2o_n_fraction": 0.01,
+        "treatment_tco2e_per_t_feedstock": 0.035,
+        "fertilizer_prod_scale": 1
+      },
+      "legacy_model_emissions_mt": 224.95212363505274,
+      "upper_screen_emissions_if_all_additional_mt": 239.62749163505273,
+      "unquantified": [
+        "feedstock-specific upstream cultivation/indirect land use",
+        "long-run soil carbon stock changes",
+        "fertilizer production and HTL coefficient overlap",
+        "methane-carbon soil biological performance",
+        "marine salt removal for ocean scenario"
+      ]
+    },
+    {
+      "case": "crop_no_stable_hydrochar",
+      "gross_candidate_addon_mt": 13.847256000000002,
+      "lines": {
+        "fertilizer_manufacture_mt": 2.6319500000000002,
+        "soil_n2o_sensitivity_mt": 4.8751560000000005,
+        "aqueous_treatment_mt": 5.8100000000000005,
+        "hydrochar_transport_application_mt": 0.3984,
+        "pyrocarbon_delivery_mt": 0.1275,
+        "cover_crop_establishment_mt": 0.004249999999999999
+      },
+      "assumptions": {
+        "n2o_n_fraction": 0.01,
+        "treatment_tco2e_per_t_feedstock": 0.035,
+        "fertilizer_prod_scale": 1
+      },
+      "legacy_model_emissions_mt": 224.95212363505274,
+      "upper_screen_emissions_if_all_additional_mt": 238.79937963505273,
+      "unquantified": [
+        "feedstock-specific upstream cultivation/indirect land use",
+        "long-run soil carbon stock changes",
+        "fertilizer production and HTL coefficient overlap",
+        "methane-carbon soil biological performance",
+        "marine salt removal for ocean scenario"
+      ]
+    }
+  ],
+  "assumptions": {
+    "fertilizer_prod_kgco2_per_kg_element": {
+      "n": 4.0,
+      "p": 2.0,
+      "k": 0.8
+    },
+    "soil_n2o_n_fraction_of_applied_n": 0.01,
+    "n2o_100yr_gwp": 273,
+    "htl_wastewater_treatment_tco2e_per_t_dry": 0.035,
+    "hydrochar_transport_application_tco2e_per_t_char": 0.02,
+    "methane_carbon_transport_tco2e_per_t_soil_carbon": 0.015,
+    "cover_crop_establishment_tco2e_per_t_stable_c": 0.05,
+    "direct_crop_land_use_change_mtco2e_yr": "NOT QUANTIFIED",
+    "field_soil_stock_trend_mtco2e_yr": "NOT QUANTIFIED",
+    "overlap_with_existing_liquid_fuel_ci": "UNKNOWN: gross components could partially reside in generic lifecycle coeffs"
+  },
+  "interpretation": "Gross candidate agriculture-related emissions that require a route-level factor overlap audit before adding them to national WTW totals. The paired range [legacy, legacy+gross] is NOT a probabilistic CI.",
+  "reference_hydrogen_energy_basis": "EIA generally reports gross heat content; HHV mass conversion shown with LHV check in US97_AEO_Boundary.json",
+  "citation_reading": [
+    "https://pubs.rsc.org/en/content/articlehtml/2026/ew/d5ew00569h",
+    "https://www.eia.gov/totalenergy/conversion/factors/"
+  ]
+}
