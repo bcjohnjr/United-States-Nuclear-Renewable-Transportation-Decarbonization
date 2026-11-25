@@ -1,6 +1,6 @@
-# V9.14 — Science-targeted U.S. transport decarbonisation research package
+# V9.14.1 — Science-targeted U.S. transport decarbonisation editorial and GitHub-flat correction
 
-**Status:** Computationally reproduced and ready for author/editor clearance. **Not certified as ready to submit** without coauthor approval, corrected declarations, editorial figure permission and publication of the exact repository release. All numerical resource quantities are **conditional scenario screens**, not verified regional supply or full lifecycle measurements.
+**Status:** V9.14 numerical model preserved; V9.14.1 corrects declarations and version references, figure provenance, Figure S30 display precision and repository checks. The corresponding author reports that all named authors approved submission and confirmed no competing interests. **Not yet certified as ready to submit** pending precise coauthor contribution records, figure permission and publication of an exact repository release. All numerical resource quantities are **conditional scenario screens**, not verified regional supply or full lifecycle measurements.
 
 ## Flat-directory reproduction (no project tree, no Git checkout required)
 
@@ -9,7 +9,7 @@
 3. Windows quick integrity check: double-click `RUN_V914_QUICK_CHECK.bat` or run `py -3 us914_validate.py`.
 4. **Windows full independent rerun:** double-click `RUN_V914_REPRODUCE.bat` (or `py -3 us914_validate.py --full`). Linux/macOS: `bash RUN_V914_REPRODUCE.sh`.
 
-`--full` first verifies the signed package, then copies all flat-root source data into a temporary *flat* directory, and re-executes the crop/soil screens, paired 1,000-draw Monte Carlo, TIFF figures and current Word files there. The output ZIP and manifest are never modified by the test. On a matching Python/SciPy solver environment, the two current Monte Carlo outputs must match byte for byte. On other solver versions, numerical feasibility may reproduce without binary-identical CSV; failure will be reported rather than silently passed.
+`--full` first verifies the SHA-256-checksum-audited package, then copies all flat-root source data into a temporary *flat* directory, and re-executes the crop/soil screens, paired 1,000-draw Monte Carlo, TIFF figures and current Word files there. The output ZIP and manifest are never modified by the test. V9.14.1 adds a GitHub-flat checkout preflight and regenerates all four editorial Word files during the isolated test. On a matching Python/SciPy solver environment, the two current Monte Carlo outputs must match byte for byte. On other solver versions, numerical feasibility may reproduce without binary-identical CSV; failure will be reported rather than silently passed.
 
 ## Journal files
 
@@ -31,4 +31,14 @@ The 166-Mt/y national crop capacity and 13 individual capacities, field collecti
 
 ## Author and release tasks still open
 
-See `AUTHOR_CLEARANCE_PENDING_V9.14.md`, `SCIENCE_POLICY_AUTHOR_REVIEW_V9.14.md`, `US914_EDITORIAL_FIGURE_PROVENANCE.csv`, and `GITHUB_RELEASE_NOTES_V9.14.md`. In particular, obtain each coauthor's signed approval and correct interests/IP/company declarations. **Do not invent** repository tags, archived DOI values, prompt histories, figure provenance or Science editorial permissions. Only insert GitHub/Zenodo links after user verification and publication of the exact V9.14 research files.
+See `AUTHOR_CLEARANCE_PENDING_V9.14.md`, `SCIENCE_POLICY_AUTHOR_REVIEW_V9.14.md`, `US914_EDITORIAL_FIGURE_PROVENANCE.csv`, and `GITHUB_RELEASE_NOTES_V9.14.md`. Author approval and no competing interests are recorded from the corresponding author; the precise CRediT roles of additional authors, the company association, any relevant patents/IP, and figure permissions must still be checked for accurate journal declarations. **Do not invent** repository tags, archived DOI values, prompt histories, figure provenance or Science editorial permissions. Only insert GitHub/Zenodo links after user verification and publication of the exact V9.14 research files.
+
+## V9.14.1 GitHub-ready regression (code and datasets remain at repository root)
+
+Run `RUN_V9141_REPOSITORY_CHECK.bat` on Windows or `bash RUN_V9141_REPOSITORY_CHECK.sh` on Linux/macOS. This verifies every root Python file parses, checksum-manifest completeness, original V9.13 output preservation, 35 editorial figure matches and an isolated full reproduction. `GITHUB_ACTIONS_US_TRANSPORT_V9141.yml` is a workflow template; **copy it into `.github/workflows/us-transport-v9141.yml`** to activate GitHub Actions. That `.github/workflows/` directory is GitHub configuration, not a dependency of the flat root Python code.
+
+The GitHub account connector did not expose the target U.S. transport repository during package preparation; this ZIP has been tested as a fresh flat-root checkout simulation, **not claimed to have passed live GitHub Actions**. Confirm a successful Actions run from the exact final commit before citing the repository.
+
+Historical V9.13-named uncertainty outputs were recalculated in V9.14. The original V9.13 CSV and JSON are retained at the flat root with `V913_ORIGINAL__` prefixes; `V913_V914_CORRECTED_LEGACY_AUDIT.csv` lists all seven identical-name files that changed between official V9.13 and V9.14 archives with both hashes. File names carried forward from an older code interface are not, by themselves, proof of old numbers. The scientific calculations remain V9.14.
+
+The checksum CSV is **not digitally signed**. `MAKE_MANIFEST_V9141.py` is provided only for intentional audited edits, not as a substitute for integrity verification. All supplied single files are below GitHub's 100 MB limit. Source archives and large copyrighted third-party datasets must be checked for redistribution permission before repository publication.
