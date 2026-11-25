@@ -48,12 +48,19 @@ def run():
     s='\n'.join(p.text for p in si.paragraphs)
     assert 'The authors declare no competing interests' in t
     assert 'Cloud Wash Laundry Corporation' in t
-    assert 'all named human authors have approved submission' in t
-    assert 'precise CRediT roles' in t
+    assert 'All authors have reviewed and approved the final manuscript and its submission.' in t
+    assert 'Detailed CRediT contributions for C. Pahl and P. Valdés Bacallao' in t
+    assert 'Funding: No external funding was received for this analysis.' in t
+    assert '* Correspondence: jonathan@cloudwashlaundry.com' in t
     assert 'current V9.13' not in s and 'Current V9.13 results' not in s
     assert 'current V9.14 1,000-draw paired screen' in s
-    assert 'The corresponding author reports that every named human author approved' in '\n'.join(p.text for p in cover.paragraphs)
-    assert 'Specific coauthor CRediT roles' in '\n'.join(p.text for p in title.paragraphs)
+    assert 'All named authors have read and approved the final manuscript' in '\n'.join(p.text for p in cover.paragraphs)
+    assert 'No external funding was received for this research.' in '\n'.join(p.text for p in cover.paragraphs)
+    assert 'jonathan@cloudwashlaundry.com' in '\n'.join(p.text for p in cover.paragraphs)
+    assert 'All authors reviewed and approved the final manuscript' in '\n'.join(p.text for p in title.paragraphs)
+    assert 'No external funding was received for this research' in '\n'.join(p.text for p in title.paragraphs)
+    assert 'Detailed CRediT roles for C. Pahl and P. Valdés Bacallao' in '\n'.join(p.text for p in title.paragraphs)
+    assert 'jonathan@cloudwashlaundry.com' in '\n'.join(p.text for p in title.paragraphs)
     with (ROOT/'US914_EDITORIAL_FIGURE_PROVENANCE.csv').open(newline='') as f:prov=list(csv.DictReader(f))
     assert len(prov)==35 and all('source_verified_status' in p for p in prov)
     for p in prov:
