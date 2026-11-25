@@ -1,0 +1,7 @@
+htl_liquid_mwh_per_dry_metric_t,crop_annual_bn,no_crop_annual_bn,crop_saving_bn,crop_selected_mt,crop_liquid_twh,crop_n_external_kt,crop_p_external_kt,crop_k_external_kt,boundary
+1.2,668.3604702030519,668.3604702030519,0.0,0.0,0.0,0.0,0.0,0.0,system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance
+1.6,668.3604702030519,668.3604702030519,0.0,0.0,0.0,0.0,0.0,0.0,system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance
+2.0,668.3604702030519,668.3604702030519,0.0,0.0,0.0,0.0,0.0,0.0,system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance
+2.3,664.4913112044777,666.065472864224,1.5741616597463235,98.5843649727814,226.7440394373972,596.229877136144,108.90796278503787,590.8910422022132,system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance
+2.6,654.7633815744267,661.5452670833906,6.78188550896391,166.0,431.6,977.3040000000001,176.73053125,1093.05,system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance
+3.0,643.2534862459011,655.9524993385683,12.699013092667201,166.0,498.0,977.3040000000001,176.73053125,1093.05,system-wide common terrestrial HTL yield [A]; NOT measured feedstock-specific performance

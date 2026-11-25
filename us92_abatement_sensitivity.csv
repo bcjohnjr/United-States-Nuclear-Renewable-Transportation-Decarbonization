@@ -1,0 +1,9 @@
+gasoline_cut_pct,fuel_only_reference_bn,alternative_bn,reference_emissions_mt_adjusted_tailpipe_only,avoided_mt_fixed_denominator,abatement_usd_t_fixed_denominator,abatement_usd_t_adjusted_tailpipe,full_2050_fleet_costs_included
+0.0,592.77,526.866,2873.0,2683.928,-24.56,-24.56,False
+5.0,575.852,526.866,2812.374,2683.928,-18.25,-18.67,False
+10.0,558.934,526.866,2751.748,2683.928,-11.95,-12.51,False
+15.0,542.016,526.866,2691.123,2683.928,-5.64,-6.06,False
+20.0,525.098,526.866,2630.497,2683.928,0.66,0.72,False
+25.0,508.179,526.866,2569.871,2683.928,6.96,7.85,False
+30.0,491.261,526.866,2509.245,2683.928,13.27,15.35,False
+35.0,474.343,526.866,2448.62,2683.928,19.57,23.24,False
