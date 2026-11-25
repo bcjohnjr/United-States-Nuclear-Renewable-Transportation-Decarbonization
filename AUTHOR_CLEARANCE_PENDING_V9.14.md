@@ -1,8 +1,10 @@
-# V9.14: mandatory human signoff before journal submission
+# V9.14.1: outstanding human/editor signoff before journal submission
 
-- [ ] Get written approval and real contribution statements from all listed authors, **including Christoph Pahl and Patricia Valdés Bacallao**, or remove/revise names in accordance with research ethics.
+- [x] The corresponding author reports submission approval from all named authors, including Christoph Pahl and Patricia Valdés Bacallao.
+- [ ] Supply accurate CRediT contributions for every coauthor from verified records; the computational package cannot infer individual roles or independently verify written approvals.
 - [ ] Confirm independent researcher and university affiliations, email, funding, contributions and author-contact information.
-- [ ] Review associations with **Cloud Wash Laundry Corporation**, any equity, financial support, institutional interests, patents or pending applications, and get every author's competing-interest declaration. The research code cannot establish absence or presence of individual interests.
+- [x] Corresponding author reports that all authors declare no competing interests.
+- [ ] Check the manuscript's disclosed **Cloud Wash Laundry Corporation** association, any relevant intellectual property and required funding disclosures against each author's actual circumstances and the journal's definitions. The research code cannot establish absence or presence of individual interests.
 - [ ] Confirm original-submission/no-concurrent-submission representation against existing manuscripts being considered elsewhere.
 - [ ] For each of 35 TIFFs, establish provenance, human verification, ownership and whether AI-generated artwork or image alteration occurred. **30 inherited figures** still have incomplete historical provenance; the model/graph scripts alone do not certify permission. Seek Science editorial approval where required.
 - [ ] Check the precise AI-assistance statement and historical prompt availability with the journal. Do not invent missing prompts, tool usage or editor permissions. AI does not qualify as an author.
