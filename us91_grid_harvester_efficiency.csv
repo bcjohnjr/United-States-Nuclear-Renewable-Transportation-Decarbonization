@@ -1,0 +1,6 @@
+configuration,energy_mj_per_1_44ha_cycle,relative_energy_pct,modelled_energy_reduction_pct,conventional_to_case_efficiency_multiplier
+Conventional reference,90.9,100.0,0.0,1.0
+"Grid Harvester bare hose, 10% solids",55.6,61.16611661166116,38.83388338833884,1.6348920863309353
+"Grid Harvester faired, 10% solids",33.89999999999999,37.29372937293728,62.70627062706271,2.6814159292035407
+"Grid Harvester faired, 20% solids",23.8,26.182618261826182,73.81738173817382,3.819327731092437
+"Grid Harvester faired, 30% solids",20.3,22.33223322332233,77.66776677667767,4.477832512315271
