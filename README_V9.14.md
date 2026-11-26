@@ -1,6 +1,6 @@
 # V9.14.1 — Science-targeted U.S. transport decarbonisation editorial and GitHub-flat correction
 
-**Status:** V9.14 numerical model preserved; V9.14.1 corrects declarations and version references, figure provenance, Figure S30 display precision and repository checks. All named authors have read and approved the final manuscript and its submission, as confirmed by the corresponding author. The corresponding author confirms no external funding and the contact email jonathan@cloudwashlaundry.com. The authors declare no competing interests, with the Cloud Wash Laundry Corporation association disclosed. **Not yet certified as ready to submit** pending precise coauthor contribution records, figure permission and publication of an exact repository release. All numerical resource quantities are **conditional scenario screens**, not verified regional supply or full lifecycle measurements.
+**Status:** V9.14 numerical model preserved; V9.14.1 corrects declarations and version references, figure provenance, Figure S30 display precision and repository checks. The corresponding author reports that all named authors approved submission and confirmed no competing interests. **Not yet certified as ready to submit** pending precise coauthor contribution records, figure permission and publication of an exact repository release. All numerical resource quantities are **conditional scenario screens**, not verified regional supply or full lifecycle measurements.
 
 ## Flat-directory reproduction (no project tree, no Git checkout required)
 
@@ -31,7 +31,7 @@ The 166-Mt/y national crop capacity and 13 individual capacities, field collecti
 
 ## Author and release tasks still open
 
-See `AUTHOR_CLEARANCE_PENDING_V9.14.md`, `SCIENCE_POLICY_AUTHOR_REVIEW_V9.14.md`, `US914_EDITORIAL_FIGURE_PROVENANCE.csv`, and `GITHUB_RELEASE_NOTES_V9.14.md`. Author approval, no external funding, contact email and the no-competing-interests declaration have been entered in the Word documents from the corresponding author’s confirmations. Precise CRediT roles of the other authors, any relevant IP/financial relationships requiring additional disclosure, and figure permissions must still be checked against journal requirements. **Do not invent** repository tags, archived DOI values, prompt histories, figure provenance or Science editorial permissions. Only insert GitHub/Zenodo links after user verification and publication of the exact V9.14 research files.
+See `AUTHOR_CLEARANCE_PENDING_V9.14.md`, `SCIENCE_POLICY_AUTHOR_REVIEW_V9.14.md`, `US914_EDITORIAL_FIGURE_PROVENANCE.csv`, and `GITHUB_RELEASE_NOTES_V9.14.md`. Author approval and no competing interests are recorded from the corresponding author; the precise CRediT roles of additional authors, the company association, any relevant patents/IP, and figure permissions must still be checked for accurate journal declarations. **Do not invent** repository tags, archived DOI values, prompt histories, figure provenance or Science editorial permissions. Only insert GitHub/Zenodo links after user verification and publication of the exact V9.14 research files.
 
 ## V9.14.1 GitHub-ready regression (code and datasets remain at repository root)
 
@@ -42,7 +42,3 @@ The GitHub account connector did not expose the target U.S. transport repository
 Historical V9.13-named uncertainty outputs were recalculated in V9.14. The original V9.13 CSV and JSON are retained at the flat root with `V913_ORIGINAL__` prefixes; `V913_V914_CORRECTED_LEGACY_AUDIT.csv` lists all seven identical-name files that changed between official V9.13 and V9.14 archives with both hashes. File names carried forward from an older code interface are not, by themselves, proof of old numbers. The scientific calculations remain V9.14.
 
 The checksum CSV is **not digitally signed**. `MAKE_MANIFEST_V9141.py` is provided only for intentional audited edits, not as a substitute for integrity verification. All supplied single files are below GitHub's 100 MB limit. Source archives and large copyrighted third-party datasets must be checked for redistribution permission before repository publication.
-
-## V9.14.1 author-declaration delta (25 November 2026)
-
-The manuscript, cover letter and title page now state that all named authors have reviewed and approved submission; no external funding was received; and the corresponding-author contact is **jonathan@cloudwashlaundry.com**. The numerical model, Monte Carlo results, figures and supplementary methods are unchanged. The regeneration script `us9141_finalize.py`, repository preflight and full validator enforce the same assertions. The revised editor-only ZIP includes all four current documents and 35 unchanged figure TIFFs. CRediT details not supplied by the authors are **not invented**. The separate release patch contains only files that differ from the preceding V9.14.1 research archive, together with the updated SHA-256 manifest.

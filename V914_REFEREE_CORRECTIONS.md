@@ -5,10 +5,18 @@
 | Correct lifecycle coefficient subtraction | Single source coefficient (`us2_model.CI_RESIDUES_GRASSES_G_MJ=10`), crop-energy budget and matched sensitivity baseline adjustment; S32 adds unit-level trace | 431.6 TWh crop, 1,173.878 TWh total mixed route, 15.5376 Mt generic crop factor; invariance checks at 7/10/13 g/MJ |
 | Abstract omits frequent zero-residue result | Adds 59.8% of 1,000 uncalibrated Monte Carlo draws selecting no residue | Word abstract length and MC summary checked |
 | Delivery cost ambiguity | Defines an *incremental crop-only price surcharge over the baseline screened delivered tier*, distinct from nutrient, treatment and BT23 farmgate prices | Article, S31/S32, cover letter and release note |
-| Flat environment / executable code | Windows quick/full launchers, Linux launcher and isolated full rebuild; all inputs and scripts at ZIP root | Quick validator and signed release; Windows .bat syntax inspected (not run on native Windows) |
+| Flat environment / executable code | Windows quick/full launchers, Linux launcher and isolated full rebuild; all inputs and scripts at ZIP root | Quick validator and checksum-verified release; Windows .bat syntax inspected (not run on native Windows) |
 | Figures and numerical contents | Regenerates current Fig. 1, Fig. 5, Fig. S30; compiles four Word files and 35 TIFFs into editor-only ZIP | Image-pixel match, 600-dpi RGB audit and exact archived-file equality |
 | Grid Harvester preservation | Untouched mandatory S1/S22 and source engineering comparison | Source-versus-embedded pixel check and 90.9/33.9 MJ numerical comparison |
 | Author approval/claims and AI permission | Cannot be inferred; clearly listed as unresolved. Company and patent disclosure statements now require confirmation rather than certifying no patents | `AUTHOR_CLEARANCE_PENDING_V9.14.md` and provenance table |
 | GitHub/Zenodo DOI | Not fabricated. Current release carries hashes and deployment instructions | Publish exact ZIP contents later and verify tag/DOI before modifying manuscript |
 
 This response closes *computational and manuscript-editing* comments. It does **not** close real-world authorship, competing interests, data availability, image permissions, Science editorial policy, or regional scientific-validation gaps.
+
+## V9.14.1 follow-up to V9.14 independent review
+- Revised live-current V9.13 wording to V9.14 in supplement; retained explicit historic V9.13 references where accurate.
+- Reflected corresponding author's author-approval/no-interests confirmations in manuscript, cover and title; retained outstanding precise CRediT roles and mandatory disclosure scrutiny.
+- Revised three current figure records to correctly identify their V9.14 Matplotlib generator; remaining inherited figures remain **not rights-certified**.
+- Preserved untouched original V9.13 uncertainty outputs under `V913_ORIGINAL__` prefixes; supplied exact SHA256 comparison for seven modified V9.13/V9.14 common filenames.
+- Supplemental Figure S30 renders savings less than $0.01bn as $x.xx million, eliminating the misleading $0.00bn for positive millions.
+- Added syntax/manifest/figure checks, a GitHub workflow template and root Windows/POSIX runners. No actual public repository or DOI has been certified.

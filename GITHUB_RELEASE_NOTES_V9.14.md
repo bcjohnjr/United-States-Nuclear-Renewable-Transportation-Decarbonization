@@ -26,7 +26,3 @@ Publication of the exact repository release remains the user's task; none of the
 **Code and data remain flat:** copy all files from the outer research ZIP to the repository root. Place the optional `GITHUB_ACTIONS_US_TRANSPORT_V9141.yml` template at `.github/workflows/us-transport-v9141.yml` if automated CI is desired. On the target branch, run `python us9141_repo_check.py` and `python us914_validate.py --full`; on Windows use `RUN_V9141_REPOSITORY_CHECK.bat`. Do not publish an unverified tag or DOI. For this V9.14.1 editorial release, the numerical model retains the name V9.14; only documentation and figure S30 display precision changed.
 
 Do not add the outer archive itself to a GitHub checkout that is being validated with its own manifest. Do not move required Python/data/Word files to `src/`, `data/` or `docs/` without rewriting source paths.
-
-## Author approval / funding patch, 25 November 2026
-
-The small V9.14.1 declaration patch replaces **only** modified existing root-level files, including the 4-document editorial ZIP and checksum manifest. Overwrite files in the current V9.14.1 checkout; do **not** delete or replace untouched source code, data, TIFF figures or earlier historical files. Full validator and GitHub checkout preflight verify the revised Word declarations. Authors approved submission, no external funding was reported, and contact is jonathan@cloudwashlaundry.com. CRediT details and image rights are not implied by those confirmations.
