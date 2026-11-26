@@ -1,0 +1,10 @@
+PASS: immutable flat-root SHA-256: 272 files
+PASS: source-linked 10 g/MJ route, 431.6/1173.9-TWh crop-energy budget, no phantom CI sensitivity
+PASS: MANDATORY Grid Harvester calculation and two TIFFs, incl 62.7% energy reduction
+PASS: NPK conservation, bounded land, process emissions substitution and 150 MC draws; regional data False
+PASS: 25 fully reoptimised cost/resource screens; 6 cover-land screens; 5 field-LCA screens
+PASS: six matched HTL-yield sensitivities, mass balance, 25 delivered-price/capacity screens
+PASS: 1,000 audited paired draws, AEO workbooks, 16 yield-delivery screens, upstream unit gates
+PASS: 4 Word documents, abstract, 17 tables, 5+30 captions/embedded figures, 600-dpi TIFF
+PASS: editor-only ZIP content equals distributed Word files and exact 35 source TIFFs
+V9.14.1 EDITORIAL REVISION PASS — scientific screening only; NOT figure-rights/DOI-cleared

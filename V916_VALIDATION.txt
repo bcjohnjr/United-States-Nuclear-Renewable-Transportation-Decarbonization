@@ -1,0 +1,1 @@
+PASS: 72 exact supplied artwork hashes; 37 centered figures and TIFF pixel crosswalk (two original DPI exceptions); 45 gas-routing and reference balances
