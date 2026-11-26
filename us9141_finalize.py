@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic V9.14.1 editorial and author-clearance fixes applied AFTER us914_documents.py.
+"""Deterministic V9.14.1 editorial fixes applied AFTER us914_documents.py.
 
 This script does not alter numerical calculations or source data. It updates
 four DOCX outputs, figure provenance and the editorial upload ZIP. Run from
@@ -9,7 +9,6 @@ from pathlib import Path
 import csv
 import zipfile
 from docx import Document
-from docx.shared import Pt
 
 ROOT = Path(__file__).resolve().parent
 DOCS = ('Research_Article_V9.14_Science.docx',
@@ -37,9 +36,9 @@ def replace_where(path, replacements):
 def documents():
     replace_where(DOCS[0], {
        ('Competing interests: The corresponding author is associated with Cloud Wash Laundry Corporation. Financial interests, company involvement, related patents or applications, and all coauthor disclosures must be confirmed and completed by the authors before submission; no absence of conflicts or patents is certified by this package.'):
-       ('Competing interests: The authors declare no competing interests. J. K. Bily’s association with Cloud Wash Laundry Corporation is disclosed for transparency.'),
+       ('Competing interests: The authors declare no competing interests, as confirmed by the corresponding author. J. K. Bily’s association with Cloud Wash Laundry Corporation is disclosed for transparency. This statement does not certify any third-party conflict-of-interest audit; relevant financial relationships or intellectual property must still be reported if applicable.'),
        ('Author contributions: J. K. Bily conceptualization, computational investigation, original drafting and data curation; C. Pahl and P. Valdés Bacallao contributions and approval require confirmation from the individuals before journal submission.'):
-       ('Author contributions: J. K. Bily: conceptualization, computational investigation, original drafting and data curation. All authors have reviewed and approved the final manuscript and its submission. Detailed CRediT contributions for C. Pahl and P. Valdés Bacallao must be supplied by the coauthors before submission metadata are finalized.'),
+       ('Author contributions: J. K. Bily: conceptualization, computational investigation, original drafting and data curation. The corresponding author reports that all named human authors have approved submission. The precise CRediT roles of C. Pahl and P. Valdés Bacallao must be entered from verified author records; no roles have been inferred or invented.'),
     })
     replace_where(DOCS[1], {
        'current V9.13 1,000-draw paired screen':'current V9.14 1,000-draw paired screen',
@@ -49,19 +48,12 @@ def documents():
     })
     replace_where(DOCS[2], {
        'Coauthor signoff, competing-interest/patent declarations and permission for any AI-generated figure remain pending author/editor verification.':
-       'All named authors have read and approved the final manuscript and consent to its submission to Science. No external funding was received for this research. The authors declare no competing interests. J. K. Bily’s association with Cloud Wash Laundry Corporation is disclosed. The precise coauthor CRediT roles and any required AI-figure permissions must still be resolved before submission.'
+       'The corresponding author reports that every named human author approved submission and that the authors declare no competing interests. The corresponding author’s Cloud Wash Laundry Corporation association is disclosed. Author contribution records and any AI-figure permissions still need independent editorial verification.'
     })
     replace_where(DOCS[3], {
        'Funding: None reported. Competing interests and author contributions: see manuscript; author and coauthor confirmation required before upload.':
-       'Funding: No external funding was received for this research. Competing interests: The authors declare no competing interests; J. K. Bily’s association with Cloud Wash Laundry Corporation is disclosed in the manuscript. Author approval: All authors reviewed and approved the final manuscript and consent to submission. Detailed CRediT roles for C. Pahl and P. Valdés Bacallao remain to be supplied.'
+       'Funding: None reported. Competing interests: The authors declare no competing interests, as confirmed by the corresponding author; Cloud Wash Laundry Corporation association disclosed in the manuscript. Author approval: confirmed by the corresponding author. Specific coauthor CRediT roles remain to be documented.'
     })
-    # Keep the signature/contact together on one page; avoid a one-line second page.
-    cover = Document(ROOT / DOCS[2])
-    for para in cover.paragraphs:
-        if para.style.name != 'Heading 1':
-            para.paragraph_format.space_after = Pt(2)
-            para.paragraph_format.line_spacing = 1.1
-    cover.save(ROOT / DOCS[2])
 
 def provenance():
     path = ROOT / 'US914_EDITORIAL_FIGURE_PROVENANCE.csv'
@@ -106,7 +98,7 @@ def editorial():
 
 def apply():
     documents();provenance();editorial()
-    print('V9.14.1: editorial corrections, confirmed author approval and funding applied')
+    print('V9.14.1: editorial corrections and provenance register applied')
 
 if __name__=='__main__':
     apply()

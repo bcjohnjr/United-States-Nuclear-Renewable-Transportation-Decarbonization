@@ -64,11 +64,6 @@ def docs():
  assert 'Incremental' in m or 'incremental' in m
  assert 'V9.13' not in '\n'.join([ab,mm.paragraphs[-1].text])
  assert 'Cloud Wash Laundry Corporation' in m
- assert 'All authors have reviewed and approved the final manuscript and its submission.' in m
- assert 'Funding: No external funding was received for this analysis.' in m
- assert 'jonathan@cloudwashlaundry.com' in m
- assert 'No external funding was received for this research.' in '\n'.join(p.text for p in cover.paragraphs)
- assert 'No external funding was received for this research.' in '\n'.join(p.text for p in title.paragraphs)
  assert 'Artificial Inventor / Synthetic Scientist V63' in m
  assert 'AI systems are not authors' in m
  assert 'AI systems are not authors' in '\n'.join(p.text for p in cover.paragraphs)
