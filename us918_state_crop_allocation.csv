@@ -1,0 +1,301 @@
+scenario,state_fips,state,crop_selected_proportional_mt
+conservative,01,Alabama,0.27079046284520186
+conservative,02,Alaska,0.0
+conservative,04,Arizona,0.15673218261905744
+conservative,05,Arkansas,2.7977679609208868
+conservative,06,California,0.9597411783268476
+conservative,08,Colorado,1.1236485890008703
+conservative,09,Connecticut,0.0
+conservative,10,Delaware,0.17314323146637225
+conservative,12,Florida,1.5165827536977763
+conservative,13,Georgia,0.7147061558006208
+conservative,15,Hawaii,0.18752350232243462
+conservative,16,Idaho,1.2032781504955383
+conservative,17,Illinois,12.796323652377776
+conservative,18,Indiana,6.338304504261129
+conservative,19,Iowa,13.645444809504111
+conservative,20,Kansas,5.904004910746836
+conservative,21,Kentucky,1.2934148785610131
+conservative,22,Louisiana,2.144405926557965
+conservative,23,Maine,0.0
+conservative,24,Maryland,0.45357285799027497
+conservative,25,Massachusetts,0.0
+conservative,26,Michigan,2.170035919926234
+conservative,27,Minnesota,7.820330842107202
+conservative,28,Mississippi,1.2714909143911848
+conservative,29,Missouri,4.013542427842376
+conservative,30,Montana,1.1983311528071523
+conservative,31,Nebraska,8.152379919948366
+conservative,32,Nevada,0.005305899726729274
+conservative,33,New Hampshire,0.0
+conservative,34,New Jersey,0.07316876226211018
+conservative,35,New Mexico,0.09956775106363175
+conservative,36,New York,0.37140679290487083
+conservative,37,North Carolina,1.1279722897323843
+conservative,38,North Dakota,4.128099683159445
+conservative,39,Ohio,4.366291377634818
+conservative,40,Oklahoma,1.0831145978209
+conservative,41,Oregon,0.40675358080025964
+conservative,42,Pennsylvania,0.7634071372512287
+conservative,44,Rhode Island,0.0
+conservative,45,South Carolina,0.33934637759255587
+conservative,46,South Dakota,4.057652500931042
+conservative,47,Tennessee,0.9476262656344343
+conservative,48,Texas,3.4272331949878527
+conservative,49,Utah,0.04958304790221002
+conservative,50,Vermont,0.0
+conservative,51,Virginia,0.42029116317130927
+conservative,53,Washington,1.062770252653686
+conservative,54,West Virginia,0.016820017157464513
+conservative,55,Wisconsin,2.4569668487340435
+conservative,56,Wyoming,0.06315775807032963
+central,01,Alabama,0.27364901335964964
+central,02,Alaska,0.0
+central,04,Arizona,0.15838669754011048
+central,05,Arkansas,2.827302092071465
+central,06,California,0.9698725123857256
+central,08,Colorado,1.1355101819772195
+central,09,Connecticut,0.0
+central,10,Delaware,0.17497098665457578
+central,12,Florida,1.532592285072091
+central,13,Georgia,0.7222508219896615
+central,15,Hawaii,0.18950306023744615
+central,16,Idaho,1.2159803385267656
+central,17,Illinois,12.931405727186501
+central,18,Indiana,6.4052136686793
+central,19,Iowa,13.789490478137482
+central,20,Kansas,5.966329470103881
+central,21,Kentucky,1.3070685786494782
+central,22,Louisiana,2.167042959635645
+central,23,Maine,0.0
+central,24,Maryland,0.4583609177798431
+central,25,Massachusetts,0.0
+central,26,Michigan,2.1929435113904923
+central,27,Minnesota,7.902884749349633
+central,28,Mississippi,1.2849131781196026
+central,29,Missouri,4.0559106621269985
+central,30,Montana,1.21098111875257
+central,31,Nebraska,8.238439043188109
+central,32,Nevada,0.005361910496953929
+central,33,New Hampshire,0.0
+central,34,New Jersey,0.07394115505913948
+central,35,New Mexico,0.10061882000836064
+central,36,New York,0.3753274814984516
+central,37,North Carolina,1.1398795250730196
+central,38,North Dakota,4.171677220377708
+central,39,Ohio,4.412383342368827
+central,40,Oklahoma,1.0945483010550379
+central,41,Oregon,0.4110474013633374
+central,42,Pennsylvania,0.7714659065372435
+central,44,Rhode Island,0.0
+central,45,South Carolina,0.3429286262140582
+central,46,South Dakota,4.10048637521936
+central,47,Tennessee,0.9576297108099835
+central,48,Texas,3.463412161963752
+central,49,Utah,0.05010646237404752
+central,50,Vermont,0.0
+central,51,Virginia,0.4247278907727094
+central,53,Washington,1.0739891944899045
+central,54,West Virginia,0.01699757462456769
+central,55,Wisconsin,2.482903374620647
+central,56,Wyoming,0.06382447151336
+optimistic,01,Alabama,0.2717701734215679
+optimistic,02,Alaska,0.0
+optimistic,04,Arizona,0.15729923426244047
+optimistic,05,Arkansas,2.8078901891291204
+optimistic,06,California,0.9632134888842482
+optimistic,08,Colorado,1.127713910929849
+optimistic,09,Connecticut,0.0
+optimistic,10,Delaware,0.17376965771976202
+optimistic,12,Florida,1.5220696979133168
+optimistic,13,Georgia,0.7172919380784555
+optimistic,15,Hawaii,0.18820195590094016
+optimistic,16,Idaho,1.207631569437861
+optimistic,17,Illinois,12.842620311016022
+optimistic,18,Indiana,6.361236271849275
+optimistic,19,Iowa,13.694813559269615
+optimistic,20,Kansas,5.925365397350392
+optimistic,21,Kentucky,1.2980944090837694
+optimistic,22,Louisiana,2.152164313408804
+optimistic,23,Maine,0.0
+optimistic,24,Maryland,0.45521386898252564
+optimistic,25,Massachusetts,0.0
+optimistic,26,Michigan,2.1778870352111217
+optimistic,27,Minnesota,7.848624529987465
+optimistic,28,Mississippi,1.2760911247660032
+optimistic,29,Missouri,4.028063286235748
+optimistic,30,Montana,1.2026666736820701
+optimistic,31,Nebraska,8.18187494996607
+optimistic,32,Nevada,0.005325096289358534
+optimistic,33,New Hampshire,0.0
+optimistic,34,New Jersey,0.07343348432615414
+optimistic,35,New Mexico,0.09992798376074037
+optimistic,36,New York,0.3727505299010704
+optimistic,37,North Carolina,1.1320532546618263
+optimistic,38,North Dakota,4.14303500576051
+optimistic,39,Ohio,4.382088469590046
+optimistic,40,Oklahoma,1.0870332691646105
+optimistic,41,Oregon,0.4082252012587415
+optimistic,42,Pennsylvania,0.7661691180040955
+optimistic,44,Rhode Island,0.0
+optimistic,45,South Carolina,0.3405741211093908
+optimistic,46,South Dakota,4.072332948050971
+optimistic,47,Tennessee,0.9510547448546018
+optimistic,48,Texas,3.4396328067523254
+optimistic,49,Utah,0.04976243766331113
+optimistic,50,Vermont,0.0
+optimistic,51,Virginia,0.421811762136966
+optimistic,53,Washington,1.0666153188566536
+optimistic,54,West Virginia,0.016880871400744294
+optimistic,55,Wisconsin,2.4658560702457386
+optimistic,56,Wyoming,0.06338626066569777
+mapped_only,01,Alabama,0.06931585282493251
+mapped_only,02,Alaska,0.0
+mapped_only,04,Arizona,0.040119673304607785
+mapped_only,05,Arkansas,0.7161613824204887
+mapped_only,06,California,0.24567068414429513
+mapped_only,08,Colorado,0.2876270434481717
+mapped_only,09,Connecticut,0.0
+mapped_only,10,Delaware,0.044320507538764445
+mapped_only,12,Florida,0.38820874947962963
+mapped_only,13,Georgia,0.18294760527393117
+mapped_only,15,Hawaii,0.04800151139602104
+mapped_only,16,Idaho,0.30801029811336134
+mapped_only,17,Illinois,3.2755514269919837
+mapped_only,18,Indiana,1.6224536771375289
+mapped_only,19,Iowa,3.492906043323326
+mapped_only,20,Kansas,1.5112834151214192
+mapped_only,21,Kentucky,0.3310831349890051
+mapped_only,22,Louisiana,0.5489163984596317
+mapped_only,23,Maine,0.0
+mapped_only,24,Maryland,0.11610375468729323
+mapped_only,25,Massachusetts,0.0
+mapped_only,26,Michigan,0.5554770610086466
+mapped_only,27,Minnesota,2.0018168143671327
+mapped_only,28,Mississippi,0.3254711268784992
+mapped_only,29,Missouri,1.0273704373184644
+mapped_only,30,Montana,0.3067439855553394
+mapped_only,31,Nebraska,2.0868134009103225
+mapped_only,32,Nevada,0.0013581828573189453
+mapped_only,33,New Hampshire,0.0
+mapped_only,34,New Jersey,0.018729445280508968
+mapped_only,35,New Mexico,0.02548695218554114
+mapped_only,36,New York,0.09507121604164864
+mapped_only,37,North Carolina,0.2887338069597656
+mapped_only,38,North Dakota,1.056694342474332
+mapped_only,39,Ohio,1.1176656937726768
+mapped_only,40,Oklahoma,0.277251315523647
+mapped_only,41,Oregon,0.10411914454639616
+mapped_only,42,Pennsylvania,0.19541388649813315
+mapped_only,44,Rhode Island,0.0
+mapped_only,45,South Carolina,0.08686451996400643
+mapped_only,46,South Dakota,1.0386615562972699
+mapped_only,47,Tennessee,0.2425695575523506
+mapped_only,48,Texas,0.8772893596193747
+mapped_only,49,Utah,0.01269206904441785
+mapped_only,50,Vermont,0.0
+mapped_only,51,Virginia,0.10758444039683937
+mapped_only,53,Washington,0.2720436519279155
+mapped_only,54,West Virginia,0.004305520296208277
+mapped_only,55,Wisconsin,0.6289244853499272
+mapped_only,56,Wyoming,0.016166868718926274
+mapped_plus_wet,01,Alabama,0.0878165640015547
+mapped_plus_wet,02,Alaska,0.0
+mapped_plus_wet,04,Arizona,0.050827793569442906
+mapped_plus_wet,05,Arkansas,0.9073080588593619
+mapped_plus_wet,06,California,0.3112412886551573
+mapped_plus_wet,08,Colorado,0.36439598793277805
+mapped_plus_wet,09,Connecticut,0.0
+mapped_plus_wet,10,Delaware,0.056149849251502515
+mapped_plus_wet,12,Florida,0.4918234012173766
+mapped_plus_wet,13,Georgia,0.23177713946686895
+mapped_plus_wet,15,Hawaii,0.06081332950380739
+mapped_plus_wet,16,Idaho,0.3902196244447098
+mapped_plus_wet,17,Illinois,4.149810754768065
+mapped_plus_wet,18,Indiana,2.055493820984295
+mapped_plus_wet,19,Iowa,4.42517829045002
+mapped_plus_wet,20,Kansas,1.9146517187589331
+mapped_plus_wet,21,Kentucky,0.4194507046898712
+mapped_plus_wet,22,Louisiana,0.6954246405736275
+mapped_plus_wet,23,Maine,0.0
+mapped_plus_wet,24,Maryland,0.14709236615855517
+mapped_plus_wet,25,Massachusetts,0.0
+mapped_plus_wet,26,Michigan,0.7037363733035599
+mapped_plus_wet,27,Minnesota,2.53611067647469
+mapped_plus_wet,28,Mississippi,0.4123408265115245
+mapped_plus_wet,29,Missouri,1.3015802025829006
+mapped_plus_wet,30,Montana,0.38861532740059257
+mapped_plus_wet,31,Nebraska,2.6437932321655997
+mapped_plus_wet,32,Nevada,0.0017206879372428717
+mapped_plus_wet,33,New Hampshire,0.0
+mapped_plus_wet,34,New Jersey,0.023728418004803416
+mapped_plus_wet,35,New Mexico,0.032289533729881185
+mapped_plus_wet,36,New York,0.12044614886746438
+mapped_plus_wet,37,North Carolina,0.36579815157629464
+mapped_plus_wet,38,North Dakota,1.338730789194013
+mapped_plus_wet,39,Ohio,1.4159756668856347
+mapped_plus_wet,40,Oklahoma,0.35125093181339345
+mapped_plus_wet,41,Oregon,0.13190900996253632
+mapped_plus_wet,42,Pennsylvania,0.247570726912896
+mapped_plus_wet,44,Rhode Island,0.0
+mapped_plus_wet,45,South Carolina,0.1100490488972199
+mapped_plus_wet,46,South Dakota,1.3158849717236012
+mapped_plus_wet,47,Tennessee,0.3073124575041329
+mapped_plus_wet,48,Texas,1.1114418139162927
+mapped_plus_wet,49,Utah,0.016079639045432987
+mapped_plus_wet,50,Vermont,0.0
+mapped_plus_wet,51,Virginia,0.136299208776123
+mapped_plus_wet,53,Washington,0.34465331950949313
+mapped_plus_wet,54,West Virginia,0.0054546829223454055
+mapped_plus_wet,55,Wisconsin,0.7967872437401626
+mapped_plus_wet,56,Wyoming,0.020481878296239577
+mapped_exact,01,Alabama,0.0
+mapped_exact,02,Alaska,0.0
+mapped_exact,04,Arizona,0.0
+mapped_exact,05,Arkansas,0.0
+mapped_exact,06,California,0.0
+mapped_exact,08,Colorado,0.0
+mapped_exact,09,Connecticut,0.0
+mapped_exact,10,Delaware,0.0
+mapped_exact,12,Florida,0.0
+mapped_exact,13,Georgia,0.0
+mapped_exact,15,Hawaii,0.0
+mapped_exact,16,Idaho,0.0
+mapped_exact,17,Illinois,0.0
+mapped_exact,18,Indiana,0.0
+mapped_exact,19,Iowa,0.0
+mapped_exact,20,Kansas,0.0
+mapped_exact,21,Kentucky,0.0
+mapped_exact,22,Louisiana,0.0
+mapped_exact,23,Maine,0.0
+mapped_exact,24,Maryland,0.0
+mapped_exact,25,Massachusetts,0.0
+mapped_exact,26,Michigan,0.0
+mapped_exact,27,Minnesota,0.0
+mapped_exact,28,Mississippi,0.0
+mapped_exact,29,Missouri,0.0
+mapped_exact,30,Montana,0.0
+mapped_exact,31,Nebraska,0.0
+mapped_exact,32,Nevada,0.0
+mapped_exact,33,New Hampshire,0.0
+mapped_exact,34,New Jersey,0.0
+mapped_exact,35,New Mexico,0.0
+mapped_exact,36,New York,0.0
+mapped_exact,37,North Carolina,0.0
+mapped_exact,38,North Dakota,0.0
+mapped_exact,39,Ohio,0.0
+mapped_exact,40,Oklahoma,0.0
+mapped_exact,41,Oregon,0.0
+mapped_exact,42,Pennsylvania,0.0
+mapped_exact,44,Rhode Island,0.0
+mapped_exact,45,South Carolina,0.0
+mapped_exact,46,South Dakota,0.0
+mapped_exact,47,Tennessee,0.0
+mapped_exact,48,Texas,0.0
+mapped_exact,49,Utah,0.0
+mapped_exact,50,Vermont,0.0
+mapped_exact,51,Virginia,0.0
+mapped_exact,53,Washington,0.0
+mapped_exact,54,West Virginia,0.0
+mapped_exact,55,Wisconsin,0.0
+mapped_exact,56,Wyoming,0.0
