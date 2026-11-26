@@ -1,0 +1,2212 @@
+{
+  "created_utc": "2026-11-26T02:31:29.799944+00:00",
+  "records": [
+    {
+      "dataset": "BT23 national 2041 workbook",
+      "file": "BT23_National_summary.xlsx",
+      "status": "cached",
+      "bytes": 15803,
+      "sha256": "88da4f38caec43849746e4091b6e300d478745116a82ff86aaab17b7ef154329",
+      "notes": "National offered-price scenarios only; dry short tons; not county data."
+    },
+    {
+      "dataset": "EPA AgSTAR",
+      "file": "EPA_AgSTAR_livestock.xlsx",
+      "status": "cached",
+      "bytes": 98977,
+      "sha256": "e74647b7cacc29155d9fb3a82485ce0ef9d6483eef94ca760fd3695024fdf7df",
+      "notes": "Existing operating, planned and closed projects; not all projects are operating."
+    },
+    {
+      "dataset": "DOE/NREL historical county solid-biomass",
+      "file": "NREL_solid-biomass.zip",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://www.nrel.gov/gis/assets/data/solid-biomass.zip",
+          "method": "urllib",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.nrel.gov/gis/assets/data/solid-biomass.zip",
+          "method": "curl",
+          "error": "curl: (6) Could not resolve host: www.nrel.gov\n"
+        },
+        {
+          "url": "https://www.nlr.gov/gis/assets/data/solid-biomass.zip",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Historical modeled technical potential, not BT23 or unused sustainable resource.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "DOE/NREL historical county biomethane",
+      "file": "NREL_biomethane.zip",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://www.nrel.gov/gis/assets/data/biomethane.zip",
+          "method": "urllib",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.nrel.gov/gis/assets/data/biomethane.zip",
+          "method": "curl",
+          "error": "curl: (6) Could not resolve host: www.nrel.gov\n"
+        },
+        {
+          "url": "https://www.nlr.gov/gis/assets/data/biomethane.zip",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Historical modeled technical potential, not BT23 or unused sustainable resource.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "EPA Excess Food Opportunities Map",
+      "file": "EPA_excess_food.zip",
+      "status": "downloaded",
+      "source_url": "https://www.arcgis.com/sharing/rest/content/items/62103e6a6f004217b9ee49fdfd1c2615/data",
+      "final_url": "https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/62103e6a6f004217b9ee49fdfd1c2615/ExcessFoodPublic_USTer_2024_R9.zip?response-cache-control=max-age%3D0%2C%20s-maxage%3D600%2C%20v%3D1759158943000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCocE4xdCwE0A%2FbRz%2B2rF1mazLGVc4PnDIFOI%2BZ1nQNmwIgafCjYoKBOvHl%2FCVo2qFOXRWPfBGVGVN5K7dVsBdfLaAqvAUIsP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2MDQ3NTgxMDI2NjUiDIZb2fPWT9VtNmMj%2BSqQBWVMvqoXDJaSklIUlxnLSMYf%2FuAqEjFiBC247UooI2mf0J6rzzOCSk17g0fa8wmLxUQEAiiVjnXTfzgdciuE9CxcBCzWohhfEUCb%2BTb43PvRVDqLNXO4HO8Ez2mmmJ%2FQgtxIG%2F%2FEbGbmak4HMWgDI8zwZyLMn6IGPlTW4YSw%2FEhkcMpjGVB60Z9aJCB8R4vK9fdr1sgM2GluCnX%2BKSjZz%2FOF%2FCwOEcYxAtOQr6CWf%2BmMaO8alPNmXIlHAjDgaDEwwT9LOpt5T5r9U5zx6Bg755CEf0BkSL53CMZt1W8eeDDKX5Ughc8Jsnjh3rBiCe8TFTQI06YElE3NFdKeeDN4cTlHLOkXzoSo5hEFQtAQLfkIAPrt4HTLbbpQ4H8EVIvYiBxqSAPYSd5pOnnFEXGuT2YBvk5%2FM84mllLJFoGM9zQ95xBwxMHF0Owo3wsoMTeSNuW9Wdu1vzofw0ZDC9amueOsBpKWacVSdi5PyIk6wE5HLWZno2hgOJdIuhVF14%2BFyIxAJ%2BTRGIPQxNavqtZNzsodvZmuO9ARAoMoesuAjbUdBliCgfPB5D3RvrBYr7PAy9JGRs6w5CR5ql1Vh613ETdVagoiQGQk9ls8UKnGMWzMjEDnDLWJMXnTZfOUmTMfj1rpfKgRpPJKoMR9QI27%2FGsmRpB6qQaKiOMd06jGWX1zMioogPxAqVatM781t6%2FKSDU9OhlvGMYvmzbQKr8STRnFcIDkadwYPPzluK%2FPKYVHkmM4Gi9j2%2BjfsZHobWYvhi8gtCaEgC0OolK%2FjBkrdwGcGatZKI1wjMEVWlNeNj3kih4NRYAsFAnoVr1LS6xUsNP90pRRfu%2Btqd8Bfgb5yubWQPAgJNvr8cTpjX%2F1DWQ7MLTkndgGOrEB8WWzOV5pR5DGXixs84JuPhJGBVenyigkHsMZqr9tpeGX0g7Q71Kny1nx%2F3hwzMuIbMnZU9crfzEWtF922MapM1onWiWmrUPZBiMVoqjroDm9HV%2FCI0F8OqYMlz9vGBXHDHxG%2BRETnDH8Nx1BKzP36iLuTknzHXyoK87JvcQ8jdUQi%2F9KEWj8nEWyO52YHA%2BSzKsji2bmT5Zxezcf19hbPhrSUFJJ6xx%2Fv0tj4YFS5U5r&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261126T022521Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKEUVTC3WOM%2F20261126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=45790408a4d647886ee325fb91acb63e382fc41baf8cbe94282a5f2f4b1ff064",
+      "method": "urllib",
+      "bytes": 219677215,
+      "sha256": "10b53e246c458c1ba37b051937f46d46d945d9aa8830e5b41abc392cbc87f96b",
+      "notes": "EPA estimates of generators and recipients, not collectible net supply."
+    },
+    {
+      "dataset": "National Wet Waste Inventory",
+      "file": "NWWI_NWWI.txt",
+      "status": "downloaded",
+      "source_url": "https://data.mendeley.com/public-files/datasets/f4dxm3mb94/files/3e9a6d57-6e73-489d-b657-15ef65d4c72c/file_downloaded",
+      "final_url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/7ca7a10d-4daa-49ed-8003-81cd0a8feb1d",
+      "method": "urllib",
+      "bytes": 3899107,
+      "sha256": "66b3ef6a061444d6ef394716f6c3348cd0650e8ec31c303a6c9bd6d6b9a39e3b",
+      "notes": "2020 modeled national inventory; CC BY-NC 3.0; review license before redistribution."
+    },
+    {
+      "dataset": "National Wet Waste Inventory",
+      "file": "NWWI_NWWI.xlsx",
+      "status": "downloaded",
+      "source_url": "https://data.mendeley.com/public-files/datasets/f4dxm3mb94/files/35c6e6b7-0120-4e54-bd9a-27e5dca665ca/file_downloaded",
+      "final_url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/d1c311f9-20fe-47d7-9879-cbc0d66e674b",
+      "method": "urllib",
+      "bytes": 3409414,
+      "sha256": "df9463356047512ec98cd3a3b7a38d25ff517c12f3b3f43a50f2eab14118b704",
+      "notes": "2020 modeled national inventory; CC BY-NC 3.0; review license before redistribution."
+    },
+    {
+      "dataset": "National Wet Waste Inventory",
+      "file": "NWWI_readme.txt",
+      "status": "downloaded",
+      "source_url": "https://data.mendeley.com/public-files/datasets/f4dxm3mb94/files/39732702-5f37-4b8a-a354-58e46aca5ceb/file_downloaded",
+      "final_url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/eecfe27c-a3bc-4cda-9f32-42ff04b80748",
+      "method": "urllib",
+      "bytes": 3886,
+      "sha256": "b9b90b443bbc77bdcf9f769012f4d80a0889f4e61be482772baceead9c1e6f53",
+      "notes": "2020 modeled national inventory; CC BY-NC 3.0; review license before redistribution."
+    },
+    {
+      "dataset": "EPA_state_GHG",
+      "file": "EPA_state_GHG_allstateghgdata90-22_v082924.zip",
+      "status": "downloaded",
+      "source_url": "https://www.epa.gov/system/files/other-files/2024-09/allstateghgdata90-22_v082924.zip",
+      "final_url": "https://www.epa.gov/system/files/other-files/2024-09/allstateghgdata90-22_v082924.zip",
+      "method": "urllib",
+      "bytes": 17863051,
+      "sha256": "2f12c30eadd5ea663ccce47802c382131a3777410998c44d320fcb5fcfb39cf4",
+      "notes": "State inventory estimates; identify methane by manure/enteric category and year."
+    },
+    {
+      "dataset": "EPA_CWNS",
+      "status": "manual_or_unavailable",
+      "source_url": "https://www.epa.gov/cwns/clean-watersheds-needs-survey-cwns-2022-report-and-data",
+      "error": "no matching public file links in page",
+      "notes": "If page has only dashboard links, use nationwide CSV export in dashboard."
+    },
+    {
+      "dataset": "EPA_AgSTAR_market",
+      "file": "EPA_AgSTAR_market_epa430r18006agstarmarketreport2018.pdf",
+      "status": "downloaded",
+      "source_url": "https://www.epa.gov/sites/production/files/2018-06/documents/epa430r18006agstarmarketreport2018.pdf",
+      "final_url": "https://www.epa.gov/sites/default/files/2018-06/documents/epa430r18006agstarmarketreport2018.pdf",
+      "method": "urllib",
+      "bytes": 11833630,
+      "sha256": "d6f79ebc49884c1997ab279f48104f749ecf7deb5346ce6df98f5a6e064af020",
+      "notes": "Market opportunity report, not measured recoverable supply."
+    },
+    {
+      "dataset": "EPA_AgSTAR_market",
+      "file": "EPA_AgSTAR_market_epa430r18006agstarmarketreport2018.pdf",
+      "status": "cached",
+      "bytes": 11833630,
+      "sha256": "d6f79ebc49884c1997ab279f48104f749ecf7deb5346ce6df98f5a6e064af020",
+      "notes": "Market opportunity report, not measured recoverable supply."
+    },
+    {
+      "dataset": "DOE_BT23_public_report",
+      "file": "DOE_BT23_public_report_beto-2023-billion-ton-report_3-waste.pdf",
+      "status": "downloaded",
+      "source_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_3-waste.pdf",
+      "final_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_3-waste.pdf",
+      "method": "urllib",
+      "bytes": 1688947,
+      "sha256": "1c0b6ffcd5777a996f4a72c33c901a3a998c2344c838b3a2d9212eaaf74ffdd3",
+      "notes": "Published national methods and scenario bounds."
+    },
+    {
+      "dataset": "DOE_BT23_public_report",
+      "file": "DOE_BT23_public_report_beto-2023-billion-ton-report_5-agriculture.pdf",
+      "status": "downloaded",
+      "source_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_5-agriculture.pdf",
+      "final_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_5-agriculture.pdf",
+      "method": "urllib",
+      "bytes": 5618874,
+      "sha256": "3d15044e9c7bcfb4fd70bec690c2f3fc9e2dcb4da9b5743d94b82ef7e8dbf090",
+      "notes": "Published national methods and scenario bounds."
+    },
+    {
+      "dataset": "DOE_BT23_public_report",
+      "file": "DOE_BT23_public_report_beto-2023-billion-ton-report_appendix-a.pdf",
+      "status": "downloaded",
+      "source_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-a.pdf",
+      "final_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-a.pdf",
+      "method": "urllib",
+      "bytes": 238110,
+      "sha256": "6830f998a596447b9742a829b4c110c9bd39bb32b98bee1f182a0a33eb46de3a",
+      "notes": "Published national methods and scenario bounds."
+    },
+    {
+      "dataset": "DOE_BT23_public_report",
+      "file": "DOE_BT23_public_report_beto-2023-billion-ton-report_appendix-b.pdf",
+      "status": "downloaded",
+      "source_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-b.pdf",
+      "final_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-b.pdf",
+      "method": "urllib",
+      "bytes": 598134,
+      "sha256": "752cd20c56dfd2e46a2e9ef02d6e3f5b66aa7ee87e3e8829f22f65e4c2b459c1",
+      "notes": "Published national methods and scenario bounds."
+    },
+    {
+      "dataset": "DOE_BT23_public_report",
+      "file": "DOE_BT23_public_report_beto-2023-billion-ton-report_appendix-c.pdf",
+      "status": "downloaded",
+      "source_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-c.pdf",
+      "final_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-c.pdf",
+      "method": "urllib",
+      "bytes": 345468,
+      "sha256": "4ca4b15f6c5c34bb308d894b4a0a80b66ec5c99d65fc46e32ba7204fec216414",
+      "notes": "Published national methods and scenario bounds."
+    },
+    {
+      "dataset": "DOE_BT23_public_report",
+      "file": "DOE_BT23_public_report_beto-2023-billion-ton-report_appendix-d.pdf",
+      "status": "downloaded",
+      "source_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-d.pdf",
+      "final_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-d.pdf",
+      "method": "urllib",
+      "bytes": 719753,
+      "sha256": "15db9b1aa1029023bcfd6e7c8a0d24d3878ecf4d0115e180ebfc69f78168f6b2",
+      "notes": "Published national methods and scenario bounds."
+    },
+    {
+      "dataset": "DOE_BT23_public_report",
+      "file": "DOE_BT23_public_report_beto-2023-billion-ton-report_appendix-e.pdf",
+      "status": "downloaded",
+      "source_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-e.pdf",
+      "final_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-e.pdf",
+      "method": "urllib",
+      "bytes": 7389316,
+      "sha256": "2f14270f7cd2c9c9f30d9ab1a09ea26040bcf09ad0aa41ea07979aa9f8ac6f5a",
+      "notes": "Published national methods and scenario bounds."
+    },
+    {
+      "dataset": "DOE_BT23_public_report",
+      "file": "DOE_BT23_public_report_beto-2023-billion-ton-report_appendix-f.pdf",
+      "status": "downloaded",
+      "source_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-f.pdf",
+      "final_url": "https://www.energy.gov/sites/default/files/2024-03/beto-2023-billion-ton-report_appendix-f.pdf",
+      "method": "urllib",
+      "bytes": 325227,
+      "sha256": "171ab3af696da1eff1f2fe0b659186c99bd30a545b88f984931e4295b18f1bff",
+      "notes": "Published national methods and scenario bounds."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_01_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alabama/st01_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alabama/st01_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 281335,
+      "sha256": "1b88638985a01be0b25231a4f41040db320535113ff94d84b50a6ca43d4452ec",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_01_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alabama/st01_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alabama/st01_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 132257,
+      "sha256": "fc822f0d943ef5fd5476f1972f0e57fa871d6456457a740e3661efc7dca2ee6c",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_01_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alabama/st01_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alabama/st01_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 148225,
+      "sha256": "a37990ed34b5da30c0da76b87a625718d2ae6fa9359c2e5d908ed74a7e88ce17",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_02_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 92466,
+      "sha256": "e05078698e3dbff15245ebbc0a4049cf9c069be7ea81905e87182234ee65483d",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_02_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 80022,
+      "sha256": "243ac11b32868f84a79dfdd350709689d98c593b18ce8d5c7e6b530115440570",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_02_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 81127,
+      "sha256": "c4d5b4e3a62e046aa174cda4157da22fe9500ff416f109cb1bfab500b43af0eb",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_02_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_04_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arizona/st04_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arizona/st04_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 126288,
+      "sha256": "e33c961675b679ff661c36f06e92d341af223a068457710f98b0b5e1787346a7",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_04_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arizona/st04_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arizona/st04_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 89139,
+      "sha256": "b0c4d64237115f58d1c9a0391e9a79c75fbb4de67bd38b76da1f8fdaf6db911e",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_04_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arizona/st04_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arizona/st04_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 92270,
+      "sha256": "4eae134028d3e85b7f96389c220e69e7f22c3b5122abd4f9a8d99f76737f5359",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_05_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arkansas/st05_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arkansas/st05_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 283410,
+      "sha256": "229ec205369651eb11067a3ac368c1e4a156c9c104c873abcbbd28bae457b7a6",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_05_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arkansas/st05_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arkansas/st05_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 132326,
+      "sha256": "28f930d0812b4a891476eb01cf4074a24e295ddf3d2d76878deeb9c1f158edb2",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_05_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arkansas/st05_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Arkansas/st05_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 148410,
+      "sha256": "19ccecfb93bfc84152d1dad7576ca53cfbe84474f49c09cf062c798a08cb230d",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_06_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/California/st06_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/California/st06_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 252892,
+      "sha256": "f1e5e147cc2c1b6c7e1d4a4ec253165eaf37e8d029a21a1b02042272da3776f7",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_06_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/California/st06_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/California/st06_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 124806,
+      "sha256": "e81568fdf4938b309dfefeb41cb240d235c8fd7e31bf3491207967aa8acb3053",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_06_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/California/st06_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/California/st06_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 135761,
+      "sha256": "9bfefcfb1a66e6627788e6b1e4cbbfa08ded7622ecc6e619872017fbaf504980",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_08_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 251353,
+      "sha256": "29d4f8fa0da4ca6a9f8e7d19b525d6629d90d7bcf4118273aa8ec3a7768197ea",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_08_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 122940,
+      "sha256": "21bfa1974b11c3a6e306dd21cf2022eeb9a43b3996dcaf7ec743d07c925fc84f",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_08_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 132638,
+      "sha256": "4e8a9932bfc92ac8e4ad532b75d3c113bdbaf06dbd4789e1c060b2c950017176",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_08_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_09_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Connecticut/st09_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Connecticut/st09_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 106101,
+      "sha256": "e1510669f6c76f089aa3205d7b043956bf39622068c8a1a3134641fd5c593735",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_09_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Connecticut/st09_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Connecticut/st09_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 84086,
+      "sha256": "162a3ad733521c985c2aeb065d8e7eea9c8248382b29347028a1677f153cc806",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_09_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Connecticut/st09_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Connecticut/st09_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 86162,
+      "sha256": "23b4b201db49e5b6e01991f2bd8c9b176823f104ae143b134a5f9c47eaeb02db",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_10_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 90191,
+      "sha256": "83955a6d87f9854b8396dc3713c73a25d4bf31aa4463d9797c236faaa596f288",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_10_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 78995,
+      "sha256": "5c141fba35fcd21f8a19c4f8babf754a84c5e4b3d4a43129903bb63fb6514482",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_10_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 80034,
+      "sha256": "96355dda84c365fc33fe89e8d0b6699261c93a069719c0997f6de50cda2b7ccb",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_10_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_12_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Florida/st12_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Florida/st12_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 262246,
+      "sha256": "7c5021ee76467b260ecc4ef08a42400dcd93dc08847d5580631a0ef48bf88c32",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_12_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Florida/st12_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Florida/st12_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 127198,
+      "sha256": "b5205d44368d78dc7d82e3052fd31e058f76bf5fc455e3b0bdc1314f829391a3",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_12_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Florida/st12_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Florida/st12_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 139436,
+      "sha256": "86d06db5285cd5219e47682dc0bbf2d9345aef6ba90bf440b020a0b959ccd712",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_13_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Georgia/st13_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Georgia/st13_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 494218,
+      "sha256": "fe84f171e78500f8c56b6691e4b6e93416edd7ddd9914b329f29d1ff93867dba",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_13_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Georgia/st13_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Georgia/st13_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 192604,
+      "sha256": "37f2a3b3698b24225c938900df6ac0928d584fede7ca9c45465c4e3418ea7bdb",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_13_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Georgia/st13_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Georgia/st13_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 223708,
+      "sha256": "18082bda34cb3b4f8379fe35566716bc956a0c9e6d9be8c58a810b1960f2df26",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_15_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 92288,
+      "sha256": "37e4d39ed237047abb84258014b6d34ef1047e53c441671b983e2fdad1bcdf62",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_15_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 79856,
+      "sha256": "f0d32e8a249e0b8ab77b6d485c6738a184d831d2395ac31a1c1511f639e307cb",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_15_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 80666,
+      "sha256": "8e2e3f266b2b0a8c47546bfd9e3454672504f7951e00d5060a1a9a3762c84fc0",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_15_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_16_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Idaho/st16_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Idaho/st16_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 198559,
+      "sha256": "43736892c2c1437c3e13d530b3082535553f64a4fc474af4ef17f88c73e098b6",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_16_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Idaho/st16_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Idaho/st16_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 107607,
+      "sha256": "37074b0e7f371c4fc4a3fe4d1d6737044b5c8cd68b84411eed904288e5774c60",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_16_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Idaho/st16_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Idaho/st16_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 114403,
+      "sha256": "cdea63c21438d0dc193b6b1360bb034e2b2a8b8e73e725781878adc6767a9f13",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_17_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 342929,
+      "sha256": "00d4382811f68122abeefacf39c90c1746622f0f9d605e9573fe1bf10b8c39b0",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_17_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 153977,
+      "sha256": "a31b54543254fb74bf560922ec3aa265438bf469550478ea7e01295b7941b50b",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_17_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 162311,
+      "sha256": "dbff6b8d6d03b24788f992ac24841d385e023645c7dfdb5590c0a87b65d954fe",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_17_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_18_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Indiana/st18_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Indiana/st18_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 288943,
+      "sha256": "66548767d5e2fa861c3f7deaebf167ded1d9d868bdc1a99e7046fb6c57949d30",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_18_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Indiana/st18_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Indiana/st18_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 120015,
+      "sha256": "29062ddee664c73afd8fbcbb9644d6b7101faa50c010f471ed366c9cd5cbcc5c",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_18_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Indiana/st18_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Indiana/st18_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 129256,
+      "sha256": "02aa51591abb4b92113fae74d52e07e034618acb33cebbb2b253c62a26795252",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_19_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Iowa/st19_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Iowa/st19_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 368981,
+      "sha256": "d700c1cec96bb0328ccb9b5e38c55307bf4cf160cf10f762c8eeee6f861bb046",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_19_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Iowa/st19_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Iowa/st19_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 163526,
+      "sha256": "c6cc0e04578a3b941e3d15ad7fe91f60a778d7f714a3e0391fdf9a64f7e71a63",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_19_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Iowa/st19_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Iowa/st19_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 169553,
+      "sha256": "6ac75b193eb0b8d23f45cfbe56f643c795a0c0b04e88d46aaad387f0dba42b6e",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_20_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kansas/st20_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kansas/st20_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 384582,
+      "sha256": "d93272d92fb3c3598ecddff149f62b98092444de7e90bd4fb64c4b2115b45b83",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_20_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kansas/st20_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kansas/st20_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 157675,
+      "sha256": "b055e8bee71588eaec1a4e04d77e52ab99466b221593981af83d57905a5abca4",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_20_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kansas/st20_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kansas/st20_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 171698,
+      "sha256": "f44b87b574cf4e0c155d124c5d351fce6be5cec2b1623b2156e13afad25f9f1e",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_21_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kentucky/st21_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kentucky/st21_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 414054,
+      "sha256": "46954e7aeb98e8bdb6f165f8e6fdba52ad3649a7932b89f356143b874ea76257",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_21_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kentucky/st21_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kentucky/st21_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 167964,
+      "sha256": "2b6340ed01a55d3adcac44bb8f218e0cc503dedf395128fb9ae471e11053e57c",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_21_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kentucky/st21_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Kentucky/st21_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 189687,
+      "sha256": "e4b1c3f406f93198390ac44007421d8583ef1c35a5462254fb390956b4c31d48",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_22_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Louisiana/st22_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Louisiana/st22_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 289222,
+      "sha256": "fb72056e15718485b17745051c1d7ab420ecc734f0e3df0e3288e1eabe4e9b95",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_22_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Louisiana/st22_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Louisiana/st22_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 136454,
+      "sha256": "db681eb6104a4339e3722e8fa9d7a8606951202967d8f7d0374cc8542e356e52",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_22_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Louisiana/st22_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Louisiana/st22_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 150406,
+      "sha256": "030af9fafeb327e95148f94981f1243745541d6f353969767fdd39009d0977a7",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_23_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maine/st23_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maine/st23_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 125700,
+      "sha256": "61fcae4675b3838876cfcfe2c05874e3950e22cfc6b5fa45caaea0a11e935855",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_23_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maine/st23_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maine/st23_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 89733,
+      "sha256": "c1c17ea6350b46e9c9c4b4b016214054aa004e7ce9d1760ce1576b7d19ab0592",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_23_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maine/st23_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maine/st23_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 93200,
+      "sha256": "b010fc70baec02e2f40eb1288cf7c4340157c858359bf1e3f9aa979e9a7d621f",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_24_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 152907,
+      "sha256": "cc5ef8c13c1d8818ced04f480669dc94ed854e258e2c6ad863aee5319a922c02",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_24_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 98191,
+      "sha256": "03f2496dc6787557cfadaa89c53d479b2adbf5ac60bcdd62100b44a4d8c638e5",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_24_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 103625,
+      "sha256": "d6990f2891ae4c7abfdc1da6f5f89b968a5ab1eb7b36744055c2eff638f5ecd5",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_24_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_25_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Massachusetts/st25_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Massachusetts/st25_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 113625,
+      "sha256": "dbc4b3f0f7c40bfe5caf9f31b9bd5bde71b92cafe2f06f93b2401c3a3de77e95",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_25_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Massachusetts/st25_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Massachusetts/st25_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 86347,
+      "sha256": "34fc9d294bb33919be69f9a084e22c2731497b2e5b13f2c9ef25d063ad3f6272",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_25_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Massachusetts/st25_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Massachusetts/st25_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 88892,
+      "sha256": "69106e944bd3ff87f563e1192e12af115c6ebeca3b82e3f8084332c7d9e6f40f",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_26_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Michigan/st26_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Michigan/st26_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 330566,
+      "sha256": "e7114f372c8c6aaef27ecb4bebb9e0b10f36020c05debe77fcdc5733d8671abf",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_26_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Michigan/st26_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Michigan/st26_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 149834,
+      "sha256": "778b40f0217a2e124e03bdbf20cad4778f87ef57d520f7c313e451e645cc7b98",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_26_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Michigan/st26_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Michigan/st26_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 164347,
+      "sha256": "30bef62dcee35cae467b57e5daf39618c88c9e2bea268b3d3a1544458afa321a",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_27_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Minnesota/st27_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Minnesota/st27_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 346266,
+      "sha256": "2523b8ceb211ee3b5d1e2c6d8ed116a8a4d9f527abb0d8fbdac1b59cfa1a19a8",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_27_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Minnesota/st27_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Minnesota/st27_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 154304,
+      "sha256": "6a119ceeb8d550c85468bb449e6f5ae2b991cb0def7a8b45d3f413639f1af18f",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_27_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Minnesota/st27_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Minnesota/st27_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 165923,
+      "sha256": "477bd3cba1707970d776325c951a387e880340f3c527897c9ded3a0a18c8c409",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_28_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 314498,
+      "sha256": "5456f33a37564e1c27960ba42805c04a2c8de20c3f23ae5985d7b47bbf1aaead",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_28_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 142304,
+      "sha256": "79728fa67515dd445803534f7ab7b564744a3cb14bd86de8c2a64c3e73bac508",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_28_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Mississippi/st28_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 159144,
+      "sha256": "06720d97bce80bd44bcb2d0333dc7081190f595ac4507ddc5f295a79fb1e1d6a",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_29_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Missouri/st29_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Missouri/st29_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 433284,
+      "sha256": "34737df3ee4a52f745c52803001076cc160a6798e5d999754ad10e2927fa21d2",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_29_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Missouri/st29_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Missouri/st29_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 176144,
+      "sha256": "eb0ff06dd013724ea8ee65a4bc857388b3113b53f0bc021c4f4aa7ed6ae30fc4",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_29_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Missouri/st29_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Missouri/st29_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 194844,
+      "sha256": "f418b8e0674ca7778e74fa3353735d756481e2541464535b7dbd89e5e373b584",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_30_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Montana/st30_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Montana/st30_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 251846,
+      "sha256": "8e174ff93a87ee63a5e75f3bb23366236c058dbd1e11eec04c11108722c14102",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_30_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Montana/st30_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Montana/st30_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 123013,
+      "sha256": "80ad699a09ae5300ed98dd8e9335a087835e14fd016ffa7f47656cff095912fa",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_30_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Montana/st30_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Montana/st30_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 132119,
+      "sha256": "243fcd1c25eaf75e613d0a07f5232a2288a9bd83aa0db36dd81fa39b050fae7d",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_31_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nebraska/st31_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nebraska/st31_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 348839,
+      "sha256": "31cc9f812f59dbe4ddf0d7c7644273cf469d0204633f3f6bbdd60e1f2e688fb1",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_31_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nebraska/st31_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nebraska/st31_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 150322,
+      "sha256": "620bab6819a4c6f2ff225cbe6b4944f8eb4733926ae3fb803ee1e6085370fb70",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_31_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nebraska/st31_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nebraska/st31_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 159985,
+      "sha256": "74626b27b1cb07c6944388fb41ba01b75a7074add0dcbaf06d9eaa7a022fdbb7",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_32_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nevada/st32_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nevada/st32_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 127641,
+      "sha256": "3dd5f37c6c3499c8e324416e846688da3a7a7084b29a30f7a521cbd0e184aa0d",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_32_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nevada/st32_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nevada/st32_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 88871,
+      "sha256": "0c37241da5f93f3c007d01b3e17ea9473b866d05fe32fb884c5ff2458a3ce12b",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_32_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nevada/st32_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Nevada/st32_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 92086,
+      "sha256": "894a2310a59ee8a14e5c80d1d281fa33250b92ef2cd4039829caa95d6e8c8579",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_33_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Hampshire/st33_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Hampshire/st33_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 108756,
+      "sha256": "ab78d66fe8d189becdf30fd4ad06de26e512c35400a6860fbea935cdd6ca2672",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_33_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Hampshire/st33_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Hampshire/st33_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 84861,
+      "sha256": "10f73fd63ae3c47437dfcfc8ea40790b2d2b0bc75c5843a987671a2570675a32",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_33_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Hampshire/st33_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Hampshire/st33_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 87129,
+      "sha256": "0d964445e100827c850078fd52bf35becc5e2e8ead3730f8ec60fd08cf93b8e1",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_34_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Jersey/st34_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Jersey/st34_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 129201,
+      "sha256": "876eca98a85ea7cb9e44faa4300165d47dc101110d9540dccceb6013012e76e9",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_34_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Jersey/st34_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Jersey/st34_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 91405,
+      "sha256": "c83f1448d80f76f614b0ee914d84536825c628352cd1babb31c097c8e6a0b07e",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_34_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Jersey/st34_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Jersey/st34_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 94975,
+      "sha256": "fc6c05c0440ab9a211aee92def055e776a55693e2d2746cee2bee9e040218c56",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_35_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 171490,
+      "sha256": "cf014988230fd90f9e8d06243561480c14215cb2b62993b018fd453f024ce18f",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_35_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 100486,
+      "sha256": "169e7a822da5bb96a5cb4c92ced001029dff6871b7866232e876a2fba9b3c595",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_35_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 106412,
+      "sha256": "534fff8af2f9ce27441257cee76e4a78ec22c524f6af205cd37223ccb359c645",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_35_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_36_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_York/st36_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_York/st36_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 256937,
+      "sha256": "9a626d56a8ec398401f1c176ce11b8cd3f09ee1aee291869a0d07de6126eb5c9",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_36_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_York/st36_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_York/st36_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 126326,
+      "sha256": "774c370f89bfa5b999571bada82b9b3d482f613473c4868cce50f81ff6756f31",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_36_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_York/st36_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_York/st36_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 137686,
+      "sha256": "07ce9975d3b6b48246a60d96822f9241cef26b3f1aa3a47689042d6831d48d10",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_37_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Carolina/st37_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Carolina/st37_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 346875,
+      "sha256": "31560d3db1f3699ef011122e08ad5e0be6df0b2917aeb88e518fa4f07d34d2b1",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_37_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Carolina/st37_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Carolina/st37_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 155580,
+      "sha256": "bf32b41d1f75d8487580a2c45b5bb17123839c1c9655695c3405eb8a49e2b078",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_37_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Carolina/st37_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Carolina/st37_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 173657,
+      "sha256": "f28615644da5038b65f1a27383e331f002bc812b49dd116722a2cf429561baf8",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_38_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Dakota/st38_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Dakota/st38_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 229023,
+      "sha256": "2fb60f2436917e15d47e0f60728738b9fe3e4bd9182649cde323a400c349d8e7",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_38_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Dakota/st38_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Dakota/st38_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 115218,
+      "sha256": "5640b3784e9ea74be5b6e91b5a39a1b73cd57e9f6b78f1b2b6d726f88fcd8e60",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_38_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Dakota/st38_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/North_Dakota/st38_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 122758,
+      "sha256": "69feb8b267cdb8317c3d0d955c4ac2533fc8cf3c3218c2898d740dc1edd89662",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_39_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Ohio/st39_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Ohio/st39_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 318662,
+      "sha256": "30f45ec57e50e4b89f95886403befc7167942d1d0f47ac38a5894c675f5f7c3e",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_39_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Ohio/st39_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Ohio/st39_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 145877,
+      "sha256": "5afb0bb563d6de44d1f46738f387073d2fd66d12b624fdf791f86ad6e284a1f2",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_39_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Ohio/st39_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Ohio/st39_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 157481,
+      "sha256": "eaadbea0c00c114091fe292ae19cd919987b6f3ab954df29fa5546e498620859",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_40_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oklahoma/st40_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oklahoma/st40_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 307415,
+      "sha256": "11162a08b1e96a96dbc613274260af04eedea8da6668841d75d31aefaaf725ef",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_40_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oklahoma/st40_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oklahoma/st40_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 137835,
+      "sha256": "ebefe71466eaaf0ddb378aa38874515c82d1bd7609bb0e566771de4f4a97bf65",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_40_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oklahoma/st40_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oklahoma/st40_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 151327,
+      "sha256": "8d5397d542c97524635d14942301b1aea6f1c71836460fd4742e09e8ba2f661e",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_41_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 176205,
+      "sha256": "80076911bc95f9c62f0902337366f699058c33fc7c36890fbc30e5db8d0149d3",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_41_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 102517,
+      "sha256": "4618dfaf7997680ba77331219e73e446687898fec1a9b21a6f70d98400082625",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_41_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 108985,
+      "sha256": "fe31761375581ebd306f5148568462c7abe63ca30569c1fe24d8bfd209fedaaa",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_41_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_42_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Pennsylvania/st42_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Pennsylvania/st42_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 286973,
+      "sha256": "6d5527d8c6b9eb342df84ca0cd7b870af02877854e3fda5fc362791d71273e94",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_42_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Pennsylvania/st42_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Pennsylvania/st42_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 136346,
+      "sha256": "249e397eba72cc4c434cca296b8609090fcf9d4ae98c4559ad9788e994d66c4a",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_42_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Pennsylvania/st42_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Pennsylvania/st42_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 149061,
+      "sha256": "39f60d687ddfd5be7a44a86c9c8284b5c7670bc7f6f19503b660059d3981a49f",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_44_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 65257,
+      "sha256": "aead3181f42140db823a60aff9bde477a6a138519dd4a7537bb30596af426228",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_44_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 52707,
+      "sha256": "38ce82ed67e93a0ee647d0caa55c320e704951b469add1529756c0b273ec391d",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_44_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 53802,
+      "sha256": "77bb22e02db6c62c1cada697eeac3e044e2243d2b51df9a29be5b5daae223f41",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_44_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_45_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Carolina/st45_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Carolina/st45_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 202610,
+      "sha256": "11c7916feb8c11915ca7b95a468eba2bf74d716c2a66a23f6da0aa7e6b4d3ae8",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_45_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Carolina/st45_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Carolina/st45_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 112207,
+      "sha256": "11d7064a0aad827b584f5ea973ec864e3c170a23db0f8bff6ebaa754295281bf",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_45_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Carolina/st45_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Carolina/st45_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 121083,
+      "sha256": "942b4461f6c1cb105471bc339c7b7d5aa6aa7035bf39f032ae0034b551ac6741",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_46_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Dakota/st46_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Dakota/st46_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 271073,
+      "sha256": "3dd7cc2ac536bb5bcc0149fbeef4210f64f228507b5917b52aface2da74671e2",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_46_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Dakota/st46_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Dakota/st46_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 128364,
+      "sha256": "cd1a404b674d9a0cb16820b5076af625f4c6903a53b46788d6ae61a9f505ceac",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_46_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Dakota/st46_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/South_Dakota/st46_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 135726,
+      "sha256": "2de6044f3226b2804d4a97b30b6d48688bd2d880382a1b405d07198fe6507e1b",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_47_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 335048,
+      "sha256": "047151079138d459a64d80888c7ff5ff81e3d598ffae6168818c153cbbd0965f",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_47_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 146056,
+      "sha256": "637ae78cb2a0599965a88c9a3cea529c7e5f6e4f96e2a14bb93cacc749dfe10c",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_47_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 162652,
+      "sha256": "44b3b8f15dfd8bfb23ac1644eba2c5a2d04d34c1f103bad152a87caf8be909b7",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_47_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_48_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 793284,
+      "sha256": "b0322dfffd8de87a4a22675e73e1db5b05db7a018c7fa65c48b8c64abd933e68",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_48_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 269189,
+      "sha256": "6b59971af473d4d6f57e136acf1603a2764d3a286a35b95c868d293b6480ad11",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_48_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 311619,
+      "sha256": "5940bb94f2418c8e0ed6ef8e6c2953d3f0612fbe89620626b6e14ea322c33bf2",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_48_040.pdf",
+      "status": "unavailable",
+      "attempts": [
+        {
+          "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://sb.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_040_040.pdf",
+          "method": "urllib",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting.",
+      "error": "all public attempts failed"
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_49_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Utah/st49_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Utah/st49_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 157517,
+      "sha256": "b0271ed68c44f076371df48d961b90c98a1c0c7aedbdcccba9c7047485c020cc",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_49_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Utah/st49_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Utah/st49_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 97030,
+      "sha256": "2762269003c16cc8126594b706a9c5ed2a88ff98c6b4cfc15750d817bec130ec",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_49_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Utah/st49_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Utah/st49_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 101491,
+      "sha256": "90264b9dd9a4ef585ed85630c2726be6e5e412e2c88c9282c408bafdc6eb8bf4",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_50_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Vermont/st50_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Vermont/st50_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 116023,
+      "sha256": "f049950b7d17c40af2197b6a6b206dee74597999084288268d96946297fa1c56",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_50_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Vermont/st50_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Vermont/st50_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 86304,
+      "sha256": "f0a4e31681d8ec70fc9e55967abc059cf5fb0d2aa077af71d58a6de8c09d1ef4",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_50_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Vermont/st50_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Vermont/st50_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 88786,
+      "sha256": "5a2b0037bc9284b981e627fc7966c0de0f8ce4dfbea8556b84383d7ea467bf99",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_51_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Virginia/st51_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Virginia/st51_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 392275,
+      "sha256": "16ff3035e3a0cbc446b378869282e1e0a36bc084838637ade8c307426d4f29e8",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_51_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Virginia/st51_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Virginia/st51_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 166536,
+      "sha256": "79ef298c3150a66fe20b881aee4c543507b0ca294bca17cccdc3035f55f62afe",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_51_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Virginia/st51_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Virginia/st51_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 187050,
+      "sha256": "40de284af063a19cfec72deb526e684af54579e0aa8ecf897974fe054bf4d136",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_53_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Washington/st53_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Washington/st53_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 188995,
+      "sha256": "576916ff6758d6ba958808d6a530b214182b32d6e94a286da154090035a4d800",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_53_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Washington/st53_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Washington/st53_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 106498,
+      "sha256": "543552d3da4d3db8774d53e69e52f69fd1aebcab7b4e0d85b257e2f491b01861",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_53_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Washington/st53_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Washington/st53_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 113679,
+      "sha256": "9559e7e1096f7ed91f2eeec884528682c64c72aed153c9738c2d2dfcf56b31ee",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_54_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/West_Virginia/st54_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/West_Virginia/st54_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 224332,
+      "sha256": "43e46adbad8409c7fb97f1eb5a032f29d6522833b6635ad2b4f69eda1282c0b6",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_54_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/West_Virginia/st54_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/West_Virginia/st54_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 117006,
+      "sha256": "a49bd820c245ff1bd7632a9f9dadc5203e69ef975bf6873e104d8ef73e9d17a8",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_54_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/West_Virginia/st54_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/West_Virginia/st54_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 127221,
+      "sha256": "458a1a2f9d81f488abe9de6265bd83b174f0bc195ddb6bc7af1317bdd16fdf21",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_55_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wisconsin/st55_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wisconsin/st55_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 283733,
+      "sha256": "3a26c928054de75b3f8c8573bd8be0476cd162c80200650cb1820eb0ac999500",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_55_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wisconsin/st55_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wisconsin/st55_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 132180,
+      "sha256": "3efba579347612fb2c08092b4e5cbe1901b70820bb798338bcde723f23ced2d9",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_55_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wisconsin/st55_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wisconsin/st55_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 142966,
+      "sha256": "25d15be29fc1902074b3ac4771dc1ecf4d34b8c54abde1540de0a82eeba7f80d",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_56_011.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wyoming/st56_2_011_011.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wyoming/st56_2_011_011.pdf",
+      "method": "urllib",
+      "bytes": 148949,
+      "sha256": "e00958e3150580abd527a1df64f9774be11dc14cea994da142392c3bbb4e55bf",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_56_012.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wyoming/st56_2_012_012.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wyoming/st56_2_012_012.pdf",
+      "method": "urllib",
+      "bytes": 94738,
+      "sha256": "e203adfe0d52cce1110b8e70d85bf2539bcf5ef632de70732b0ff07abc82f038",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    },
+    {
+      "dataset": "USDA 2022 county livestock/fertilizer table",
+      "file": "USDA_56_019.pdf",
+      "status": "downloaded",
+      "source_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wyoming/st56_2_019_019.pdf",
+      "final_url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Wyoming/st56_2_019_019.pdf",
+      "method": "urllib",
+      "bytes": 98829,
+      "sha256": "c613b94712e66928e0fbaa70218fa372f82f53279129341c919089179a1c9042",
+      "notes": "Table 11 cattle; 12 hogs; 19 poultry; 40 fertilizer. Some states combine or omit tables; review titles before extracting."
+    }
+  ],
+  "limits": [
+    "Original BT23 county offered-price data are access-controlled; no attempt to bypass.",
+    "Alternative data do not establish sustainable residue collection, future supply, delivered prices, or additional methane mitigation.",
+    "Data must be harmonized by units, year, geography, current uses and emissions boundaries before rerunning V9.16."
+  ]
+}

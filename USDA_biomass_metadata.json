@@ -1,0 +1,350 @@
+{
+  "currentVersion": 11.4,
+  "cimVersion": "3.4.0",
+  "id": 2,
+  "name": "Biomass Counties",
+  "type": "Feature Layer",
+  "description": "",
+  "geometryType": "esriGeometryPolygon",
+  "sourceSpatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -20037700,
+    "falseY": -30241100,
+    "xyUnits": 10000,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+  },
+  "copyrightText": "",
+  "parentLayer": null,
+  "subLayers": [],
+  "minScale": 0,
+  "maxScale": 0,
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": {
+          "type": "esriSLS",
+          "style": "esriSLSSolid",
+          "color": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "width": 0.4
+        }
+      }
+    },
+    "scaleSymbols": false,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "defaultVisibility": true,
+  "extent": {
+    "xmin": -19942592.3656,
+    "ymin": 2028991.4849000014,
+    "xmax": 20012846.0377,
+    "ymax": 11523911.845200002,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 2,
+      "mTolerance": 0.001,
+      "falseX": -22041257.77387803,
+      "falseY": -33265069.15422476,
+      "xyUnits": 135385247.70505473,
+      "falseZ": 0,
+      "zUnits": 1,
+      "falseM": -100000,
+      "mUnits": 10000
+    }
+  },
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "displayField": "NAME",
+  "typeIdField": null,
+  "subtypeFieldName": null,
+  "subtypeField": null,
+  "defaultSubtypeCode": null,
+  "fields": [
+    {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "County",
+      "length": 90,
+      "domain": null
+    },
+    {
+      "name": "FIPS",
+      "type": "esriFieldTypeString",
+      "alias": "FIPS Code",
+      "length": 5,
+      "domain": null
+    },
+    {
+      "name": "CROP_ACR07",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Crop Acreage (2007)",
+      "domain": null
+    },
+    {
+      "name": "FarmDependency",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Counties Dependent on Agriculture",
+      "domain": {
+        "type": "codedValue",
+        "name": "WS2_YesNo",
+        "description": "Provide a Yes/No Description for binary (0,1) attributes.",
+        "codedValues": [
+          {
+            "name": "No",
+            "code": 0
+          },
+          {
+            "name": "Yes",
+            "code": 1
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue"
+      }
+    },
+    {
+      "name": "Shape_Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Length",
+      "domain": null
+    },
+    {
+      "name": "Shape_Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Area",
+      "domain": null
+    },
+    {
+      "name": "Forest",
+      "type": "esriFieldTypeInteger",
+      "alias": "Forest Residues (Dry Tonnes/Yr)",
+      "domain": null
+    },
+    {
+      "name": "PrimMill",
+      "type": "esriFieldTypeInteger",
+      "alias": "Primary Mill Residues (Dry Tonnes/Yr)",
+      "domain": null
+    },
+    {
+      "name": "CropRes",
+      "type": "esriFieldTypeInteger",
+      "alias": "Crop Residues (Dry Tonnes/Yr)",
+      "domain": null
+    },
+    {
+      "name": "Wastewater",
+      "type": "esriFieldTypeDouble",
+      "alias": "Wastewater Methane Emissions (Tonnes/Yr)",
+      "domain": null
+    },
+    {
+      "name": "Landfill",
+      "type": "esriFieldTypeDouble",
+      "alias": "Landfill Methane Emissions (Tonnes/Yr)",
+      "domain": null
+    },
+    {
+      "name": "ManureMgmt",
+      "type": "esriFieldTypeDouble",
+      "alias": "Manure Mgmt Methane Emissions (Tonnes/Yr)",
+      "domain": null
+    },
+    {
+      "name": "UrbanWood",
+      "type": "esriFieldTypeInteger",
+      "alias": "Urban Wood Residues (Dry Tonnes/Yr)",
+      "domain": null
+    },
+    {
+      "name": "SecMillRes",
+      "type": "esriFieldTypeInteger",
+      "alias": "Secondary Mill Residues (Dry Tonnes/Yr)",
+      "domain": null
+    },
+    {
+      "name": "Total",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Biomass Available (Tonnes/Yr)",
+      "domain": null
+    },
+    {
+      "name": "Total_sqkm",
+      "type": "esriFieldTypeDouble",
+      "alias": "Total Biomass Available (Tonnes/SqKm/Yr)",
+      "domain": null
+    },
+    {
+      "name": "Total_1",
+      "type": "esriFieldTypeDouble",
+      "alias": "Forest Biomass - All Lands (Dry Short Tons)",
+      "domain": null
+    },
+    {
+      "name": "National_F",
+      "type": "esriFieldTypeDouble",
+      "alias": "Forest Biomass - National Forest Lands (Dry Short Tons)",
+      "domain": null
+    },
+    {
+      "name": "Other_fede",
+      "type": "esriFieldTypeDouble",
+      "alias": "Forest Biomass - Other Fed Lands (Dry Short Tons)",
+      "domain": null
+    },
+    {
+      "name": "State_and",
+      "type": "esriFieldTypeDouble",
+      "alias": "Forest Biomass - State and Local Land (Dry Short Tons)",
+      "domain": null
+    },
+    {
+      "name": "Private",
+      "type": "esriFieldTypeDouble",
+      "alias": "Forest Biomass - Private Land (Dry Short Tons)",
+      "domain": null
+    },
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+    },
+    {
+      "name": "Shape",
+      "type": "esriFieldTypeGeometry",
+      "alias": "Shape",
+      "domain": null
+    },
+    {
+      "name": "sFIPS",
+      "type": "esriFieldTypeString",
+      "alias": "sFIPS",
+      "length": 2,
+      "domain": null
+    },
+    {
+      "name": "cFIPS",
+      "type": "esriFieldTypeString",
+      "alias": "cFIPS",
+      "length": 3,
+      "domain": null
+    }
+  ],
+  "geometryField": {
+    "name": "Shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "Shape"
+  },
+  "indexes": [
+    {
+      "name": "FDO_OBJECTID",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "FDO_Shape",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    }
+  ],
+  "subtypes": [],
+  "relationships": [],
+  "canModifyLayer": true,
+  "canScaleSymbols": false,
+  "hasLabels": false,
+  "capabilities": "Map,Query,Data",
+  "maxRecordCount": 1000,
+  "maxSelectionCount": 2000,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "isDataVersioned": false,
+  "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+  },
+  "useStandardizedQueries": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": false,
+    "supportsCurrentUserQueries": true
+  },
+  "supportsDatumTransformation": true,
+  "dateFieldsTimeReference": null,
+  "preferredTimeReference": null,
+  "datesInUnknownTimezone": false,
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape_Area",
+    "shapeLengthFieldName": "Shape_Length",
+    "units": "esriMeters",
+    "mapUnits": {
+      "uwkid": 9001
+    }
+  },
+  "hasMetadata": false,
+  "isDataArchived": false,
+  "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+  },
+  "supportsCoordinatesQuantization": true,
+  "supportsDynamicLegends": true
+}

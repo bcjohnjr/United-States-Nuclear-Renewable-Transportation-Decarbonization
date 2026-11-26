@@ -1,0 +1,134 @@
+[
+  {
+    "file": "additional_sources/AgML_area_production.parquet",
+    "rows": 6325661,
+    "schema": [
+      "duckdb_schema",
+      "crop_id",
+      "commodity",
+      "class",
+      "practice",
+      "utilization",
+      "unit",
+      "agg_level",
+      "state_fips",
+      "state_alpha",
+      "asd_code",
+      "county_fips",
+      "county_fips_nass",
+      "county_name",
+      "is_other_counties",
+      "year",
+      "statistic",
+      "value",
+      "value_flag",
+      "cv_pct"
+    ],
+    "method": "Parquet Thrift footer parsed; data rows not read"
+  },
+  {
+    "file": "additional_sources/AgML_census_crops.parquet",
+    "rows": 2488534,
+    "schema": [
+      "duckdb_schema",
+      "crop_id",
+      "commodity",
+      "class",
+      "practice",
+      "utilization",
+      "unit",
+      "agg_level",
+      "state_fips",
+      "state_alpha",
+      "asd_code",
+      "county_fips",
+      "county_fips_nass",
+      "county_name",
+      "is_other_counties",
+      "year",
+      "statistic",
+      "value",
+      "value_flag",
+      "cv_pct"
+    ],
+    "method": "Parquet Thrift footer parsed; data rows not read"
+  },
+  {
+    "file": "additional_sources/AgML_county_fips_remap.parquet",
+    "rows": 12,
+    "schema": [
+      "duckdb_schema",
+      "fips_nass",
+      "fips_2020",
+      "note"
+    ],
+    "method": "Parquet Thrift footer parsed; data rows not read"
+  },
+  {
+    "file": "additional_sources/AgML_dim_county.parquet",
+    "rows": 3234,
+    "schema": [
+      "duckdb_schema",
+      "county_fips",
+      "state_fips",
+      "county_code",
+      "county_name",
+      "state_alpha",
+      "area_km2",
+      "centroid_lon",
+      "centroid_lat"
+    ],
+    "method": "Parquet Thrift footer parsed; data rows not read"
+  },
+  {
+    "file": "additional_sources/AgML_dim_crop.parquet",
+    "rows": 1599,
+    "schema": [
+      "duckdb_schema",
+      "crop_id",
+      "commodity",
+      "class",
+      "practice",
+      "utilization",
+      "crop_label"
+    ],
+    "method": "Parquet Thrift footer parsed; data rows not read"
+  },
+  {
+    "file": "additional_sources/AgML_dim_state.parquet",
+    "rows": 56,
+    "schema": [
+      "duckdb_schema",
+      "state_fips",
+      "state_alpha",
+      "state_name",
+      "area_km2",
+      "centroid_lon",
+      "centroid_lat"
+    ],
+    "method": "Parquet Thrift footer parsed; data rows not read"
+  },
+  {
+    "file": "additional_sources/AgML_v_county_yield_main.parquet",
+    "rows": 1390109,
+    "schema": [
+      "duckdb_schema",
+      "county_fips",
+      "county_name_2020",
+      "state_alpha",
+      "year",
+      "crop_id",
+      "commodity",
+      "class",
+      "utilization",
+      "unit",
+      "yield_value",
+      "yield_t_ha",
+      "cv_pct",
+      "centroid_lon",
+      "centroid_lat",
+      "qa_outlier"
+    ],
+    "method": "Parquet Thrift footer parsed; data rows not read"
+  }
+]

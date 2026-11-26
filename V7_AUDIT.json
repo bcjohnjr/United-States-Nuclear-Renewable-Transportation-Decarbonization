@@ -1,0 +1,37 @@
+{
+  "sources_found": {
+    "cwns": "2022CWNS_NATIONAL_Sept2026.zip",
+    "atlas": "NOV25_USDA_BT23_EVIDENCE_AND_DOWNLOADER_V3.zip",
+    "additional": "additional_sources.zip",
+    "prepared": "existing_evidence.zip",
+    "v6": "USDA_EPA_REMAINING_RESULTS_V6.zip"
+  },
+  "warnings": [
+    "Optional pyarrow not installed. Existing raw crop data remain available; no installation forced."
+  ],
+  "notes": [
+    "Historical resource estimates are not sustainable supply curves. Missing values remain missing. No transport model result changed."
+  ],
+  "v6": {
+    "manifest_verified": 88,
+    "fertilizer_pdfs": 50,
+    "cwns_inside_v6": true
+  },
+  "county_audit": {
+    "county_records": 3221,
+    "complete_biomass": 3138,
+    "complete_methane": 3138,
+    "biomass_missing_by_state": {
+      "72": 78,
+      "02": 5
+    },
+    "methane_missing_by_state": {
+      "72": 78,
+      "02": 5
+    }
+  },
+  "cwns": {
+    "csv_count": 33,
+    "crc": "pass"
+  }
+}

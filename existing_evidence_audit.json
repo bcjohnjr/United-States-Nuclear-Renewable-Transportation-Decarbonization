@@ -1,0 +1,154 @@
+{
+  "atlas": {
+    "source_sha256": "de1afcf078f8c0fd9b0008a48fa4e49b66ddb8e24e947f4bf1a2cd078423bd9e",
+    "county_equivalents": 3079,
+    "states": 50,
+    "map_variables": 175,
+    "observations_including_us": 539000,
+    "numeric_observations": 474172,
+    "withheld_observations": 64828,
+    "limitations": [
+      "Acreage estimates are derived from rounded map values, not direct census acreage. Missing values never imputed; county sums incomplete. No sustainable residue tonnes or delivered prices inferred. No total across overlapping crop categories. Agricultural Census Area codes may differ from current county FIPS. National record is not a county."
+    ]
+  },
+  "published_US_cows_and_heifers_that_calved": 38524334.0,
+  "county_cow_inventory_numeric_count": 3003,
+  "county_cow_inventory_sum": 38385460.0,
+  "state_crop_rows": 600,
+  "livestock_and_manure_indicator_rows": 33880,
+  "crop_geography_note": "Shares of independent US estimate are descriptive only; missing counties not imputed. Never convert these shares into sustainable removal without yield, retention, competing-use and price checks.",
+  "additional_sources": {
+    "manifest_entries": 196,
+    "verified": 196,
+    "verified_parquet": 7,
+    "verified_pdf": 189,
+    "recorded_failures": [
+      {
+        "dataset": "ORNL_BT23_2041_NATIONAL_SUPPLY_CURVES",
+        "file": "BT23_National_summary.xlsx",
+        "attempts": [
+          {
+            "url": "https://bioenergykdf.ornl.gov/system/files/62528/National_summary.xlsx",
+            "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)>"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Alaska_fertilizers and chemicals applied",
+        "file": "USDA_02_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Alaska/st02_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Colorado_fertilizers and chemicals applied",
+        "file": "USDA_08_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Colorado/st08_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Delaware_fertilizers and chemicals applied",
+        "file": "USDA_10_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Delaware/st10_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Hawaii_fertilizers and chemicals applied",
+        "file": "USDA_15_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Hawaii/st15_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Illinois_fertilizers and chemicals applied",
+        "file": "USDA_17_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Illinois/st17_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Maryland_fertilizers and chemicals applied",
+        "file": "USDA_24_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Maryland/st24_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_New Mexico_fertilizers and chemicals applied",
+        "file": "USDA_35_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/New_Mexico/st35_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Oregon_fertilizers and chemicals applied",
+        "file": "USDA_41_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Oregon/st41_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Rhode Island_fertilizers and chemicals applied",
+        "file": "USDA_44_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Rhode_Island/st44_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Tennessee_fertilizers and chemicals applied",
+        "file": "USDA_47_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Tennessee/st47_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      },
+      {
+        "dataset": "USDA_CENSUS_2022_Texas_fertilizers and chemicals applied",
+        "file": "USDA_48_040.pdf",
+        "attempts": [
+          {
+            "url": "https://data.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Texas/st48_2_040_040.pdf",
+            "error": "HTTP Error 404: Not Found"
+          }
+        ]
+      }
+    ],
+    "pinned_agml_revision": "0773bd22d8507b0029e4ed27e4e05faa3c2fbad2"
+  },
+  "limits": [
+    "Atlas data were actually parsed and converted to geographic evidence tables. Parquet and PDF byte integrity checked; not yet parsed into physical residue or livestock supply.",
+    "No V9.16 numerical results are overwritten; no independently verified sustainable tonnage, delivered-price or methane mitigation values inferred.",
+    "The original archives remain the canonical source."
+  ]
+}
