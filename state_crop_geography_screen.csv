@@ -1,0 +1,601 @@
+﻿state,crop,county_equivalents,numeric_count,missing_count,observed_approx_acres,share_of_available_county_acres,independent_national_approx_acres,basis
+Alabama,barley_grain,67,65,2,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Alabama,corn_grain,67,61,6,326914.1152,0.004081860460207862,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Alabama,cotton_all,67,54,13,426936.6181,0.05979499285462963,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Alabama,oats_grain,67,53,14,2739.7451,0.003262265388529366,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Alabama,orchards,67,63,4,14119.674,0.002302709180541585,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Alabama,rice,67,65,2,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Alabama,rye,67,65,2,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Alabama,sorghum_grain,67,54,13,381.656,8.949724752094783e-05,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Alabama,soybeans,67,53,14,396512.4932,0.004695030162877715,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Alabama,sugarcane_sugar_or_seed,67,67,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Alabama,vegetables,67,67,0,15391.4598,0.0038187284297089975,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Alabama,wheat_all,67,49,18,122541.9924,0.003406984425852694,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Alaska,barley_grain,5,0,5,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Alaska,corn_grain,5,2,3,0.0,0.0,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Alaska,cotton_all,5,2,3,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Alaska,oats_grain,5,1,4,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Alaska,orchards,5,5,0,58.8837,9.60305651742171e-06,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Alaska,rice,5,2,3,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Alaska,rye,5,2,3,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Alaska,sorghum_grain,5,2,3,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Alaska,soybeans,5,2,3,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Alaska,sugarcane_sugar_or_seed,5,2,3,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Alaska,vegetables,5,2,3,551.8122,0.0001369084534777787,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Alaska,wheat_all,5,1,4,0.0,0.0,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Arizona,barley_grain,15,10,5,13276.5518,0.005596080616962209,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Arizona,corn_grain,15,8,7,41458.9741,0.000517658122963562,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Arizona,cotton_all,15,13,2,108368.0325,0.015177582472680909,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Arizona,oats_grain,15,11,4,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Arizona,orchards,15,13,2,47158.2741,0.007690814300762466,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Arizona,rice,15,13,2,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Arizona,rye,15,13,2,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Arizona,sorghum_grain,15,13,2,5386.6418,0.001263152077773914,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Arizona,soybeans,15,13,2,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Arizona,sugarcane_sugar_or_seed,15,13,2,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Arizona,vegetables,15,12,3,140648.655,0.03489591149536612,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Arizona,wheat_all,15,10,5,92261.4275,0.0025651063787481537,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Arkansas,barley_grain,75,75,0,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Arkansas,corn_grain,75,70,5,722770.1912,0.009024532523526363,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Arkansas,cotton_all,75,67,8,603302.7839,0.08449611517063435,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Arkansas,oats_grain,75,67,8,3922.2666,0.004670315646267242,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Arkansas,orchards,75,56,19,10648.0913,0.0017365455876094955,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Arkansas,rice,75,70,5,1121755.8271,0.49558154024040785,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Arkansas,rye,75,75,0,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Arkansas,sorghum_grain,75,59,16,5692.9917,0.0013349902574063526,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Arkansas,soybeans,75,69,6,3251883.3061,0.03850494113557232,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Arkansas,sugarcane_sugar_or_seed,75,75,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Arkansas,vegetables,75,63,12,11560.9066,0.0028683414924690824,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Arkansas,wheat_all,75,64,11,161032.4254,0.004477118043183634,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+California,barley_grain,58,43,15,23816.0293,0.010038481474753398,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+California,corn_grain,58,45,13,34085.7638,0.00042559597416171047,80594134.655752,rounded atlas area; not sustainable residue tonnes
+California,cotton_all,58,49,9,137578.1939,0.01926863794441523,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+California,oats_grain,58,46,12,3204.4064,0.0038155461962182413,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+California,orchards,58,52,6,4124537.8787,0.6726508876796874,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+California,rice,58,52,6,262128.4955,0.1158059894850297,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+California,rye,58,52,6,491.1751,0.0014160136411735529,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+California,sorghum_grain,58,48,10,4433.4596,0.00103963359518313,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+California,soybeans,58,54,4,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+California,sugarcane_sugar_or_seed,58,54,4,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+California,vegetables,58,52,6,1190354.3127,0.295335200742726,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+California,wheat_all,58,44,14,136550.8357,0.0037964665109468648,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Colorado,barley_grain,64,46,18,43536.6633,0.018350749547533178,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Colorado,corn_grain,64,46,18,899462.5468,0.01123071912154194,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Colorado,cotton_all,64,55,9,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Colorado,oats_grain,64,43,21,3301.6363,0.003931319595814218,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Colorado,orchards,64,49,15,6156.8001,0.0010040826788357171,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Colorado,rice,64,55,9,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Colorado,rye,64,46,18,354.455,0.0010218618775414859,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Colorado,sorghum_grain,64,44,20,245224.2166,0.05750437682160667,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Colorado,soybeans,64,48,16,5162.4189,6.11272357006255e-05,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Colorado,sugarcane_sugar_or_seed,64,55,9,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Colorado,vegetables,64,46,18,77779.1952,0.01929756038006281,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Colorado,wheat_all,64,50,14,1208282.2648,0.033593372983349204,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Connecticut,barley_grain,8,7,1,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Connecticut,corn_grain,8,6,2,3362.6144,4.1985714043513816e-05,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Connecticut,cotton_all,8,8,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Connecticut,oats_grain,8,7,1,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Connecticut,orchards,8,8,0,3514.9339,0.0005732335379029586,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Connecticut,rice,8,8,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Connecticut,rye,8,8,0,113.7324,0.0003278803480698732,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Connecticut,sorghum_grain,8,8,0,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Connecticut,soybeans,8,5,3,65.8732,7.799926983871275e-07,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Connecticut,sugarcane_sugar_or_seed,8,8,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Connecticut,vegetables,8,8,0,6904.3937,0.0017130281954123776,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Connecticut,wheat_all,8,6,2,37.0295,1.029515518765198e-06,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Delaware,barley_grain,3,3,0,14651.9748,0.006175822862373718,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Delaware,corn_grain,3,3,0,187726.0963,0.002343954250501902,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Delaware,cotton_all,3,3,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Delaware,oats_grain,3,3,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Delaware,orchards,3,3,0,822.4459,0.00013412870758948748,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Delaware,rice,3,3,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Delaware,rye,3,2,1,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Delaware,sorghum_grain,3,3,0,1882.5975,0.00044146372278861467,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Delaware,soybeans,3,3,0,175550.8912,0.002078665221260788,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Delaware,sugarcane_sugar_or_seed,3,3,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Delaware,vegetables,3,3,0,22818.6888,0.005661475726638373,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Delaware,wheat_all,3,3,0,47381.4705,0.0013173274641045233,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Florida,barley_grain,67,61,6,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Florida,corn_grain,67,47,20,59107.2881,0.0007380155553568666,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Florida,cotton_all,67,60,7,95090.7696,0.01331802344408114,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Florida,oats_grain,67,58,9,1773.3732,0.002111588438324007,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Florida,orchards,67,56,11,398927.3871,0.06505913363692065,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Florida,rice,67,63,4,20272.1379,0.008956046490341362,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Florida,rye,67,60,7,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Florida,sorghum_grain,67,59,8,326.8071,7.663532326662691e-05,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Florida,soybeans,67,50,17,16263.4118,0.00019257201327500673,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Florida,sugarcane_sugar_or_seed,67,59,8,386071.5981,0.44086020298327966,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Florida,vegetables,67,57,10,270594.7938,0.06713645416755983,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Florida,wheat_all,67,56,11,2073.4774,5.764803695369557e-05,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Georgia,barley_grain,159,155,4,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Georgia,corn_grain,159,132,27,386194.7864,0.004822040881639587,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Georgia,cotton_all,159,138,21,1239621.2466,0.17361627100147156,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Georgia,oats_grain,159,121,38,9101.0076,0.010836738807818677,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Georgia,orchards,159,139,20,175600.8652,0.028637893822179062,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Georgia,rice,159,155,4,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Georgia,rye,159,104,55,21570.869,0.06218687945682012,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Georgia,sorghum_grain,159,120,39,7458.3677,0.0017489658706408293,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Georgia,soybeans,159,124,35,151433.3035,0.0017930933826382355,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Georgia,sugarcane_sugar_or_seed,159,155,4,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Georgia,vegetables,159,131,28,92017.1263,0.02283009032535114,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Georgia,wheat_all,159,119,40,116681.5703,0.003244049529878878,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Hawaii,barley_grain,4,4,0,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Hawaii,corn_grain,4,2,2,1055.3345,1.3176940937655215e-05,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Hawaii,cotton_all,4,4,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Hawaii,oats_grain,4,4,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Hawaii,orchards,4,4,0,45169.0888,0.007366407721090634,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Hawaii,rice,4,3,1,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Hawaii,rye,4,4,0,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Hawaii,sorghum_grain,4,4,0,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Hawaii,soybeans,4,1,3,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Hawaii,sugarcane_sugar_or_seed,4,4,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Hawaii,vegetables,4,4,0,7719.8094,0.0019153385197727074,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Hawaii,wheat_all,4,4,0,0.0,0.0,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Idaho,barley_grain,44,40,4,538473.0044,0.22696693984113953,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Idaho,corn_grain,44,32,12,121373.9827,0.0015154795638058199,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Idaho,cotton_all,44,42,2,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Idaho,oats_grain,44,28,16,8755.6704,0.010425539335874225,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Idaho,orchards,44,31,13,5499.8023,0.000896936087536369,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Idaho,rice,44,42,2,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Idaho,rye,44,42,2,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Idaho,sorghum_grain,44,40,4,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Idaho,soybeans,44,38,6,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Idaho,sugarcane_sugar_or_seed,44,42,2,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Idaho,vegetables,44,33,11,326923.468,0.08111199078125916,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Idaho,wheat_all,44,40,4,1162372.7391,0.03231696939396114,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Illinois,barley_grain,102,87,15,6014.0123,0.0025349125381945096,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Illinois,corn_grain,102,100,2,10419542.2244,0.13009874898742255,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Illinois,cotton_all,102,101,1,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Illinois,oats_grain,102,84,18,10685.9932,0.01272401051391305,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Illinois,orchards,102,83,19,4657.6054,0.0007595862834473084,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Illinois,rice,102,101,1,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Illinois,rye,102,67,35,11318.0692,0.032628977753097144,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Illinois,sorghum_grain,102,79,23,2184.8672,0.0005123451020042607,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Illinois,soybeans,102,100,2,10206987.3711,0.12085902564733714,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Illinois,sugarcane_sugar_or_seed,102,102,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Illinois,vegetables,102,84,18,49435.3389,0.012265252102129275,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Illinois,wheat_all,102,99,3,539493.6144,0.014999318238155878,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Indiana,barley_grain,92,77,15,153.6967,6.478333196394289e-05,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Indiana,corn_grain,92,92,0,5376327.0606,0.06712899757628008,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Indiana,cotton_all,92,92,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Indiana,oats_grain,92,73,19,1394.1144,0.0016599979539761477,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Indiana,orchards,92,66,26,2715.1316,0.0004427976499666886,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Indiana,rice,92,92,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Indiana,rye,92,78,14,1819.5771,0.005245677484350169,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Indiana,sorghum_grain,92,84,8,2738.4794,0.0006421655853595772,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Indiana,soybeans,92,92,0,5687622.8999,0.06734607744118064,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Indiana,sugarcane_sugar_or_seed,92,92,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Indiana,vegetables,92,79,13,29175.3224,0.007238600803013791,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Indiana,wheat_all,92,88,4,259115.0567,0.007204068947677582,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Iowa,barley_grain,99,85,14,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Iowa,corn_grain,99,99,0,12637525.9786,0.15779256753242393,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Iowa,cotton_all,99,99,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Iowa,oats_grain,99,86,13,37787.3307,0.04499407636434802,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Iowa,orchards,99,84,15,3697.8486,0.0006030641953390911,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Iowa,rice,99,99,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Iowa,rye,99,65,34,3597.1445,0.0103702448253686,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Iowa,sorghum_grain,99,93,6,124.0051,2.9078842070688574e-05,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Iowa,soybeans,99,99,0,9498006.357,0.11246411425472655,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Iowa,sugarcane_sugar_or_seed,99,99,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Iowa,vegetables,99,79,20,6287.4421,0.0015599581958641764,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Iowa,wheat_all,99,77,22,13180.9293,0.0003664639367893207,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Kansas,barley_grain,105,89,16,2258.8489,0.0009521072014109629,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Kansas,corn_grain,105,103,2,4656873.6099,0.058145877985130774,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Kansas,cotton_all,105,98,7,137741.8634,0.01929156082623603,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Kansas,oats_grain,105,68,37,19845.6199,0.023630548197928813,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Kansas,orchards,105,89,16,5262.0059,0.0008581550297336385,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Kansas,rice,105,105,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Kansas,rye,105,72,33,21717.3697,0.06260922782099125,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Kansas,sorghum_grain,105,102,3,2563083.8703,0.6010358307005086,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Kansas,soybeans,105,102,3,4570233.259,0.05411527599467137,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Kansas,sugarcane_sugar_or_seed,105,105,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Kansas,vegetables,105,74,31,1780.2502,0.00044169247840123094,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Kansas,wheat_all,105,103,2,6628997.1219,0.18430327027996898,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Kentucky,barley_grain,120,110,10,1331.0233,0.00056102774241337,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Kentucky,corn_grain,120,112,8,1411620.8246,0.017625544325206573,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Kentucky,cotton_all,120,116,4,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Kentucky,oats_grain,120,107,13,29.2725,3.4855348933377497e-05,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Kentucky,orchards,120,101,19,3876.6987,0.0006322319935802104,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Kentucky,rice,120,116,4,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Kentucky,rye,120,106,14,18.4837,5.328698198235344e-05,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Kentucky,sorghum_grain,120,108,12,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Kentucky,soybeans,120,104,16,1926696.7708,0.022813655584814553,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Kentucky,sugarcane_sugar_or_seed,120,116,4,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Kentucky,vegetables,120,109,11,7542.4606,0.0018713370277957191,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Kentucky,wheat_all,120,96,24,425398.6669,0.011827183514051204,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Louisana,barley_grain,64,61,3,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Louisana,corn_grain,64,52,12,453753.7964,0.00566558491608424,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Louisana,cotton_all,64,58,6,196912.6773,0.027578782499532842,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Louisana,oats_grain,64,59,5,29.8344,3.55243598300128e-05,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Louisana,orchards,64,57,7,13201.7158,0.0021530038378763123,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Louisana,rice,64,53,11,428345.8602,0.18923931219233073,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Louisana,rye,64,61,3,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Louisana,sorghum_grain,64,54,10,19756.1727,0.00463276593700755,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Louisana,soybeans,64,55,9,1257297.5804,0.014887425151667223,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Louisana,sugarcane_sugar_or_seed,64,58,6,460245.5429,0.5255603998941903,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Louisana,vegetables,64,49,15,6820.8473,0.0016922997475465583,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Louisana,wheat_all,64,52,12,22969.2888,0.0006386056552284815,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Maine,barley_grain,16,13,3,10138.8812,0.004273549140933826,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Maine,corn_grain,16,13,3,6158.3832,7.689377580407163e-05,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Maine,cotton_all,16,16,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Maine,oats_grain,16,12,4,25158.7181,0.029956952848248977,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Maine,orchards,16,16,0,2844.7168,0.000463931070814251,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Maine,rice,16,16,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Maine,rye,16,12,4,1427.9228,0.004116573213867686,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Maine,sorghum_grain,16,16,0,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Maine,soybeans,16,13,3,764.0639,9.04713802942349e-06,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Maine,sugarcane_sugar_or_seed,16,16,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Maine,vegetables,16,16,0,66318.1763,0.0164540017333276,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Maine,wheat_all,16,12,4,1646.4984,4.577691505627392e-05,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Maryland,barley_grain,23,19,4,16978.4134,0.007156419152340219,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Maryland,corn_grain,23,23,0,422213.8538,0.005271776148716905,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Maryland,cotton_all,23,23,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Maryland,oats_grain,23,17,6,1125.4579,0.0013401036559546387,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Maryland,orchards,23,21,2,4709.349,0.0007680249053943122,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Maryland,rice,23,23,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Maryland,rye,23,13,10,4253.7713,0.01226324082716986,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Maryland,sorghum_grain,23,15,8,7745.1504,0.0018162155889340607,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Maryland,soybeans,23,23,0,531923.1501,0.0062984023886933594,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Maryland,sugarcane_sugar_or_seed,23,23,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Maryland,vegetables,23,23,0,21594.3087,0.005357698477091548,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Maryland,wheat_all,23,21,2,154928.6591,0.004307417549159948,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Massachusetts,barley_grain,14,12,2,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Massachusetts,corn_grain,14,12,2,3542.0032,4.42255692605626e-05,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Massachusetts,cotton_all,14,14,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Massachusetts,oats_grain,14,14,0,225.6516,0.00026868755533767123,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Massachusetts,orchards,14,14,0,5059.7172,0.0008251647439584487,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Massachusetts,rice,14,14,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Massachusetts,rye,14,9,5,8.7443,2.520913151477949e-05,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Massachusetts,sorghum_grain,14,14,0,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Massachusetts,soybeans,14,10,4,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Massachusetts,sugarcane_sugar_or_seed,14,14,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Massachusetts,vegetables,14,14,0,17209.2099,0.00426972489884548,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Massachusetts,wheat_all,14,11,3,30.1123,8.372003263940435e-07,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Michigan,barley_grain,83,59,24,5417.2521,0.002283377493109927,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Michigan,corn_grain,83,75,8,2099776.428,0.026217877959967266,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Michigan,cotton_all,83,83,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Michigan,oats_grain,83,75,8,29382.3954,0.034986163794088906,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Michigan,orchards,83,78,5,104972.633,0.017119477830772202,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Michigan,rice,83,83,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Michigan,rye,83,65,18,19251.8812,0.05550144571849667,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Michigan,sorghum_grain,83,78,5,811.6652,0.00019033315792347117,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Michigan,soybeans,83,74,9,2348045.8027,0.02780277055023498,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Michigan,sugarcane_sugar_or_seed,83,83,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Michigan,vegetables,83,70,13,138520.3034,0.034367852630397384,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Michigan,wheat_all,83,75,8,458627.8605,0.012751041065310732,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Minnesota,barley_grain,87,63,24,53407.5955,0.022511357884983135,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Minnesota,corn_grain,87,87,0,7733921.4052,0.09656599857380162,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Minnesota,cotton_all,87,87,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Minnesota,oats_grain,87,82,5,125811.967,0.14980664548095982,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Minnesota,orchards,87,70,17,4919.6158,0.0008023162880901683,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Minnesota,rice,87,87,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Minnesota,rye,87,65,22,32247.7786,0.09296745153251779,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Minnesota,sorghum_grain,87,79,8,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Minnesota,soybeans,87,85,2,7597429.4052,0.08995973855512397,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Minnesota,sugarcane_sugar_or_seed,87,87,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Minnesota,vegetables,87,72,15,186674.4355,0.04631522840470314,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Minnesota,wheat_all,87,77,10,1267125.722,0.03522937333054273,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Mississippi,barley_grain,82,82,0,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Mississippi,corn_grain,82,63,19,587642.6526,0.007337325604471927,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Mississippi,cotton_all,82,68,14,534201.6205,0.07481808945348291,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Mississippi,oats_grain,82,79,3,1050.8417,0.001251256774436156,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Mississippi,orchards,82,67,15,6982.7868,0.0011387888549325331,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Mississippi,rice,82,78,4,87346.9894,0.038589106894793924,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Mississippi,rye,82,82,0,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Mississippi,sorghum_grain,82,67,15,713.6388,0.00016734625117803613,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Mississippi,soybeans,82,68,14,2399746.2272,0.02841494559288868,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Mississippi,sugarcane_sugar_or_seed,82,82,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Mississippi,vegetables,82,75,7,34530.0761,0.008567152528943824,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Mississippi,wheat_all,82,68,14,82715.8398,0.0022997143467511205,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Missouri,barley_grain,114,96,18,2086.8661,0.0008796162610112801,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Missouri,corn_grain,114,110,4,3013938.9274,0.037632141176207855,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Missouri,cotton_all,114,111,3,337551.6661,0.04727610284793614,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Missouri,oats_grain,114,102,12,6071.2959,0.007229204758107748,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Missouri,orchards,114,96,18,15000.8217,0.0024464112866399504,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Missouri,rice,114,111,3,152036.8993,0.06716852178290786,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Missouri,rye,114,95,19,580.3977,0.001673234513861495,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Missouri,sorghum_grain,114,79,35,24196.3215,0.005673968127335608,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Missouri,soybeans,114,107,7,5744293.7219,0.06801710603012483,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Missouri,sugarcane_sugar_or_seed,114,114,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Missouri,vegetables,114,98,16,13065.8356,0.0032417248778931324,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Missouri,wheat_all,114,107,7,469456.2914,0.013052099460380096,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Montana,barley_grain,56,51,5,797065.1279,0.33596379286386796,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Montana,corn_grain,56,50,6,65896.8256,0.0008227899449650547,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Montana,cotton_all,56,56,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Montana,oats_grain,56,34,22,19777.4972,0.023549433251662776,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Montana,orchards,56,51,5,1204.1894,0.00019638541355985613,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Montana,rice,56,56,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Montana,rye,56,52,4,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Montana,sorghum_grain,56,52,4,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Montana,soybeans,56,50,6,8171.5335,9.675759791106081e-05,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Montana,sugarcane_sugar_or_seed,56,56,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Montana,vegetables,56,31,25,11928.5047,0.0029595451503377475,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Montana,wheat_all,56,50,6,5193750.4267,0.1443996989385108,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Nebraska,barley_grain,93,77,16,1570.1785,0.0006618319142956204,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Nebraska,corn_grain,93,87,6,8620164.0059,0.10763165301147244,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Nebraska,cotton_all,93,89,4,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Nebraska,oats_grain,93,58,35,15367.7291,0.018298640458931262,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Nebraska,orchards,93,77,16,1049.2243,0.00017111290104114855,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Nebraska,rice,93,89,4,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Nebraska,rye,93,63,30,17623.0129,0.050805564638617504,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Nebraska,sorghum_grain,93,75,18,125002.9489,0.029312833688202002,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Nebraska,soybeans,93,88,5,5390574.6633,0.0638287849099444,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Nebraska,sugarcane_sugar_or_seed,93,89,4,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Nebraska,vegetables,93,62,31,5094.5268,0.0012639876116525884,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Nebraska,wheat_all,93,85,8,801263.1495,0.022277188554135883,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Nevada,barley_grain,17,9,8,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Nevada,corn_grain,17,11,6,1530.3581,1.910810194165655e-05,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Nevada,cotton_all,17,13,4,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Nevada,oats_grain,17,12,5,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Nevada,orchards,17,10,7,264.5253,4.3140145084977815e-05,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Nevada,rice,17,13,4,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Nevada,rye,17,11,6,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Nevada,sorghum_grain,17,13,4,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Nevada,soybeans,17,13,4,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Nevada,sugarcane_sugar_or_seed,17,13,4,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Nevada,vegetables,17,6,11,48.6133,1.2061309648354799e-05,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Nevada,wheat_all,17,8,9,6330.5138,0.00017600466077733636,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+New Hampshire,barley_grain,10,8,2,5.8856,2.4807711022193223e-06,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+New Hampshire,corn_grain,10,7,3,901.1305,1.1251545498534653e-05,80594134.655752,rounded atlas area; not sustainable residue tonnes
+New Hampshire,cotton_all,10,10,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+New Hampshire,oats_grain,10,10,0,25.555,3.0428857839212484e-05,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+New Hampshire,orchards,10,10,0,2315.4237,0.0003776112215045798,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+New Hampshire,rice,10,10,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+New Hampshire,rye,10,7,3,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+New Hampshire,sorghum_grain,10,10,0,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+New Hampshire,soybeans,10,8,2,518.2751,6.136797923524858e-06,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+New Hampshire,sugarcane_sugar_or_seed,10,10,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+New Hampshire,vegetables,10,10,0,3140.3453,0.0007791415534460375,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+New Hampshire,wheat_all,10,7,3,0.0,0.0,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+New Jersey,barley_grain,21,16,5,377.7849,0.00015923672069985696,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+New Jersey,corn_grain,21,19,2,64093.778,0.0008002770326417731,80594134.655752,rounded atlas area; not sustainable residue tonnes
+New Jersey,cotton_all,21,19,2,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+New Jersey,oats_grain,21,17,4,419.2223,0.0004991758018149272,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+New Jersey,orchards,21,18,3,9173.9285,0.0014961315278244059,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+New Jersey,rice,21,19,2,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+New Jersey,rye,21,14,7,2334.3679,0.006729773049805317,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+New Jersey,sorghum_grain,21,15,6,272.6949,6.394617390497118e-05,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+New Jersey,soybeans,21,17,4,107262.8694,0.0012700795454796284,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+New Jersey,sugarcane_sugar_or_seed,21,19,2,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+New Jersey,vegetables,21,19,2,42934.3427,0.010652309638592388,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+New Jersey,wheat_all,21,15,6,23471.389,0.0006525653390784089,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+New Mexico,barley_grain,33,21,12,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+New Mexico,corn_grain,33,15,18,2247.2079,2.8058712284954114e-05,80594134.655752,rounded atlas area; not sustainable residue tonnes
+New Mexico,cotton_all,33,22,11,30159.3892,0.004224000441341977,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+New Mexico,oats_grain,33,19,14,17.0799,2.03373255344135e-05,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+New Mexico,orchards,33,24,9,63111.4206,0.010292535641055051,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+New Mexico,rice,33,23,10,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+New Mexico,rye,33,22,11,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+New Mexico,sorghum_grain,33,18,15,781.525,0.0001832653662686818,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+New Mexico,soybeans,33,21,12,12.4433,1.4733905932206913e-07,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+New Mexico,sugarcane_sugar_or_seed,33,23,10,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+New Mexico,vegetables,33,21,12,18004.0352,0.004466926613188857,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+New Mexico,wheat_all,33,19,14,7321.8248,0.00020356567273116055,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+New York,barley_grain,62,34,28,4901.0637,0.002065803520256131,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+New York,corn_grain,62,55,7,603278.8201,0.007532559309356864,80594134.655752,rounded atlas area; not sustainable residue tonnes
+New York,cotton_all,62,60,2,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+New York,oats_grain,62,51,11,43736.4638,0.05207781963995392,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+New York,orchards,62,57,5,108161.3232,0.0176395058633098,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+New York,rice,62,60,2,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+New York,rye,62,45,17,13022.733,0.03754337039207702,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+New York,sorghum_grain,62,53,9,134.9513,3.16456833998429e-05,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+New York,soybeans,62,54,8,340214.6034,0.004028417394675222,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+New York,sugarcane_sugar_or_seed,62,60,2,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+New York,vegetables,62,58,4,109695.9201,0.02721632225636434,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+New York,wheat_all,62,48,14,104801.4329,0.0029137509719671328,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+North Carolina,barley_grain,100,73,27,6172.7498,0.0026018205545723645,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+North Carolina,corn_grain,100,96,4,810464.946,0.010119492133436,80594134.655752,rounded atlas area; not sustainable residue tonnes
+North Carolina,cotton_all,100,82,18,468204.1387,0.06557475265274049,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+North Carolina,oats_grain,100,79,21,8875.2413,0.010567914594806133,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+North Carolina,orchards,100,90,10,15524.7782,0.0025318608121695316,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+North Carolina,rice,100,100,0,38.403,1.696609417577833e-05,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+North Carolina,rye,100,65,35,15610.6077,0.0450039810295529,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+North Carolina,sorghum_grain,100,69,31,6407.0367,0.001502431760449303,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+North Carolina,soybeans,100,93,7,1677719.5782,0.019865563281674214,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+North Carolina,sugarcane_sugar_or_seed,100,100,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+North Carolina,vegetables,100,95,5,139205.8071,0.03453793089230217,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+North Carolina,wheat_all,100,90,10,428354.7414,0.011909370034774984,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+North Dakota,barley_grain,53,50,3,625797.0196,0.26377410443131855,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+North Dakota,corn_grain,53,53,0,2676562.8708,0.03341965256969281,80594134.655752,rounded atlas area; not sustainable residue tonnes
+North Dakota,cotton_all,53,53,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+North Dakota,oats_grain,53,49,4,179256.599,0.21344416136028124,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+North Dakota,orchards,53,43,10,50.4711,8.231093983776226e-06,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+North Dakota,rice,53,53,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+North Dakota,rye,53,41,12,57079.1086,0.16455394736624676,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+North Dakota,sorghum_grain,53,51,2,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+North Dakota,soybeans,53,53,0,5571437.3155,0.06597034569792967,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+North Dakota,sugarcane_sugar_or_seed,53,53,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+North Dakota,vegetables,53,34,19,69277.8437,0.017188315833854346,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+North Dakota,wheat_all,53,53,0,6171637.1043,0.17158747852640618,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Ohio,barley_grain,88,72,16,3326.5204,0.0014021318508523955,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Ohio,corn_grain,88,86,2,3312147.0715,0.04135557793122696,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Ohio,cotton_all,88,88,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Ohio,oats_grain,88,71,17,13180.0226,0.015693697709861447,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Ohio,orchards,88,86,2,10547.9631,0.0017202161645767011,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Ohio,rice,88,88,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Ohio,rye,88,61,27,1662.31,0.0047922905318670845,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Ohio,sorghum_grain,88,80,8,254.8776,5.976807763425488e-05,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Ohio,soybeans,88,86,2,4828629.9986,0.05717490338996681,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Ohio,sugarcane_sugar_or_seed,88,88,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Ohio,vegetables,88,83,5,26724.9464,0.0066306454640152074,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Ohio,wheat_all,88,83,5,479745.7454,0.013338172902203365,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Oklahoma,barley_grain,77,67,10,456.0566,0.0001922283223316116,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Oklahoma,corn_grain,77,52,25,132103.5992,0.0016494499113260412,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Oklahoma,cotton_all,77,69,8,261739.9556,0.03665822539310736,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Oklahoma,oats_grain,77,66,11,9433.4799,0.011232619705774938,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Oklahoma,orchards,77,68,9,115531.862,0.018841531294005176,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Oklahoma,rice,77,75,2,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Oklahoma,rye,77,54,23,42238.8647,0.12177085598064435,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Oklahoma,sorghum_grain,77,60,17,188178.1605,0.04412723996423775,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Oklahoma,soybeans,77,57,20,387382.2374,0.004586920515052816,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Oklahoma,sugarcane_sugar_or_seed,77,75,2,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Oklahoma,vegetables,77,53,24,3026.4066,0.0007508725805888193,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Oklahoma,wheat_all,77,67,10,2428128.9458,0.06750826665715007,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Oregon,barley_grain,36,27,9,17958.2416,0.007569417805058676,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Oregon,corn_grain,36,24,12,45666.3818,0.0005701919542225463,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Oregon,cotton_all,36,36,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Oregon,oats_grain,36,31,5,7862.8318,0.009362419853729157,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Oregon,orchards,36,32,4,153481.9239,0.025030622925658195,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Oregon,rice,36,36,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Oregon,rye,36,28,8,253.9314,0.0007320614469287724,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Oregon,sorghum_grain,36,35,1,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Oregon,soybeans,36,30,6,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Oregon,sugarcane_sugar_or_seed,36,36,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Oregon,vegetables,36,31,5,144440.3614,0.03583666028523432,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Oregon,wheat_all,36,33,3,736722.0643,0.020482779407423803,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,barley_grain,67,55,12,28279.7736,0.011919954446587914,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,corn_grain,67,65,2,996020.4299,0.01243634404496164,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,cotton_all,67,65,2,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,oats_grain,67,59,8,54937.7998,0.06541545848077267,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,orchards,67,64,3,48325.9645,0.00788124727563767,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,rice,67,64,3,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,rye,67,46,21,18452.2653,0.053196224667771234,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,sorghum_grain,67,53,14,4154.5154,0.000974221973404205,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,soybeans,67,61,6,690427.9053,0.008175227506144389,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,sugarcane_sugar_or_seed,67,65,2,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,vegetables,67,62,5,38664.4628,0.009592922676003892,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Pennsylvania,wheat_all,67,58,9,188736.7309,0.005247369410464977,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Rhode Island,barley_grain,5,5,0,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Rhode Island,corn_grain,5,2,3,185.0724,2.3108204069423636e-06,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Rhode Island,cotton_all,5,5,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Rhode Island,oats_grain,5,5,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Rhode Island,orchards,5,3,2,368.7236,6.013334588501232e-05,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Rhode Island,rice,5,5,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Rhode Island,rye,5,5,0,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Rhode Island,sorghum_grain,5,5,0,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Rhode Island,soybeans,5,5,0,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Rhode Island,sugarcane_sugar_or_seed,5,5,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Rhode Island,vegetables,5,5,0,1970.543,0.0004889054544103164,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Rhode Island,wheat_all,5,5,0,0.0,0.0,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+South Carolina,barley_grain,46,42,4,0.0,0.0,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+South Carolina,corn_grain,46,41,5,337792.8138,0.004217692250958943,80594134.655752,rounded atlas area; not sustainable residue tonnes
+South Carolina,cotton_all,46,42,4,275565.5981,0.03859458822190113,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+South Carolina,oats_grain,46,25,21,4631.1531,0.00551439997971848,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+South Carolina,orchards,46,39,7,23429.8361,0.0038210583819121035,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+South Carolina,rice,46,43,3,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+South Carolina,rye,46,31,15,5028.4559,0.014496587175495653,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+South Carolina,sorghum_grain,46,35,11,5607.6944,0.0013149882816100088,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+South Carolina,soybeans,46,41,5,406616.7195,0.004814672414865204,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+South Carolina,sugarcane_sugar_or_seed,46,46,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+South Carolina,vegetables,46,38,8,23915.3499,0.005933564969003432,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+South Carolina,wheat_all,46,37,9,120069.3429,0.003338238371573821,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+South Dakota,barley_grain,66,42,24,4837.5527,0.0020390335678242195,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+South Dakota,corn_grain,66,64,2,4803071.0186,0.05997130366767328,80594134.655752,rounded atlas area; not sustainable residue tonnes
+South Dakota,cotton_all,66,66,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+South Dakota,oats_grain,66,56,10,83940.9213,0.09995001385942323,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+South Dakota,orchards,66,50,16,293.63,4.788668969019021e-05,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+South Dakota,rice,66,66,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+South Dakota,rye,66,44,22,22133.9823,0.0638102844236698,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+South Dakota,sorghum_grain,66,43,23,185837.295,0.04357831372006918,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+South Dakota,soybeans,66,63,3,4858353.7166,0.05752685636690649,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+South Dakota,sugarcane_sugar_or_seed,66,66,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+South Dakota,vegetables,66,47,19,633.1121,0.00015707953173433223,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+South Dakota,wheat_all,66,64,2,1432285.5529,0.03982124392533854,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Tennessee,barley_grain,95,88,7,146.388,6.170270767019192e-05,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Tennessee,corn_grain,95,91,4,806699.3674,0.010072474993741925,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Tennessee,cotton_all,95,86,9,325809.0221,0.04563147625349438,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Tennessee,oats_grain,95,79,16,390.2084,0.00046462836084431463,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Tennessee,orchards,95,85,10,4555.3329,0.0007429071534505802,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Tennessee,rice,95,93,2,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Tennessee,rye,95,92,3,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Tennessee,sorghum_grain,95,86,9,2573.658,0.0006035154301506152,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Tennessee,soybeans,95,85,10,1568506.0491,0.018572386339433443,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Tennessee,sugarcane_sugar_or_seed,95,95,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Tennessee,vegetables,95,90,5,11884.1466,0.002948539584690412,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Tennessee,wheat_all,95,70,25,337181.8426,0.009374527568023252,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Texas,barley_grain,254,211,43,3448.3487,0.0014534826100710285,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Texas,corn_grain,254,164,90,1561602.8369,0.019498224693526446,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Texas,cotton_all,254,182,72,1872828.1953,0.262300640933404,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Texas,oats_grain,254,166,88,35408.4873,0.042161543325178616,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Texas,orchards,254,224,30,185828.1354,0.030305809744947742,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Texas,rice,254,219,35,191585.6464,0.08464079922314857,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Texas,rye,254,186,68,6045.4653,0.017428533976969342,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Texas,sorghum_grain,254,163,91,850977.5173,0.19955179186834537,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Texas,soybeans,254,177,77,70015.0531,0.0008290351301876004,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Texas,sugarcane_sugar_or_seed,254,219,35,29406.264,0.03357939712252993,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Texas,vegetables,254,174,80,85667.6165,0.021254732676660375,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Texas,wheat_all,254,174,80,1470789.2482,0.04089174627150601,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Utah,barley_grain,29,23,6,13985.8695,0.005895058763882982,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Utah,corn_grain,29,21,8,21574.4721,0.0002693795730182072,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Utah,cotton_all,29,29,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Utah,oats_grain,29,19,10,306.0541,0.00036442425547495366,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Utah,orchards,29,25,4,7400.6378,0.0012069341455075698,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Utah,rice,29,29,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Utah,rye,29,28,1,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Utah,sorghum_grain,29,27,2,208.8969,4.898572113838972e-05,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Utah,soybeans,29,28,1,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Utah,sugarcane_sugar_or_seed,29,29,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Utah,vegetables,29,23,6,5284.7585,0.001311185407115194,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Utah,wheat_all,29,23,6,97350.5611,0.002706597460027386,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Vermont,barley_grain,14,14,0,210.7248,8.882071649560652e-05,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Vermont,corn_grain,14,9,5,10567.2797,0.00013194340399319586,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Vermont,cotton_all,14,14,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Vermont,oats_grain,14,14,0,93.7009,0.00011157136107182384,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Vermont,orchards,14,14,0,3133.3861,0.0005110087498365519,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Vermont,rice,14,14,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Vermont,rye,14,12,2,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Vermont,sorghum_grain,14,14,0,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Vermont,soybeans,14,12,2,5702.9145,6.752714251750892e-05,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Vermont,sugarcane_sugar_or_seed,14,14,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Vermont,vegetables,14,14,0,3957.0962,0.0009817831414361802,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Vermont,wheat_all,14,11,3,860.53,2.3924960405340945e-05,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Virginia,barley_grain,98,76,22,9369.8505,0.003949401870826394,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Virginia,corn_grain,98,84,14,382659.4579,0.004777898653760377,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Virginia,cotton_all,98,93,5,88394.4016,0.012380157588909722,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Virginia,oats_grain,98,77,21,399.0632,0.00047517194893047384,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Virginia,orchards,98,90,8,21441.8525,0.0034968477735395015,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Virginia,rice,98,98,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Virginia,rye,98,56,42,3145.2498,0.009067472838442541,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Virginia,sorghum_grain,98,76,22,1667.8876,0.00039111487709934354,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Virginia,soybeans,98,87,11,607818.6553,0.007197066850839733,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Virginia,sugarcane_sugar_or_seed,98,98,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Virginia,vegetables,98,89,9,16622.728,0.004124214668420415,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Virginia,wheat_all,98,85,13,161155.1715,0.004480530703581344,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Washington,barley_grain,39,27,12,59356.4815,0.02501881959775933,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Washington,corn_grain,39,27,12,73265.356,0.0009147936591751267,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Washington,cotton_all,39,33,6,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Washington,oats_grain,39,24,15,2453.6235,0.0029215750729245527,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Washington,orchards,39,37,2,330713.1151,0.053934398713678534,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Washington,rice,39,33,6,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Washington,rye,39,28,11,242.2222,0.0006983048136998331,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Washington,sorghum_grain,39,32,7,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Washington,soybeans,39,31,8,0.0,0.0,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Washington,sugarcane_sugar_or_seed,39,33,6,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Washington,vegetables,39,29,10,299885.7494,0.07440374436471187,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Washington,wheat_all,39,26,13,2060635.0068,0.05729098438519889,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+West Virginia,barley_grain,55,48,7,133.2557,5.6167438667313614e-05,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+West Virginia,corn_grain,55,44,11,34665.4213,0.0004328335970459873,80594134.655752,rounded atlas area; not sustainable residue tonnes
+West Virginia,cotton_all,55,53,2,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+West Virginia,oats_grain,55,44,11,259.8585,0.00030941828863199336,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+West Virginia,orchards,55,47,8,5851.1307,0.0009542325456586678,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+West Virginia,rice,55,53,2,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+West Virginia,rye,55,49,6,25.1532,7.251448905716911e-05,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+West Virginia,sorghum_grain,55,53,2,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+West Virginia,soybeans,55,40,15,23770.8641,0.00028146634946493373,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+West Virginia,sugarcane_sugar_or_seed,55,53,2,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+West Virginia,vegetables,55,49,6,2784.808,0.0006909302690159358,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+West Virginia,wheat_all,55,45,10,3147.5759,8.751075293096041e-05,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Wisconsin,barley_grain,72,44,28,3121.016,0.0013155115254393944,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Wisconsin,corn_grain,72,67,5,3064455.1386,0.03826288826054494,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Wisconsin,cotton_all,72,70,2,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Wisconsin,oats_grain,72,64,8,62528.5201,0.0744538700914359,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Wisconsin,orchards,72,67,5,9813.5469,0.0016004437913478158,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Wisconsin,rice,72,70,2,3.8878,1.7175968640537666e-06,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Wisconsin,rye,72,57,15,23202.6051,0.06689102805233199,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Wisconsin,sorghum_grain,72,63,9,243.812,5.717320557721355e-05,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Wisconsin,soybeans,72,67,5,2143682.4687,0.0253829425912557,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Wisconsin,sugarcane_sugar_or_seed,72,70,2,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Wisconsin,vegetables,72,64,8,223447.5479,0.05543889386115008,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Wisconsin,wheat_all,72,64,8,239697.9095,0.006664222022816886,37208880.85975841,rounded atlas area; not sustainable residue tonnes
+Wyoming,barley_grain,23,17,6,60412.5958,0.02546397291129712,2440420.52602464,rounded atlas area; not sustainable residue tonnes
+Wyoming,corn_grain,23,18,5,55523.7183,0.0006932709836623528,80594134.655752,rounded atlas area; not sustainable residue tonnes
+Wyoming,cotton_all,23,23,0,0.0,0.0,7743062.65664608,rounded atlas area; not sustainable residue tonnes
+Wyoming,oats_grain,23,18,5,5131.301,0.006109935400494451,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Wyoming,orchards,23,16,7,78.957,1.2876717416420045e-05,6192281.98893168,rounded atlas area; not sustainable residue tonnes
+Wyoming,rice,23,23,0,0.0,0.0,2289777.28367744,rounded atlas area; not sustainable residue tonnes
+Wyoming,rye,23,20,3,0.0,0.0,451929.72704160004,rounded atlas area; not sustainable residue tonnes
+Wyoming,sorghum_grain,23,22,1,0.0,0.0,4700069.161232641,rounded atlas area; not sustainable residue tonnes
+Wyoming,soybeans,23,20,3,926.4031,1.096936525251389e-05,84601244.90218753,rounded atlas area; not sustainable residue tonnes
+Wyoming,sugarcane_sugar_or_seed,23,23,0,0.0,0.0,903859.4540832001,rounded atlas area; not sustainable residue tonnes
+Wyoming,vegetables,23,16,7,61.3912,1.5231590665253293e-05,4308396.73112992,rounded atlas area; not sustainable residue tonnes
+Wyoming,wheat_all,23,19,4,101538.0247,0.0028230197810769557,37208880.85975841,rounded atlas area; not sustainable residue tonnes

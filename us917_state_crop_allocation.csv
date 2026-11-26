@@ -1,0 +1,151 @@
+scenario,state_fips,state,crop_selected_proportional_mt
+conservative,01,Alabama,0.27079046284520186
+conservative,02,Alaska,0.0
+conservative,04,Arizona,0.15673218261905744
+conservative,05,Arkansas,2.7977679609208868
+conservative,06,California,0.9597411783268476
+conservative,08,Colorado,1.1236485890008703
+conservative,09,Connecticut,0.0
+conservative,10,Delaware,0.17314323146637225
+conservative,12,Florida,1.5165827536977763
+conservative,13,Georgia,0.7147061558006208
+conservative,15,Hawaii,0.18752350232243462
+conservative,16,Idaho,1.2032781504955383
+conservative,17,Illinois,12.796323652377776
+conservative,18,Indiana,6.338304504261129
+conservative,19,Iowa,13.645444809504111
+conservative,20,Kansas,5.904004910746836
+conservative,21,Kentucky,1.2934148785610131
+conservative,22,Louisiana,2.144405926557965
+conservative,23,Maine,0.0
+conservative,24,Maryland,0.45357285799027497
+conservative,25,Massachusetts,0.0
+conservative,26,Michigan,2.170035919926234
+conservative,27,Minnesota,7.820330842107202
+conservative,28,Mississippi,1.2714909143911848
+conservative,29,Missouri,4.013542427842376
+conservative,30,Montana,1.1983311528071523
+conservative,31,Nebraska,8.152379919948366
+conservative,32,Nevada,0.005305899726729274
+conservative,33,New Hampshire,0.0
+conservative,34,New Jersey,0.07316876226211018
+conservative,35,New Mexico,0.09956775106363175
+conservative,36,New York,0.37140679290487083
+conservative,37,North Carolina,1.1279722897323843
+conservative,38,North Dakota,4.128099683159445
+conservative,39,Ohio,4.366291377634818
+conservative,40,Oklahoma,1.0831145978209
+conservative,41,Oregon,0.40675358080025964
+conservative,42,Pennsylvania,0.7634071372512287
+conservative,44,Rhode Island,0.0
+conservative,45,South Carolina,0.33934637759255587
+conservative,46,South Dakota,4.057652500931042
+conservative,47,Tennessee,0.9476262656344343
+conservative,48,Texas,3.4272331949878527
+conservative,49,Utah,0.04958304790221002
+conservative,50,Vermont,0.0
+conservative,51,Virginia,0.42029116317130927
+conservative,53,Washington,1.062770252653686
+conservative,54,West Virginia,0.016820017157464513
+conservative,55,Wisconsin,2.4569668487340435
+conservative,56,Wyoming,0.06315775807032963
+central,01,Alabama,0.27364901335964964
+central,02,Alaska,0.0
+central,04,Arizona,0.15838669754011048
+central,05,Arkansas,2.827302092071465
+central,06,California,0.9698725123857256
+central,08,Colorado,1.1355101819772195
+central,09,Connecticut,0.0
+central,10,Delaware,0.17497098665457578
+central,12,Florida,1.532592285072091
+central,13,Georgia,0.7222508219896615
+central,15,Hawaii,0.18950306023744615
+central,16,Idaho,1.2159803385267656
+central,17,Illinois,12.931405727186501
+central,18,Indiana,6.4052136686793
+central,19,Iowa,13.789490478137482
+central,20,Kansas,5.966329470103881
+central,21,Kentucky,1.3070685786494782
+central,22,Louisiana,2.167042959635645
+central,23,Maine,0.0
+central,24,Maryland,0.4583609177798431
+central,25,Massachusetts,0.0
+central,26,Michigan,2.1929435113904923
+central,27,Minnesota,7.902884749349633
+central,28,Mississippi,1.2849131781196026
+central,29,Missouri,4.0559106621269985
+central,30,Montana,1.21098111875257
+central,31,Nebraska,8.238439043188109
+central,32,Nevada,0.005361910496953929
+central,33,New Hampshire,0.0
+central,34,New Jersey,0.07394115505913948
+central,35,New Mexico,0.10061882000836064
+central,36,New York,0.3753274814984516
+central,37,North Carolina,1.1398795250730196
+central,38,North Dakota,4.171677220377708
+central,39,Ohio,4.412383342368827
+central,40,Oklahoma,1.0945483010550379
+central,41,Oregon,0.4110474013633374
+central,42,Pennsylvania,0.7714659065372435
+central,44,Rhode Island,0.0
+central,45,South Carolina,0.3429286262140582
+central,46,South Dakota,4.10048637521936
+central,47,Tennessee,0.9576297108099835
+central,48,Texas,3.463412161963752
+central,49,Utah,0.05010646237404752
+central,50,Vermont,0.0
+central,51,Virginia,0.4247278907727094
+central,53,Washington,1.0739891944899045
+central,54,West Virginia,0.01699757462456769
+central,55,Wisconsin,2.482903374620647
+central,56,Wyoming,0.06382447151336
+optimistic,01,Alabama,0.2717701734215679
+optimistic,02,Alaska,0.0
+optimistic,04,Arizona,0.15729923426244047
+optimistic,05,Arkansas,2.8078901891291204
+optimistic,06,California,0.9632134888842482
+optimistic,08,Colorado,1.127713910929849
+optimistic,09,Connecticut,0.0
+optimistic,10,Delaware,0.17376965771976202
+optimistic,12,Florida,1.5220696979133168
+optimistic,13,Georgia,0.7172919380784555
+optimistic,15,Hawaii,0.18820195590094016
+optimistic,16,Idaho,1.207631569437861
+optimistic,17,Illinois,12.842620311016022
+optimistic,18,Indiana,6.361236271849275
+optimistic,19,Iowa,13.694813559269615
+optimistic,20,Kansas,5.925365397350392
+optimistic,21,Kentucky,1.2980944090837694
+optimistic,22,Louisiana,2.152164313408804
+optimistic,23,Maine,0.0
+optimistic,24,Maryland,0.45521386898252564
+optimistic,25,Massachusetts,0.0
+optimistic,26,Michigan,2.1778870352111217
+optimistic,27,Minnesota,7.848624529987465
+optimistic,28,Mississippi,1.2760911247660032
+optimistic,29,Missouri,4.028063286235748
+optimistic,30,Montana,1.2026666736820701
+optimistic,31,Nebraska,8.18187494996607
+optimistic,32,Nevada,0.005325096289358534
+optimistic,33,New Hampshire,0.0
+optimistic,34,New Jersey,0.07343348432615414
+optimistic,35,New Mexico,0.09992798376074037
+optimistic,36,New York,0.3727505299010704
+optimistic,37,North Carolina,1.1320532546618263
+optimistic,38,North Dakota,4.14303500576051
+optimistic,39,Ohio,4.382088469590046
+optimistic,40,Oklahoma,1.0870332691646105
+optimistic,41,Oregon,0.4082252012587415
+optimistic,42,Pennsylvania,0.7661691180040955
+optimistic,44,Rhode Island,0.0
+optimistic,45,South Carolina,0.3405741211093908
+optimistic,46,South Dakota,4.072332948050971
+optimistic,47,Tennessee,0.9510547448546018
+optimistic,48,Texas,3.4396328067523254
+optimistic,49,Utah,0.04976243766331113
+optimistic,50,Vermont,0.0
+optimistic,51,Virginia,0.421811762136966
+optimistic,53,Washington,1.0666153188566536
+optimistic,54,West Virginia,0.016880871400744294
+optimistic,55,Wisconsin,2.4658560702457386
+optimistic,56,Wyoming,0.06338626066569777
