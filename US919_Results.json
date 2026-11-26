@@ -1,0 +1,5984 @@
+{
+  "version": "9.19",
+  "baseline": {
+    "resource": "central",
+    "tech_progress": 0,
+    "bev_net_annual_usd": 124.4571321285895,
+    "strict_crop": false,
+    "transport_cost_bn": 663.8143569912548,
+    "agri_net_cost_bn": 3.305054604119796,
+    "combined_cost_bn": 667.1194115953747,
+    "savings_low_petroleum_bn": -192.08655203209838,
+    "savings_aeo_fixed_bn": -189.970669322557,
+    "transport_emissions_mt": 266.9987855369765,
+    "combined_avoided_mt": 3063.772088977009,
+    "crop_mt": 102.64425895935472,
+    "biomethane_twh": 24.657252936357064,
+    "asparagopsis_mt": 0.3446038,
+    "hubs": 137.35563880407238,
+    "wind_gw": 333.08628403684367,
+    "offshore_gw": 0.0,
+    "agri_avoided_mt": 33.590461793712784,
+    "gas_credit_mt": 4.980765093144127,
+    "internal_twh": 24.657252936357064,
+    "external_twh": 0.0,
+    "restriction": "all",
+    "crop_floor_mt": 0.0,
+    "aeo_bev_matched_bn": 477.1487422728177,
+    "aeo_bev_matched_saving_bn": -189.970669322557,
+    "aeo_electricity_pass_bn": 477.1487422728177
+  },
+  "target": {
+    "resource": "central",
+    "tech_progress": 0.75,
+    "bev_net_annual_usd": -300,
+    "strict_crop": false,
+    "transport_cost_bn": 442.14267057399184,
+    "agri_net_cost_bn": 3.305054604119796,
+    "combined_cost_bn": 445.4477251781116,
+    "savings_low_petroleum_bn": 29.58513438516468,
+    "savings_aeo_fixed_bn": 31.70101709470606,
+    "transport_emissions_mt": 269.9358788873196,
+    "combined_avoided_mt": 3060.8349956266657,
+    "crop_mt": 102.64425895935472,
+    "biomethane_twh": 24.657252936357064,
+    "asparagopsis_mt": 0.3446038,
+    "hubs": 139.2597903139415,
+    "wind_gw": 342.3191341230262,
+    "offshore_gw": 0.0,
+    "agri_avoided_mt": 33.590461793712784,
+    "gas_credit_mt": 4.980765093144127,
+    "internal_twh": 24.657252936357064,
+    "external_twh": 0.0,
+    "restriction": "all",
+    "crop_floor_mt": 102.64425895935472,
+    "aeo_bev_matched_bn": 411.5975221489742,
+    "aeo_bev_matched_saving_bn": -33.85020302913745,
+    "aeo_electricity_pass_bn": 390.36207463641574
+  },
+  "cases": [
+    {
+      "case": "reference costs",
+      "resource": "central",
+      "tech_progress": 0,
+      "bev_net_annual_usd": 124.4571321285895,
+      "strict_crop": false,
+      "transport_cost_bn": 663.8143569912548,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 667.1194115953747,
+      "savings_low_petroleum_bn": -192.08655203209838,
+      "savings_aeo_fixed_bn": -189.970669322557,
+      "transport_emissions_mt": 266.9987855369765,
+      "combined_avoided_mt": 3063.772088977009,
+      "crop_mt": 102.64425895935472,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 137.35563880407238,
+      "wind_gw": 333.08628403684367,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "all",
+      "crop_floor_mt": 0.0,
+      "aeo_bev_matched_bn": 477.1487422728177,
+      "aeo_bev_matched_saving_bn": -189.970669322557,
+      "aeo_electricity_pass_bn": 477.1487422728177
+    },
+    {
+      "case": "full crop floor target",
+      "resource": "central",
+      "tech_progress": 0.75,
+      "bev_net_annual_usd": -300,
+      "strict_crop": false,
+      "transport_cost_bn": 442.14267057399184,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 445.4477251781116,
+      "savings_low_petroleum_bn": 29.58513438516468,
+      "savings_aeo_fixed_bn": 31.70101709470606,
+      "transport_emissions_mt": 269.9358788873196,
+      "combined_avoided_mt": 3060.8349956266657,
+      "crop_mt": 102.64425895935472,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 139.2597903139415,
+      "wind_gw": 342.3191341230262,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "all",
+      "crop_floor_mt": 102.64425895935472,
+      "aeo_bev_matched_bn": 411.5975221489742,
+      "aeo_bev_matched_saving_bn": -33.85020302913745,
+      "aeo_electricity_pass_bn": 390.36207463641574
+    },
+    {
+      "case": "free crop target",
+      "resource": "central",
+      "tech_progress": 0.75,
+      "bev_net_annual_usd": -300,
+      "strict_crop": false,
+      "transport_cost_bn": 441.29408170005587,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 444.59913630417566,
+      "savings_low_petroleum_bn": 30.433723259100645,
+      "savings_aeo_fixed_bn": 32.54960596864203,
+      "transport_emissions_mt": 286.38938685145126,
+      "combined_avoided_mt": 3044.3814876625343,
+      "crop_mt": 31.46975815047,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 141.7890229438268,
+      "wind_gw": 352.6564083001601,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "all",
+      "crop_floor_mt": 0,
+      "aeo_bev_matched_bn": 411.5975221489742,
+      "aeo_bev_matched_saving_bn": -33.00161415520148,
+      "aeo_electricity_pass_bn": 390.36207463641574
+    },
+    {
+      "case": "exact mapped target",
+      "resource": "central",
+      "tech_progress": 0.75,
+      "bev_net_annual_usd": -300,
+      "strict_crop": true,
+      "transport_cost_bn": 441.9483624972595,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 445.2534171013793,
+      "savings_low_petroleum_bn": 29.77944246189702,
+      "savings_aeo_fixed_bn": 31.8953251714384,
+      "transport_emissions_mt": 293.63456880233355,
+      "combined_avoided_mt": 3037.136305711652,
+      "crop_mt": 0.0,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 142.55020800898234,
+      "wind_gw": 355.4954554128448,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "exact",
+      "crop_floor_mt": 0,
+      "aeo_bev_matched_bn": 411.5975221489742,
+      "aeo_bev_matched_saving_bn": -33.655894952405106,
+      "aeo_electricity_pass_bn": 390.36207463641574
+    },
+    {
+      "case": "mapped groups target",
+      "resource": "central",
+      "tech_progress": 0.75,
+      "bev_net_annual_usd": -300,
+      "strict_crop": false,
+      "transport_cost_bn": 441.9483624972595,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 445.2534171013793,
+      "savings_low_petroleum_bn": 29.77944246189702,
+      "savings_aeo_fixed_bn": 31.8953251714384,
+      "transport_emissions_mt": 293.63456880233355,
+      "combined_avoided_mt": 3037.136305711652,
+      "crop_mt": 0.0,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 142.55020800898234,
+      "wind_gw": 355.4954554128448,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "mapped",
+      "crop_floor_mt": 0,
+      "aeo_bev_matched_bn": 411.5975221489742,
+      "aeo_bev_matched_saving_bn": -33.655894952405106,
+      "aeo_electricity_pass_bn": 390.36207463641574
+    },
+    {
+      "case": "mapped and wet target",
+      "resource": "central",
+      "tech_progress": 0.75,
+      "bev_net_annual_usd": -300,
+      "strict_crop": false,
+      "transport_cost_bn": 441.882570731147,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 445.1876253352668,
+      "savings_low_petroleum_bn": 29.84523422800953,
+      "savings_aeo_fixed_bn": 31.961116937550912,
+      "transport_emissions_mt": 293.24942332684986,
+      "combined_avoided_mt": 3037.5214511871354,
+      "crop_mt": 3.4697581504700006,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 142.60568491369432,
+      "wind_gw": 355.858367248567,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "mapped_wet",
+      "crop_floor_mt": 0,
+      "aeo_bev_matched_bn": 411.5975221489742,
+      "aeo_bev_matched_saving_bn": -33.590103186292595,
+      "aeo_electricity_pass_bn": 390.36207463641574
+    },
+    {
+      "case": "no crop target",
+      "resource": "central",
+      "tech_progress": 0.75,
+      "bev_net_annual_usd": -300,
+      "strict_crop": false,
+      "transport_cost_bn": 441.9483624972595,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 445.2534171013793,
+      "savings_low_petroleum_bn": 29.77944246189702,
+      "savings_aeo_fixed_bn": 31.8953251714384,
+      "transport_emissions_mt": 293.63456880233355,
+      "combined_avoided_mt": 3037.136305711652,
+      "crop_mt": 0.0,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 142.55020800898234,
+      "wind_gw": 355.4954554128448,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "none",
+      "crop_floor_mt": 0,
+      "aeo_bev_matched_bn": 411.5975221489742,
+      "aeo_bev_matched_saving_bn": -33.655894952405106,
+      "aeo_electricity_pass_bn": 390.36207463641574
+    },
+    {
+      "case": "strong progress",
+      "resource": "central",
+      "tech_progress": 1,
+      "bev_net_annual_usd": -400,
+      "strict_crop": false,
+      "transport_cost_bn": 379.9693149139776,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 383.2743695180974,
+      "savings_low_petroleum_bn": 91.75849004517892,
+      "savings_aeo_fixed_bn": 93.8743727547203,
+      "transport_emissions_mt": 271.5722969041565,
+      "combined_avoided_mt": 3059.1985776098286,
+      "crop_mt": 102.64425895935472,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 139.4817217201558,
+      "wind_gw": 513.6986301369863,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "all",
+      "crop_floor_mt": 102.64425895935472,
+      "aeo_bev_matched_bn": 396.1539790530875,
+      "aeo_bev_matched_saving_bn": 12.879609534990095,
+      "aeo_electricity_pass_bn": 367.84004903634286
+    },
+    {
+      "case": "no BEV cost advantage",
+      "resource": "central",
+      "tech_progress": 0.75,
+      "bev_net_annual_usd": 0,
+      "strict_crop": false,
+      "transport_cost_bn": 537.5521783254567,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 540.8572329295765,
+      "savings_low_petroleum_bn": -65.82437336630022,
+      "savings_aeo_fixed_bn": -63.70849065675884,
+      "transport_emissions_mt": 269.9358788873196,
+      "combined_avoided_mt": 3060.8349956266657,
+      "crop_mt": 102.64425895935472,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 139.2597903139415,
+      "wind_gw": 342.3191341230262,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "all",
+      "crop_floor_mt": 102.64425895935472,
+      "aeo_bev_matched_bn": 457.9281514366343,
+      "aeo_bev_matched_saving_bn": -82.9290814929422,
+      "aeo_electricity_pass_bn": 436.6927039240759
+    },
+    {
+      "case": "no tech cost progress",
+      "resource": "central",
+      "tech_progress": 0,
+      "bev_net_annual_usd": -300,
+      "strict_crop": false,
+      "transport_cost_bn": 528.8235368646308,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 532.1285914687506,
+      "savings_low_petroleum_bn": -57.09573190547434,
+      "savings_aeo_fixed_bn": -54.97984919593296,
+      "transport_emissions_mt": 266.9987855369765,
+      "combined_avoided_mt": 3063.772088977009,
+      "crop_mt": 102.64425895935472,
+      "biomethane_twh": 24.657252936357064,
+      "asparagopsis_mt": 0.3446038,
+      "hubs": 137.35563880407238,
+      "wind_gw": 333.08628403684367,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "restriction": "all",
+      "crop_floor_mt": 102.64425895935472,
+      "aeo_bev_matched_bn": 411.5975221489742,
+      "aeo_bev_matched_saving_bn": -120.53106931977646,
+      "aeo_electricity_pass_bn": 411.5975221489742
+    },
+    {
+      "case": "conservative resource target",
+      "resource": "conservative",
+      "tech_progress": 0.75,
+      "bev_net_annual_usd": -300,
+      "strict_crop": false,
+      "transport_cost_bn": 441.6521483154904,
+      "agri_net_cost_bn": 2.588856724385041,
+      "combined_cost_bn": 444.24100503987546,
+      "savings_low_petroleum_bn": 30.791854523400843,
+      "savings_aeo_fixed_bn": 32.907737232942225,
+      "transport_emissions_mt": 289.49682235845444,
+      "combined_avoided_mt": 3014.3416026805594,
+      "crop_mt": 31.46975815047,
+      "biomethane_twh": 7.443663811621629,
+      "asparagopsis_mt": 0.25845284999999996,
+      "hubs": 142.2006968252162,
+      "wind_gw": 354.33896835145924,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 10.135157321937807,
+      "gas_credit_mt": 1.5036200899475691,
+      "internal_twh": 7.443663811621629,
+      "external_twh": 0.0,
+      "restriction": "all",
+      "crop_floor_mt": 0.0,
+      "aeo_bev_matched_bn": 411.5975221489742,
+      "aeo_bev_matched_saving_bn": -32.64348289090128,
+      "aeo_electricity_pass_bn": 390.36207463641574
+    },
+    {
+      "case": "optimistic resource target",
+      "resource": "optimistic",
+      "tech_progress": 0.75,
+      "bev_net_annual_usd": -300,
+      "strict_crop": false,
+      "transport_cost_bn": 440.81665954614317,
+      "agri_net_cost_bn": 3.2946264619255534,
+      "combined_cost_bn": 444.1112860080687,
+      "savings_low_petroleum_bn": 30.9215735552076,
+      "savings_aeo_fixed_bn": 33.03745626474898,
+      "transport_emissions_mt": 282.2680514063858,
+      "combined_avoided_mt": 3093.884726177364,
+      "crop_mt": 31.46975815047,
+      "biomethane_twh": 51.20420496553593,
+      "asparagopsis_mt": 0.43075474999999996,
+      "hubs": 141.2401244353076,
+      "wind_gw": 350.4129948984278,
+      "offshore_gw": 0.0,
+      "agri_avoided_mt": 73.60988055358337,
+      "gas_credit_mt": 10.343249403038259,
+      "internal_twh": 51.20420496553593,
+      "external_twh": 0.0,
+      "restriction": "all",
+      "crop_floor_mt": 0.0,
+      "aeo_bev_matched_bn": 411.5975221489742,
+      "aeo_bev_matched_saving_bn": -32.513763859094524,
+      "aeo_electricity_pass_bn": 390.36207463641574
+    }
+  ],
+  "baseline_detail": {
+    "transport": {
+      "case": "sweep",
+      "annual_cost_bn": 663.8143569912548,
+      "emissions_wtw_mt": 263.9780150553341,
+      "hubs": 137.35563880407238,
+      "onshore_gw": 333.08628403684367,
+      "offshore_gw": 0.0,
+      "crop_htl_mt": 102.64425895935472,
+      "crop_htl_liquid_twh": 266.87507329432225,
+      "mixed_residue_liquid_twh": 1112.953801473201,
+      "crop_hydrochar_mt": 12.317311075122566,
+      "stable_soil_c_need_mt": 5.299596490161562,
+      "stable_hydrochar_c_mt": 0.0,
+      "stable_pyrolysis_c_mt": 0.0,
+      "cover_crop_stable_c_mt": 5.299596490161562,
+      "fertilizer_cost_bn": 1.6941804010444952,
+      "seaweed_htl_mt": 0.0,
+      "seaweed_pbtl_mt": 0.0,
+      "seaweed_hydrochar_screen_mt": 0.0,
+      "objective_residual_bn": 1.1368683772161603e-13,
+      "biomass_case_note": "Local crop feedstock caps and elemental nutrient coefficients are analyst assumptions; not calibrated state-by-state USDA supplies",
+      "n_removed_kt": 737.8993411340965,
+      "n_water_kt": 87.81002159495748,
+      "n_char_kt": 15.495886163816039,
+      "n_imports_kt": 634.593433375323,
+      "n_seaweed_treated_product_kt": 0.0,
+      "p_removed_kt": 129.72470270543573,
+      "p_water_kt": 5.685590485761675,
+      "p_char_kt": 17.056771457285024,
+      "p_imports_kt": 106.98234076238903,
+      "p_seaweed_treated_product_kt": 0.0,
+      "k_removed_kt": 997.0933771103583,
+      "k_water_kt": 289.8550447259812,
+      "k_char_kt": 15.255528669788475,
+      "k_imports_kt": 691.9828037145887,
+      "k_seaweed_treated_product_kt": 0.0,
+      "selected": [
+        {
+          "name": "Corn stalks and leaves (excluding cobs/husks)",
+          "group": "corn",
+          "selected_mt": 0.0,
+          "max_mt": 80.0,
+          "npk_kg_t": {
+            "n": 7.0,
+            "p": 1.3,
+            "k": 11.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 156.3910617331949
+        },
+        {
+          "name": "Corn cobs and husks (separate field/process stream)",
+          "group": "corn",
+          "selected_mt": 0.7047426584147161,
+          "max_mt": 26.0,
+          "npk_kg_t": {
+            "n": 5.2,
+            "p": 1.0,
+            "k": 6.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 150.6898054831949
+        },
+        {
+          "name": "Wheat straw and chaff",
+          "group": "wheat",
+          "selected_mt": 0.0,
+          "max_mt": 45.0,
+          "npk_kg_t": {
+            "n": 5.4,
+            "p": 1.0,
+            "k": 10.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 153.4032054831949
+        },
+        {
+          "name": "Rice straw",
+          "group": "rice",
+          "selected_mt": 12.0,
+          "max_mt": 14.0,
+          "npk_kg_t": {
+            "n": 6.2,
+            "p": 1.0,
+            "k": 15.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 105.1781875
+        },
+        {
+          "name": "Rice husks (mill residue)",
+          "group": "rice",
+          "selected_mt": 8.0,
+          "max_mt": 8.0,
+          "npk_kg_t": {
+            "n": 4.0,
+            "p": 0.7,
+            "k": 5.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 78.92393125
+        },
+        {
+          "name": "Barley, oat and rye straw",
+          "group": "small_grain",
+          "selected_mt": 0.0,
+          "max_mt": 16.0,
+          "npk_kg_t": {
+            "n": 6.1,
+            "p": 1.0,
+            "k": 11.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 154.78030548319492
+        },
+        {
+          "name": "Grain sorghum stalks and leaves",
+          "group": "sorghum",
+          "selected_mt": 0.0,
+          "max_mt": 16.0,
+          "npk_kg_t": {
+            "n": 6.1,
+            "p": 1.0,
+            "k": 10.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 154.1557054831949
+        },
+        {
+          "name": "Cotton stalks",
+          "group": "cotton",
+          "selected_mt": 15.0,
+          "max_mt": 15.0,
+          "npk_kg_t": {
+            "n": 8.5,
+            "p": 1.5,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 114.84898125
+        },
+        {
+          "name": "Soybean stems, pods and processing hulls",
+          "group": "soybean",
+          "selected_mt": 20.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 9.5,
+            "p": 1.7,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 105.35281875
+        },
+        {
+          "name": "Sugarcane bagasse and field trash",
+          "group": "sugarcane",
+          "selected_mt": 20.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 6.2,
+            "p": 1.0,
+            "k": 7.5
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 90.4936875
+        },
+        {
+          "name": "Orchard and nut-crop pruning residues",
+          "group": "orchard",
+          "selected_mt": 20.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 5.5,
+            "p": 1.0,
+            "k": 6.5
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 120.1165875
+        },
+        {
+          "name": "Vegetable and fruit processing plant solids",
+          "group": "processing",
+          "selected_mt": 3.4697581504700006,
+          "max_mt": 15.0,
+          "npk_kg_t": {
+            "n": 13.0,
+            "p": 2.8,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 101.47392500000001
+        },
+        {
+          "name": "Other food-crop stalks, peels and harvest residues",
+          "group": "other",
+          "selected_mt": 3.4697581504700006,
+          "max_mt": 18.0,
+          "npk_kg_t": {
+            "n": 9.0,
+            "p": 1.5,
+            "k": 9.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 121.51268125
+        }
+      ],
+      "marine": {
+        "seaweed_htl_mt": 0.0,
+        "seaweed_pbtl_mt": 0.0,
+        "additive_marine_hydrochar_mt": 0.0,
+        "n_p_k_htl_feedstock_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "recovered_treated_product_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "crop_field_npk_offset_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "marine_salts_and_metals_screen": "Mandatory; no application to cropland without testing/permits",
+        "nutrient_accounting": "Existing offshore HTL fertilizer coproduct credit remains allocated outside the crop NPK balance; no double credit or immediate soil return assumed"
+      }
+    },
+    "agricultural": {
+      "inputs": {
+        "eligible": 0.6,
+        "collect": 0.8,
+        "yield_frac": 0.9,
+        "leak": 0.01,
+        "flare": 0.02,
+        "parasitic": 0.1,
+        "plant_cost": 65,
+        "monitor": 4,
+        "process_kg": 25,
+        "baseline_mcf": 0.6,
+        "asp_adopt": 0.8,
+        "asp_eff": 0.85,
+        "asp_ret": 0.8,
+        "asp_cost": 5000,
+        "asp_lca": 10,
+        "gas_price": 25,
+        "gas_co2": 0
+      },
+      "streams": [
+        {
+          "stream": "dairy_manure",
+          "potential_ch4_mt": 0.9804297311827959,
+          "gross_ch4_mt": 0.4235456438709678,
+          "leaked_ch4_mt": 0.004235456438709678,
+          "flared_ch4_mt": 0.008470912877419357,
+          "parasitic_ch4_mt": 0.04235456438709678,
+          "delivered_ch4_mt": 0.368484710167742,
+          "delivered_twh": 5.117843196774194,
+          "baseline_avoided_mt": 7.11556681703226,
+          "leak_mtco2e": 0.11859278028387099,
+          "process_mtco2e": 0.14706445967741938,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 6.84990957707097,
+          "cost_bn": 0.4058979087096775,
+          "gas_value_bn": 0.12794607991935483,
+          "digestate_N_mt": 0.06776730301935484,
+          "digestate_P_mt": 0.013553460603870969,
+          "digestate_K_mt": 0.03388365150967742
+        },
+        {
+          "stream": "swine_manure",
+          "potential_ch4_mt": 0.7111773870967742,
+          "gross_ch4_mt": 0.3072286312258065,
+          "leaked_ch4_mt": 0.0030722863122580654,
+          "flared_ch4_mt": 0.006144572624516131,
+          "parasitic_ch4_mt": 0.030722863122580654,
+          "delivered_ch4_mt": 0.26728890916645165,
+          "delivered_twh": 3.712345960645162,
+          "baseline_avoided_mt": 5.1614410045935495,
+          "leak_mtco2e": 0.08602401674322582,
+          "process_mtco2e": 0.10667660806451616,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 4.968740379785808,
+          "cost_bn": 0.29442743825806456,
+          "gas_value_bn": 0.09280864901612905,
+          "digestate_N_mt": 0.049156580996129046,
+          "digestate_P_mt": 0.009831316199225809,
+          "digestate_K_mt": 0.024578290498064523
+        },
+        {
+          "stream": "poultry_manure",
+          "potential_ch4_mt": 0.08779967741935485,
+          "gross_ch4_mt": 0.0379294606451613,
+          "leaked_ch4_mt": 0.00037929460645161296,
+          "flared_ch4_mt": 0.0007585892129032259,
+          "parasitic_ch4_mt": 0.00379294606451613,
+          "delivered_ch4_mt": 0.03299863076129033,
+          "delivered_twh": 0.4583143161290324,
+          "baseline_avoided_mt": 0.6372149388387098,
+          "leak_mtco2e": 0.010620248980645163,
+          "process_mtco2e": 0.013169951612903227,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 0.6134247382451614,
+          "cost_bn": 0.036349066451612906,
+          "gas_value_bn": 0.01145785790322581,
+          "digestate_N_mt": 0.006068713703225807,
+          "digestate_P_mt": 0.0012137427406451616,
+          "digestate_K_mt": 0.0030343568516129037
+        },
+        {
+          "stream": "beef_manure",
+          "potential_ch4_mt": 0.12291954838709679,
+          "gross_ch4_mt": 0.05310124490322582,
+          "leaked_ch4_mt": 0.0005310124490322582,
+          "flared_ch4_mt": 0.0010620248980645164,
+          "parasitic_ch4_mt": 0.005310124490322582,
+          "delivered_ch4_mt": 0.046198083065806465,
+          "delivered_twh": 0.6416400425806453,
+          "baseline_avoided_mt": 0.8921009143741937,
+          "leak_mtco2e": 0.014868348572903228,
+          "process_mtco2e": 0.018437932258064522,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 0.8587946335432259,
+          "cost_bn": 0.05088869303225808,
+          "gas_value_bn": 0.016041001064516135,
+          "digestate_N_mt": 0.008496199184516133,
+          "digestate_P_mt": 0.0016992398369032264,
+          "digestate_K_mt": 0.004248099592258066
+        },
+        {
+          "stream": "other_manure",
+          "potential_ch4_mt": 0.002926655913978495,
+          "gross_ch4_mt": 0.0012643153548387099,
+          "leaked_ch4_mt": 1.2643153548387098e-05,
+          "flared_ch4_mt": 2.5286307096774197e-05,
+          "parasitic_ch4_mt": 0.00012643153548387099,
+          "delivered_ch4_mt": 0.0010999543587096776,
+          "delivered_twh": 0.015277143870967746,
+          "baseline_avoided_mt": 0.021240497961290326,
+          "leak_mtco2e": 0.00035400829935483877,
+          "process_mtco2e": 0.00043899838709677425,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 0.020447491274838712,
+          "cost_bn": 0.0012116355483870968,
+          "gas_value_bn": 0.00038192859677419367,
+          "digestate_N_mt": 0.0002022904567741936,
+          "digestate_P_mt": 4.045809135483872e-05,
+          "digestate_K_mt": 0.0001011452283870968
+        },
+        {
+          "stream": "food_processing_and_food_waste",
+          "potential_ch4_mt": 0.86841225,
+          "gross_ch4_mt": 0.37515409200000005,
+          "leaked_ch4_mt": 0.0037515409200000005,
+          "flared_ch4_mt": 0.007503081840000001,
+          "parasitic_ch4_mt": 0.03751540920000001,
+          "delivered_ch4_mt": 0.32638406004000003,
+          "delivered_twh": 4.533111945000001,
+          "baseline_avoided_mt": 0.0,
+          "leak_mtco2e": 0.10504314576000001,
+          "process_mtco2e": 0.1302618375,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": -0.23530498326000002,
+          "cost_bn": 0.35952267150000006,
+          "gas_value_bn": 0.11332779862500002,
+          "digestate_N_mt": 0.060024654720000015,
+          "digestate_P_mt": 0.012004930944000002,
+          "digestate_K_mt": 0.030012327360000007
+        },
+        {
+          "stream": "municipal_green_plant_waste",
+          "potential_ch4_mt": 0.28947075,
+          "gross_ch4_mt": 0.125051364,
+          "leaked_ch4_mt": 0.00125051364,
+          "flared_ch4_mt": 0.00250102728,
+          "parasitic_ch4_mt": 0.0125051364,
+          "delivered_ch4_mt": 0.10879468667999999,
+          "delivered_twh": 1.5110373149999998,
+          "baseline_avoided_mt": 0.0,
+          "leak_mtco2e": 0.035014381920000004,
+          "process_mtco2e": 0.0434206125,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": -0.07843499442,
+          "cost_bn": 0.1198408905,
+          "gas_value_bn": 0.037775932874999994,
+          "digestate_N_mt": 0.02000821824,
+          "digestate_P_mt": 0.004001643647999999,
+          "digestate_K_mt": 0.01000410912
+        },
+        {
+          "stream": "wastewater",
+          "potential_ch4_mt": 1.6604756736316209,
+          "gross_ch4_mt": 0.7173254910088603,
+          "leaked_ch4_mt": 0.007173254910088604,
+          "flared_ch4_mt": 0.014346509820177208,
+          "parasitic_ch4_mt": 0.07173254910088604,
+          "delivered_ch4_mt": 0.6240731771777086,
+          "delivered_twh": 8.667683016357064,
+          "baseline_avoided_mt": 0.0,
+          "leak_mtco2e": 0.2008511374824809,
+          "process_mtco2e": 0.24907135104474318,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": -0.44992248852722405,
+          "cost_bn": 0.6874369288834912,
+          "gas_value_bn": 0.2166920754089266,
+          "digestate_N_mt": 0.11477207856141765,
+          "digestate_P_mt": 0.02295441571228353,
+          "digestate_K_mt": 0.057386039280708824
+        }
+      ],
+      "biomethane_twh": 24.657252936357064,
+      "leaked_ch4_mt": 0.020406002430088607,
+      "biogas_net_avoided_mt": 12.54765435371278,
+      "digestate_N_mt": 0.3264960388814177,
+      "digestate_P_mt": 0.06529920777628354,
+      "digestate_K_mt": 0.16324801944070885,
+      "asp_dry_mt": 0.3446038,
+      "asp_heat_twh": 8.615095,
+      "asp_elemental_N_mt": 0.012405736799999999,
+      "asp_elemental_P_mt": 0.00093043026,
+      "asp_gross_avoided_mt": 24.488845440000006,
+      "asp_lca_mt": 3.446038,
+      "asp_net_avoided_mt": 21.042807440000004,
+      "asp_cost_bn": 1.723019,
+      "biogas_cost_bn": 1.9555752328834914,
+      "gas_value_bn": 0.6164313234089266,
+      "incremental_net_cost_bn": 3.062162909474565,
+      "incremental_net_avoided_mt": 33.590461793712784,
+      "external_gas_credit_mt": 0.0
+    },
+    "full": {
+      "scenario": "least_cost",
+      "blend_vol": 0.0,
+      "osw_scale": 0.0,
+      "x": {
+        "onw": 1167.1343392651002,
+        "pv": 922.8147129317664,
+        "lwr": 0.0,
+        "export": 0.0,
+        "hubs": 137.35563880407238,
+        "hp2e": 200.32751926005872,
+        "h_pyro": 27.293848444042155,
+        "h_ely": 0.0,
+        "bamboo": 37.5,
+        "hemp_mha": 4.0,
+        "htl": 110.78593457245384,
+        "pbtl": 169.9427960923654,
+        "cel": 149.2011890945355,
+        "corn_etoh": 20.0,
+        "atj": 32.68210107303552,
+        "etoh_ldv": 0.0,
+        "hefa": 12.0,
+        "hemp_oil_fuel": 1.08,
+        "e_heat": 0.0,
+        "e_dry": 0.0,
+        "heat_sold": 59.21331319444445,
+        "t2mid": 0.0,
+        "t2dry": 0.0,
+        "m2dry": 0.0,
+        "h_htse": 0.0,
+        "h_si": 0.0,
+        "m2e": 0.0,
+        "d2e": 0.0,
+        "b1": 0.0,
+        "b2": 0.7047426584147161,
+        "b3": 0.0,
+        "b4": 12.0,
+        "b5": 8.0,
+        "b6": 0.0,
+        "b7": 0.0,
+        "b8": 15.0,
+        "b9": 20.0,
+        "b10": 20.0,
+        "b11": 20.0,
+        "b12": 3.4697581504700006,
+        "b13": 3.4697581504700006,
+        "b14": 61.78566080000001,
+        "b15": 200.0,
+        "osw_wa": 0.0,
+        "osw_or": 0.0,
+        "osw_nca": 0.0,
+        "osw_cca": 0.0,
+        "osw_sca": 0.0,
+        "osw_gom": 0.0,
+        "osw_sne": 0.0,
+        "osw_nyb": 0.0,
+        "osw_delmarva": 0.0,
+        "osw_nc": 0.0,
+        "osw_sab": 0.0,
+        "osw_tx": 0.0,
+        "osw_la": 0.0,
+        "kh_wa": 0.0,
+        "kh_or": 0.0,
+        "kh_nca": 0.0,
+        "kh_cca": 0.0,
+        "kh_sca": 0.0,
+        "kh_gom": 0.0,
+        "kh_sne": 0.0,
+        "kh_nyb": 0.0,
+        "kh_delmarva": 0.0,
+        "kh_nc": 0.0,
+        "kh_sab": 0.0,
+        "kh_tx": 0.0,
+        "kh_la": 0.0,
+        "kp_wa": 0.0,
+        "kp_or": 0.0,
+        "kp_nca": 0.0,
+        "kp_cca": 0.0,
+        "kp_sca": 0.0,
+        "kp_gom": 0.0,
+        "kp_sne": 0.0,
+        "kp_nyb": 0.0,
+        "kp_delmarva": 0.0,
+        "kp_nc": 0.0,
+        "kp_sab": 0.0,
+        "kp_tx": 0.0,
+        "kp_la": 0.0,
+        "c0": 0.76,
+        "c1": 1.5,
+        "c2": 3.0,
+        "c3": 0.4,
+        "c4": 1.5,
+        "c5": 8.0,
+        "c6": 0.0,
+        "c7": 66.72154533212647,
+        "cover_c": 5.299596490161562
+      },
+      "hub_spec": {
+        "mwt": 800.0,
+        "q_pyro_mw": 240.0,
+        "q_mid_mw": 60.0,
+        "q_dry_mw": 80.0,
+        "mwe": 194.0,
+        "reject_mw": 226.0,
+        "low_used_mw": 79.1,
+        "pyro_twh": 1.955232,
+        "mid_twh": 0.488808,
+        "dry_twh": 0.651744,
+        "el_twh": 1.5804791999999999,
+        "low_twh": 0.64441188,
+        "cost_bn": 0.20462372080003113,
+        "capex_kwt": 2000.0
+      },
+      "osw_gw": {
+        "wa": 0.0,
+        "or": 0.0,
+        "nca": 0.0,
+        "cca": 0.0,
+        "sca": 0.0,
+        "gom": 0.0,
+        "sne": 0.0,
+        "nyb": 0.0,
+        "delmarva": 0.0,
+        "nc": 0.0,
+        "sab": 0.0,
+        "tx": 0.0,
+        "la": 0.0
+      },
+      "gw": {
+        "onshore_wind": 333.08628403684367,
+        "solar": 421.3765812473819,
+        "lwr_smr": 0.0,
+        "offshore_wind": 0.0
+      },
+      "el_supply_twh": {
+        "onshore_wind": 1167.1343392651002,
+        "solar": 922.8147129317664,
+        "lwr_smr": 0.0,
+        "offshore_wind": 0.0,
+        "htgr_hubs": 297.21873783657276
+      },
+      "el_export_twh": 0.0,
+      "hubs": 137.35563880407238,
+      "reactors": 549.4225552162895,
+      "htgr_gwt": 109.88451104325792,
+      "h2_mt": {
+        "pyrolysis": 27.293848444042155,
+        "electrolysis": 0.0,
+        "steam_electrolysis": 0.0,
+        "sulfur_iodine": 0.0,
+        "direct_vehicles": 6.646730757153835,
+        "blending": 0.0,
+        "htl": 1.4956101167281268,
+        "pbtl": 18.693707570160193,
+        "hefa": 0.4578,
+        "seaweed": 0.0
+      },
+      "gas_for_pyrolysis_tcf": 5.772200157352682,
+      "blend": {
+        "h2_mt": 0.0,
+        "gas_displaced_tcf": 0.0,
+        "energy_share": 0.0,
+        "co2_avoided_burner_mt": 0.0
+      },
+      "carbon_mt": 81.88154533212646,
+      "carbon_alloc": [
+        {
+          "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+          "mt": 0.76,
+          "value_usd_t": 4000.0,
+          "cap_mt": 0.76
+        },
+        {
+          "market": "Battery anode graphite (after graphitisation)",
+          "mt": 1.5,
+          "value_usd_t": 3000.0,
+          "cap_mt": 1.5
+        },
+        {
+          "market": "Carbon black: tires & rubber (export incl.)",
+          "mt": 3.0,
+          "value_usd_t": 900.0,
+          "cap_mt": 3.0
+        },
+        {
+          "market": "Specialty carbon (conductive additive, fibre precursors)",
+          "mt": 0.4,
+          "value_usd_t": 1500.0,
+          "cap_mt": 0.4
+        },
+        {
+          "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+          "mt": 1.5,
+          "value_usd_t": 400.0,
+          "cap_mt": 1.5
+        },
+        {
+          "market": "Construction: asphalt & concrete additive",
+          "mt": 8.0,
+          "value_usd_t": 60.0,
+          "cap_mt": 8.0
+        },
+        {
+          "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+          "mt": 0.0,
+          "value_usd_t": -60.0,
+          "cap_mt": 0.0
+        },
+        {
+          "market": "Permanent storage (mine voids, monofill)",
+          "mt": 66.72154533212647,
+          "value_usd_t": -25.0,
+          "cap_mt": 10000.0
+        }
+      ],
+      "carbon_revenue_bn": 10.251961366696838,
+      "carbon_value_per_t": 125.20478607374855,
+      "liquids_twh": {
+        "residues_and_grasses": 1112.953801473201,
+        "bamboo": 112.840632827035,
+        "hemp": 78.80861148434951,
+        "seaweed": 0.0,
+        "oils_hefa": 121.19999999999999,
+        "corn_ethanol_atj": 396.0
+      },
+      "routes_mt": {
+        "htl": 110.78593457245384,
+        "pbtl": 169.9427960923654,
+        "cellulosic_ethanol_feed": 149.2011890945355,
+        "seaweed_htl": 0.0,
+        "seaweed_pbtl": 0.0
+      },
+      "biomass_mt": {
+        "residues_grasses": 364.42991975935473,
+        "bamboo": 37.5,
+        "hemp_stalk": 28.0,
+        "hemp_seed": 3.6,
+        "seaweed": 0.0,
+        "oils": 12.0,
+        "corn_ethanol_bgal": 20.0,
+        "cellulosic_ethanol_bgal": 12.682101073035517,
+        "atj_ethanol_bgal": 32.68210107303552
+      },
+      "bamboo": {
+        "mt": 37.5,
+        "mha": 2.5,
+        "yield_t_ha": 15.0,
+        "cost_t": 75.83811353153484
+      },
+      "hemp": {
+        "mha": 4.0,
+        "seed_mt": 3.6,
+        "oil_mt": 1.08,
+        "meal_mt": 2.52,
+        "stalk_mt": 28.0
+      },
+      "biochar_mt": 13.29431214869446,
+      "crop_residue_soil": {
+        "feedstock_mt": 102.64425895935472,
+        "max_sustainable_screen_mt": 144.4471184,
+        "selected_feedstocks": [
+          {
+            "name": "Corn stalks and leaves (excluding cobs/husks)",
+            "group": "corn",
+            "selected_mt": 0.0,
+            "max_mt": 80.0,
+            "npk_kg_t": {
+              "n": 7.0,
+              "p": 1.3,
+              "k": 11.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 156.3910617331949
+          },
+          {
+            "name": "Corn cobs and husks (separate field/process stream)",
+            "group": "corn",
+            "selected_mt": 0.7047426584147161,
+            "max_mt": 26.0,
+            "npk_kg_t": {
+              "n": 5.2,
+              "p": 1.0,
+              "k": 6.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 150.6898054831949
+          },
+          {
+            "name": "Wheat straw and chaff",
+            "group": "wheat",
+            "selected_mt": 0.0,
+            "max_mt": 45.0,
+            "npk_kg_t": {
+              "n": 5.4,
+              "p": 1.0,
+              "k": 10.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 153.4032054831949
+          },
+          {
+            "name": "Rice straw",
+            "group": "rice",
+            "selected_mt": 12.0,
+            "max_mt": 14.0,
+            "npk_kg_t": {
+              "n": 6.2,
+              "p": 1.0,
+              "k": 15.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 105.1781875
+          },
+          {
+            "name": "Rice husks (mill residue)",
+            "group": "rice",
+            "selected_mt": 8.0,
+            "max_mt": 8.0,
+            "npk_kg_t": {
+              "n": 4.0,
+              "p": 0.7,
+              "k": 5.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 78.92393125
+          },
+          {
+            "name": "Barley, oat and rye straw",
+            "group": "small_grain",
+            "selected_mt": 0.0,
+            "max_mt": 16.0,
+            "npk_kg_t": {
+              "n": 6.1,
+              "p": 1.0,
+              "k": 11.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 154.78030548319492
+          },
+          {
+            "name": "Grain sorghum stalks and leaves",
+            "group": "sorghum",
+            "selected_mt": 0.0,
+            "max_mt": 16.0,
+            "npk_kg_t": {
+              "n": 6.1,
+              "p": 1.0,
+              "k": 10.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 154.1557054831949
+          },
+          {
+            "name": "Cotton stalks",
+            "group": "cotton",
+            "selected_mt": 15.0,
+            "max_mt": 15.0,
+            "npk_kg_t": {
+              "n": 8.5,
+              "p": 1.5,
+              "k": 12.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 114.84898125
+          },
+          {
+            "name": "Soybean stems, pods and processing hulls",
+            "group": "soybean",
+            "selected_mt": 20.0,
+            "max_mt": 20.0,
+            "npk_kg_t": {
+              "n": 9.5,
+              "p": 1.7,
+              "k": 12.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 105.35281875
+          },
+          {
+            "name": "Sugarcane bagasse and field trash",
+            "group": "sugarcane",
+            "selected_mt": 20.0,
+            "max_mt": 20.0,
+            "npk_kg_t": {
+              "n": 6.2,
+              "p": 1.0,
+              "k": 7.5
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 90.4936875
+          },
+          {
+            "name": "Orchard and nut-crop pruning residues",
+            "group": "orchard",
+            "selected_mt": 20.0,
+            "max_mt": 20.0,
+            "npk_kg_t": {
+              "n": 5.5,
+              "p": 1.0,
+              "k": 6.5
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 120.1165875
+          },
+          {
+            "name": "Vegetable and fruit processing plant solids",
+            "group": "processing",
+            "selected_mt": 3.4697581504700006,
+            "max_mt": 15.0,
+            "npk_kg_t": {
+              "n": 13.0,
+              "p": 2.8,
+              "k": 12.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 101.47392500000001
+          },
+          {
+            "name": "Other food-crop stalks, peels and harvest residues",
+            "group": "other",
+            "selected_mt": 3.4697581504700006,
+            "max_mt": 18.0,
+            "npk_kg_t": {
+              "n": 9.0,
+              "p": 1.5,
+              "k": 9.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 121.51268125
+          }
+        ],
+        "htl_biocrude_fuel_twh": 266.87507329432225,
+        "hydrochar_return_mt": 12.317311075122566,
+        "treated_aqueous_stream": "recovered nutrient concentrate only, after contaminant control, desalting if needed, and lawful field-specific application",
+        "nutrients": {
+          "n": {
+            "removed_kt": 737.8993411340965,
+            "wastewater_recovered_kt": 87.81002159495748,
+            "hydrochar_recovered_kt": 15.495886163816039,
+            "imported_kt": 634.593433375323,
+            "recovered_returned_kt": 103.30590775877351,
+            "returned_kt": 737.8993411340965,
+            "closed_residual_kt": 0.0
+          },
+          "p": {
+            "removed_kt": 129.72470270543573,
+            "wastewater_recovered_kt": 5.685590485761675,
+            "hydrochar_recovered_kt": 17.056771457285024,
+            "imported_kt": 106.98234076238903,
+            "recovered_returned_kt": 22.7423619430467,
+            "returned_kt": 129.72470270543573,
+            "closed_residual_kt": 0.0
+          },
+          "k": {
+            "removed_kt": 997.0933771103583,
+            "wastewater_recovered_kt": 289.8550447259812,
+            "hydrochar_recovered_kt": 15.255528669788475,
+            "imported_kt": 691.9828037145887,
+            "recovered_returned_kt": 305.1105733957697,
+            "returned_kt": 997.0933771103585,
+            "closed_residual_kt": 0.0
+          }
+        },
+        "stable_soil_c_required_mt": 5.299596490161562,
+        "hydrochar_stable_c_mt": 0.0,
+        "methane_carbon_return_mt": 0.0,
+        "methane_carbon_stable_mt": 0.0,
+        "cover_crop_extra_stable_c_mt": 5.299596490161562,
+        "carbon_balance_surplus_mt": 0.0,
+        "fertilizer_cost_bn": 1.6941804010444952,
+        "assumption_warning": "Feedstock type capacities, residue-specific NPK recovery, stable SOC equivalence and legal safe land application are sensitivity inputs, not field-verified."
+      },
+      "seaweed": [
+        {
+          "zone": "wa",
+          "region": "Washington coast (Grays Harbor offshore)",
+          "species": "Sugar kelp Saccharina latissima, ribbon kelp Alaria marginata, bull kelp Nereocystis",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 8.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 60.0,
+          "cost_farm_t": 394.06,
+          "cost_harvester_t": 8.122914364494582,
+          "cost_vessel_t": 7.48864937716161,
+          "cost_drones_t": 1.8861201388735365,
+          "cost_fert_credit_t": 42.0,
+          "cost_biomass_cost_t": 411.55768388052974,
+          "cost_harvester_kwh_t": 0.8125,
+          "cost_vessel_kwh_t": 10.799999999999999,
+          "color": "cold_kelp",
+          "box": [
+            -125.9,
+            46.3,
+            0.8,
+            1.6
+          ]
+        },
+        {
+          "zone": "or",
+          "region": "Oregon (Coos Bay, Brookings)",
+          "species": "Giant kelp Macrocystis pyrifera + bull kelp Nereocystis",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 9.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 361.76,
+          "cost_harvester_t": 21.66110497198555,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 1.6765512345542546,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 391.8818230458687,
+          "cost_harvester_kwh_t": 2.1666666666666665,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "giant_kelp",
+          "box": [
+            -125.7,
+            42.1,
+            0.8,
+            2.1
+          ]
+        },
+        {
+          "zone": "nca",
+          "region": "Northern California (Humboldt, Mendocino)",
+          "species": "Giant kelp Macrocystis pyrifera",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 10.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 335.92,
+          "cost_harvester_t": 19.494994474787,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 1.5088961110988293,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 363.70805742521475,
+          "cost_harvester_kwh_t": 1.9500000000000002,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "giant_kelp",
+          "box": [
+            -125.4,
+            39.0,
+            0.8,
+            2.0
+          ]
+        },
+        {
+          "zone": "cca",
+          "region": "Central California (Morro Bay)",
+          "species": "Giant kelp Macrocystis pyrifera",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 10.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 335.92,
+          "cost_harvester_t": 19.494994474787,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 1.5088961110988293,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 363.70805742521475,
+          "cost_harvester_kwh_t": 1.9500000000000002,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "giant_kelp",
+          "box": [
+            -122.6,
+            34.9,
+            0.8,
+            1.4
+          ]
+        },
+        {
+          "zone": "sca",
+          "region": "Southern California Bight",
+          "species": "Giant kelp Macrocystis pyrifera, warm-tolerant strains, depth-cycled",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 7.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 60.0,
+          "cost_farm_t": 435.5885714285715,
+          "cost_harvester_t": 27.849992106838567,
+          "cost_vessel_t": 7.48864937716161,
+          "cost_drones_t": 2.1555658729983276,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 473.08277878557004,
+          "cost_harvester_kwh_t": 2.7857142857142856,
+          "cost_vessel_kwh_t": 10.799999999999999,
+          "color": "giant_kelp_warm",
+          "box": [
+            -120.3,
+            32.4,
+            1.6,
+            0.9
+          ]
+        },
+        {
+          "zone": "gom",
+          "region": "Gulf of Maine",
+          "species": "Sugar kelp Saccharina latissima + winged kelp Alaria esculenta",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 7.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 60.0,
+          "cost_farm_t": 435.5885714285715,
+          "cost_harvester_t": 9.283330702279521,
+          "cost_vessel_t": 7.48864937716161,
+          "cost_drones_t": 2.1555658729983276,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 454.516117381011,
+          "cost_harvester_kwh_t": 0.9285714285714285,
+          "cost_vessel_kwh_t": 10.799999999999999,
+          "color": "cold_kelp",
+          "box": [
+            -70.3,
+            42.4,
+            2.2,
+            1.0
+          ]
+        },
+        {
+          "zone": "sne",
+          "region": "Southern New England",
+          "species": "Sugar kelp Saccharina latissima",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 6.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 490.96,
+          "cost_harvester_t": 10.830552485992776,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 2.5148268518313817,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 511.08954617715307,
+          "cost_harvester_kwh_t": 1.0833333333333333,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "cold_kelp",
+          "box": [
+            -71.6,
+            40.4,
+            1.8,
+            0.65
+          ]
+        },
+        {
+          "zone": "nyb",
+          "region": "New York Bight / New Jersey",
+          "species": "Winter sugar kelp + summer red Gracilaria tikvahiae (two crops)",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 6.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 45.0,
+          "cost_farm_t": 490.96,
+          "cost_harvester_t": 21.66110497198555,
+          "cost_vessel_t": 6.431925570412559,
+          "cost_drones_t": 2.5148268518313817,
+          "cost_fert_credit_t": 42.0,
+          "cost_biomass_cost_t": 521.5678573942295,
+          "cost_harvester_kwh_t": 2.1666666666666665,
+          "cost_vessel_kwh_t": 8.1,
+          "color": "kelp_red_rotation",
+          "box": [
+            -73.4,
+            38.7,
+            1.4,
+            1.2
+          ]
+        },
+        {
+          "zone": "delmarva",
+          "region": "Delmarva / Chesapeake mouth",
+          "species": "Winter sugar kelp + summer Gracilaria tikvahiae",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 5.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 45.0,
+          "cost_farm_t": 568.48,
+          "cost_harvester_t": 25.993325966382663,
+          "cost_vessel_t": 6.431925570412559,
+          "cost_drones_t": 3.0177922221976585,
+          "cost_fert_credit_t": 42.0,
+          "cost_biomass_cost_t": 603.9230437589929,
+          "cost_harvester_kwh_t": 2.6,
+          "cost_vessel_kwh_t": 8.1,
+          "color": "kelp_red_rotation",
+          "box": [
+            -74.9,
+            36.9,
+            1.1,
+            1.3
+          ]
+        },
+        {
+          "zone": "nc",
+          "region": "Virginia Beach to Cape Hatteras",
+          "species": "Red Gracilaria tikvahiae + green Ulva lactuca (warm water)",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 5.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 45.0,
+          "cost_farm_t": 568.48,
+          "cost_harvester_t": 25.993325966382663,
+          "cost_vessel_t": 6.431925570412559,
+          "cost_drones_t": 3.0177922221976585,
+          "cost_fert_credit_t": 43.8,
+          "cost_biomass_cost_t": 603.9230437589929,
+          "cost_harvester_kwh_t": 2.6,
+          "cost_vessel_kwh_t": 8.1,
+          "color": "red_green",
+          "box": [
+            -75.6,
+            34.6,
+            1.0,
+            1.7
+          ]
+        },
+        {
+          "zone": "sab",
+          "region": "South Atlantic Bight (SC, GA)",
+          "species": "Gracilaria + Ulva; capture of drifting Sargassum",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 5.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 60.0,
+          "cost_farm_t": 568.48,
+          "cost_harvester_t": 25.993325966382663,
+          "cost_vessel_t": 7.48864937716161,
+          "cost_drones_t": 3.0177922221976585,
+          "cost_fert_credit_t": 43.8,
+          "cost_biomass_cost_t": 604.979767565742,
+          "cost_harvester_kwh_t": 2.6,
+          "cost_vessel_kwh_t": 10.799999999999999,
+          "color": "red_green",
+          "box": [
+            -80.5,
+            31.0,
+            1.4,
+            1.4
+          ]
+        },
+        {
+          "zone": "tx",
+          "region": "Texas shelf (Galveston to Corpus Christi)",
+          "species": "Gracilaria + Ulva",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 5.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 568.48,
+          "cost_harvester_t": 25.993325966382663,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 3.0177922221976585,
+          "cost_fert_credit_t": 43.8,
+          "cost_biomass_cost_t": 604.2752850279093,
+          "cost_harvester_kwh_t": 2.6,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "red_green",
+          "box": [
+            -96.6,
+            27.0,
+            2.2,
+            0.8
+          ]
+        },
+        {
+          "zone": "la",
+          "region": "Louisiana / Mississippi plume",
+          "species": "Gracilaria + Ulva + Sargassum (nutrient-rich plume)",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 7.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 435.5885714285715,
+          "cost_harvester_t": 18.566661404559042,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 2.1555658729983276,
+          "cost_fert_credit_t": 43.8,
+          "cost_biomass_cost_t": 463.09496554545785,
+          "cost_harvester_kwh_t": 1.857142857142857,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "red_green",
+          "box": [
+            -92.5,
+            27.9,
+            4.2,
+            0.75
+          ]
+        }
+      ],
+      "grid_harvester": {},
+      "fleet": {
+        "vessels": 0.0,
+        "drones": 0.0,
+        "vessel_energy_gwh": 0.0,
+        "harvester_energy_gwh": 0.0
+      },
+      "low_grade_heat_used_twh": 59.213313194444446,
+      "hub_energy_twh": {
+        "thermal": 895.2071345672136,
+        "electricity": 297.21873783657276,
+        "refinery_process_steam": 42.69907710035884,
+        "htse_steam_and_drying": 89.5207134567213,
+        "food_heat": 59.213313194444446,
+        "sulfur_iodine_heat": 0.0,
+        "conversion_losses_and_reject": 406.5552929791163
+      },
+      "htse_firm_power": {
+        "firm_nuclear_twh": 297.21873783657276,
+        "htse_electricity_twh": 0.0,
+        "htse_share_of_firm": 0.0
+      },
+      "hub_heat_twh": {
+        "top_tier_available": 268.56214037016406,
+        "to_pyrolysis": 68.2346211101054,
+        "pyrolysis_electric_boost": 166.6361273425732,
+        "to_turbine": 200.32751926005872,
+        "to_process_steam": 0.0,
+        "to_drying": 0.0,
+        "process_steam_to_drying": 0.0,
+        "top_tier_unused": -5.684341886080802e-14,
+        "pyrolysis_share_of_top_tier": 0.2540738654229385,
+        "electricity_from_top_tier": 80.13100770402349,
+        "electric_process_heat": 0.0,
+        "electric_drying": 0.0,
+        "mid_available": 67.14053509254101,
+        "dry_available": 89.52071345672135
+      },
+      "costs_bn": {
+        "electricity_generation": 154.90054948890145,
+        "transmission_distribution": 59.44374756731456,
+        "charging": 47.397637438255224,
+        "electric_highways": 14.001279442305444,
+        "rail_electrification": 6.120745732086601,
+        "htgr_hubs": 28.10622188495443,
+        "pyrolysis_plants": 14.594377829621394,
+        "natural_gas": 23.4409121701072,
+        "electrolysis": 0.0,
+        "h2_delivery": 20.746250430262254,
+        "land_biomass": 38.911143847776366,
+        "hemp_net_of_meal": 1.762,
+        "biorefineries": 84.09924608539751,
+        "seaweed_farms_harvest_haul": 0.0,
+        "seaweed_refining": 0.0,
+        "hefa_oils": 14.64,
+        "ethanol": 55.97515559016954,
+        "vehicles_and_machines_net": 106.88596292981613,
+        "process_heat_equipment": 0.0,
+        "soil_cover_crop_carbon": 1.3248991225403906,
+        "residual_pipeline_gas": 2.1898953039987146
+      },
+      "credits_bn": {
+        "carbon_products": -10.251961366696838,
+        "seaweed_fertiliser": -0.0,
+        "surplus_electricity_sold": -0.0,
+        "low_grade_heat_to_food": -0.47370650555555555
+      },
+      "total_cost_bn": 663.8143569912548,
+      "blend_share_of_h2": 0.0,
+      "blending_cost_bn": 0.0,
+      "transport_cost_bn": 663.8143569912548,
+      "lp_objective_bn": 411.1582616845935,
+      "objective_reconciliation": {
+        "lp_objective_bn": 411.1582616845935,
+        "fixed_terms_bn": {
+          "transmission_distribution": 59.44374756731456,
+          "charging": 47.397637438255224,
+          "electric_highways": 14.001279442305444,
+          "rail_electrification": 6.120745732086601,
+          "vehicles_and_machines_net": 106.88596292981613,
+          "residual_pipeline_gas": 2.1898953039987146,
+          "h2_delivery_vehicles_and_blend": 16.61682689288459
+        },
+        "fixed_terms_total_bn": 252.65609530666126,
+        "heat_credit_adjustment_bn": 5.551115123125783e-17,
+        "reported_total_bn": 663.8143569912548,
+        "residual_bn": 1.1368683772161603e-13
+      },
+      "liquid_shadow_usd_mwh": 82.83255884913243,
+      "jet_shadow_usd_mwh": 137.1794089046394,
+      "enduse": {
+        "demand": {
+          "ldv": 5378.299499769675,
+          "hdv": 2238.5051077454855,
+          "rail": 128.84771555649442,
+          "air": 1281.2099113727068,
+          "marine": 182.05940651000753,
+          "pipeline": 401.13850087901426,
+          "farm": 140.91845586640645,
+          "construction": 112.73476469312514,
+          "industrial": 60.39362394274561
+        },
+        "base": {
+          "ldv": 5378.299499769675,
+          "hdv": 2238.5051077454855,
+          "rail": 128.84771555649442,
+          "air": 1281.2099113727068,
+          "marine": 182.05940651000753,
+          "pipeline": 401.13850087901426,
+          "farm": 140.91845586640645,
+          "construction": 112.73476469312514,
+          "industrial": 60.39362394274561
+        },
+        "el": {
+          "ldv": 952.1916055499269,
+          "hdv_ers_wire": 346.65931401855477,
+          "hdv_ers_battery": 86.66482850463866,
+          "hdv_bev": 288.8827616821289,
+          "hdv_re": 108.33103563079835,
+          "farm": 34.24318477553677,
+          "construction": 28.40916070266754,
+          "industrial": 16.306278464541315,
+          "rail": 31.88980960023237,
+          "marine": 3.641188130200151,
+          "pipeline": 84.239085184593
+        },
+        "h2_twh": {
+          "ldv": 33.41023177368165,
+          "hdv": 128.1614170532227,
+          "industrial": 3.3216493168510093,
+          "air": 38.4362973411812,
+          "marine": 18.205940651000756
+        },
+        "liq": {
+          "ldv": 161.34898499309026,
+          "hdv": 151.09909477282028,
+          "farm": 45.7984981565821,
+          "construction": 33.820429407937546,
+          "rail": 32.211928889123605,
+          "air": 1242.7736140315255,
+          "marine": 154.7504955335064
+        },
+        "gas_resid_twh": 160.4554003516057,
+        "el_total": 1981.4582522438186,
+        "h2_mt_direct": 6.646730757153835,
+        "liq_total": 1821.8030457845857,
+        "jet": 1242.7736140315255
+      },
+      "emissions": {
+        "by_source_mt": {
+          "electricity_lifecycle": 19.814582522438187,
+          "h2_direct": 19.68124110330579,
+          "liquid_fuels": 184.0474305409855,
+          "pipeline_gas_residual": 40.434760888604636
+        },
+        "total_mt": 263.9780150553341,
+        "baseline_wtw_mt": 3292.1996476271283,
+        "reduction_pct": 91.98171303962086,
+        "h2_ci_kg_per_kg": 2.961040821778886,
+        "biochar_removal_mt": 29.24748672712781,
+        "solid_carbon_kept_out_mtco2": 300.2323328844637,
+        "blending_co2_avoided_mt": 0.0
+      },
+      "petroleum": {
+        "prices": {
+          "late_2025": {
+            "retail_bn": 796.7940240299207,
+            "pretax_bn": 670.7973161475422
+          },
+          "nov_2026": {
+            "retail_bn": 1128.2238349518939,
+            "pretax_bn": 1002.2271270695155
+          }
+        },
+        "pipeline_gas_bn": 5.474738259996787,
+        "wtw_mt": 3292.1996476271283,
+        "total_twh": 9924.10698633566,
+        "total_quad": 33.86258227159266,
+        "offroad_bgal": 7.8
+      },
+      "food": {
+        "low_grade_twh": 88.51360543033324,
+        "asparagopsis": {
+          "groups": {
+            "feedlot": {
+              "seaweed_kt": 102.2,
+              "mtco2e_cut": 10.776959999999999
+            },
+            "dairy": {
+              "seaweed_kt": 162.936,
+              "mtco2e_cut": 22.451999999999998
+            },
+            "grazing": {
+              "seaweed_kt": 165.61875,
+              "mtco2e_cut": 11.787299999999998
+            }
+          },
+          "seaweed_mt_dry": 0.43075474999999996,
+          "mtco2e_cut": 45.01626,
+          "share_of_enteric": 0.2406,
+          "tank_ha": 14358.491666666665,
+          "cost_bn": 1.7230189999999999,
+          "usd_per_tco2e": 38.27548090401112
+        },
+        "greenhouse_ha": 17777.777777777777,
+        "greenhouse_heat_twh": 44.44444444444445,
+        "vegetables_mt": 8.000000000000002,
+        "vegetables_value_bn": 14.400000000000004,
+        "fish_shrimp_mt": 1.0,
+        "fish_value_bn": 7.0,
+        "ras_heat_twh": 4.0,
+        "grain_dried_mt": 60.0,
+        "hemp_seed_mt": 3.6,
+        "hemp_meal_mt": 2.52,
+        "hemp_protein_mt": 0.8316,
+        "unused_low_grade_twh": 29.300292235888797,
+        "greenhouse_seafood_gross_calorie_equiv_m": 3.486924034869241,
+        "greenhouse_seafood_edible_calorie_equiv_m": 2.590286425902865,
+        "edible_fraction_scenarios": {
+          "vegetables": 0.85,
+          "fish_shrimp": 0.6
+        },
+        "hemp_meal_potential_calorie_equiv_m": 10.983810709838107,
+        "people_fed_calorie_equiv_m": 14.470734744707347,
+        "people_fed_calorie_equiv_deprecated": true
+      },
+      "flex_heat": false,
+      "post_gas": false,
+      "reactor_cost": {
+        "case": "central",
+        "n_units": 549,
+        "foak_kwe": 9600.0,
+        "unit10_kwe": 6765.005275318522,
+        "unit100_kwe": 4767.21837240494,
+        "last_kwe": 3679.9995194936137,
+        "fleet_avg_kwe": 4339.637905571948,
+        "fleet_avg_kwe_with_idc": 4990.58359140774,
+        "fleet_avg_kwt_with_idc": 1996.233436563096,
+        "learning": 0.1,
+        "fleet_capex_bn": 219.18643133462794
+      },
+      "capex_kwt_used": 2000.0
+    },
+    "parameters": {
+      "BASE": {
+        "gasoline_mbd": 9.95606965468916,
+        "onroad_diesel_bgal": 55.5978833924828,
+        "rail_diesel_bgal": 3.20019831096685,
+        "marine_distillate_bgal": 1.8063309201126392,
+        "marine_resid_mbd": 0.1625697828101375,
+        "jet_mbd": 2.1123759208481396,
+        "pipeline_ng_quad": 1.3687463775856084,
+        "farm_diesel_bgal": 3.5,
+        "construction_mining_diesel_bgal": 2.8,
+        "industrial_trucks_bgal_dge": 1.5,
+        "eia_transport_quad_2024": 28.1,
+        "transport_ghg_mt": 1800.0,
+        "ethanol_prod_bgal_2025": 16.49,
+        "ethanol_domestic_bgal_2025": 14.34,
+        "ethanol_export_bgal_2025": 2.18
+      },
+      "ENDUSE": {
+        "ldv": {
+          "bev": 0.95,
+          "fcev": 0.02,
+          "liquid": 0.03
+        },
+        "hdv": {
+          "ers": 0.45,
+          "bev": 0.3,
+          "re": 0.15,
+          "fcev": 0.07,
+          "liquid": 0.03
+        },
+        "ers_on_wire": 0.8,
+        "farm": {
+          "bev": 0.3,
+          "re": 0.5,
+          "liquid": 0.2
+        },
+        "construction": {
+          "bev": 0.4,
+          "re": 0.4,
+          "liquid": 0.2
+        },
+        "industrial": {
+          "bev": 0.9,
+          "fcev": 0.1
+        },
+        "rail": {
+          "elec": 0.6,
+          "re": 0.2,
+          "liquid": 0.2
+        },
+        "air": {
+          "saf": 0.97,
+          "h2": 0.03
+        },
+        "marine": {
+          "liquid": 0.85,
+          "elec": 0.05,
+          "h2": 0.1
+        },
+        "pipeline": {
+          "elec": 0.6,
+          "gas": 0.4
+        },
+        "re_fuel_share": 0.25,
+        "r_ldv_bev": 0.19514273548825287,
+        "r_ldv_fcev": 0.32523789248042145,
+        "r_hdv_elec": 0.4421090882143124,
+        "r_hdv_fcev": 0.8179018131964779,
+        "r_offroad_elec": 0.36,
+        "r_rail_elec": 0.33,
+        "r_pipe_elec": 0.35,
+        "r_fork_elec": 0.3,
+        "service_growth_2050": 1.0
+      },
+      "ELEC": {
+        "onshore_wind": 55.0,
+        "solar": 48.0,
+        "osw_fixed": 95.0,
+        "osw_floating": 115.0,
+        "lwr_smr": 115.0,
+        "cf_onw": 0.4,
+        "cf_pv": 0.25,
+        "cf_fixed": 0.45,
+        "cf_float": 0.47,
+        "td_adder": 30.0,
+        "vre_firming": 20.0,
+        "charge_ldv": 35.0,
+        "charge_hdv": 25.0,
+        "cap_onw_twh": 1800.0,
+        "cap_pv_twh": 2400.0,
+        "cap_lwr_twh": 1500.0,
+        "max_pv_share": 0.4,
+        "min_firm_share": 0.15,
+        "export_value": 40.0,
+        "export_cap_twh": 2500.0
+      },
+      "HTGR": {
+        "outlet_c": 750,
+        "mwt": 800.0,
+        "cf": 0.93,
+        "f_pyro": 0.3,
+        "f_mid": 0.075,
+        "f_dry": 0.1,
+        "eta_cond": 0.4,
+        "z_mid": 0.3,
+        "z_dry": 0.15,
+        "f_low_use": 0.35,
+        "fom_kwt_yr": 40.0,
+        "fuel_mwhth": 9.0,
+        "life": 60,
+        "wacc": 0.07,
+        "kwe_per_kwt": 0.4,
+        "capex_kwt": null
+      },
+      "PYRO": {
+        "kg_ch4_per_kg_h2": 4.081632653061225,
+        "heat_kwh_kg": 8.3,
+        "elec_kwh_kg": 3.0,
+        "capex_kw_h2": 1000.0,
+        "fom": 0.04,
+        "life": 25,
+        "c_per_h2": 3.0,
+        "leak_upstream": 0.015,
+        "upstream_co2_frac": 0.05,
+        "h2_leak": 0.02,
+        "gwp_h2": 11.6,
+        "gwp_ch4": 29.8,
+        "config": "xe100",
+        "reactor_preheat_kwh_kg": 2.5,
+        "boost_eff": 0.95,
+        "boost_heater_cost_kg": 0.02
+      },
+      "GAS": {
+        "price_mmbtu": 3.5,
+        "delivery_mmbtu": 0.5
+      },
+      "ELECTROLYSIS": {
+        "kwh_kg": 52.0,
+        "capex_cost_kg": 0.9
+      },
+      "H2_DELIVERY": {
+        "vehicle": 2.5,
+        "onsite": 0.2,
+        "blend": 0.3
+      },
+      "BIOMASS": {
+        "tiers": [
+          [
+            "Corn stalks and leaves (excluding cobs/husks)",
+            80,
+            156.3910617331949
+          ],
+          [
+            "Corn cobs and husks (separate field/process stream)",
+            26,
+            150.6898054831949
+          ],
+          [
+            "Wheat straw and chaff",
+            45,
+            153.4032054831949
+          ],
+          [
+            "Rice straw",
+            14,
+            105.1781875
+          ],
+          [
+            "Rice husks (mill residue)",
+            8,
+            78.92393125
+          ],
+          [
+            "Barley, oat and rye straw",
+            16,
+            154.78030548319492
+          ],
+          [
+            "Grain sorghum stalks and leaves",
+            16,
+            154.1557054831949
+          ],
+          [
+            "Cotton stalks",
+            15,
+            114.84898125
+          ],
+          [
+            "Soybean stems, pods and processing hulls",
+            20,
+            105.35281875
+          ],
+          [
+            "Sugarcane bagasse and field trash",
+            20,
+            90.4936875
+          ],
+          [
+            "Orchard and nut-crop pruning residues",
+            20,
+            120.1165875
+          ],
+          [
+            "Vegetable and fruit processing plant solids",
+            15,
+            101.47392500000001
+          ],
+          [
+            "Other food-crop stalks, peels and harvest residues",
+            18,
+            121.51268125
+          ],
+          [
+            "Verified-separate NON-CROP forest residues [A cap]",
+            61.78566080000001,
+            85.0
+          ],
+          [
+            "Perennial grasses / energy cane [A cap]",
+            200.0,
+            100.0
+          ]
+        ],
+        "hhv_gj_t": 18.5
+      },
+      "BAMBOO": {
+        "yield_t_ha": [
+          10.0,
+          15.0,
+          22.0
+        ],
+        "establish_usd_ha": 4000.0,
+        "establish_life": 20,
+        "land_rent_usd_ha": 250.0,
+        "harvest_usd_t": 22.0,
+        "haul_usd_t": 12.0,
+        "regions": [
+          [
+            "Florida peninsula (former citrus, improved pasture)",
+            0.8,
+            "frost-free; clumping species"
+          ],
+          [
+            "Gulf Coast plain: TX coastal bend to Mobile",
+            1.0,
+            "USDA zone 9; wet marginal pasture"
+          ],
+          [
+            "Lower Rio Grande Valley TX",
+            0.3,
+            "irrigation needed"
+          ],
+          [
+            "Coastal GA / SC lowlands",
+            0.4,
+            "cold-hardy clumpers (Bambusa multiplex/ oldhamii) only"
+          ]
+        ]
+      },
+      "HEMP": {
+        "seed_t_ha": 0.9,
+        "oil_frac": 0.3,
+        "stalk_t_ha": 7.0,
+        "protein_frac_meal": 0.33,
+        "cost_usd_ha": 850.0,
+        "meal_value_usd_t": 650.0,
+        "max_mha": 4.0,
+        "regions": [
+          [
+            "North Dakota / Montana / South Dakota",
+            2.0
+          ],
+          [
+            "Minnesota / Wisconsin",
+            0.8
+          ],
+          [
+            "Kentucky / Tennessee",
+            0.6
+          ],
+          [
+            "Colorado / Nebraska",
+            0.6
+          ]
+        ]
+      },
+      "ROUTES": {
+        "htl": {
+          "mwh_t": 2.6,
+          "h2_kg_t": 13.5,
+          "el_mwh_t": 0.15,
+          "heat_mwh_t": 0.35,
+          "cost_t": 170.0,
+          "jet": 0.45,
+          "ci_g_mj": 12.0,
+          "char_t_t": 0.12
+        },
+        "pbtl": {
+          "mwh_t": 4.44,
+          "h2_kg_t": 110.0,
+          "el_mwh_t": 0.6,
+          "heat_mwh_t": 0.0,
+          "cost_t": 290.0,
+          "jet": 0.65,
+          "ci_g_mj": 6.0,
+          "char_t_t": 0.0
+        },
+        "hefa": {
+          "mwh_t": 10.1,
+          "h2_kg_t": 35.0,
+          "el_mwh_t": 0.1,
+          "heat_mwh_t": 0.3,
+          "cost_t": 1220.0,
+          "jet": 0.55,
+          "ci_g_mj": 35.0,
+          "cap_mt": 12.0
+        },
+        "hefa_conv_only": 120.0,
+        "atj": {
+          "mwh_per_bgal": 19.8,
+          "conv_per_bgal": 550000000.0,
+          "jet": 0.85,
+          "ci_g_mj": 40.0,
+          "cap_bgal": 25.0
+        },
+        "ethanol": {
+          "mwh_per_bgal": 22.37,
+          "corn_cost_per_bgal": 1900000000.0,
+          "corn_cap_bgal": 20.0,
+          "cellulosic_gal_per_t": 85.0,
+          "cellulosic_conv_per_gal": 1.25
+        }
+      },
+      "SEAWEED_PROCESS": {
+        "htl_mwh_t": 1.9,
+        "htl_h2_kg_t": 6.8,
+        "htl_el_mwh_t": 0.12,
+        "htl_heat_mwh_t": 0.3,
+        "htl_cost_t": 260.0,
+        "htl_ci": 15.0,
+        "pbtl_mwh_t": 3.5,
+        "pbtl_h2_kg_t": 90.0,
+        "pbtl_el_mwh_t": 0.5,
+        "pbtl_dry_mwh_t": 1.4,
+        "pbtl_cost_t": 330.0,
+        "pbtl_ci": 10.0,
+        "farm_cost_ref_t": 380.0,
+        "ref_yield": 15.0,
+        "shared_mooring_saving": 0.15,
+        "mw_per_km2": 4.0,
+        "p": 0.003,
+        "k": 0.045,
+        "n_rec": 0.6,
+        "p_rec": 0.8,
+        "k_rec": 0.8,
+        "meal_share": 0.05
+      },
+      "LOGISTICS": {
+        "gh_kwh_per_ha_pass": 6.5,
+        "gh_unit_capex": 6000000.0,
+        "gh_life": 20,
+        "gh_pv_kw": 150.0,
+        "gh_hours": 4000.0,
+        "press_to_dm": 0.3,
+        "vessel_t": 2500.0,
+        "vessel_kn": 10.0,
+        "vessel_kwh_tkm": 0.06,
+        "vessel_capex": 28000000.0,
+        "vessel_life": 25,
+        "vessel_days": 300,
+        "vessel_sail_share": 0.25,
+        "vessel_om": 0.04,
+        "load_hours": 5.0,
+        "drone_km2": 15.0,
+        "drone_capex": 60000.0,
+        "drone_life": 5,
+        "drone_om_yr": 8000.0
+      },
+      "VEH": {
+        "ldv_stock_m": 334.77020263671875,
+        "ldv_bev_net_usd_yr": 124.4571321285895,
+        "ldv_fcev_net_usd_yr": 900.0,
+        "ers_trucks_m": 5.6531288623809814,
+        "fcev_trucks_m": 0.8793756008148195,
+        "bev_trucks_m": 3.7687525749206543,
+        "re_trucks_m": 1.8843762874603271,
+        "ers_truck_net_usd_yr": 5000.0,
+        "fcev_truck_net_usd_yr": 10000.0,
+        "bev_truck_net_usd_yr": 2500.0,
+        "re_truck_net_usd_yr": 4000.0,
+        "tractors_m": 2.0,
+        "tractor_net_usd_yr": 1500.0,
+        "constr_m": 0.9,
+        "constr_net_usd_yr": 3000.0,
+        "forklifts_m": 1.0,
+        "forklift_net_usd_yr": -300.0,
+        "ers_km": 40000.0,
+        "ers_capex_m_per_km": 3.5,
+        "ers_om": 0.025,
+        "ers_life": 40,
+        "rail_elec_capex_bn": 80.0,
+        "rail_life": 40,
+        "farm_charging_bn_yr": 3.0,
+        "e85_kit_usd": 900.0
+      },
+      "FOOD": {
+        "greenhouse_heat_kwh_m2": 250.0,
+        "greenhouse_yield_kg_m2": 45.0,
+        "greenhouse_market_mt": 8.0,
+        "greenhouse_value_usd_t": 1800.0,
+        "kcal_per_kg_veg": 200.0,
+        "ras_heat_kwh_kg": 4.0,
+        "ras_market_mt": 1.0,
+        "ras_value_usd_t": 7000.0,
+        "kcal_per_kg_fish": 1200.0,
+        "asparagopsis_heat_mwh_t": 25.0,
+        "grain_dry_mwh_t": 0.08,
+        "grain_near_hub_mt": 60.0,
+        "grain_value_saved_usd_mwh": 35.0,
+        "kcal_per_person_day": 2200.0,
+        "hemp_kcal_per_kg_seed": 5500.0,
+        "vegetable_edible_fraction": 0.85,
+        "fish_shrimp_edible_fraction": 0.6
+      },
+      "NUCLEAR_H2": {
+        "htse": {
+          "kwh_e_kg": 36.8,
+          "kwh_th_kg": 6.4,
+          "capex_cost_kg": 0.8
+        },
+        "sulfur_iodine": {
+          "kwh_e_kg": 2.0,
+          "kwh_th_kg": 87.55555555555556,
+          "capex_cost_kg": 1.5
+        }
+      },
+      "CROP_RESIDUE": {
+        "enabled": true,
+        "cap_mt": 144.4471184,
+        "collect_min_mt": 0.0,
+        "delivered_usd_t": 55.0,
+        "wastewater_treatment_usd_t": 15.0,
+        "hydrochar_testing_transport_usd_t": 10.0,
+        "elemental_kg_t": {
+          "n": 7.0,
+          "p": 1.2,
+          "k": 9.0
+        },
+        "recovered_fraction": {
+          "n": 0.5,
+          "p": 0.75,
+          "k": 0.8
+        },
+        "wastewater_recovered_share": {
+          "n": 0.85,
+          "p": 0.25,
+          "k": 0.95
+        },
+        "nutrient_replacement_usd_per_kg": {
+          "n": 1.25,
+          "p": 2.6,
+          "k": 0.9
+        },
+        "stable_soc_c_t_per_dry_t": 0.06,
+        "hydrochar_c_fraction": 0.65,
+        "hydrochar_stable_fraction": 0.0,
+        "methane_carbon_stable_fraction": 0.0,
+        "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+        "pyro_carbon_soil_application_usd_t": 60.0,
+        "feedstocks": [
+          {
+            "name": "Corn stalks and leaves (excluding cobs/husks)",
+            "group": "corn",
+            "cap_mt": 80.0,
+            "elemental_kg_t": {
+              "n": 7.0,
+              "p": 1.3,
+              "k": 11.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.065,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Corn cobs and husks (separate field/process stream)",
+            "group": "corn",
+            "cap_mt": 26.0,
+            "elemental_kg_t": {
+              "n": 5.2,
+              "p": 1.0,
+              "k": 6.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.045,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Wheat straw and chaff",
+            "group": "wheat",
+            "cap_mt": 45.0,
+            "elemental_kg_t": {
+              "n": 5.4,
+              "p": 1.0,
+              "k": 10.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.065,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Rice straw",
+            "group": "rice",
+            "cap_mt": 14.0,
+            "elemental_kg_t": {
+              "n": 6.2,
+              "p": 1.0,
+              "k": 15.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.07,
+            "delivered_usd_t": 62,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Rice husks (mill residue)",
+            "group": "rice",
+            "cap_mt": 8.0,
+            "elemental_kg_t": {
+              "n": 4.0,
+              "p": 0.7,
+              "k": 5.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.02,
+            "delivered_usd_t": 45,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Barley, oat and rye straw",
+            "group": "small_grain",
+            "cap_mt": 16.0,
+            "elemental_kg_t": {
+              "n": 6.1,
+              "p": 1.0,
+              "k": 11.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.075,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Grain sorghum stalks and leaves",
+            "group": "sorghum",
+            "cap_mt": 16.0,
+            "elemental_kg_t": {
+              "n": 6.1,
+              "p": 1.0,
+              "k": 10.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.075,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Cotton stalks",
+            "group": "cotton",
+            "cap_mt": 15.0,
+            "elemental_kg_t": {
+              "n": 8.5,
+              "p": 1.5,
+              "k": 12.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.075,
+            "delivered_usd_t": 70,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Soybean stems, pods and processing hulls",
+            "group": "soybean",
+            "cap_mt": 20.0,
+            "elemental_kg_t": {
+              "n": 9.5,
+              "p": 1.7,
+              "k": 12.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.065,
+            "delivered_usd_t": 59,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Sugarcane bagasse and field trash",
+            "group": "sugarcane",
+            "cap_mt": 20.0,
+            "elemental_kg_t": {
+              "n": 6.2,
+              "p": 1.0,
+              "k": 7.5
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.04,
+            "delivered_usd_t": 52,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Orchard and nut-crop pruning residues",
+            "group": "orchard",
+            "cap_mt": 20.0,
+            "elemental_kg_t": {
+              "n": 5.5,
+              "p": 1.0,
+              "k": 6.5
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.04,
+            "delivered_usd_t": 83,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Vegetable and fruit processing plant solids",
+            "group": "processing",
+            "cap_mt": 15.0,
+            "elemental_kg_t": {
+              "n": 13.0,
+              "p": 2.8,
+              "k": 12.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.01,
+            "delivered_usd_t": 49,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Other food-crop stalks, peels and harvest residues",
+            "group": "other",
+            "cap_mt": 18.0,
+            "elemental_kg_t": {
+              "n": 9.0,
+              "p": 1.5,
+              "k": 9.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.06,
+            "delivered_usd_t": 78,
+            "source_status": "[A] uncalibrated category screening capacity"
+          }
+        ],
+        "group_caps_mt": {
+          "corn": 105.0,
+          "rice": 20.0,
+          "wheat": 17.92443641300466,
+          "small_grain": 0.6728525713648201,
+          "sorghum": 1.0636913441600602,
+          "processing": 3.4697581504700006,
+          "other": 3.4697581504700006
+        },
+        "cover_crop_max_stable_c_mt": 10.0
+      },
+      "CARBON": [
+        [
+          "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+          0.76,
+          4000.0
+        ],
+        [
+          "Battery anode graphite (after graphitisation)",
+          1.5,
+          3000.0
+        ],
+        [
+          "Carbon black: tires & rubber (export incl.)",
+          3.0,
+          900.0
+        ],
+        [
+          "Specialty carbon (conductive additive, fibre precursors)",
+          0.4,
+          1500.0
+        ],
+        [
+          "Metallurgical: electrodes, recarburiser, Al anodes",
+          1.5,
+          400.0
+        ],
+        [
+          "Construction: asphalt & concrete additive",
+          8.0,
+          60.0
+        ],
+        [
+          "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+          0.0,
+          -60.0
+        ],
+        [
+          "Permanent storage (mine voids, monofill)",
+          10000.0,
+          -25.0
+        ]
+      ],
+      "yield_level": 1,
+      "reactor_case": "central",
+      "osw_scale": 1.0,
+      "lightweight": true
+    }
+  },
+  "target_detail": {
+    "transport": {
+      "case": "sweep",
+      "annual_cost_bn": 442.14267057399184,
+      "emissions_wtw_mt": 266.9151084056771,
+      "hubs": 139.2597903139415,
+      "onshore_gw": 342.3191341230262,
+      "offshore_gw": 0.0,
+      "crop_htl_mt": 102.64425895935472,
+      "crop_htl_liquid_twh": 266.87507329432225,
+      "mixed_residue_liquid_twh": 1211.1334511536716,
+      "crop_hydrochar_mt": 12.317311075122566,
+      "stable_soil_c_need_mt": 5.299596490161562,
+      "stable_hydrochar_c_mt": 0.0,
+      "stable_pyrolysis_c_mt": 0.0,
+      "cover_crop_stable_c_mt": 5.299596490161562,
+      "fertilizer_cost_bn": 1.6941804010444952,
+      "seaweed_htl_mt": 0.0,
+      "seaweed_pbtl_mt": 0.0,
+      "seaweed_hydrochar_screen_mt": 0.0,
+      "objective_residual_bn": 1.1368683772161603e-13,
+      "biomass_case_note": "Local crop feedstock caps and elemental nutrient coefficients are analyst assumptions; not calibrated state-by-state USDA supplies",
+      "n_removed_kt": 737.8993411340965,
+      "n_water_kt": 87.81002159495748,
+      "n_char_kt": 15.495886163816039,
+      "n_imports_kt": 634.593433375323,
+      "n_seaweed_treated_product_kt": 0.0,
+      "p_removed_kt": 129.72470270543573,
+      "p_water_kt": 5.685590485761675,
+      "p_char_kt": 17.056771457285024,
+      "p_imports_kt": 106.98234076238903,
+      "p_seaweed_treated_product_kt": 0.0,
+      "k_removed_kt": 997.0933771103583,
+      "k_water_kt": 289.8550447259812,
+      "k_char_kt": 15.255528669788475,
+      "k_imports_kt": 691.9828037145887,
+      "k_seaweed_treated_product_kt": 0.0,
+      "selected": [
+        {
+          "name": "Corn stalks and leaves (excluding cobs/husks)",
+          "group": "corn",
+          "selected_mt": 0.0,
+          "max_mt": 80.0,
+          "npk_kg_t": {
+            "n": 7.0,
+            "p": 1.3,
+            "k": 11.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 156.3910617331949
+        },
+        {
+          "name": "Corn cobs and husks (separate field/process stream)",
+          "group": "corn",
+          "selected_mt": 0.7047426584147161,
+          "max_mt": 26.0,
+          "npk_kg_t": {
+            "n": 5.2,
+            "p": 1.0,
+            "k": 6.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 150.6898054831949
+        },
+        {
+          "name": "Wheat straw and chaff",
+          "group": "wheat",
+          "selected_mt": 0.0,
+          "max_mt": 45.0,
+          "npk_kg_t": {
+            "n": 5.4,
+            "p": 1.0,
+            "k": 10.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 153.4032054831949
+        },
+        {
+          "name": "Rice straw",
+          "group": "rice",
+          "selected_mt": 12.0,
+          "max_mt": 14.0,
+          "npk_kg_t": {
+            "n": 6.2,
+            "p": 1.0,
+            "k": 15.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 105.1781875
+        },
+        {
+          "name": "Rice husks (mill residue)",
+          "group": "rice",
+          "selected_mt": 8.0,
+          "max_mt": 8.0,
+          "npk_kg_t": {
+            "n": 4.0,
+            "p": 0.7,
+            "k": 5.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 78.92393125
+        },
+        {
+          "name": "Barley, oat and rye straw",
+          "group": "small_grain",
+          "selected_mt": 0.0,
+          "max_mt": 16.0,
+          "npk_kg_t": {
+            "n": 6.1,
+            "p": 1.0,
+            "k": 11.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 154.78030548319492
+        },
+        {
+          "name": "Grain sorghum stalks and leaves",
+          "group": "sorghum",
+          "selected_mt": 0.0,
+          "max_mt": 16.0,
+          "npk_kg_t": {
+            "n": 6.1,
+            "p": 1.0,
+            "k": 10.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 154.1557054831949
+        },
+        {
+          "name": "Cotton stalks",
+          "group": "cotton",
+          "selected_mt": 15.0,
+          "max_mt": 15.0,
+          "npk_kg_t": {
+            "n": 8.5,
+            "p": 1.5,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 114.84898125
+        },
+        {
+          "name": "Soybean stems, pods and processing hulls",
+          "group": "soybean",
+          "selected_mt": 20.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 9.5,
+            "p": 1.7,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 105.35281875
+        },
+        {
+          "name": "Sugarcane bagasse and field trash",
+          "group": "sugarcane",
+          "selected_mt": 20.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 6.2,
+            "p": 1.0,
+            "k": 7.5
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 90.4936875
+        },
+        {
+          "name": "Orchard and nut-crop pruning residues",
+          "group": "orchard",
+          "selected_mt": 20.0,
+          "max_mt": 20.0,
+          "npk_kg_t": {
+            "n": 5.5,
+            "p": 1.0,
+            "k": 6.5
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 120.1165875
+        },
+        {
+          "name": "Vegetable and fruit processing plant solids",
+          "group": "processing",
+          "selected_mt": 3.4697581504700006,
+          "max_mt": 15.0,
+          "npk_kg_t": {
+            "n": 13.0,
+            "p": 2.8,
+            "k": 12.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 101.47392500000001
+        },
+        {
+          "name": "Other food-crop stalks, peels and harvest residues",
+          "group": "other",
+          "selected_mt": 3.4697581504700006,
+          "max_mt": 18.0,
+          "npk_kg_t": {
+            "n": 9.0,
+            "p": 1.5,
+            "k": 9.0
+          },
+          "source_status": "[A] uncalibrated category screening capacity",
+          "delivered_and_soil_usd_t": 121.51268125
+        }
+      ],
+      "marine": {
+        "seaweed_htl_mt": 0.0,
+        "seaweed_pbtl_mt": 0.0,
+        "additive_marine_hydrochar_mt": 0.0,
+        "n_p_k_htl_feedstock_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "recovered_treated_product_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "crop_field_npk_offset_kt": {
+          "n": 0.0,
+          "p": 0.0,
+          "k": 0.0
+        },
+        "marine_salts_and_metals_screen": "Mandatory; no application to cropland without testing/permits",
+        "nutrient_accounting": "Existing offshore HTL fertilizer coproduct credit remains allocated outside the crop NPK balance; no double credit or immediate soil return assumed"
+      }
+    },
+    "agricultural": {
+      "inputs": {
+        "eligible": 0.6,
+        "collect": 0.8,
+        "yield_frac": 0.9,
+        "leak": 0.01,
+        "flare": 0.02,
+        "parasitic": 0.1,
+        "plant_cost": 65,
+        "monitor": 4,
+        "process_kg": 25,
+        "baseline_mcf": 0.6,
+        "asp_adopt": 0.8,
+        "asp_eff": 0.85,
+        "asp_ret": 0.8,
+        "asp_cost": 5000,
+        "asp_lca": 10,
+        "gas_price": 25,
+        "gas_co2": 0
+      },
+      "streams": [
+        {
+          "stream": "dairy_manure",
+          "potential_ch4_mt": 0.9804297311827959,
+          "gross_ch4_mt": 0.4235456438709678,
+          "leaked_ch4_mt": 0.004235456438709678,
+          "flared_ch4_mt": 0.008470912877419357,
+          "parasitic_ch4_mt": 0.04235456438709678,
+          "delivered_ch4_mt": 0.368484710167742,
+          "delivered_twh": 5.117843196774194,
+          "baseline_avoided_mt": 7.11556681703226,
+          "leak_mtco2e": 0.11859278028387099,
+          "process_mtco2e": 0.14706445967741938,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 6.84990957707097,
+          "cost_bn": 0.4058979087096775,
+          "gas_value_bn": 0.12794607991935483,
+          "digestate_N_mt": 0.06776730301935484,
+          "digestate_P_mt": 0.013553460603870969,
+          "digestate_K_mt": 0.03388365150967742
+        },
+        {
+          "stream": "swine_manure",
+          "potential_ch4_mt": 0.7111773870967742,
+          "gross_ch4_mt": 0.3072286312258065,
+          "leaked_ch4_mt": 0.0030722863122580654,
+          "flared_ch4_mt": 0.006144572624516131,
+          "parasitic_ch4_mt": 0.030722863122580654,
+          "delivered_ch4_mt": 0.26728890916645165,
+          "delivered_twh": 3.712345960645162,
+          "baseline_avoided_mt": 5.1614410045935495,
+          "leak_mtco2e": 0.08602401674322582,
+          "process_mtco2e": 0.10667660806451616,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 4.968740379785808,
+          "cost_bn": 0.29442743825806456,
+          "gas_value_bn": 0.09280864901612905,
+          "digestate_N_mt": 0.049156580996129046,
+          "digestate_P_mt": 0.009831316199225809,
+          "digestate_K_mt": 0.024578290498064523
+        },
+        {
+          "stream": "poultry_manure",
+          "potential_ch4_mt": 0.08779967741935485,
+          "gross_ch4_mt": 0.0379294606451613,
+          "leaked_ch4_mt": 0.00037929460645161296,
+          "flared_ch4_mt": 0.0007585892129032259,
+          "parasitic_ch4_mt": 0.00379294606451613,
+          "delivered_ch4_mt": 0.03299863076129033,
+          "delivered_twh": 0.4583143161290324,
+          "baseline_avoided_mt": 0.6372149388387098,
+          "leak_mtco2e": 0.010620248980645163,
+          "process_mtco2e": 0.013169951612903227,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 0.6134247382451614,
+          "cost_bn": 0.036349066451612906,
+          "gas_value_bn": 0.01145785790322581,
+          "digestate_N_mt": 0.006068713703225807,
+          "digestate_P_mt": 0.0012137427406451616,
+          "digestate_K_mt": 0.0030343568516129037
+        },
+        {
+          "stream": "beef_manure",
+          "potential_ch4_mt": 0.12291954838709679,
+          "gross_ch4_mt": 0.05310124490322582,
+          "leaked_ch4_mt": 0.0005310124490322582,
+          "flared_ch4_mt": 0.0010620248980645164,
+          "parasitic_ch4_mt": 0.005310124490322582,
+          "delivered_ch4_mt": 0.046198083065806465,
+          "delivered_twh": 0.6416400425806453,
+          "baseline_avoided_mt": 0.8921009143741937,
+          "leak_mtco2e": 0.014868348572903228,
+          "process_mtco2e": 0.018437932258064522,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 0.8587946335432259,
+          "cost_bn": 0.05088869303225808,
+          "gas_value_bn": 0.016041001064516135,
+          "digestate_N_mt": 0.008496199184516133,
+          "digestate_P_mt": 0.0016992398369032264,
+          "digestate_K_mt": 0.004248099592258066
+        },
+        {
+          "stream": "other_manure",
+          "potential_ch4_mt": 0.002926655913978495,
+          "gross_ch4_mt": 0.0012643153548387099,
+          "leaked_ch4_mt": 1.2643153548387098e-05,
+          "flared_ch4_mt": 2.5286307096774197e-05,
+          "parasitic_ch4_mt": 0.00012643153548387099,
+          "delivered_ch4_mt": 0.0010999543587096776,
+          "delivered_twh": 0.015277143870967746,
+          "baseline_avoided_mt": 0.021240497961290326,
+          "leak_mtco2e": 0.00035400829935483877,
+          "process_mtco2e": 0.00043899838709677425,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": 0.020447491274838712,
+          "cost_bn": 0.0012116355483870968,
+          "gas_value_bn": 0.00038192859677419367,
+          "digestate_N_mt": 0.0002022904567741936,
+          "digestate_P_mt": 4.045809135483872e-05,
+          "digestate_K_mt": 0.0001011452283870968
+        },
+        {
+          "stream": "food_processing_and_food_waste",
+          "potential_ch4_mt": 0.86841225,
+          "gross_ch4_mt": 0.37515409200000005,
+          "leaked_ch4_mt": 0.0037515409200000005,
+          "flared_ch4_mt": 0.007503081840000001,
+          "parasitic_ch4_mt": 0.03751540920000001,
+          "delivered_ch4_mt": 0.32638406004000003,
+          "delivered_twh": 4.533111945000001,
+          "baseline_avoided_mt": 0.0,
+          "leak_mtco2e": 0.10504314576000001,
+          "process_mtco2e": 0.1302618375,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": -0.23530498326000002,
+          "cost_bn": 0.35952267150000006,
+          "gas_value_bn": 0.11332779862500002,
+          "digestate_N_mt": 0.060024654720000015,
+          "digestate_P_mt": 0.012004930944000002,
+          "digestate_K_mt": 0.030012327360000007
+        },
+        {
+          "stream": "municipal_green_plant_waste",
+          "potential_ch4_mt": 0.28947075,
+          "gross_ch4_mt": 0.125051364,
+          "leaked_ch4_mt": 0.00125051364,
+          "flared_ch4_mt": 0.00250102728,
+          "parasitic_ch4_mt": 0.0125051364,
+          "delivered_ch4_mt": 0.10879468667999999,
+          "delivered_twh": 1.5110373149999998,
+          "baseline_avoided_mt": 0.0,
+          "leak_mtco2e": 0.035014381920000004,
+          "process_mtco2e": 0.0434206125,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": -0.07843499442,
+          "cost_bn": 0.1198408905,
+          "gas_value_bn": 0.037775932874999994,
+          "digestate_N_mt": 0.02000821824,
+          "digestate_P_mt": 0.004001643647999999,
+          "digestate_K_mt": 0.01000410912
+        },
+        {
+          "stream": "wastewater",
+          "potential_ch4_mt": 1.6604756736316209,
+          "gross_ch4_mt": 0.7173254910088603,
+          "leaked_ch4_mt": 0.007173254910088604,
+          "flared_ch4_mt": 0.014346509820177208,
+          "parasitic_ch4_mt": 0.07173254910088604,
+          "delivered_ch4_mt": 0.6240731771777086,
+          "delivered_twh": 8.667683016357064,
+          "baseline_avoided_mt": 0.0,
+          "leak_mtco2e": 0.2008511374824809,
+          "process_mtco2e": 0.24907135104474318,
+          "external_gas_displacement_mt": 0.0,
+          "net_avoided_mt": -0.44992248852722405,
+          "cost_bn": 0.6874369288834912,
+          "gas_value_bn": 0.2166920754089266,
+          "digestate_N_mt": 0.11477207856141765,
+          "digestate_P_mt": 0.02295441571228353,
+          "digestate_K_mt": 0.057386039280708824
+        }
+      ],
+      "biomethane_twh": 24.657252936357064,
+      "leaked_ch4_mt": 0.020406002430088607,
+      "biogas_net_avoided_mt": 12.54765435371278,
+      "digestate_N_mt": 0.3264960388814177,
+      "digestate_P_mt": 0.06529920777628354,
+      "digestate_K_mt": 0.16324801944070885,
+      "asp_dry_mt": 0.3446038,
+      "asp_heat_twh": 8.615095,
+      "asp_elemental_N_mt": 0.012405736799999999,
+      "asp_elemental_P_mt": 0.00093043026,
+      "asp_gross_avoided_mt": 24.488845440000006,
+      "asp_lca_mt": 3.446038,
+      "asp_net_avoided_mt": 21.042807440000004,
+      "asp_cost_bn": 1.723019,
+      "biogas_cost_bn": 1.9555752328834914,
+      "gas_value_bn": 0.6164313234089266,
+      "incremental_net_cost_bn": 3.062162909474565,
+      "incremental_net_avoided_mt": 33.590461793712784,
+      "external_gas_credit_mt": 0.0
+    },
+    "full": {
+      "scenario": "least_cost",
+      "blend_vol": 0.0,
+      "osw_scale": 0.0,
+      "x": {
+        "onw": 1199.4862459670837,
+        "pv": 946.3889653030866,
+        "lwr": 0.0,
+        "export": 0.0,
+        "hubs": 139.2597903139415,
+        "hp2e": 192.80383962256693,
+        "h_pyro": 31.792543485016658,
+        "h_ely": 0.0,
+        "bamboo": 37.5,
+        "hemp_mha": 4.0,
+        "htl": 107.19064108745826,
+        "pbtl": 215.0994461198376,
+        "cel": 107.6398325520589,
+        "corn_etoh": 20.0,
+        "atj": 29.149385766925008,
+        "etoh_ldv": 0.0,
+        "hefa": 0.0,
+        "hemp_oil_fuel": 1.08,
+        "e_heat": 0.0,
+        "e_dry": 0.0,
+        "heat_sold": 59.21331319444445,
+        "t2mid": 0.0,
+        "t2dry": 0.0,
+        "m2dry": 0.0,
+        "h_htse": 0.0,
+        "h_si": 0.0,
+        "m2e": 0.0,
+        "d2e": 0.0,
+        "b1": 0.0,
+        "b2": 0.7047426584147161,
+        "b3": 0.0,
+        "b4": 12.0,
+        "b5": 8.0,
+        "b6": 0.0,
+        "b7": 0.0,
+        "b8": 15.0,
+        "b9": 20.0,
+        "b10": 20.0,
+        "b11": 20.0,
+        "b12": 3.4697581504700006,
+        "b13": 3.4697581504700006,
+        "b14": 61.78566080000001,
+        "b15": 200.0,
+        "osw_wa": 0.0,
+        "osw_or": 0.0,
+        "osw_nca": 0.0,
+        "osw_cca": 0.0,
+        "osw_sca": 0.0,
+        "osw_gom": 0.0,
+        "osw_sne": 0.0,
+        "osw_nyb": 0.0,
+        "osw_delmarva": 0.0,
+        "osw_nc": 0.0,
+        "osw_sab": 0.0,
+        "osw_tx": 0.0,
+        "osw_la": 0.0,
+        "kh_wa": 0.0,
+        "kh_or": 0.0,
+        "kh_nca": 0.0,
+        "kh_cca": 0.0,
+        "kh_sca": 0.0,
+        "kh_gom": 0.0,
+        "kh_sne": 0.0,
+        "kh_nyb": 0.0,
+        "kh_delmarva": 0.0,
+        "kh_nc": 0.0,
+        "kh_sab": 0.0,
+        "kh_tx": 0.0,
+        "kh_la": 0.0,
+        "kp_wa": 0.0,
+        "kp_or": 0.0,
+        "kp_nca": 0.0,
+        "kp_cca": 0.0,
+        "kp_sca": 0.0,
+        "kp_gom": 0.0,
+        "kp_sne": 0.0,
+        "kp_nyb": 0.0,
+        "kp_delmarva": 0.0,
+        "kp_nc": 0.0,
+        "kp_sab": 0.0,
+        "kp_tx": 0.0,
+        "kp_la": 0.0,
+        "c0": 0.76,
+        "c1": 1.5,
+        "c2": 3.0,
+        "c3": 0.4,
+        "c4": 1.5,
+        "c5": 8.0,
+        "c6": 0.0,
+        "c7": 80.21763045504997,
+        "cover_c": 5.299596490161562
+      },
+      "hub_spec": {
+        "mwt": 800.0,
+        "q_pyro_mw": 240.0,
+        "q_mid_mw": 60.0,
+        "q_dry_mw": 80.0,
+        "mwe": 194.0,
+        "reject_mw": 226.0,
+        "low_used_mw": 79.1,
+        "pyro_twh": 1.955232,
+        "mid_twh": 0.488808,
+        "dry_twh": 0.651744,
+        "el_twh": 1.5804791999999999,
+        "low_twh": 0.64441188,
+        "cost_bn": 0.20462372080003113,
+        "capex_kwt": 2000.0
+      },
+      "osw_gw": {
+        "wa": 0.0,
+        "or": 0.0,
+        "nca": 0.0,
+        "cca": 0.0,
+        "sca": 0.0,
+        "gom": 0.0,
+        "sne": 0.0,
+        "nyb": 0.0,
+        "delmarva": 0.0,
+        "nc": 0.0,
+        "sab": 0.0,
+        "tx": 0.0,
+        "la": 0.0
+      },
+      "gw": {
+        "onshore_wind": 342.3191341230262,
+        "solar": 432.1410800470715,
+        "lwr_smr": 0.0,
+        "offshore_wind": 0.0
+      },
+      "el_supply_twh": {
+        "onshore_wind": 1199.4862459670837,
+        "solar": 946.3889653030866,
+        "lwr_smr": 0.0,
+        "offshore_wind": 0.0,
+        "htgr_hubs": 297.21873783657276
+      },
+      "el_export_twh": 0.0,
+      "hubs": 139.2597903139415,
+      "reactors": 557.039161255766,
+      "htgr_gwt": 111.40783225115318,
+      "h2_mt": {
+        "pyrolysis": 31.792543485016658,
+        "electrolysis": 0.0,
+        "steam_electrolysis": 0.0,
+        "sulfur_iodine": 0.0,
+        "direct_vehicles": 6.646730757153835,
+        "blending": 0.0,
+        "htl": 1.4470736546806866,
+        "pbtl": 23.66093907318214,
+        "hefa": 0.03780000000000001,
+        "seaweed": 0.0
+      },
+      "gas_for_pyrolysis_tcf": 6.723600187166471,
+      "blend": {
+        "h2_mt": 0.0,
+        "gas_displaced_tcf": 0.0,
+        "energy_share": 0.0,
+        "co2_avoided_burner_mt": 0.0
+      },
+      "carbon_mt": 95.37763045504997,
+      "carbon_alloc": [
+        {
+          "market": "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+          "mt": 0.76,
+          "value_usd_t": 4000.0,
+          "cap_mt": 0.76
+        },
+        {
+          "market": "Battery anode graphite (after graphitisation)",
+          "mt": 1.5,
+          "value_usd_t": 3000.0,
+          "cap_mt": 1.5
+        },
+        {
+          "market": "Carbon black: tires & rubber (export incl.)",
+          "mt": 3.0,
+          "value_usd_t": 900.0,
+          "cap_mt": 3.0
+        },
+        {
+          "market": "Specialty carbon (conductive additive, fibre precursors)",
+          "mt": 0.4,
+          "value_usd_t": 1500.0,
+          "cap_mt": 0.4
+        },
+        {
+          "market": "Metallurgical: electrodes, recarburiser, Al anodes",
+          "mt": 1.5,
+          "value_usd_t": 400.0,
+          "cap_mt": 1.5
+        },
+        {
+          "market": "Construction: asphalt & concrete additive",
+          "mt": 8.0,
+          "value_usd_t": 60.0,
+          "cap_mt": 8.0
+        },
+        {
+          "market": "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+          "mt": 0.0,
+          "value_usd_t": -60.0,
+          "cap_mt": 0.0
+        },
+        {
+          "market": "Permanent storage (mine voids, monofill)",
+          "mt": 80.21763045504997,
+          "value_usd_t": -25.0,
+          "cap_mt": 10000.0
+        }
+      ],
+      "carbon_revenue_bn": 9.91455923862375,
+      "carbon_value_per_t": 103.95057196662411,
+      "liquids_twh": {
+        "residues_and_grasses": 1211.1334511536716,
+        "bamboo": 123.41212318189092,
+        "hemp": 91.25747144902336,
+        "seaweed": 0.0,
+        "oils_hefa": 0.0,
+        "corn_ethanol_atj": 396.00000000000006
+      },
+      "routes_mt": {
+        "htl": 107.19064108745826,
+        "pbtl": 215.0994461198376,
+        "cellulosic_ethanol_feed": 107.6398325520589,
+        "seaweed_htl": 0.0,
+        "seaweed_pbtl": 0.0
+      },
+      "biomass_mt": {
+        "residues_grasses": 364.42991975935473,
+        "bamboo": 37.5,
+        "hemp_stalk": 28.0,
+        "hemp_seed": 3.6,
+        "seaweed": 0.0,
+        "oils": 0.0,
+        "corn_ethanol_bgal": 20.0,
+        "cellulosic_ethanol_bgal": 9.149385766925006,
+        "atj_ethanol_bgal": 29.149385766925008
+      },
+      "bamboo": {
+        "mt": 37.5,
+        "mha": 2.5,
+        "yield_t_ha": 15.0,
+        "cost_t": 75.83811353153484
+      },
+      "hemp": {
+        "mha": 4.0,
+        "seed_mt": 3.6,
+        "oil_mt": 1.08,
+        "meal_mt": 2.52,
+        "stalk_mt": 28.0
+      },
+      "biochar_mt": 12.862876930494991,
+      "crop_residue_soil": {
+        "feedstock_mt": 102.64425895935472,
+        "max_sustainable_screen_mt": 144.4471184,
+        "selected_feedstocks": [
+          {
+            "name": "Corn stalks and leaves (excluding cobs/husks)",
+            "group": "corn",
+            "selected_mt": 0.0,
+            "max_mt": 80.0,
+            "npk_kg_t": {
+              "n": 7.0,
+              "p": 1.3,
+              "k": 11.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 156.3910617331949
+          },
+          {
+            "name": "Corn cobs and husks (separate field/process stream)",
+            "group": "corn",
+            "selected_mt": 0.7047426584147161,
+            "max_mt": 26.0,
+            "npk_kg_t": {
+              "n": 5.2,
+              "p": 1.0,
+              "k": 6.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 150.6898054831949
+          },
+          {
+            "name": "Wheat straw and chaff",
+            "group": "wheat",
+            "selected_mt": 0.0,
+            "max_mt": 45.0,
+            "npk_kg_t": {
+              "n": 5.4,
+              "p": 1.0,
+              "k": 10.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 153.4032054831949
+          },
+          {
+            "name": "Rice straw",
+            "group": "rice",
+            "selected_mt": 12.0,
+            "max_mt": 14.0,
+            "npk_kg_t": {
+              "n": 6.2,
+              "p": 1.0,
+              "k": 15.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 105.1781875
+          },
+          {
+            "name": "Rice husks (mill residue)",
+            "group": "rice",
+            "selected_mt": 8.0,
+            "max_mt": 8.0,
+            "npk_kg_t": {
+              "n": 4.0,
+              "p": 0.7,
+              "k": 5.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 78.92393125
+          },
+          {
+            "name": "Barley, oat and rye straw",
+            "group": "small_grain",
+            "selected_mt": 0.0,
+            "max_mt": 16.0,
+            "npk_kg_t": {
+              "n": 6.1,
+              "p": 1.0,
+              "k": 11.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 154.78030548319492
+          },
+          {
+            "name": "Grain sorghum stalks and leaves",
+            "group": "sorghum",
+            "selected_mt": 0.0,
+            "max_mt": 16.0,
+            "npk_kg_t": {
+              "n": 6.1,
+              "p": 1.0,
+              "k": 10.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 154.1557054831949
+          },
+          {
+            "name": "Cotton stalks",
+            "group": "cotton",
+            "selected_mt": 15.0,
+            "max_mt": 15.0,
+            "npk_kg_t": {
+              "n": 8.5,
+              "p": 1.5,
+              "k": 12.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 114.84898125
+          },
+          {
+            "name": "Soybean stems, pods and processing hulls",
+            "group": "soybean",
+            "selected_mt": 20.0,
+            "max_mt": 20.0,
+            "npk_kg_t": {
+              "n": 9.5,
+              "p": 1.7,
+              "k": 12.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 105.35281875
+          },
+          {
+            "name": "Sugarcane bagasse and field trash",
+            "group": "sugarcane",
+            "selected_mt": 20.0,
+            "max_mt": 20.0,
+            "npk_kg_t": {
+              "n": 6.2,
+              "p": 1.0,
+              "k": 7.5
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 90.4936875
+          },
+          {
+            "name": "Orchard and nut-crop pruning residues",
+            "group": "orchard",
+            "selected_mt": 20.0,
+            "max_mt": 20.0,
+            "npk_kg_t": {
+              "n": 5.5,
+              "p": 1.0,
+              "k": 6.5
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 120.1165875
+          },
+          {
+            "name": "Vegetable and fruit processing plant solids",
+            "group": "processing",
+            "selected_mt": 3.4697581504700006,
+            "max_mt": 15.0,
+            "npk_kg_t": {
+              "n": 13.0,
+              "p": 2.8,
+              "k": 12.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 101.47392500000001
+          },
+          {
+            "name": "Other food-crop stalks, peels and harvest residues",
+            "group": "other",
+            "selected_mt": 3.4697581504700006,
+            "max_mt": 18.0,
+            "npk_kg_t": {
+              "n": 9.0,
+              "p": 1.5,
+              "k": 9.0
+            },
+            "source_status": "[A] uncalibrated category screening capacity",
+            "delivered_and_soil_usd_t": 121.51268125
+          }
+        ],
+        "htl_biocrude_fuel_twh": 266.87507329432225,
+        "hydrochar_return_mt": 12.317311075122566,
+        "treated_aqueous_stream": "recovered nutrient concentrate only, after contaminant control, desalting if needed, and lawful field-specific application",
+        "nutrients": {
+          "n": {
+            "removed_kt": 737.8993411340965,
+            "wastewater_recovered_kt": 87.81002159495748,
+            "hydrochar_recovered_kt": 15.495886163816039,
+            "imported_kt": 634.593433375323,
+            "recovered_returned_kt": 103.30590775877351,
+            "returned_kt": 737.8993411340965,
+            "closed_residual_kt": 0.0
+          },
+          "p": {
+            "removed_kt": 129.72470270543573,
+            "wastewater_recovered_kt": 5.685590485761675,
+            "hydrochar_recovered_kt": 17.056771457285024,
+            "imported_kt": 106.98234076238903,
+            "recovered_returned_kt": 22.7423619430467,
+            "returned_kt": 129.72470270543573,
+            "closed_residual_kt": 0.0
+          },
+          "k": {
+            "removed_kt": 997.0933771103583,
+            "wastewater_recovered_kt": 289.8550447259812,
+            "hydrochar_recovered_kt": 15.255528669788475,
+            "imported_kt": 691.9828037145887,
+            "recovered_returned_kt": 305.1105733957697,
+            "returned_kt": 997.0933771103585,
+            "closed_residual_kt": 0.0
+          }
+        },
+        "stable_soil_c_required_mt": 5.299596490161562,
+        "hydrochar_stable_c_mt": 0.0,
+        "methane_carbon_return_mt": 0.0,
+        "methane_carbon_stable_mt": 0.0,
+        "cover_crop_extra_stable_c_mt": 5.299596490161562,
+        "carbon_balance_surplus_mt": 0.0,
+        "fertilizer_cost_bn": 1.6941804010444952,
+        "assumption_warning": "Feedstock type capacities, residue-specific NPK recovery, stable SOC equivalence and legal safe land application are sensitivity inputs, not field-verified."
+      },
+      "seaweed": [
+        {
+          "zone": "wa",
+          "region": "Washington coast (Grays Harbor offshore)",
+          "species": "Sugar kelp Saccharina latissima, ribbon kelp Alaria marginata, bull kelp Nereocystis",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 8.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 60.0,
+          "cost_farm_t": 394.06,
+          "cost_harvester_t": 8.122914364494582,
+          "cost_vessel_t": 7.48864937716161,
+          "cost_drones_t": 1.8861201388735365,
+          "cost_fert_credit_t": 42.0,
+          "cost_biomass_cost_t": 411.55768388052974,
+          "cost_harvester_kwh_t": 0.8125,
+          "cost_vessel_kwh_t": 10.799999999999999,
+          "color": "cold_kelp",
+          "box": [
+            -125.9,
+            46.3,
+            0.8,
+            1.6
+          ]
+        },
+        {
+          "zone": "or",
+          "region": "Oregon (Coos Bay, Brookings)",
+          "species": "Giant kelp Macrocystis pyrifera + bull kelp Nereocystis",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 9.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 361.76,
+          "cost_harvester_t": 21.66110497198555,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 1.6765512345542546,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 391.8818230458687,
+          "cost_harvester_kwh_t": 2.1666666666666665,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "giant_kelp",
+          "box": [
+            -125.7,
+            42.1,
+            0.8,
+            2.1
+          ]
+        },
+        {
+          "zone": "nca",
+          "region": "Northern California (Humboldt, Mendocino)",
+          "species": "Giant kelp Macrocystis pyrifera",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 10.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 335.92,
+          "cost_harvester_t": 19.494994474787,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 1.5088961110988293,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 363.70805742521475,
+          "cost_harvester_kwh_t": 1.9500000000000002,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "giant_kelp",
+          "box": [
+            -125.4,
+            39.0,
+            0.8,
+            2.0
+          ]
+        },
+        {
+          "zone": "cca",
+          "region": "Central California (Morro Bay)",
+          "species": "Giant kelp Macrocystis pyrifera",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 10.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 335.92,
+          "cost_harvester_t": 19.494994474787,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 1.5088961110988293,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 363.70805742521475,
+          "cost_harvester_kwh_t": 1.9500000000000002,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "giant_kelp",
+          "box": [
+            -122.6,
+            34.9,
+            0.8,
+            1.4
+          ]
+        },
+        {
+          "zone": "sca",
+          "region": "Southern California Bight",
+          "species": "Giant kelp Macrocystis pyrifera, warm-tolerant strains, depth-cycled",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 7.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 60.0,
+          "cost_farm_t": 435.5885714285715,
+          "cost_harvester_t": 27.849992106838567,
+          "cost_vessel_t": 7.48864937716161,
+          "cost_drones_t": 2.1555658729983276,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 473.08277878557004,
+          "cost_harvester_kwh_t": 2.7857142857142856,
+          "cost_vessel_kwh_t": 10.799999999999999,
+          "color": "giant_kelp_warm",
+          "box": [
+            -120.3,
+            32.4,
+            1.6,
+            0.9
+          ]
+        },
+        {
+          "zone": "gom",
+          "region": "Gulf of Maine",
+          "species": "Sugar kelp Saccharina latissima + winged kelp Alaria esculenta",
+          "type": "float",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 7.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 60.0,
+          "cost_farm_t": 435.5885714285715,
+          "cost_harvester_t": 9.283330702279521,
+          "cost_vessel_t": 7.48864937716161,
+          "cost_drones_t": 2.1555658729983276,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 454.516117381011,
+          "cost_harvester_kwh_t": 0.9285714285714285,
+          "cost_vessel_kwh_t": 10.799999999999999,
+          "color": "cold_kelp",
+          "box": [
+            -70.3,
+            42.4,
+            2.2,
+            1.0
+          ]
+        },
+        {
+          "zone": "sne",
+          "region": "Southern New England",
+          "species": "Sugar kelp Saccharina latissima",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 6.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 490.96,
+          "cost_harvester_t": 10.830552485992776,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 2.5148268518313817,
+          "cost_fert_credit_t": 40.8,
+          "cost_biomass_cost_t": 511.08954617715307,
+          "cost_harvester_kwh_t": 1.0833333333333333,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "cold_kelp",
+          "box": [
+            -71.6,
+            40.4,
+            1.8,
+            0.65
+          ]
+        },
+        {
+          "zone": "nyb",
+          "region": "New York Bight / New Jersey",
+          "species": "Winter sugar kelp + summer red Gracilaria tikvahiae (two crops)",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 6.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 45.0,
+          "cost_farm_t": 490.96,
+          "cost_harvester_t": 21.66110497198555,
+          "cost_vessel_t": 6.431925570412559,
+          "cost_drones_t": 2.5148268518313817,
+          "cost_fert_credit_t": 42.0,
+          "cost_biomass_cost_t": 521.5678573942295,
+          "cost_harvester_kwh_t": 2.1666666666666665,
+          "cost_vessel_kwh_t": 8.1,
+          "color": "kelp_red_rotation",
+          "box": [
+            -73.4,
+            38.7,
+            1.4,
+            1.2
+          ]
+        },
+        {
+          "zone": "delmarva",
+          "region": "Delmarva / Chesapeake mouth",
+          "species": "Winter sugar kelp + summer Gracilaria tikvahiae",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 5.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 45.0,
+          "cost_farm_t": 568.48,
+          "cost_harvester_t": 25.993325966382663,
+          "cost_vessel_t": 6.431925570412559,
+          "cost_drones_t": 3.0177922221976585,
+          "cost_fert_credit_t": 42.0,
+          "cost_biomass_cost_t": 603.9230437589929,
+          "cost_harvester_kwh_t": 2.6,
+          "cost_vessel_kwh_t": 8.1,
+          "color": "kelp_red_rotation",
+          "box": [
+            -74.9,
+            36.9,
+            1.1,
+            1.3
+          ]
+        },
+        {
+          "zone": "nc",
+          "region": "Virginia Beach to Cape Hatteras",
+          "species": "Red Gracilaria tikvahiae + green Ulva lactuca (warm water)",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 5.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 45.0,
+          "cost_farm_t": 568.48,
+          "cost_harvester_t": 25.993325966382663,
+          "cost_vessel_t": 6.431925570412559,
+          "cost_drones_t": 3.0177922221976585,
+          "cost_fert_credit_t": 43.8,
+          "cost_biomass_cost_t": 603.9230437589929,
+          "cost_harvester_kwh_t": 2.6,
+          "cost_vessel_kwh_t": 8.1,
+          "color": "red_green",
+          "box": [
+            -75.6,
+            34.6,
+            1.0,
+            1.7
+          ]
+        },
+        {
+          "zone": "sab",
+          "region": "South Atlantic Bight (SC, GA)",
+          "species": "Gracilaria + Ulva; capture of drifting Sargassum",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 5.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 60.0,
+          "cost_farm_t": 568.48,
+          "cost_harvester_t": 25.993325966382663,
+          "cost_vessel_t": 7.48864937716161,
+          "cost_drones_t": 3.0177922221976585,
+          "cost_fert_credit_t": 43.8,
+          "cost_biomass_cost_t": 604.979767565742,
+          "cost_harvester_kwh_t": 2.6,
+          "cost_vessel_kwh_t": 10.799999999999999,
+          "color": "red_green",
+          "box": [
+            -80.5,
+            31.0,
+            1.4,
+            1.4
+          ]
+        },
+        {
+          "zone": "tx",
+          "region": "Texas shelf (Galveston to Corpus Christi)",
+          "species": "Gracilaria + Ulva",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 5.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 568.48,
+          "cost_harvester_t": 25.993325966382663,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 3.0177922221976585,
+          "cost_fert_credit_t": 43.8,
+          "cost_biomass_cost_t": 604.2752850279093,
+          "cost_harvester_kwh_t": 2.6,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "red_green",
+          "box": [
+            -96.6,
+            27.0,
+            2.2,
+            0.8
+          ]
+        },
+        {
+          "zone": "la",
+          "region": "Louisiana / Mississippi plume",
+          "species": "Gracilaria + Ulva + Sargassum (nutrient-rich plume)",
+          "type": "fixed",
+          "wind_gw": 0.0,
+          "wind_km2": 0.0,
+          "seaweed_km2": 0.0,
+          "yield_t_ha": 7.0,
+          "dry_mt": 0.0,
+          "htl_mt": 0.0,
+          "pbtl_mt": 0.0,
+          "wet_mt": 0.0,
+          "n_kt": 0.0,
+          "land_n_kt": 0.0,
+          "fuel_twh": 0.0,
+          "fert_n_kt": 0.0,
+          "fert_p_kt": 0.0,
+          "fert_k_kt": 0.0,
+          "vessels": 0.0,
+          "drones": 0.0,
+          "harvester_mwh": 0.0,
+          "vessel_mwh": 0.0,
+          "port_km": 50.0,
+          "cost_farm_t": 435.5885714285715,
+          "cost_harvester_t": 18.566661404559042,
+          "cost_vessel_t": 6.784166839328909,
+          "cost_drones_t": 2.1555658729983276,
+          "cost_fert_credit_t": 43.8,
+          "cost_biomass_cost_t": 463.09496554545785,
+          "cost_harvester_kwh_t": 1.857142857142857,
+          "cost_vessel_kwh_t": 9.0,
+          "color": "red_green",
+          "box": [
+            -92.5,
+            27.9,
+            4.2,
+            0.75
+          ]
+        }
+      ],
+      "grid_harvester": {},
+      "fleet": {
+        "vessels": 0.0,
+        "drones": 0.0,
+        "vessel_energy_gwh": 0.0,
+        "harvester_energy_gwh": 0.0
+      },
+      "low_grade_heat_used_twh": 59.213313194444446,
+      "hub_energy_twh": {
+        "thermal": 907.6173277836948,
+        "electricity": 297.21873783657276,
+        "refinery_process_steam": 37.84072438061039,
+        "htse_steam_and_drying": 64.58389953123535,
+        "food_heat": 59.213313194444446,
+        "sulfur_iodine_heat": 0.0,
+        "conversion_losses_and_reject": 448.7606528408319
+      },
+      "htse_firm_power": {
+        "firm_nuclear_twh": 297.21873783657276,
+        "htse_electricity_twh": 0.0,
+        "htse_share_of_firm": 0.0
+      },
+      "hub_heat_twh": {
+        "top_tier_available": 272.2851983351085,
+        "to_pyrolysis": 79.48135871254165,
+        "pyrolysis_electric_boost": 194.1018444348386,
+        "to_turbine": 192.80383962256693,
+        "to_process_steam": 0.0,
+        "to_drying": 0.0,
+        "process_steam_to_drying": 0.0,
+        "top_tier_unused": -8.526512829121202e-14,
+        "pyrolysis_share_of_top_tier": 0.29190480862908263,
+        "electricity_from_top_tier": 77.12153584902677,
+        "electric_process_heat": 0.0,
+        "electric_drying": 0.0,
+        "mid_available": 68.07129958377712,
+        "dry_available": 90.76173277836948
+      },
+      "costs_bn": {
+        "electricity_generation": 120.58718201328419,
+        "transmission_distribution": 44.582810675485916,
+        "charging": 36.68548187581855,
+        "electric_highways": 11.001005276097136,
+        "rail_electrification": 6.120745732086601,
+        "htgr_hubs": 28.495856451870843,
+        "pyrolysis_plants": 13.317980359732319,
+        "natural_gas": 27.304548899525585,
+        "electrolysis": 0.0,
+        "h2_delivery": 16.66094137059178,
+        "land_biomass": 38.911143847776366,
+        "hemp_net_of_meal": 1.762,
+        "biorefineries": 77.65914041436184,
+        "seaweed_farms_harvest_haul": 0.0,
+        "seaweed_refining": 0.0,
+        "hefa_oils": 0.0,
+        "ethanol": 54.03216217180876,
+        "vehicles_and_machines_net": -28.10485719680786,
+        "process_heat_equipment": 0.0,
+        "soil_cover_crop_carbon": 1.3248991225403906,
+        "residual_pipeline_gas": 2.1898953039987146
+      },
+      "credits_bn": {
+        "carbon_products": -9.91455923862375,
+        "seaweed_fertiliser": -0.0,
+        "surplus_electricity_sold": -0.0,
+        "low_grade_heat_to_food": -0.47370650555555555
+      },
+      "total_cost_bn": 442.14267057399184,
+      "blend_share_of_h2": 0.0,
+      "blending_cost_bn": 0.0,
+      "transport_cost_bn": 442.14267057399184,
+      "lp_objective_bn": 358.03581008229344,
+      "objective_reconciliation": {
+        "lp_objective_bn": 358.03581008229344,
+        "fixed_terms_bn": {
+          "transmission_distribution": 44.582810675485916,
+          "charging": 36.68548187581855,
+          "electric_highways": 11.001005276097136,
+          "rail_electrification": 6.120745732086601,
+          "vehicles_and_machines_net": -28.10485719680786,
+          "residual_pipeline_gas": 2.1898953039987146,
+          "h2_delivery_vehicles_and_blend": 11.631778825019213
+        },
+        "fixed_terms_total_bn": 84.10686049169827,
+        "heat_credit_adjustment_bn": 5.551115123125783e-17,
+        "reported_total_bn": 442.14267057399184,
+        "residual_bn": 1.1368683772161603e-13
+      },
+      "liquid_shadow_usd_mwh": 50.636201089062,
+      "jet_shadow_usd_mwh": 138.22484734843994,
+      "enduse": {
+        "demand": {
+          "ldv": 5378.299499769675,
+          "hdv": 2238.5051077454855,
+          "rail": 128.84771555649442,
+          "air": 1281.2099113727068,
+          "marine": 182.05940651000753,
+          "pipeline": 401.13850087901426,
+          "farm": 140.91845586640645,
+          "construction": 112.73476469312514,
+          "industrial": 60.39362394274561
+        },
+        "base": {
+          "ldv": 5378.299499769675,
+          "hdv": 2238.5051077454855,
+          "rail": 128.84771555649442,
+          "air": 1281.2099113727068,
+          "marine": 182.05940651000753,
+          "pipeline": 401.13850087901426,
+          "farm": 140.91845586640645,
+          "construction": 112.73476469312514,
+          "industrial": 60.39362394274561
+        },
+        "el": {
+          "ldv": 952.1916055499269,
+          "hdv_ers_wire": 346.65931401855477,
+          "hdv_ers_battery": 86.66482850463866,
+          "hdv_bev": 288.8827616821289,
+          "hdv_re": 108.33103563079835,
+          "farm": 34.24318477553677,
+          "construction": 28.40916070266754,
+          "industrial": 16.306278464541315,
+          "rail": 31.88980960023237,
+          "marine": 3.641188130200151,
+          "pipeline": 84.239085184593
+        },
+        "h2_twh": {
+          "ldv": 33.41023177368165,
+          "hdv": 128.1614170532227,
+          "industrial": 3.3216493168510093,
+          "air": 38.4362973411812,
+          "marine": 18.205940651000756
+        },
+        "liq": {
+          "ldv": 161.34898499309026,
+          "hdv": 151.09909477282028,
+          "farm": 45.7984981565821,
+          "construction": 33.820429407937546,
+          "rail": 32.211928889123605,
+          "air": 1242.7736140315255,
+          "marine": 154.7504955335064
+        },
+        "gas_resid_twh": 160.4554003516057,
+        "el_total": 1981.4582522438186,
+        "h2_mt_direct": 6.646730757153835,
+        "liq_total": 1821.8030457845857,
+        "jet": 1242.7736140315255
+      },
+      "emissions": {
+        "by_source_mt": {
+          "electricity_lifecycle": 19.814582522438187,
+          "h2_direct": 19.68124110330579,
+          "liquid_fuels": 186.98452389132848,
+          "pipeline_gas_residual": 40.434760888604636
+        },
+        "total_mt": 266.9151084056771,
+        "baseline_wtw_mt": 3292.1996476271283,
+        "reduction_pct": 91.89249933253417,
+        "h2_ci_kg_per_kg": 2.961040821778886,
+        "biochar_removal_mt": 28.298329247088976,
+        "solid_carbon_kept_out_mtco2": 349.7179783351832,
+        "blending_co2_avoided_mt": 0.0
+      },
+      "petroleum": {
+        "prices": {
+          "late_2025": {
+            "retail_bn": 796.7940240299207,
+            "pretax_bn": 670.7973161475422
+          },
+          "nov_2026": {
+            "retail_bn": 1128.2238349518939,
+            "pretax_bn": 1002.2271270695155
+          }
+        },
+        "pipeline_gas_bn": 5.474738259996787,
+        "wtw_mt": 3292.1996476271283,
+        "total_twh": 9924.10698633566,
+        "total_quad": 33.86258227159266,
+        "offroad_bgal": 7.8
+      },
+      "food": {
+        "low_grade_twh": 89.74066328461284,
+        "asparagopsis": {
+          "groups": {
+            "feedlot": {
+              "seaweed_kt": 102.2,
+              "mtco2e_cut": 10.776959999999999
+            },
+            "dairy": {
+              "seaweed_kt": 162.936,
+              "mtco2e_cut": 22.451999999999998
+            },
+            "grazing": {
+              "seaweed_kt": 165.61875,
+              "mtco2e_cut": 11.787299999999998
+            }
+          },
+          "seaweed_mt_dry": 0.43075474999999996,
+          "mtco2e_cut": 45.01626,
+          "share_of_enteric": 0.2406,
+          "tank_ha": 14358.491666666665,
+          "cost_bn": 1.7230189999999999,
+          "usd_per_tco2e": 38.27548090401112
+        },
+        "greenhouse_ha": 17777.777777777777,
+        "greenhouse_heat_twh": 44.44444444444445,
+        "vegetables_mt": 8.000000000000002,
+        "vegetables_value_bn": 14.400000000000004,
+        "fish_shrimp_mt": 1.0,
+        "fish_value_bn": 7.0,
+        "ras_heat_twh": 4.0,
+        "grain_dried_mt": 60.0,
+        "hemp_seed_mt": 3.6,
+        "hemp_meal_mt": 2.52,
+        "hemp_protein_mt": 0.8316,
+        "unused_low_grade_twh": 30.52735009016839,
+        "greenhouse_seafood_gross_calorie_equiv_m": 3.486924034869241,
+        "greenhouse_seafood_edible_calorie_equiv_m": 2.590286425902865,
+        "edible_fraction_scenarios": {
+          "vegetables": 0.85,
+          "fish_shrimp": 0.6
+        },
+        "hemp_meal_potential_calorie_equiv_m": 10.983810709838107,
+        "people_fed_calorie_equiv_m": 14.470734744707347,
+        "people_fed_calorie_equiv_deprecated": true
+      },
+      "flex_heat": false,
+      "post_gas": false,
+      "reactor_cost": {
+        "case": "central",
+        "n_units": 557,
+        "foak_kwe": 9600.0,
+        "unit10_kwe": 6765.005275318522,
+        "unit100_kwe": 4767.21837240494,
+        "last_kwe": 3671.9160984701543,
+        "fleet_avg_kwe": 4330.105534685951,
+        "fleet_avg_kwe_with_idc": 4979.621364888843,
+        "fleet_avg_kwt_with_idc": 1991.8485459555375,
+        "learning": 0.1,
+        "fleet_capex_bn": 221.89192801944685
+      },
+      "capex_kwt_used": 2000.0
+    },
+    "parameters": {
+      "BASE": {
+        "gasoline_mbd": 9.95606965468916,
+        "onroad_diesel_bgal": 55.5978833924828,
+        "rail_diesel_bgal": 3.20019831096685,
+        "marine_distillate_bgal": 1.8063309201126392,
+        "marine_resid_mbd": 0.1625697828101375,
+        "jet_mbd": 2.1123759208481396,
+        "pipeline_ng_quad": 1.3687463775856084,
+        "farm_diesel_bgal": 3.5,
+        "construction_mining_diesel_bgal": 2.8,
+        "industrial_trucks_bgal_dge": 1.5,
+        "eia_transport_quad_2024": 28.1,
+        "transport_ghg_mt": 1800.0,
+        "ethanol_prod_bgal_2025": 16.49,
+        "ethanol_domestic_bgal_2025": 14.34,
+        "ethanol_export_bgal_2025": 2.18
+      },
+      "ENDUSE": {
+        "ldv": {
+          "bev": 0.95,
+          "fcev": 0.02,
+          "liquid": 0.03
+        },
+        "hdv": {
+          "ers": 0.45,
+          "bev": 0.3,
+          "re": 0.15,
+          "fcev": 0.07,
+          "liquid": 0.03
+        },
+        "ers_on_wire": 0.8,
+        "farm": {
+          "bev": 0.3,
+          "re": 0.5,
+          "liquid": 0.2
+        },
+        "construction": {
+          "bev": 0.4,
+          "re": 0.4,
+          "liquid": 0.2
+        },
+        "industrial": {
+          "bev": 0.9,
+          "fcev": 0.1
+        },
+        "rail": {
+          "elec": 0.6,
+          "re": 0.2,
+          "liquid": 0.2
+        },
+        "air": {
+          "saf": 0.97,
+          "h2": 0.03
+        },
+        "marine": {
+          "liquid": 0.85,
+          "elec": 0.05,
+          "h2": 0.1
+        },
+        "pipeline": {
+          "elec": 0.6,
+          "gas": 0.4
+        },
+        "re_fuel_share": 0.25,
+        "r_ldv_bev": 0.19514273548825287,
+        "r_ldv_fcev": 0.32523789248042145,
+        "r_hdv_elec": 0.4421090882143124,
+        "r_hdv_fcev": 0.8179018131964779,
+        "r_offroad_elec": 0.36,
+        "r_rail_elec": 0.33,
+        "r_pipe_elec": 0.35,
+        "r_fork_elec": 0.3,
+        "service_growth_2050": 1.0
+      },
+      "ELEC": {
+        "onshore_wind": 43.75,
+        "solar": 40.5,
+        "osw_fixed": 95.0,
+        "osw_floating": 115.0,
+        "lwr_smr": 115.0,
+        "cf_onw": 0.4,
+        "cf_pv": 0.25,
+        "cf_fixed": 0.45,
+        "cf_float": 0.47,
+        "td_adder": 22.5,
+        "vre_firming": 12.5,
+        "charge_ldv": 23.75,
+        "charge_hdv": 25.0,
+        "cap_onw_twh": 1800.0,
+        "cap_pv_twh": 2400.0,
+        "cap_lwr_twh": 1500.0,
+        "max_pv_share": 0.4,
+        "min_firm_share": 0.15,
+        "export_value": 40.0,
+        "export_cap_twh": 2500.0
+      },
+      "HTGR": {
+        "outlet_c": 750,
+        "mwt": 800.0,
+        "cf": 0.93,
+        "f_pyro": 0.3,
+        "f_mid": 0.075,
+        "f_dry": 0.1,
+        "eta_cond": 0.4,
+        "z_mid": 0.3,
+        "z_dry": 0.15,
+        "f_low_use": 0.35,
+        "fom_kwt_yr": 40.0,
+        "fuel_mwhth": 9.0,
+        "life": 60,
+        "wacc": 0.07,
+        "kwe_per_kwt": 0.4,
+        "capex_kwt": null
+      },
+      "PYRO": {
+        "kg_ch4_per_kg_h2": 4.081632653061225,
+        "heat_kwh_kg": 8.3,
+        "elec_kwh_kg": 3.0,
+        "capex_kw_h2": 775.0,
+        "fom": 0.04,
+        "life": 25,
+        "c_per_h2": 3.0,
+        "leak_upstream": 0.015,
+        "upstream_co2_frac": 0.05,
+        "h2_leak": 0.02,
+        "gwp_h2": 11.6,
+        "gwp_ch4": 29.8,
+        "config": "xe100",
+        "reactor_preheat_kwh_kg": 2.5,
+        "boost_eff": 0.95,
+        "boost_heater_cost_kg": 0.02
+      },
+      "GAS": {
+        "price_mmbtu": 3.5,
+        "delivery_mmbtu": 0.5
+      },
+      "ELECTROLYSIS": {
+        "kwh_kg": 52.0,
+        "capex_cost_kg": 0.9
+      },
+      "H2_DELIVERY": {
+        "vehicle": 1.75,
+        "onsite": 0.2,
+        "blend": 0.3
+      },
+      "BIOMASS": {
+        "tiers": [
+          [
+            "Corn stalks and leaves (excluding cobs/husks)",
+            80,
+            156.3910617331949
+          ],
+          [
+            "Corn cobs and husks (separate field/process stream)",
+            26,
+            150.6898054831949
+          ],
+          [
+            "Wheat straw and chaff",
+            45,
+            153.4032054831949
+          ],
+          [
+            "Rice straw",
+            14,
+            105.1781875
+          ],
+          [
+            "Rice husks (mill residue)",
+            8,
+            78.92393125
+          ],
+          [
+            "Barley, oat and rye straw",
+            16,
+            154.78030548319492
+          ],
+          [
+            "Grain sorghum stalks and leaves",
+            16,
+            154.1557054831949
+          ],
+          [
+            "Cotton stalks",
+            15,
+            114.84898125
+          ],
+          [
+            "Soybean stems, pods and processing hulls",
+            20,
+            105.35281875
+          ],
+          [
+            "Sugarcane bagasse and field trash",
+            20,
+            90.4936875
+          ],
+          [
+            "Orchard and nut-crop pruning residues",
+            20,
+            120.1165875
+          ],
+          [
+            "Vegetable and fruit processing plant solids",
+            15,
+            101.47392500000001
+          ],
+          [
+            "Other food-crop stalks, peels and harvest residues",
+            18,
+            121.51268125
+          ],
+          [
+            "Verified-separate NON-CROP forest residues [A cap]",
+            61.78566080000001,
+            85.0
+          ],
+          [
+            "Perennial grasses / energy cane [A cap]",
+            200.0,
+            100.0
+          ]
+        ],
+        "hhv_gj_t": 18.5
+      },
+      "BAMBOO": {
+        "yield_t_ha": [
+          10.0,
+          15.0,
+          22.0
+        ],
+        "establish_usd_ha": 4000.0,
+        "establish_life": 20,
+        "land_rent_usd_ha": 250.0,
+        "harvest_usd_t": 22.0,
+        "haul_usd_t": 12.0,
+        "regions": [
+          [
+            "Florida peninsula (former citrus, improved pasture)",
+            0.8,
+            "frost-free; clumping species"
+          ],
+          [
+            "Gulf Coast plain: TX coastal bend to Mobile",
+            1.0,
+            "USDA zone 9; wet marginal pasture"
+          ],
+          [
+            "Lower Rio Grande Valley TX",
+            0.3,
+            "irrigation needed"
+          ],
+          [
+            "Coastal GA / SC lowlands",
+            0.4,
+            "cold-hardy clumpers (Bambusa multiplex/ oldhamii) only"
+          ]
+        ]
+      },
+      "HEMP": {
+        "seed_t_ha": 0.9,
+        "oil_frac": 0.3,
+        "stalk_t_ha": 7.0,
+        "protein_frac_meal": 0.33,
+        "cost_usd_ha": 850.0,
+        "meal_value_usd_t": 650.0,
+        "max_mha": 4.0,
+        "regions": [
+          [
+            "North Dakota / Montana / South Dakota",
+            2.0
+          ],
+          [
+            "Minnesota / Wisconsin",
+            0.8
+          ],
+          [
+            "Kentucky / Tennessee",
+            0.6
+          ],
+          [
+            "Colorado / Nebraska",
+            0.6
+          ]
+        ]
+      },
+      "ROUTES": {
+        "htl": {
+          "mwh_t": 2.6,
+          "h2_kg_t": 13.5,
+          "el_mwh_t": 0.15,
+          "heat_mwh_t": 0.35,
+          "cost_t": 140.0,
+          "jet": 0.45,
+          "ci_g_mj": 12.0,
+          "char_t_t": 0.12
+        },
+        "pbtl": {
+          "mwh_t": 4.44,
+          "h2_kg_t": 110.0,
+          "el_mwh_t": 0.6,
+          "heat_mwh_t": 0.0,
+          "cost_t": 237.5,
+          "jet": 0.65,
+          "ci_g_mj": 6.0,
+          "char_t_t": 0.0
+        },
+        "hefa": {
+          "mwh_t": 10.1,
+          "h2_kg_t": 35.0,
+          "el_mwh_t": 0.1,
+          "heat_mwh_t": 0.3,
+          "cost_t": 1220.0,
+          "jet": 0.55,
+          "ci_g_mj": 35.0,
+          "cap_mt": 12.0
+        },
+        "hefa_conv_only": 120.0,
+        "atj": {
+          "mwh_per_bgal": 19.8,
+          "conv_per_bgal": 550000000.0,
+          "jet": 0.85,
+          "ci_g_mj": 40.0,
+          "cap_bgal": 25.0
+        },
+        "ethanol": {
+          "mwh_per_bgal": 22.37,
+          "corn_cost_per_bgal": 1900000000.0,
+          "corn_cap_bgal": 20.0,
+          "cellulosic_gal_per_t": 85.0,
+          "cellulosic_conv_per_gal": 1.25
+        }
+      },
+      "SEAWEED_PROCESS": {
+        "htl_mwh_t": 1.9,
+        "htl_h2_kg_t": 6.8,
+        "htl_el_mwh_t": 0.12,
+        "htl_heat_mwh_t": 0.3,
+        "htl_cost_t": 260.0,
+        "htl_ci": 15.0,
+        "pbtl_mwh_t": 3.5,
+        "pbtl_h2_kg_t": 90.0,
+        "pbtl_el_mwh_t": 0.5,
+        "pbtl_dry_mwh_t": 1.4,
+        "pbtl_cost_t": 330.0,
+        "pbtl_ci": 10.0,
+        "farm_cost_ref_t": 380.0,
+        "ref_yield": 15.0,
+        "shared_mooring_saving": 0.15,
+        "mw_per_km2": 4.0,
+        "p": 0.003,
+        "k": 0.045,
+        "n_rec": 0.6,
+        "p_rec": 0.8,
+        "k_rec": 0.8,
+        "meal_share": 0.05
+      },
+      "LOGISTICS": {
+        "gh_kwh_per_ha_pass": 6.5,
+        "gh_unit_capex": 6000000.0,
+        "gh_life": 20,
+        "gh_pv_kw": 150.0,
+        "gh_hours": 4000.0,
+        "press_to_dm": 0.3,
+        "vessel_t": 2500.0,
+        "vessel_kn": 10.0,
+        "vessel_kwh_tkm": 0.06,
+        "vessel_capex": 28000000.0,
+        "vessel_life": 25,
+        "vessel_days": 300,
+        "vessel_sail_share": 0.25,
+        "vessel_om": 0.04,
+        "load_hours": 5.0,
+        "drone_km2": 15.0,
+        "drone_capex": 60000.0,
+        "drone_life": 5,
+        "drone_om_yr": 8000.0
+      },
+      "VEH": {
+        "ldv_stock_m": 334.77020263671875,
+        "ldv_bev_net_usd_yr": -300,
+        "ldv_fcev_net_usd_yr": 900.0,
+        "ers_trucks_m": 5.6531288623809814,
+        "fcev_trucks_m": 0.8793756008148195,
+        "bev_trucks_m": 3.7687525749206543,
+        "re_trucks_m": 1.8843762874603271,
+        "ers_truck_net_usd_yr": 5000.0,
+        "fcev_truck_net_usd_yr": 10000.0,
+        "bev_truck_net_usd_yr": 2500.0,
+        "re_truck_net_usd_yr": 4000.0,
+        "tractors_m": 2.0,
+        "tractor_net_usd_yr": 1500.0,
+        "constr_m": 0.9,
+        "constr_net_usd_yr": 3000.0,
+        "forklifts_m": 1.0,
+        "forklift_net_usd_yr": -300.0,
+        "ers_km": 40000.0,
+        "ers_capex_m_per_km": 2.75,
+        "ers_om": 0.025,
+        "ers_life": 40,
+        "rail_elec_capex_bn": 80.0,
+        "rail_life": 40,
+        "farm_charging_bn_yr": 3.0,
+        "e85_kit_usd": 900.0
+      },
+      "FOOD": {
+        "greenhouse_heat_kwh_m2": 250.0,
+        "greenhouse_yield_kg_m2": 45.0,
+        "greenhouse_market_mt": 8.0,
+        "greenhouse_value_usd_t": 1800.0,
+        "kcal_per_kg_veg": 200.0,
+        "ras_heat_kwh_kg": 4.0,
+        "ras_market_mt": 1.0,
+        "ras_value_usd_t": 7000.0,
+        "kcal_per_kg_fish": 1200.0,
+        "asparagopsis_heat_mwh_t": 25.0,
+        "grain_dry_mwh_t": 0.08,
+        "grain_near_hub_mt": 60.0,
+        "grain_value_saved_usd_mwh": 35.0,
+        "kcal_per_person_day": 2200.0,
+        "hemp_kcal_per_kg_seed": 5500.0,
+        "vegetable_edible_fraction": 0.85,
+        "fish_shrimp_edible_fraction": 0.6
+      },
+      "NUCLEAR_H2": {
+        "htse": {
+          "kwh_e_kg": 36.8,
+          "kwh_th_kg": 6.4,
+          "capex_cost_kg": 0.8
+        },
+        "sulfur_iodine": {
+          "kwh_e_kg": 2.0,
+          "kwh_th_kg": 87.55555555555556,
+          "capex_cost_kg": 1.5
+        }
+      },
+      "CROP_RESIDUE": {
+        "enabled": true,
+        "cap_mt": 144.4471184,
+        "collect_min_mt": 102.64425895935472,
+        "delivered_usd_t": 55.0,
+        "wastewater_treatment_usd_t": 15.0,
+        "hydrochar_testing_transport_usd_t": 10.0,
+        "elemental_kg_t": {
+          "n": 7.0,
+          "p": 1.2,
+          "k": 9.0
+        },
+        "recovered_fraction": {
+          "n": 0.5,
+          "p": 0.75,
+          "k": 0.8
+        },
+        "wastewater_recovered_share": {
+          "n": 0.85,
+          "p": 0.25,
+          "k": 0.95
+        },
+        "nutrient_replacement_usd_per_kg": {
+          "n": 1.25,
+          "p": 2.6,
+          "k": 0.9
+        },
+        "stable_soc_c_t_per_dry_t": 0.06,
+        "hydrochar_c_fraction": 0.65,
+        "hydrochar_stable_fraction": 0.0,
+        "methane_carbon_stable_fraction": 0.0,
+        "cover_crop_stable_carbon_cost_usd_t_c": 250.0,
+        "pyro_carbon_soil_application_usd_t": 60.0,
+        "feedstocks": [
+          {
+            "name": "Corn stalks and leaves (excluding cobs/husks)",
+            "group": "corn",
+            "cap_mt": 80.0,
+            "elemental_kg_t": {
+              "n": 7.0,
+              "p": 1.3,
+              "k": 11.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.065,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Corn cobs and husks (separate field/process stream)",
+            "group": "corn",
+            "cap_mt": 26.0,
+            "elemental_kg_t": {
+              "n": 5.2,
+              "p": 1.0,
+              "k": 6.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.045,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Wheat straw and chaff",
+            "group": "wheat",
+            "cap_mt": 45.0,
+            "elemental_kg_t": {
+              "n": 5.4,
+              "p": 1.0,
+              "k": 10.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.065,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Rice straw",
+            "group": "rice",
+            "cap_mt": 14.0,
+            "elemental_kg_t": {
+              "n": 6.2,
+              "p": 1.0,
+              "k": 15.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.07,
+            "delivered_usd_t": 62,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Rice husks (mill residue)",
+            "group": "rice",
+            "cap_mt": 8.0,
+            "elemental_kg_t": {
+              "n": 4.0,
+              "p": 0.7,
+              "k": 5.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.02,
+            "delivered_usd_t": 45,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Barley, oat and rye straw",
+            "group": "small_grain",
+            "cap_mt": 16.0,
+            "elemental_kg_t": {
+              "n": 6.1,
+              "p": 1.0,
+              "k": 11.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.075,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Grain sorghum stalks and leaves",
+            "group": "sorghum",
+            "cap_mt": 16.0,
+            "elemental_kg_t": {
+              "n": 6.1,
+              "p": 1.0,
+              "k": 10.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.075,
+            "delivered_usd_t": 114.2080179831949,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Cotton stalks",
+            "group": "cotton",
+            "cap_mt": 15.0,
+            "elemental_kg_t": {
+              "n": 8.5,
+              "p": 1.5,
+              "k": 12.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.075,
+            "delivered_usd_t": 70,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Soybean stems, pods and processing hulls",
+            "group": "soybean",
+            "cap_mt": 20.0,
+            "elemental_kg_t": {
+              "n": 9.5,
+              "p": 1.7,
+              "k": 12.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.065,
+            "delivered_usd_t": 59,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Sugarcane bagasse and field trash",
+            "group": "sugarcane",
+            "cap_mt": 20.0,
+            "elemental_kg_t": {
+              "n": 6.2,
+              "p": 1.0,
+              "k": 7.5
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.04,
+            "delivered_usd_t": 52,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Orchard and nut-crop pruning residues",
+            "group": "orchard",
+            "cap_mt": 20.0,
+            "elemental_kg_t": {
+              "n": 5.5,
+              "p": 1.0,
+              "k": 6.5
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.04,
+            "delivered_usd_t": 83,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Vegetable and fruit processing plant solids",
+            "group": "processing",
+            "cap_mt": 15.0,
+            "elemental_kg_t": {
+              "n": 13.0,
+              "p": 2.8,
+              "k": 12.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.01,
+            "delivered_usd_t": 49,
+            "source_status": "[A] uncalibrated category screening capacity"
+          },
+          {
+            "name": "Other food-crop stalks, peels and harvest residues",
+            "group": "other",
+            "cap_mt": 18.0,
+            "elemental_kg_t": {
+              "n": 9.0,
+              "p": 1.5,
+              "k": 9.0
+            },
+            "recovered_fraction": {
+              "n": 0.13999999999999999,
+              "p": 0.1753125,
+              "k": 0.30600000000000005
+            },
+            "wastewater_recovered_share": {
+              "n": 0.85,
+              "p": 0.25,
+              "k": 0.95
+            },
+            "stable_soc_c_t_per_dry_t": 0.06,
+            "delivered_usd_t": 78,
+            "source_status": "[A] uncalibrated category screening capacity"
+          }
+        ],
+        "group_caps_mt": {
+          "corn": 105.0,
+          "rice": 20.0,
+          "wheat": 17.92443641300466,
+          "small_grain": 0.6728525713648201,
+          "sorghum": 1.0636913441600602,
+          "processing": 3.4697581504700006,
+          "other": 3.4697581504700006
+        },
+        "cover_crop_max_stable_c_mt": 10.0
+      },
+      "CARBON": [
+        [
+          "Vehicle structures: methane-derived carbon nanotube/fibre in hybrid metal-composite bodies, H2 tanks",
+          0.76,
+          4000.0
+        ],
+        [
+          "Battery anode graphite (after graphitisation)",
+          1.5,
+          3000.0
+        ],
+        [
+          "Carbon black: tires & rubber (export incl.)",
+          3.0,
+          900.0
+        ],
+        [
+          "Specialty carbon (conductive additive, fibre precursors)",
+          0.4,
+          1500.0
+        ],
+        [
+          "Metallurgical: electrodes, recarburiser, Al anodes",
+          1.5,
+          400.0
+        ],
+        [
+          "Construction: asphalt & concrete additive",
+          8.0,
+          60.0
+        ],
+        [
+          "Soil amendment (methane-derived carbon; agronomic benefit unproven)",
+          0.0,
+          -60.0
+        ],
+        [
+          "Permanent storage (mine voids, monofill)",
+          10000.0,
+          -25.0
+        ]
+      ],
+      "yield_level": 1,
+      "reactor_case": "central",
+      "osw_scale": 1.0,
+      "lightweight": true
+    }
+  },
+  "references": [
+    {
+      "scenario": "central",
+      "bt23_supply": "medium",
+      "bt23_price_usd_short_ton": 90,
+      "historical_fraction": 0.8,
+      "wet_ch4_yield_t_dry_t": 0.15,
+      "reference": "AEO2026 partial reference",
+      "crop_cap_mt": 144.4471184,
+      "forest_cap_mt": 61.78566080000001,
+      "crop_selected_mt": 102.64425895935472,
+      "crop_saving_bn": 4.739683007612484,
+      "transport_cost_bn": 663.8143569912548,
+      "transport_emissions_mt": 266.9987855369765,
+      "transport_reduction_pct": 83.60980071795889,
+      "biomethane_twh": 24.657252936357064,
+      "biogas_net_mt": 12.54765435371278,
+      "asp_net_mt": 21.042807440000004,
+      "agri_net_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 667.1194115953747,
+      "combined_savings_bn": -189.97066932255694,
+      "combined_avoided_mt": 1400.5873236126583,
+      "ref_cost_bn": 477.1487422728177,
+      "ref_emissions_mt": 1629.014882262778,
+      "food_overlap_reserved_mt": 6.939516300940001
+    },
+    {
+      "scenario": "central",
+      "bt23_supply": "medium",
+      "bt23_price_usd_short_ton": 90,
+      "historical_fraction": 0.8,
+      "wet_ch4_yield_t_dry_t": 0.15,
+      "reference": "Continued petroleum \u2014 late_2025 inherited price case",
+      "crop_cap_mt": 144.4471184,
+      "forest_cap_mt": 61.78566080000001,
+      "crop_selected_mt": 102.64425895935472,
+      "crop_saving_bn": 4.739683007612484,
+      "transport_cost_bn": 663.8143569912548,
+      "transport_emissions_mt": 266.9987855369765,
+      "transport_reduction_pct": 91.88995765401356,
+      "biomethane_twh": 24.657252936357064,
+      "biogas_net_mt": 12.54765435371278,
+      "asp_net_mt": 21.042807440000004,
+      "agri_net_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 667.1194115953747,
+      "combined_savings_bn": 9.152642812164395,
+      "combined_avoided_mt": 3063.772088977009,
+      "ref_cost_bn": 676.272054407539,
+      "ref_emissions_mt": 3292.1996476271283,
+      "food_overlap_reserved_mt": 6.939516300940001
+    },
+    {
+      "scenario": "central",
+      "bt23_supply": "medium",
+      "bt23_price_usd_short_ton": 90,
+      "historical_fraction": 0.8,
+      "wet_ch4_yield_t_dry_t": 0.15,
+      "reference": "Continued petroleum \u2014 nov_2026 inherited price case",
+      "crop_cap_mt": 144.4471184,
+      "forest_cap_mt": 61.78566080000001,
+      "crop_selected_mt": 102.64425895935472,
+      "crop_saving_bn": 4.739683007612484,
+      "transport_cost_bn": 663.8143569912548,
+      "transport_emissions_mt": 266.9987855369765,
+      "transport_reduction_pct": 91.88995765401356,
+      "biomethane_twh": 24.657252936357064,
+      "biogas_net_mt": 12.54765435371278,
+      "asp_net_mt": 21.042807440000004,
+      "agri_net_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 667.1194115953747,
+      "combined_savings_bn": 340.5824537341377,
+      "combined_avoided_mt": 3063.772088977009,
+      "ref_cost_bn": 1007.7018653295123,
+      "ref_emissions_mt": 3292.1996476271283,
+      "food_overlap_reserved_mt": 6.939516300940001
+    },
+    {
+      "scenario": "central",
+      "bt23_supply": "medium",
+      "bt23_price_usd_short_ton": 90,
+      "historical_fraction": 0.8,
+      "wet_ch4_yield_t_dry_t": 0.15,
+      "reference": "Continued petroleum \u2014 0.7x late-2025 liquid price",
+      "crop_cap_mt": 144.4471184,
+      "forest_cap_mt": 61.78566080000001,
+      "crop_selected_mt": 102.64425895935472,
+      "crop_saving_bn": 4.739683007612484,
+      "transport_cost_bn": 663.8143569912548,
+      "transport_emissions_mt": 266.9987855369765,
+      "transport_reduction_pct": 91.88995765401356,
+      "biomethane_twh": 24.657252936357064,
+      "biogas_net_mt": 12.54765435371278,
+      "asp_net_mt": 21.042807440000004,
+      "agri_net_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 667.1194115953747,
+      "combined_savings_bn": -192.08655203209833,
+      "combined_avoided_mt": 3063.772088977009,
+      "ref_cost_bn": 475.0328595632763,
+      "ref_emissions_mt": 3292.1996476271283,
+      "food_overlap_reserved_mt": 6.939516300940001
+    },
+    {
+      "scenario": "central",
+      "bt23_supply": "medium",
+      "bt23_price_usd_short_ton": 90,
+      "historical_fraction": 0.8,
+      "wet_ch4_yield_t_dry_t": 0.15,
+      "reference": "Continued petroleum \u2014 1.3x late-2025 liquid price",
+      "crop_cap_mt": 144.4471184,
+      "forest_cap_mt": 61.78566080000001,
+      "crop_selected_mt": 102.64425895935472,
+      "crop_saving_bn": 4.739683007612484,
+      "transport_cost_bn": 663.8143569912548,
+      "transport_emissions_mt": 266.9987855369765,
+      "transport_reduction_pct": 91.88995765401356,
+      "biomethane_twh": 24.657252936357064,
+      "biogas_net_mt": 12.54765435371278,
+      "asp_net_mt": 21.042807440000004,
+      "agri_net_mt": 33.590461793712784,
+      "gas_credit_mt": 4.980765093144127,
+      "internal_twh": 24.657252936357064,
+      "external_twh": 0.0,
+      "agri_net_cost_bn": 3.305054604119796,
+      "combined_cost_bn": 667.1194115953747,
+      "combined_savings_bn": 210.39183765642707,
+      "combined_avoided_mt": 3063.772088977009,
+      "ref_cost_bn": 877.5112492518017,
+      "ref_emissions_mt": 3292.1996476271283,
+      "food_overlap_reserved_mt": 6.939516300940001
+    }
+  ],
+  "levers": [
+    {
+      "parameter": "ELEC.onshore_wind",
+      "base": 55.0,
+      "low": 40,
+      "target": 43.75,
+      "annual_decline_pct": 0.9489750920905871,
+      "implied_learning_per_doubling_pct_3_doublings": 7.344375129870184
+    },
+    {
+      "parameter": "ELEC.solar",
+      "base": 48.0,
+      "low": 38,
+      "target": 40.5,
+      "annual_decline_pct": 0.705412853967391,
+      "implied_learning_per_doubling_pct_3_doublings": 5.505921257884516
+    },
+    {
+      "parameter": "ELEC.vre_firming",
+      "base": 20.0,
+      "low": 10,
+      "target": 12.5,
+      "annual_decline_pct": 1.939297376686333,
+      "implied_learning_per_doubling_pct_3_doublings": 14.501202666165147
+    },
+    {
+      "parameter": "ELEC.td_adder",
+      "base": 30.0,
+      "low": 20,
+      "target": 22.5,
+      "annual_decline_pct": 1.1915198083993772,
+      "implied_learning_per_doubling_pct_3_doublings": 9.143970358393016
+    },
+    {
+      "parameter": "ELEC.charge_ldv",
+      "base": 35.0,
+      "low": 20,
+      "target": 23.75,
+      "annual_decline_pct": 1.602707457987096,
+      "implied_learning_per_doubling_pct_3_doublings": 12.125029978169643
+    },
+    {
+      "parameter": "PYRO.capex_kw_h2",
+      "base": 1000.0,
+      "low": 700,
+      "target": 775.0,
+      "annual_decline_pct": 1.056431190878937,
+      "implied_learning_per_doubling_pct_3_doublings": 8.145472499288609
+    },
+    {
+      "parameter": "ROUTES.htl.cost_t",
+      "base": 170.0,
+      "low": 130,
+      "target": 140.0,
+      "annual_decline_pct": 0.8057199290738004,
+      "implied_learning_per_doubling_pct_3_doublings": 6.266887573435875
+    },
+    {
+      "parameter": "ROUTES.pbtl.cost_t",
+      "base": 290.0,
+      "low": 220,
+      "target": 237.5,
+      "annual_decline_pct": 0.8286860571586008,
+      "implied_learning_per_doubling_pct_3_doublings": 6.440360725793992
+    },
+    {
+      "parameter": "VEH.ers_capex_m_per_km",
+      "base": 3.5,
+      "low": 2.5,
+      "target": 2.75,
+      "annual_decline_pct": 0.9998102346911453,
+      "implied_learning_per_doubling_pct_3_doublings": 7.724115558366041
+    },
+    {
+      "parameter": "H2_DELIVERY.vehicle",
+      "base": 2.5,
+      "low": 1.5,
+      "target": 1.75,
+      "annual_decline_pct": 1.4751569591089253,
+      "implied_learning_per_doubling_pct_3_doublings": 11.209599825739936
+    }
+  ],
+  "uncertainty": {
+    "combined_cost_bn": [
+      438.8909764786923,
+      489.863784481713,
+      567.2267639828849
+    ],
+    "savings_low_petroleum_bn": [
+      -92.19390441960864,
+      -14.830924918436722,
+      36.141883084584
+    ],
+    "combined_avoided_mt": [
+      3001.9237816136674,
+      3045.9373613915304,
+      3080.5694762262374
+    ],
+    "aeo_bev_matched_saving_bn": [
+      -108.26871356138874,
+      -64.47317952673262,
+      -28.44605571452954
+    ],
+    "crop_mt": [
+      31.46975815047,
+      63.46975815047,
+      101.93951630094
+    ],
+    "biomethane_twh": [
+      15.772854218685962,
+      22.83058416483605,
+      30.33784216012617
+    ],
+    "fraction_beating_low_petroleum": 0.36328125,
+    "fraction_beating_matched_aeo": 0.0
+  },
+  "transition_summary": [
+    {
+      "reference": "Continued petroleum \u2014 late_2025 inherited price case",
+      "reserve_peak_bn": 0,
+      "sustained_saving_year": 2027,
+      "discounted_savings_bn": 616.1016960638339,
+      "undiscounted_savings_bn": 1998.3048342548218
+    },
+    {
+      "reference": "Continued petroleum \u2014 late_2025 inherited price case",
+      "reserve_peak_bn": 10,
+      "sustained_saving_year": 2029,
+      "discounted_savings_bn": 540.4313825425055,
+      "undiscounted_savings_bn": 1838.5826120325996
+    },
+    {
+      "reference": "Continued petroleum \u2014 late_2025 inherited price case",
+      "reserve_peak_bn": 25,
+      "sustained_saving_year": 2033,
+      "discounted_savings_bn": 426.9259122605128,
+      "undiscounted_savings_bn": 1598.9992786992664
+    },
+    {
+      "reference": "Continued petroleum \u2014 nov_2026 inherited price case",
+      "reserve_peak_bn": 0,
+      "sustained_saving_year": 2027,
+      "discounted_savings_bn": 2103.722134067984,
+      "undiscounted_savings_bn": 6141.177470779488
+    },
+    {
+      "reference": "Continued petroleum \u2014 nov_2026 inherited price case",
+      "reserve_peak_bn": 10,
+      "sustained_saving_year": 2027,
+      "discounted_savings_bn": 2028.0518205466556,
+      "undiscounted_savings_bn": 5981.455248557266
+    },
+    {
+      "reference": "Continued petroleum \u2014 nov_2026 inherited price case",
+      "reserve_peak_bn": 25,
+      "sustained_saving_year": 2027,
+      "discounted_savings_bn": 1914.5463502646628,
+      "undiscounted_savings_bn": 5741.871915223933
+    },
+    {
+      "reference": "Continued petroleum \u2014 0.7x late-2025 liquid price",
+      "reserve_peak_bn": 0,
+      "sustained_saving_year": 2047,
+      "discounted_savings_bn": -287.15905270539224,
+      "undiscounted_savings_bn": -517.1851012984621
+    },
+    {
+      "reference": "Continued petroleum \u2014 0.7x late-2025 liquid price",
+      "reserve_peak_bn": 10,
+      "sustained_saving_year": 2048,
+      "discounted_savings_bn": -362.8293662267206,
+      "undiscounted_savings_bn": -676.9073235206843
+    },
+    {
+      "reference": "Continued petroleum \u2014 0.7x late-2025 liquid price",
+      "reserve_peak_bn": 25,
+      "sustained_saving_year": 2048,
+      "discounted_savings_bn": -476.33483650871324,
+      "undiscounted_savings_bn": -916.4906568540175
+    },
+    {
+      "reference": "Continued petroleum \u2014 1.3x late-2025 liquid price",
+      "reserve_peak_bn": 0,
+      "sustained_saving_year": 2027,
+      "discounted_savings_bn": 1519.3624448330597,
+      "undiscounted_savings_bn": 4513.794769808105
+    },
+    {
+      "reference": "Continued petroleum \u2014 1.3x late-2025 liquid price",
+      "reserve_peak_bn": 10,
+      "sustained_saving_year": 2027,
+      "discounted_savings_bn": 1443.6921313117314,
+      "undiscounted_savings_bn": 4354.0725475858835
+    },
+    {
+      "reference": "Continued petroleum \u2014 1.3x late-2025 liquid price",
+      "reserve_peak_bn": 25,
+      "sustained_saving_year": 2027,
+      "discounted_savings_bn": 1330.1866610297386,
+      "undiscounted_savings_bn": 4114.48921425255
+    }
+  ],
+  "notes": [
+    "Cost endpoints are inherited sensitivity bounds, not validated forecasts.",
+    "Matched AEO adjusts BEV differential on both fleets; optional equal-weight generation, firming and distribution pass-through is illustrative only.",
+    "Transition holds 2050 service fixed, blends annualized costs and does not model chronological investment or retirement.",
+    "512 assumed-distribution draws, three resource supply scenarios, relaxed floor, not probabilities or confidence intervals.",
+    "Reactor learning uses original fleet fixed-point iteration.",
+    "Readiness-gated adoption assumes cost improvements occur exogenously, no more than 10 percentage points per year of fixed 2050 service, and does not establish physical deployment feasibility."
+  ],
+  "gated_summary": [
+    {
+      "profile": "target",
+      "readiness_year": 2035,
+      "reserve_peak_bn": 0,
+      "adoption_2050": 1,
+      "first_deployment_year": 2034,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 113.0324362892365
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2035,
+      "reserve_peak_bn": 10,
+      "adoption_2050": 0.0,
+      "first_deployment_year": null,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 0.0
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2035,
+      "reserve_peak_bn": 25,
+      "adoption_2050": 0.0,
+      "first_deployment_year": null,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 0.0
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2040,
+      "reserve_peak_bn": 0,
+      "adoption_2050": 1,
+      "first_deployment_year": 2039,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 57.040311088000344
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2040,
+      "reserve_peak_bn": 10,
+      "adoption_2050": 0.0,
+      "first_deployment_year": null,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 0.0
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2040,
+      "reserve_peak_bn": 25,
+      "adoption_2050": 0.0,
+      "first_deployment_year": null,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 0.0
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2045,
+      "reserve_peak_bn": 0,
+      "adoption_2050": 0.7999999999999999,
+      "first_deployment_year": 2043,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 23.366092175026434
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2045,
+      "reserve_peak_bn": 10,
+      "adoption_2050": 0.0,
+      "first_deployment_year": null,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 0.0
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2045,
+      "reserve_peak_bn": 25,
+      "adoption_2050": 0.0,
+      "first_deployment_year": null,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 0.0
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2050,
+      "reserve_peak_bn": 0,
+      "adoption_2050": 0.4,
+      "first_deployment_year": 2047,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 4.142219899563361
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2050,
+      "reserve_peak_bn": 10,
+      "adoption_2050": 0.0,
+      "first_deployment_year": null,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 0.0
+    },
+    {
+      "profile": "target",
+      "readiness_year": 2050,
+      "reserve_peak_bn": 25,
+      "adoption_2050": 0.0,
+      "first_deployment_year": null,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 0.0
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2035,
+      "reserve_peak_bn": 0,
+      "adoption_2050": 1,
+      "first_deployment_year": 2033,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 390.2787178823509
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2035,
+      "reserve_peak_bn": 10,
+      "adoption_2050": 1,
+      "first_deployment_year": 2034,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 323.5643990350017
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2035,
+      "reserve_peak_bn": 25,
+      "adoption_2050": 1,
+      "first_deployment_year": 2035,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 245.69972927233772
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2040,
+      "reserve_peak_bn": 0,
+      "adoption_2050": 1,
+      "first_deployment_year": 2036,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 258.44385186629177
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2040,
+      "reserve_peak_bn": 10,
+      "adoption_2050": 1,
+      "first_deployment_year": 2038,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 183.45403731958135
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2040,
+      "reserve_peak_bn": 25,
+      "adoption_2050": 1,
+      "first_deployment_year": 2040,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 101.00844740976304
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2045,
+      "reserve_peak_bn": 0,
+      "adoption_2050": 1,
+      "first_deployment_year": 2039,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 149.04333982617587
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2045,
+      "reserve_peak_bn": 10,
+      "adoption_2050": 0.8999999999999999,
+      "first_deployment_year": 2042,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 76.56869160918701
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2045,
+      "reserve_peak_bn": 25,
+      "adoption_2050": 0.6,
+      "first_deployment_year": 2045,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 15.62697740513024
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2050,
+      "reserve_peak_bn": 0,
+      "adoption_2050": 0.7999999999999999,
+      "first_deployment_year": 2043,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 50.68872769406135
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2050,
+      "reserve_peak_bn": 10,
+      "adoption_2050": 0.5,
+      "first_deployment_year": 2046,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 15.807368209584522
+    },
+    {
+      "profile": "strong",
+      "readiness_year": 2050,
+      "reserve_peak_bn": 25,
+      "adoption_2050": 0.1,
+      "first_deployment_year": 2050,
+      "no_annual_overspend": true,
+      "discounted_savings_bn": 0.03466803686206285
+    }
+  ]
+}
